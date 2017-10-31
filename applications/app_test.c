@@ -50,7 +50,7 @@ static THD_FUNCTION(example_thread, arg) {
     
     chRegSetThreadName("APP_EXAMPLE");
     
-    //Get the current Motor Config
+    //Get the current Motor Config test
     const volatile mc_configuration *mcconf = mc_interface_get_configuration();
     float setPointCurrent;
     float rotationalSpeedSensor01 = 0.0;
