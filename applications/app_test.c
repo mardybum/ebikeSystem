@@ -25,7 +25,7 @@
 #include "commands.h"
 
 
-// Example thread
+// Example thread Windows test
 static THD_FUNCTION(example_thread, arg);
 static THD_WORKING_AREA(example_thread_wa, 2048); // 2kb stack for this thread
 
