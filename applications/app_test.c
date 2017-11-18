@@ -25,13 +25,45 @@
 #include "commands.h"
 
 
+
 // Example thread
 static THD_FUNCTION(example_thread, arg);
 static THD_WORKING_AREA(example_thread_wa, 2048); // 2kb stack for this thread
 
 static systime_t lastTimeSensor01;
-static systime_t lastTimeSensor02;
+static systime_t lastTimeSensor03;
 
+static systime_t highStart;
+static systime_t highEnd;
+static int highTriggerStart;
+static int highTriggerEnd;
+
+static float differenceHigh;
+
+
+
+static systime_t lowStart;
+static systime_t lowEnd;
+
+static int lowTriggerStart;
+static int lowTriggerEnd;
+
+static float differenceLow;
+
+static bool pedalingForward;
+
+static const float noRotatingTreshold = 3000.0;
+static const float minVelocity = 10.0;
+static const float noPedalingTreshold = 8000.0;
+static const int tresholdMagnet = 1;
+static const float tresholdTimePedaling = 15000.0;
+static const int noPedalTreshold = 2;
+static systime_t firstPedalStroke;
+static systime_t timeOnPedaling;
+static systime_t timeOffPedaling;
+static bool isPedaling = false;
+static int pedalCount = 0;
+static int noPedalCounter = 0;
 static float vehicleVelocity;
 
 void app_example_init(void) {
@@ -52,19 +84,22 @@ static THD_FUNCTION(example_thread, arg) {
     
     //Get the current Motor Config test
     const volatile mc_configuration *mcconf = mc_interface_get_configuration();
+    
     float setPointCurrent;
     float rotationalSpeedSensor01 = 0.0;
-    float rotationalSpeedSensor02 = 0.0;
+    float rotationalSpeedSensor03 = 0.0;
     
     int hallSensorState01;
-    int hallSensorState02;
+    //int hallSensorState02;
     int hallSensorState03;
     
     //Set initial value for old timer
     lastTimeSensor01 = 0;
     
     int hallTrigger01 = 1;
-    int hallTrigger02 = 1;
+    int hallTrigger03 = 1;
+    
+    float timeDiff;
     
     
     for(;;) {
@@ -76,47 +111,171 @@ static THD_FUNCTION(example_thread, arg) {
         
         //Read in Hall Sensor state
         hallSensorState01 = READ_HALL1();
-        hallSensorState02 = READ_HALL2();
+        //hallSensorState02 = READ_HALL2();
         hallSensorState03 = READ_HALL3();
         
+        //commands_printf("HallSensor State: %d \n", hallSensorState01);
         
         //Determine rotational speed if the hall sensor is triggered
-        if (hallSensorState01 == 0 && hallTrigger01 == 1) {
+        if (hallSensorState01 == 1 && hallTrigger01 == 1) {
             
             rotationalSpeedSensor01 = (1.0 / ((float)ST2MS(chVTTimeElapsedSinceX(lastTimeSensor01))/1000.0)) * 60.0;
+            
+            //Calculate velocity based on 28Zoll tires (km/h)
+            vehicleVelocity = (3.14*0.0007112 * rotationalSpeedSensor01*60.0);
             
             hallTrigger01 = 0;
             lastTimeSensor01 = chVTGetSystemTimeX();
             
+            //commands_printf("rotation Speed Sensor 1: %f \n", rotationalSpeedSensor01);
             
-        } else if (hallSensorState01 == 1 && hallTrigger01 == 0)  {
+            //commands_printf("Trigger \n");
+            
+        } else if (hallSensorState01 == 0 && hallTrigger01 == 0)  {
             
             hallTrigger01 = 1;
+        } else if (hallSensorState01 == 0 && (float)ST2MS(chVTTimeElapsedSinceX(lastTimeSensor01)) > noRotatingTreshold) {
+            
+            rotationalSpeedSensor01 = 0.0;
+            vehicleVelocity = 0.0;
         }
+        
         
         //Determine rotational speed if the hall sensor is triggered
-        if (hallSensorState02 == 0 && hallTrigger02 == 1) {
+        if (hallSensorState03 == 1 && hallTrigger03 == 1) {
             
-            rotationalSpeedSensor02 = (1.0 / ((float)ST2MS(chVTTimeElapsedSinceX(lastTimeSensor02))/1000.0)) * 60.0;
+            if (pedalCount == 0) {
+                
+                firstPedalStroke = chVTGetSystemTimeX();
+            }
+
+            if(isPedaling == false) {
+                
+                if(pedalCount >= tresholdMagnet && (float)ST2MS(chVTTimeElapsedSinceX(firstPedalStroke)) < tresholdTimePedaling) {
+                    
+                    if (pedalingForward == true) {
+                        
+                        isPedaling = true;
+                    } else {
+                        
+                        isPedaling = false;
+                    }
+                    
+                    //commands_printf("ONNNNNNNN ON ON ON \n");
+                } else if (pedalCount >= tresholdMagnet && (float)ST2MS(chVTTimeElapsedSinceX(firstPedalStroke)) > tresholdTimePedaling) {
+                    
+                    pedalCount = 0;
+                    
+                } else {
+                    
+                    pedalCount = pedalCount + 1;
+                }
+            }
             
-            hallTrigger02 = 0;
-            lastTimeSensor02 = chVTGetSystemTimeX();
+            hallTrigger03 = 0;
+            lastTimeSensor03 = chVTGetSystemTimeX();
             
             
-        } else if (hallSensorState02 == 1 && hallTrigger02 == 0)  {
+        } else if (hallSensorState03 == 0 && hallTrigger03 == 0)  {
             
-            hallTrigger02 = 1;
+            hallTrigger03 = 1;
         }
         
-        //Calculate velocity based on 28Zoll tires (km/h)
-        vehicleVelocity = (0.7112 * rotationalSpeedSensor01 / 1000.0) / (1/60.0);
         
         
-        commands_printf("velocity : %f \n", vehicleVelocity);
+        if (hallSensorState03 == 1) {
+            
+            if(lowTriggerEnd == 0) {
+                
+                lowTriggerEnd = 1;
+                
+                differenceLow = (float)ST2MS(chVTTimeElapsedSinceX(lowStart));
+                //commands_printf("diff Low: %f \n", differenceLow);
+            }
+            
+            if(highTriggerStart == 0) {
+                
+                highStart = chVTGetSystemTimeX();
+                highTriggerStart = 1;
+            }
+            
+            lowTriggerStart = 0;
+            highTriggerEnd = 0;
+            
+            timeOnPedaling = chVTGetSystemTimeX();
+           
+        } else if (hallSensorState03 == 0) {
+            
+            if(lowTriggerStart == 0) {
+                
+                lowStart = chVTGetSystemTimeX();
+                lowTriggerStart = 1;
+            }
+            
+            if(highTriggerEnd == 0) {
+                
+                highTriggerEnd = 1;
+                
+                differenceHigh = (float)ST2MS(chVTTimeElapsedSinceX(highStart));
+                //commands_printf("diff High: %f \n", differenceHigh);
+            }
+
+            lowTriggerEnd = 0;
+            highTriggerStart = 0;
+            
+            timeOffPedaling = chVTGetSystemTimeX();
+        }
+
+        
+        
+        if(abs(differenceLow > differenceHigh)) {
+            
+            pedalingForward = true;
+            //commands_printf("forward: %d \n", pedalingForward);
+        } else {
+            
+            pedalingForward = false;
+            //commands_printf("forward: %d \n", pedalingForward);
+        }
+        
+        
+        
+        if (timeOnPedaling >= timeOffPedaling) {
+            
+            timeDiff = (float) (timeOnPedaling - timeOffPedaling);
+        } else {
+            timeDiff = (float) (timeOffPedaling - timeOnPedaling);
+        }
+        
+        
+        
+        if (isPedaling == true && timeDiff > noPedalingTreshold) {
+            
+            isPedaling = false;
+            pedalCount = 0;
+            
+            
+            
+            //commands_printf("OFFFFFFF \n");
+        }
+        
+        if (pedalingForward == false) {
+            
+            isPedaling = false;
+        }
+        
+        //commands_printf("Time Diff: %f \n", timeDiff);
+        
+        //commands_printf("velocity : %f \n", vehicleVelocity);
         //commands_printf("rotation Speed Sensor 1: %f \n", rotationalSpeedSensor01);
         //commands_printf("HallSensor State: %d \n", hallSensorState01);
         //commands_printf("HallSensor State: %d \n", hallSensorState02);
         //commands_printf("HallSensor State: %d \n", hallSensorState03);
+        commands_printf("isPedaling: %d \n", isPedaling);
+        //commands_printf("Time Diff: %f \n", timeDiff);
+        
+        //commands_printf("isPedaling: %f \n", (float)(abs(timeOffPedaling - timeOnPedaling)));
+        
         //commands_printf("lastTimeSensor01: %f \n", (float) (lastTimeSensor01));
         //commands_printf("-------------------------\n");
         
