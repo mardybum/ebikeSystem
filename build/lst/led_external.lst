@@ -1,4 +1,4 @@
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
   55 0010 11D1     		bne	.L1
   56 0012 3B78     		ldrb	r3, [r7]	@ zero_extendqisi2
   57 0014 EDB2     		uxtb	r5, r5
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 2
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 2
 
 
   58 0016 9D42     		cmp	r5, r3
@@ -118,7 +118,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  112 0000 064B     		ldr	r3, .L15
  113 0002 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
  114 0004 3AB1     		cbz	r2, .L13
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 3
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 3
 
 
  115              		.loc 1 211 0
@@ -178,7 +178,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  169              		.file 2 "ChibiOS_3.0.2/os/rt/include/chregistry.h"
  170              		.loc 2 135 0
  171 0004 DFF884A3 		ldr	r10, .L80+48
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 4
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 4
 
 
  172 0008 D44A     		ldr	r2, .L80
@@ -238,7 +238,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  226              		.loc 1 66 0 discriminator 3
  227 0042 0134     		adds	r4, r4, #1
  228              	.LVL20:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 5
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 5
 
 
  229              		.loc 1 68 0 discriminator 3
@@ -298,7 +298,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  283 0084 17EE903A 		vmov	r3, s15	@ int
  284              		.loc 1 198 0
  285 0088 42EA0343 		orr	r3, r2, r3, lsl #16
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 6
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 6
 
 
  286 008c 1C43     		orrs	r4, r4, r3
@@ -358,7 +358,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  340              	.LVL34:
  341              		.loc 1 85 0
  342 00c2 5FFA88F8 		uxtb	r8, r8
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 7
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 7
 
 
  343              	.LVL35:
@@ -418,7 +418,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  397 0124 A346     		mov	fp, r4
  398 0126 20EE088A 		vmul.f32	s16, s0, s16
  399              	.LBE77:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 8
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 8
 
 
  400              		.loc 1 157 0
@@ -478,7 +478,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  454 0182 BBF10E0F 		cmp	fp, #14
  455 0186 04F1FF34 		add	r4, r4, #-1
  456 018a E7D1     		bne	.L55
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 9
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 9
 
 
  457              	.L74:
@@ -538,7 +538,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  511              	.LVL56:
  512 01d0 6DE7     		b	.L76
  513              	.LVL57:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 10
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 10
 
 
  514              	.L26:
@@ -598,7 +598,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  568 020a 3378     		ldrb	r3, [r6]	@ zero_extendqisi2
  569 020c 042B     		cmp	r3, #4
  570              		.loc 1 138 0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 11
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 11
 
 
  571 020e 2046     		mov	r0, r4
@@ -658,7 +658,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  625 0250 FFF7FEFF 		bl	set_led_wrapper
  626              	.LVL75:
  627              	.L48:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 12
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 12
 
 
  628              		.loc 1 151 0
@@ -718,7 +718,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  682              	@ 0 "" 2
  683              	.LVL80:
  684              		.thumb
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 13
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 13
 
 
  685              		.syntax unified
@@ -778,7 +778,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  739              	.LVL87:
  740              		.loc 1 111 0
  741 02ca 0E2C     		cmp	r4, #14
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 14
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 14
 
 
  742 02cc ECD1     		bne	.L38
@@ -838,7 +838,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  796 0310 7FF4CAAE 		bne	.L22
  797              	.LBB120:
  798              	.LBB119:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 15
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 15
 
 
  799              	.LBB111:
@@ -898,7 +898,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  853 0334 5946     		mov	r1, fp
  854 0336 0D20     		movs	r0, #13
  855 0338 FFF7FEFF 		bl	set_led_wrapper
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 16
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 16
 
 
  856              	.LVL96:
@@ -958,7 +958,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  910              		.loc 1 180 0
  911 03a8 6420     		movs	r0, #100
  912              	.LVL106:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 17
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 17
 
 
  913 03aa FFF7FEFF 		bl	chThdSleep
@@ -1018,7 +1018,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  967 001e 02B0     		add	sp, sp, #8
  968              		.cfi_def_cfa_offset 16
  969              		@ sp needed
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 18
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 18
 
 
  970 0020 70BD     		pop	{r4, r5, r6, pc}
@@ -1078,7 +1078,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1024              		@ link register save eliminated.
  1025              	.LVL111:
  1026              		.loc 1 53 0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 19
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 19
 
 
  1027 0000 014B     		ldr	r3, .L90
@@ -1138,7 +1138,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1074              		.file 17 "ChibiOS_3.0.2/os/rt/include/chsem.h"
  1075              		.file 18 "ChibiOS_3.0.2/os/rt/include/chmtx.h"
  1076              		.file 19 "ChibiOS_3.0.2/os/rt/include/chevents.h"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 20
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 20
 
 
  1077              		.file 20 "ChibiOS_3.0.2/os/rt/include/chqueues.h"
@@ -1198,7 +1198,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1131 0041 45000000 		.4byte	0x45
  1132 0045 02       		.uleb128 0x2
  1133 0046 01       		.byte	0x1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 21
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 21
 
 
  1134 0047 08       		.byte	0x8
@@ -1258,7 +1258,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1188 00b3 06       		.byte	0x6
  1189 00b4 18       		.byte	0x18
  1190 00b5 3A000000 		.4byte	0x3a
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 22
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 22
 
 
  1191 00b9 06       		.uleb128 0x6
@@ -1318,7 +1318,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1245 0131 AE000000 		.4byte	0xae
  1246 0135 03       		.uleb128 0x3
  1247 0136 9B0D0000 		.4byte	.LASF25
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 23
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 23
 
 
  1248 013a 08       		.byte	0x8
@@ -1378,7 +1378,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1302 01af 0A       		.byte	0xa
  1303 01b0 C5       		.byte	0xc5
  1304 01b1 A2020000 		.4byte	0x2a2
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 24
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 24
 
 
  1305 01b5 04       		.byte	0x4
@@ -1438,7 +1438,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1359 0221 1F       		.byte	0x1f
  1360 0222 08       		.uleb128 0x8
  1361 0223 2D0E0000 		.4byte	.LASF44
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 25
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 25
 
 
  1362 0227 0A       		.byte	0xa
@@ -1498,7 +1498,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1416 0298 A7170000 		.4byte	.LASF52
  1417 029c 09       		.byte	0x9
  1418 029d 44       		.byte	0x44
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 26
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 26
 
 
  1419 029e A2020000 		.4byte	0x2a2
@@ -1558,7 +1558,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1473 030d 0A       		.byte	0xa
  1474 030e 9001     		.2byte	0x190
  1475 0310 63030000 		.4byte	0x363
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 27
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 27
 
 
  1476 0314 0A       		.uleb128 0xa
@@ -1618,7 +1618,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1530 0386 09       		.byte	0x9
  1531 0387 61       		.byte	0x61
  1532 0388 8C030000 		.4byte	0x38c
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 28
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 28
 
 
  1533 038c 0C       		.uleb128 0xc
@@ -1678,7 +1678,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1587 0400 0A       		.uleb128 0xa
  1588 0401 C1060000 		.4byte	.LASF70
  1589 0405 0A       		.byte	0xa
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 29
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 29
 
 
  1590 0406 7E01     		.2byte	0x17e
@@ -1738,7 +1738,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1644 047a CA01     		.2byte	0x1ca
  1645 047c DB030000 		.4byte	0x3db
  1646 0480 1C       		.byte	0x1c
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 30
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 30
 
 
  1647 0481 09       		.uleb128 0x9
@@ -1798,7 +1798,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1701 04f1 EB       		.byte	0xeb
  1702 04f2 E9000000 		.4byte	0xe9
  1703 04f6 00       		.byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 31
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 31
 
 
  1704 04f7 08       		.uleb128 0x8
@@ -1858,7 +1858,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1758 0560 03       		.uleb128 0x3
  1759 0561 01130000 		.4byte	.LASF96
  1760 0565 0D       		.byte	0xd
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 32
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 32
 
 
  1761 0566 FB       		.byte	0xfb
@@ -1918,7 +1918,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1815 05d9 0A       		.uleb128 0xa
  1816 05da 990A0000 		.4byte	.LASF99
  1817 05de 0D       		.byte	0xd
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 33
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 33
 
 
  1818 05df 1101     		.2byte	0x111
@@ -1978,7 +1978,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1872 0658 1A01     		.2byte	0x11a
  1873 065a E9000000 		.4byte	0xe9
  1874 065e 0402     		.2byte	0x204
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 34
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 34
 
 
  1875 0660 1A       		.uleb128 0x1a
@@ -2038,7 +2038,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1929 06df 57       		.byte	0x57
  1930 06e0 00       		.byte	0
  1931 06e1 11       		.uleb128 0x11
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 35
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 35
 
 
  1932 06e2 1C050000 		.4byte	0x51c
@@ -2098,7 +2098,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  1986 075b 08       		.byte	0x8
  1987 075c 0A       		.uleb128 0xa
  1988 075d 6D020000 		.4byte	.LASF115
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 36
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 36
 
 
  1989 0761 0D       		.byte	0xd
@@ -2158,7 +2158,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2043 07d6 4202     		.2byte	0x242
  2044 07d8 E9000000 		.4byte	0xe9
  2045 07dc 04       		.byte	0x4
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 37
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 37
 
 
  2046 07dd 0A       		.uleb128 0xa
@@ -2218,7 +2218,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2100 0851 17       		.uleb128 0x17
  2101 0852 24       		.byte	0x24
  2102 0853 0D       		.byte	0xd
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 38
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 38
 
 
  2103 0854 DB02     		.2byte	0x2db
@@ -2278,7 +2278,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2157 08c8 E9000000 		.4byte	0xe9
  2158 08cc 20       		.byte	0x20
  2159 08cd 00       		.byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 39
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 39
 
 
  2160 08ce 18       		.uleb128 0x18
@@ -2338,7 +2338,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2214 093e 87180000 		.4byte	.LASF130
  2215 0942 0D       		.byte	0xd
  2216 0943 1203     		.2byte	0x312
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 40
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 40
 
 
  2217 0945 DA080000 		.4byte	0x8da
@@ -2398,7 +2398,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2271 09b7 F8       		.byte	0xf8
  2272 09b8 5E090000 		.4byte	0x95e
  2273 09bc 08       		.byte	0x8
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 41
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 41
 
 
  2274 09bd 16       		.uleb128 0x16
@@ -2458,7 +2458,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2328 0a2b 09       		.uleb128 0x9
  2329 0a2c 73323800 		.ascii	"s28\000"
  2330 0a30 0F       		.byte	0xf
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 42
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 42
 
 
  2331 0a31 0201     		.2byte	0x102
@@ -2518,7 +2518,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2385 0aa0 0C01     		.2byte	0x10c
  2386 0aa2 5E090000 		.4byte	0x95e
  2387 0aa6 54       		.byte	0x54
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 43
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 43
 
 
  2388 0aa7 09       		.uleb128 0x9
@@ -2578,7 +2578,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2442 0b14 1D       		.uleb128 0x1d
  2443 0b15 19130000 		.4byte	.LASF139
  2444 0b19 0A       		.byte	0xa
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 44
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 44
 
 
  2445 0b1a 0F01     		.2byte	0x10f
@@ -2638,7 +2638,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2499 0b8e 08       		.uleb128 0x8
  2500 0b8f D40F0000 		.4byte	.LASF148
  2501 0b93 12       		.byte	0x12
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 45
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 45
 
 
  2502 0b94 3A       		.byte	0x3a
@@ -2698,7 +2698,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2556 0c00 D20C0000 		.4byte	0xcd2
  2557 0c04 00       		.byte	0
  2558 0c05 08       		.uleb128 0x8
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 46
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 46
 
 
  2559 0c06 ED170000 		.4byte	.LASF153
@@ -2758,7 +2758,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2613 0c72 D0030000 		.4byte	.LASF162
  2614 0c76 02       		.byte	0x2
  2615 0c77 3F       		.byte	0x3f
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 47
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 47
 
 
  2616 0c78 AE000000 		.4byte	0xae
@@ -2818,7 +2818,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2670 0ce7 02       		.byte	0x2
  2671 0ce8 49       		.byte	0x49
  2672 0ce9 F10B0000 		.4byte	0xbf1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 48
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 48
 
 
  2673 0ced 06       		.uleb128 0x6
@@ -2878,7 +2878,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2727 0d5c 61010000 		.4byte	0x161
  2728 0d60 10       		.byte	0x10
  2729 0d61 00       		.byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 49
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 49
 
 
  2730 0d62 0B       		.uleb128 0xb
@@ -2938,7 +2938,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2784 0dce 260E0000 		.4byte	0xe26
  2785 0dd2 10       		.byte	0x10
  2786 0dd3 08       		.uleb128 0x8
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 50
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 50
 
 
  2787 0dd4 F5100000 		.4byte	.LASF189
@@ -2998,7 +2998,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2841 0e43 04       		.byte	0x4
  2842 0e44 B9000000 		.4byte	0xb9
  2843 0e48 1F       		.uleb128 0x1f
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 51
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 51
 
 
  2844 0e49 01       		.byte	0x1
@@ -3058,7 +3058,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2898 0eb9 20       		.uleb128 0x20
  2899 0eba 0D100000 		.4byte	.LASF206
  2900 0ebe 01       		.byte	0x1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 52
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 52
 
 
  2901 0ebf 20       		.uleb128 0x20
@@ -3118,7 +3118,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  2955 0f2c 08       		.uleb128 0x8
  2956 0f2d 10140000 		.4byte	.LASF218
  2957 0f31 17       		.byte	0x17
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 53
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 53
 
 
  2958 0f32 DF       		.byte	0xdf
@@ -3178,7 +3178,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3012 0fa2 00       		.byte	0
  3013 0fa3 1C       		.uleb128 0x1c
  3014 0fa4 04       		.byte	0x4
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 54
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 54
 
 
  3015 0fa5 18       		.byte	0x18
@@ -3238,7 +3238,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3069 100d B0       		.byte	0xb0
  3070 100e E9000000 		.4byte	0xe9
  3071 1012 14       		.byte	0x14
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 55
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 55
 
 
  3072 1013 08       		.uleb128 0x8
@@ -3298,7 +3298,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3126 107c 4A010000 		.4byte	.LASF234
  3127 1080 18       		.byte	0x18
  3128 1081 C7       		.byte	0xc7
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 56
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 56
 
 
  3129 1082 DE000000 		.4byte	0xde
@@ -3358,7 +3358,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3183 10ee 38       		.byte	0x38
  3184 10ef 08       		.uleb128 0x8
  3185 10f0 100A0000 		.4byte	.LASF242
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 57
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 57
 
 
  3186 10f4 18       		.byte	0x18
@@ -3418,7 +3418,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3240 1162 43110000 		.4byte	0x1143
  3241 1166 1F       		.uleb128 0x1f
  3242 1167 01       		.byte	0x1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 58
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 58
 
 
  3243 1168 45000000 		.4byte	0x45
@@ -3478,7 +3478,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3297 11d4 5B120000 		.4byte	0x125b
  3298 11d8 0A       		.uleb128 0xa
  3299 11d9 D80E0000 		.4byte	.LASF258
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 59
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 59
 
 
  3300 11dd 1A       		.byte	0x1a
@@ -3538,7 +3538,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3354 1252 1A       		.byte	0x1a
  3355 1253 3F01     		.2byte	0x13f
  3356 1255 61120000 		.4byte	0x1261
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 60
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 60
 
 
  3357 1259 2C       		.byte	0x2c
@@ -3598,7 +3598,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3411 12c8 7A020000 		.4byte	.LASF277
  3412 12cc 1C       		.byte	0x1c
  3413 12cd 6F01     		.2byte	0x16f
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 61
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 61
 
 
  3414 12cf DE000000 		.4byte	0xde
@@ -3658,7 +3658,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3468 1341 0A       		.uleb128 0xa
  3469 1342 3D020000 		.4byte	.LASF287
  3470 1346 1C       		.byte	0x1c
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 62
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 62
 
 
  3471 1347 8901     		.2byte	0x189
@@ -3718,7 +3718,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3525 13bf 1C       		.byte	0x1c
  3526 13c0 B201     		.2byte	0x1b2
  3527 13c2 97020000 		.4byte	0x297
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 63
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 63
 
 
  3528 13c6 1C       		.byte	0x1c
@@ -3778,7 +3778,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3582 1436 45000000 		.4byte	0x45
  3583 143a 1D       		.byte	0x1d
  3584 143b 31       		.byte	0x31
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 64
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 64
 
 
  3585 143c 5F140000 		.4byte	0x145f
@@ -3838,7 +3838,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3639 14af 4501     		.2byte	0x145
  3640 14b1 DA160000 		.4byte	0x16da
  3641 14b5 0C       		.byte	0xc
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 65
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 65
 
 
  3642 14b6 0A       		.uleb128 0xa
@@ -3898,7 +3898,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3696 1528 1F       		.byte	0x1f
  3697 1529 A201     		.2byte	0x1a2
  3698 152b E9000000 		.4byte	0xe9
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 66
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 66
 
 
  3699 152f 0C       		.byte	0xc
@@ -3958,7 +3958,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3753 15a3 30       		.byte	0x30
  3754 15a4 09       		.uleb128 0x9
  3755 15a5 43435200 		.ascii	"CCR\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 67
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 67
 
 
  3756 15a9 1F       		.byte	0x1f
@@ -4018,7 +4018,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3810 161c 00       		.byte	0
  3811 161d 20       		.uleb128 0x20
  3812 161e E1110000 		.4byte	.LASF322
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 68
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 68
 
 
  3813 1622 01       		.byte	0x1
@@ -4078,7 +4078,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3867 168f CA0B0000 		.4byte	.LASF331
  3868 1693 1E       		.byte	0x1e
  3869 1694 1B01     		.2byte	0x11b
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 69
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 69
 
 
  3870 1696 D1140000 		.4byte	0x14d1
@@ -4138,7 +4138,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3924 170a 20       		.uleb128 0x20
  3925 170b 010C0000 		.4byte	.LASF340
  3926 170f 03       		.byte	0x3
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 70
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 70
 
 
  3927 1710 20       		.uleb128 0x20
@@ -4198,7 +4198,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  3981 1784 1C140000 		.4byte	0x141c
  3982 1788 20       		.byte	0x20
  3983 1789 0A       		.uleb128 0xa
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 71
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 71
 
 
  3984 178a 3D010000 		.4byte	.LASF298
@@ -4258,7 +4258,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4038 17fd B001     		.2byte	0x1b0
  4039 17ff BE000000 		.4byte	0xbe
  4040 1803 08       		.byte	0x8
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 72
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 72
 
 
  4041 1804 09       		.uleb128 0x9
@@ -4318,7 +4318,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4095 1876 00       		.byte	0
  4096 1877 20       		.uleb128 0x20
  4097 1878 BB070000 		.4byte	.LASF355
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 73
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 73
 
 
  4098 187c 01       		.byte	0x1
@@ -4378,7 +4378,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4152 18ec A3180000 		.4byte	.LASF364
  4153 18f0 23       		.byte	0x23
  4154 18f1 0602     		.2byte	0x206
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 74
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 74
 
 
  4155 18f3 84180000 		.4byte	0x1884
@@ -4438,7 +4438,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4209 1967 71190000 		.4byte	0x1971
  4210 196b 0E       		.uleb128 0xe
  4211 196c 71190000 		.4byte	0x1971
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 75
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 75
 
 
  4212 1970 00       		.byte	0
@@ -4498,7 +4498,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4266 19e4 DF01     		.2byte	0x1df
  4267 19e6 54190000 		.4byte	0x1954
  4268 19ea 08       		.byte	0x8
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 76
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 76
 
 
  4269 19eb 0A       		.uleb128 0xa
@@ -4558,7 +4558,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4323 1a5f C5180000 		.4byte	0x18c5
  4324 1a63 13       		.uleb128 0x13
  4325 1a64 F00C0000 		.4byte	.LASF380
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 77
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 77
 
 
  4326 1a68 23       		.byte	0x23
@@ -4618,7 +4618,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4380 1ade 1A250000 		.4byte	0x251a
  4381 1ae2 28       		.byte	0x28
  4382 1ae3 0A       		.uleb128 0xa
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 78
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 78
 
 
  4383 1ae4 3F070000 		.4byte	.LASF386
@@ -4678,7 +4678,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4437 1b59 FD090000 		.4byte	.LASF394
  4438 1b5d 25       		.byte	0x25
  4439 1b5e C501     		.2byte	0x1c5
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 79
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 79
 
 
  4440 1b60 30250000 		.4byte	0x2530
@@ -4738,7 +4738,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4494 1bd1 D6100000 		.4byte	.LASF403
  4495 1bd5 03       		.byte	0x3
  4496 1bd6 20       		.uleb128 0x20
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 80
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 80
 
 
  4497 1bd7 04050000 		.4byte	.LASF404
@@ -4798,7 +4798,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4551 1c47 860D0000 		.4byte	.LASF416
  4552 1c4b 02       		.byte	0x2
  4553 1c4c 20       		.uleb128 0x20
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 81
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 81
 
 
  4554 1c4d F20D0000 		.4byte	.LASF417
@@ -4858,7 +4858,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4608 1cbf 6F1A0000 		.4byte	0x1a6f
  4609 1cc3 18       		.uleb128 0x18
  4610 1cc4 1F030000 		.4byte	.LASF425
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 82
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 82
 
 
  4611 1cc8 24       		.byte	0x24
@@ -4918,7 +4918,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4665 1d44 BD1C0000 		.4byte	0x1cbd
  4666 1d48 0E       		.uleb128 0xe
  4667 1d49 AE000000 		.4byte	0xae
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 83
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 83
 
 
  4668 1d4d 0E       		.uleb128 0xe
@@ -4978,7 +4978,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4722 1db9 18       		.byte	0x18
  4723 1dba 08       		.uleb128 0x8
  4724 1dbb 72020000 		.4byte	.LASF436
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 84
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 84
 
 
  4725 1dbf 26       		.byte	0x26
@@ -5038,7 +5038,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4779 1e28 50       		.byte	0x50
  4780 1e29 E9000000 		.4byte	0xe9
  4781 1e2d 18       		.byte	0x18
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 85
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 85
 
 
  4782 1e2e 08       		.uleb128 0x8
@@ -5098,7 +5098,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4836 1e97 A6090000 		.4byte	.LASF435
  4837 1e9b 26       		.byte	0x26
  4838 1e9c 62       		.byte	0x62
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 86
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 86
 
 
  4839 1e9d E9000000 		.4byte	0xe9
@@ -5158,7 +5158,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4893 1f0c 14       		.byte	0x14
  4894 1f0d 08       		.uleb128 0x8
  4895 1f0e 9B110000 		.4byte	.LASF456
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 87
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 87
 
 
  4896 1f12 26       		.byte	0x26
@@ -5218,7 +5218,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  4950 1f7e 26       		.byte	0x26
  4951 1f7f 7D       		.byte	0x7d
  4952 1f80 E9000000 		.4byte	0xe9
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 88
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 88
 
 
  4953 1f84 3C       		.byte	0x3c
@@ -5278,7 +5278,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5007 1ff7 1004     		.2byte	0x410
  5008 1ff9 25       		.uleb128 0x25
  5009 1ffa 85020000 		.4byte	.LASF474
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 89
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 89
 
 
  5010 1ffe 26       		.byte	0x26
@@ -5338,7 +5338,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5064 2072 26       		.byte	0x26
  5065 2073 97       		.byte	0x97
  5066 2074 E9000000 		.4byte	0xe9
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 90
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 90
 
 
  5067 2078 0808     		.2byte	0x808
@@ -5398,7 +5398,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5121 20ed 2C08     		.2byte	0x82c
  5122 20ef 25       		.uleb128 0x25
  5123 20f0 3C040000 		.4byte	.LASF492
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 91
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 91
 
 
  5124 20f4 26       		.byte	0x26
@@ -5458,7 +5458,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5178 2167 26       		.byte	0x26
  5179 2168 B1       		.byte	0xb1
  5180 2169 0B220000 		.4byte	0x220b
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 92
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 92
 
 
  5181 216d 000D     		.2byte	0xd00
@@ -5518,7 +5518,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5235 21e6 05       		.uleb128 0x5
  5236 21e7 D6210000 		.4byte	0x21d6
  5237 21eb 11       		.uleb128 0x11
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 93
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 93
 
 
  5238 21ec C71D0000 		.4byte	0x1dc7
@@ -5578,7 +5578,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5292 226a B5040000 		.4byte	0x4b5
  5293 226e FF03     		.2byte	0x3ff
  5294 2270 00       		.byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 94
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 94
 
 
  5295 2271 05       		.uleb128 0x5
@@ -5638,7 +5638,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5349 22d7 E8220000 		.4byte	0x22e8
  5350 22db 08       		.uleb128 0x8
  5351 22dc 08070000 		.4byte	.LASF260
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 95
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 95
 
 
  5352 22e0 25       		.byte	0x25
@@ -5698,7 +5698,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5406 2346 B50A0000 		.4byte	.LASF514
  5407 234a 25       		.byte	0x25
  5408 234b ED       		.byte	0xed
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 96
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 96
 
 
  5409 234c F9000000 		.4byte	0xf9
@@ -5758,7 +5758,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5463 23b6 F3       		.byte	0xf3
  5464 23b7 FA230000 		.4byte	0x23fa
  5465 23bb 08       		.uleb128 0x8
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 97
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 97
 
 
  5466 23bc DD030000 		.4byte	.LASF516
@@ -5818,7 +5818,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5520 242e 25       		.byte	0x25
  5521 242f 2D01     		.2byte	0x12d
  5522 2431 C31C0000 		.4byte	0x1cc3
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 98
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 98
 
 
  5523 2435 08       		.byte	0x8
@@ -5878,7 +5878,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5577 24a6 06240000 		.4byte	0x2406
  5578 24aa 06       		.uleb128 0x6
  5579 24ab 9E240000 		.4byte	0x249e
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 99
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 99
 
 
  5580 24af 17       		.uleb128 0x17
@@ -5938,7 +5938,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5634 2524 B5040000 		.4byte	0x4b5
  5635 2528 02       		.byte	0x2
  5636 2529 00       		.byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 100
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 100
 
 
  5637 252a 0B       		.uleb128 0xb
@@ -5998,7 +5998,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5691 25a3 05       		.uleb128 0x5
  5692 25a4 03       		.byte	0x3
  5693 25a5 00000000 		.4byte	led_thread_wa
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 101
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 101
 
 
  5694 25a9 2B       		.uleb128 0x2b
@@ -6058,7 +6058,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5748 2618 F3       		.byte	0xf3
  5749 2619 01       		.uleb128 0x1
  5750 261a 51       		.byte	0x51
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 102
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 102
 
 
  5751 261b 00       		.byte	0
@@ -6118,7 +6118,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5805 268c 00       		.byte	0
  5806 268d 36       		.uleb128 0x36
  5807 268e DB0A0000 		.4byte	.LASF558
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 103
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 103
 
 
  5808 2692 01       		.byte	0x1
@@ -6178,7 +6178,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5862 2707 9C030000 		.4byte	.LBE74-.LBB74
  5863 270b DD2D0000 		.4byte	0x2ddd
  5864 270f 33       		.uleb128 0x33
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 104
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 104
 
 
  5865 2710 BA110000 		.4byte	.LASF548
@@ -6238,7 +6238,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5919 2781 00       		.byte	0
  5920 2782 3B       		.uleb128 0x3b
  5921 2783 D0000000 		.4byte	.Ldebug_ranges0+0xd0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 105
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 105
 
 
  5922 2787 2E280000 		.4byte	0x282e
@@ -6298,7 +6298,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  5976 27fb 00010000 		.4byte	.Ldebug_ranges0+0x100
  5977 27ff 40       		.uleb128 0x40
  5978 2800 B3260000 		.4byte	0x26b3
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 106
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 106
 
 
  5979 2804 96020000 		.4byte	.LLST22
@@ -6358,7 +6358,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6033 286e E40E0000 		.4byte	0xee4
  6034 2872 01       		.uleb128 0x1
  6035 2873 57       		.byte	0x57
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 107
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 107
 
 
  6036 2874 2B       		.uleb128 0x2b
@@ -6418,7 +6418,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6090 28d2 AA010000 		.4byte	.LBB79
  6091 28d6 1C000000 		.4byte	.LBE79-.LBB79
  6092 28da 21290000 		.4byte	0x2921
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 108
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 108
 
 
  6093 28de 32       		.uleb128 0x32
@@ -6478,7 +6478,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6147 2940 CB250000 		.4byte	0x25cb
  6148 2944 4F290000 		.4byte	0x294f
  6149 2948 30       		.uleb128 0x30
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 109
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 109
 
 
  6150 2949 01       		.uleb128 0x1
@@ -6538,7 +6538,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6204 29a7 01       		.uleb128 0x1
  6205 29a8 51       		.byte	0x51
  6206 29a9 05       		.uleb128 0x5
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 110
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 110
 
 
  6207 29aa 0C       		.byte	0xc
@@ -6598,7 +6598,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6261 2a0b 02       		.uleb128 0x2
  6262 2a0c 7B       		.byte	0x7b
  6263 2a0d 00       		.sleb128 0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 111
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 111
 
 
  6264 2a0e 30       		.uleb128 0x30
@@ -6658,7 +6658,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6318 2a60 00FF     		.2byte	0xff00
  6319 2a62 00       		.byte	0
  6320 2a63 34       		.uleb128 0x34
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 112
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 112
 
 
  6321 2a64 9C030000 		.4byte	.LVL103
@@ -6718,7 +6718,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6375 2ad0 5C01     		.2byte	0x15c
  6376 2ad2 42       		.uleb128 0x42
  6377 2ad3 0D2F0000 		.4byte	0x2f0d
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 113
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 113
 
 
  6378 2ad7 44020000 		.4byte	.LBB86
@@ -6778,7 +6778,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6432 2b58 002C0000 		.4byte	0x2c00
  6433 2b5c 3C       		.uleb128 0x3c
  6434 2b5d A0000000 		.4byte	.Ldebug_ranges0+0xa0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 114
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 114
 
 
  6435 2b61 41       		.uleb128 0x41
@@ -6838,7 +6838,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6489 2bee 0F       		.byte	0xf
  6490 2bef CD01     		.2byte	0x1cd
  6491 2bf1 3F       		.uleb128 0x3f
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 115
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 115
 
 
  6492 2bf2 1A2F0000 		.4byte	0x2f1a
@@ -6898,7 +6898,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6546 2c4c 30       		.uleb128 0x30
  6547 2c4d 01       		.uleb128 0x1
  6548 2c4e 50       		.byte	0x50
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 116
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 116
 
 
  6549 2c4f 02       		.uleb128 0x2
@@ -6958,7 +6958,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6603 2cb8 70020000 		.4byte	.LVL77
  6604 2cbc 3D2F0000 		.4byte	0x2f3d
  6605 2cc0 34       		.uleb128 0x34
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 117
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 117
 
 
  6606 2cc1 9C020000 		.4byte	.LVL81
@@ -7018,7 +7018,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6660 2d21 64       		.byte	0x64
  6661 2d22 00       		.byte	0
  6662 2d23 35       		.uleb128 0x35
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 118
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 118
 
 
  6663 2d24 0E030000 		.4byte	.LVL92
@@ -7078,7 +7078,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6717 2d87 50       		.byte	0x50
  6718 2d88 01       		.uleb128 0x1
  6719 2d89 3A       		.byte	0x3a
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 119
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 119
 
 
  6720 2d8a 00       		.byte	0
@@ -7138,7 +7138,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6774 2df6 00       		.byte	0
  6775 2df7 48       		.uleb128 0x48
  6776 2df8 37090000 		.4byte	.LASF553
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 120
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 120
 
 
  6777 2dfc 01       		.byte	0x1
@@ -7198,7 +7198,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6831 2e68 0A       		.byte	0xa
  6832 2e69 9805     		.2byte	0x598
  6833 2e6b 30       		.uleb128 0x30
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 121
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 121
 
 
  6834 2e6c 01       		.uleb128 0x1
@@ -7258,7 +7258,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6888 2eca 03       		.byte	0x3
  6889 2ecb DD2E0000 		.4byte	0x2edd
  6890 2ecf 4D       		.uleb128 0x4d
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 122
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 122
 
 
  6891 2ed0 2D000000 		.4byte	.LASF563
@@ -7318,7 +7318,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  6945 2f47 22       		.byte	0x22
  6946 2f48 50       		.uleb128 0x50
  6947 2f49 0C090000 		.4byte	.LASF572
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 123
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 123
 
 
  6948 2f4d 0C090000 		.4byte	.LASF572
@@ -7378,7 +7378,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7002 0026 0B       		.uleb128 0xb
  7003 0027 49       		.uleb128 0x49
  7004 0028 13       		.uleb128 0x13
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 124
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 124
 
 
  7005 0029 00       		.byte	0
@@ -7438,7 +7438,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7059 005f 0B       		.uleb128 0xb
  7060 0060 00       		.byte	0
  7061 0061 00       		.byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 125
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 125
 
 
  7062 0062 09       		.uleb128 0x9
@@ -7498,7 +7498,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7116 0098 0D       		.uleb128 0xd
  7117 0099 15       		.uleb128 0x15
  7118 009a 01       		.byte	0x1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 126
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 126
 
 
  7119 009b 27       		.uleb128 0x27
@@ -7558,7 +7558,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7173 00d1 34       		.uleb128 0x34
  7174 00d2 00       		.byte	0
  7175 00d3 03       		.uleb128 0x3
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 127
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 127
 
 
  7176 00d4 0E       		.uleb128 0xe
@@ -7618,7 +7618,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7230 010a 38       		.uleb128 0x38
  7231 010b 0B       		.uleb128 0xb
  7232 010c 00       		.byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 128
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 128
 
 
  7233 010d 00       		.byte	0
@@ -7678,7 +7678,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7287 0143 00       		.byte	0
  7288 0144 1B       		.uleb128 0x1b
  7289 0145 0D       		.uleb128 0xd
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 129
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 129
 
 
  7290 0146 00       		.byte	0
@@ -7738,7 +7738,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7344 017c 00       		.byte	0
  7345 017d 00       		.byte	0
  7346 017e 1F       		.uleb128 0x1f
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 130
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 130
 
 
  7347 017f 04       		.uleb128 0x4
@@ -7798,7 +7798,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7401 01b5 27       		.uleb128 0x27
  7402 01b6 19       		.uleb128 0x19
  7403 01b7 49       		.uleb128 0x49
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 131
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 131
 
 
  7404 01b8 13       		.uleb128 0x13
@@ -7858,7 +7858,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7458 01ee 05       		.uleb128 0x5
  7459 01ef 00       		.byte	0
  7460 01f0 00       		.byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 132
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 132
 
 
  7461 01f1 28       		.uleb128 0x28
@@ -7918,7 +7918,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7515 0227 0B       		.uleb128 0xb
  7516 0228 27       		.uleb128 0x27
  7517 0229 19       		.uleb128 0x19
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 133
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 133
 
 
  7518 022a 11       		.uleb128 0x11
@@ -7978,7 +7978,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7572 0264 00       		.byte	0
  7573 0265 30       		.uleb128 0x30
  7574 0266 8A8201   		.uleb128 0x410a
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 134
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 134
 
 
  7575 0269 00       		.byte	0
@@ -8038,7 +8038,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7629 02a5 13       		.uleb128 0x13
  7630 02a6 01       		.uleb128 0x1
  7631 02a7 13       		.uleb128 0x13
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 135
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 135
 
 
  7632 02a8 00       		.byte	0
@@ -8098,7 +8098,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7686 02e0 00       		.byte	0
  7687 02e1 00       		.byte	0
  7688 02e2 39       		.uleb128 0x39
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 136
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 136
 
 
  7689 02e3 0B       		.uleb128 0xb
@@ -8158,7 +8158,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7743 031b 01       		.uleb128 0x1
  7744 031c 55       		.uleb128 0x55
  7745 031d 17       		.uleb128 0x17
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 137
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 137
 
 
  7746 031e 58       		.uleb128 0x58
@@ -8218,7 +8218,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7800 0354 01       		.uleb128 0x1
  7801 0355 12       		.uleb128 0x12
  7802 0356 06       		.uleb128 0x6
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 138
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 138
 
 
  7803 0357 58       		.uleb128 0x58
@@ -8278,7 +8278,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7857 038d 58       		.uleb128 0x58
  7858 038e 0B       		.uleb128 0xb
  7859 038f 59       		.uleb128 0x59
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 139
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 139
 
 
  7860 0390 0B       		.uleb128 0xb
@@ -8338,7 +8338,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7914 03c7 20       		.uleb128 0x20
  7915 03c8 0B       		.uleb128 0xb
  7916 03c9 01       		.uleb128 0x1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 140
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 140
 
 
  7917 03ca 13       		.uleb128 0x13
@@ -8398,7 +8398,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  7971 0400 0E       		.uleb128 0xe
  7972 0401 3A       		.uleb128 0x3a
  7973 0402 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 141
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 141
 
 
  7974 0403 3B       		.uleb128 0x3b
@@ -8458,7 +8458,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8028 0020 0400     		.2byte	0x4
  8029 0022 F3       		.byte	0xf3
  8030 0023 01       		.uleb128 0x1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 142
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 142
 
 
  8031 0024 50       		.byte	0x50
@@ -8518,7 +8518,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8085 009e 9F       		.byte	0x9f
  8086 009f 16000000 		.4byte	.LVL10
  8087 00a3 19000000 		.4byte	.LVL11-1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 143
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 143
 
 
  8088 00a7 0100     		.2byte	0x1
@@ -8578,7 +8578,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8142 012d 40       		.uleb128 0x40
  8143 012e 00000000 		.4byte	0
  8144 0132 00000000 		.4byte	0
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 144
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 144
 
 
  8145              	.LLST7:
@@ -8638,7 +8638,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8199 01c5 9F       		.byte	0x9f
  8200 01c6 38000000 		.4byte	.LVL18
  8201 01ca 44000000 		.4byte	.LVL20
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 145
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 145
 
 
  8202 01ce 0100     		.2byte	0x1
@@ -8698,7 +8698,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8256 0240 96000000 		.4byte	.LVL27
  8257 0244 99000000 		.4byte	.LVL28-1
  8258 0248 0100     		.2byte	0x1
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 146
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 146
 
 
  8259 024a 50       		.byte	0x50
@@ -8758,7 +8758,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8313 02c1 9F       		.byte	0x9f
  8314 02c2 7E000000 		.4byte	.LVL25
  8315 02c6 8E000000 		.4byte	.LVL26
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 147
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 147
 
 
  8316 02ca 0100     		.2byte	0x1
@@ -8818,7 +8818,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8370 0352 00000000 		.4byte	0
  8371              	.LLST11:
  8372 0356 0A020000 		.4byte	.LVL69
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 148
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 148
 
 
  8373 035a 28020000 		.4byte	.LVL71
@@ -8878,7 +8878,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8427 03e6 50       		.byte	0x50
  8428 03e7 9B030000 		.4byte	.LVL103-1
  8429 03eb A8030000 		.4byte	.LVL105
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 149
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 149
 
 
  8430 03ef 0100     		.2byte	0x1
@@ -8938,7 +8938,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8484 000e 0000     		.2byte	0
  8485 0010 00000000 		.4byte	.LFB261
  8486 0014 44000000 		.4byte	.LFE261-.LFB261
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 150
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 150
 
 
  8487 0018 00000000 		.4byte	.LFB262
@@ -8998,7 +8998,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8541 00a0 E2020000 		.4byte	.LBB102
  8542 00a4 E6020000 		.4byte	.LBE102
  8543 00a8 14030000 		.4byte	.LBB120
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 151
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 151
 
 
  8544 00ac 20030000 		.4byte	.LBE120
@@ -9058,7 +9058,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8594              	.LASF401:
  8595 0000 5553425F 		.ascii	"USB_STOP\000"
  8595      53544F50 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 152
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 152
 
 
  8595      00
@@ -9118,7 +9118,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8621      6D5F7400 
  8622              	.LASF5:
  8623 0097 5F5F7569 		.ascii	"__uint8_t\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 153
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 153
 
 
  8623      6E74385F 
@@ -9178,7 +9178,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8652              	.LASF316:
  8653 0125 42445452 		.ascii	"BDTR\000"
  8653      00
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 154
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 154
 
 
  8654              	.LASF289:
@@ -9238,7 +9238,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8684              	.LASF154:
  8685 01ad 63685F73 		.ascii	"ch_size\000"
  8685      697A6500 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 155
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 155
 
 
  8686              	.LASF473:
@@ -9298,7 +9298,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8714              	.LASF31:
  8715 0249 73797374 		.ascii	"systime_t\000"
  8715      696D655F 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 156
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 156
 
 
  8715      7400
@@ -9358,7 +9358,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8745 02da 49324344 		.ascii	"I2CDriver\000"
  8745      72697665 
  8745      7200
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 157
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 157
 
 
  8746              	.LASF272:
@@ -9418,7 +9418,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8775 0369 715F7761 		.ascii	"q_waiting\000"
  8775      6974696E 
  8775      6700
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 158
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 158
 
 
  8776              	.LASF92:
@@ -9478,7 +9478,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8799      74657200 
  8800              	.LASF488:
  8801 040e 72657376 		.ascii	"resvd820\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 159
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 159
 
 
  8801      64383230 
@@ -9538,7 +9538,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8830              	.LASF315:
  8831 049b 43434552 		.ascii	"CCER\000"
  8831      00
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 160
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 160
 
 
  8832              	.LASF127:
@@ -9598,7 +9598,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8860      6973696F 
  8860      6E203234 
  8860      39343337 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 161
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 161
 
 
  8861 0575 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
@@ -9658,7 +9658,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8881              	.LASF199:
  8882 068d 4641554C 		.ascii	"FAULT_CODE_DRV\000"
  8882      545F434F 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 162
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 162
 
 
  8882      44455F44 
@@ -9718,7 +9718,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8908 0723 63685F74 		.ascii	"ch_thread\000"
  8908      68726561 
  8908      6400
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 163
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 163
 
 
  8909              	.LASF280:
@@ -9778,7 +9778,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8936      435200
  8937              	.LASF355:
  8938 07bb 55415254 		.ascii	"UART_TX_ACTIVE\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 164
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 164
 
 
  8938      5F54585F 
@@ -9838,7 +9838,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8960      675F7061 
  8960      72616D73 
  8960      5F7400
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 165
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 165
 
 
  8961              	.LASF499:
@@ -9898,7 +9898,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  8991              	.LASF334:
  8992 08ee 64696572 		.ascii	"dier\000"
  8992      00
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 166
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 166
 
 
  8993              	.LASF472:
@@ -9958,7 +9958,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9022      643800
  9023              	.LASF20:
  9024 0986 73697A65 		.ascii	"size_t\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 167
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 167
 
 
  9024      5F7400
@@ -10018,7 +10018,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9054      73746174 
  9054      6500
  9055              	.LASF183:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 168
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 168
 
 
  9056 0a21 696F5F71 		.ascii	"io_queue_t\000"
@@ -10078,7 +10078,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9084      6F696E74 
  9084      7300
  9085              	.LASF514:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 169
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 169
 
 
  9086 0ab5 746F7473 		.ascii	"totsize\000"
@@ -10138,7 +10138,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9112      65725265 
  9112      67697374 
  9112      65725F54 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 170
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 170
 
 
  9113              	.LASF465:
@@ -10198,7 +10198,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9138      61696C42 
  9138      6F7800
  9139              	.LASF340:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 171
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 171
 
 
  9140 0c01 5350495F 		.ascii	"SPI_ACTIVE\000"
@@ -10258,7 +10258,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9168      655F7400 
  9169              	.LASF482:
  9170 0c94 44535453 		.ascii	"DSTS\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 172
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 172
 
 
  9170      00
@@ -10318,7 +10318,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9198 0d1f 47525354 		.ascii	"GRSTCTL\000"
  9198      43544C00 
  9199              	.LASF370:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 173
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 173
 
 
  9200 0d27 75617274 		.ascii	"uartccb_t\000"
@@ -10378,7 +10378,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9225              	.LASF398:
  9226 0dc0 77615F70 		.ascii	"wa_pump\000"
  9226      756D7000 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 174
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 174
 
 
  9227              	.LASF182:
@@ -10438,7 +10438,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9252 0e57 73746174 		.ascii	"status\000"
  9252      757300
  9253              	.LASF208:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 175
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 175
 
 
  9254 0e5e 4C45445F 		.ascii	"LED_EXT_TURN_LEFT\000"
@@ -10498,7 +10498,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9278      44656600 
  9279              	.LASF95:
  9280 0f09 52444852 		.ascii	"RDHR\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 176
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 176
 
 
  9280      00
@@ -10558,7 +10558,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9306 0fa1 54444C52 		.ascii	"TDLR\000"
  9306      00
  9307              	.LASF9:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 177
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 177
 
 
  9308 0fa6 6C6F6E67 		.ascii	"long int\000"
@@ -10618,7 +10618,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9338 1032 73746174 		.ascii	"state_last\000"
  9338      655F6C61 
  9338      737400
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 178
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 178
 
 
  9339              	.LASF522:
@@ -10678,7 +10678,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9366 10d6 5553425F 		.ascii	"USB_SELECTED\000"
  9366      53454C45 
  9366      43544544 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 179
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 179
 
 
  9366      00
@@ -10738,7 +10738,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9392      65756500 
  9393              	.LASF459:
  9394 1172 47525846 		.ascii	"GRXFSIZ\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 180
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 180
 
 
  9394      53495A00 
@@ -10798,7 +10798,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9420 1209 69637566 		.ascii	"icufreq_t\000"
  9420      7265715F 
  9420      7400
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 181
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 181
 
 
  9421              	.LASF198:
@@ -10858,7 +10858,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9446 12c9 75617274 		.ascii	"uartflags_t\000"
  9446      666C6167 
  9446      735F7400 
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 182
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 182
 
 
  9447              	.LASF480:
@@ -10918,7 +10918,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9472      00
  9473              	.LASF93:
  9474 136b 52445452 		.ascii	"RDTR\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 183
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 183
 
 
  9474      00
@@ -10978,7 +10978,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9502      53544F50 
  9502      00
  9503              	.LASF236:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 184
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 184
 
 
  9504 13fc 6166726C 		.ascii	"afrl\000"
@@ -11038,7 +11038,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9532 1481 72787175 		.ascii	"rxqueue\000"
  9532      65756500 
  9533              	.LASF478:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 185
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 185
 
 
  9534 1489 72657376 		.ascii	"resvd444\000"
@@ -11098,7 +11098,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9558      7369676E 
  9558      65642069 
  9559              	.LASF135:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 186
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 186
 
 
  9560 1527 6F666673 		.ascii	"offset\000"
@@ -11158,7 +11158,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9588      00
  9589              	.LASF41:
  9590 15ba 705F666C 		.ascii	"p_flags\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 187
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 187
 
 
  9590      61677300 
@@ -11218,7 +11218,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9620 163a 75736273 		.ascii	"usbstate_t\000"
  9620      74617465 
  9620      5F7400
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 188
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 188
 
 
  9621              	.LASF448:
@@ -11278,7 +11278,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9646 16d8 48505458 		.ascii	"HPTXFSIZ\000"
  9646      4653495A 
  9646      00
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 189
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 189
 
 
  9647              	.LASF159:
@@ -11338,7 +11338,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9672      00
  9673              	.LASF567:
  9674 176e 5F5F7365 		.ascii	"__set_BASEPRI\000"
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 190
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 190
 
 
  9674      745F4241 
@@ -11398,7 +11398,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9700      434C455F 
  9700      3200
  9701              	.LASF158:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 191
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 191
 
 
  9702 1807 63685F74 		.ascii	"ch_threadsize\000"
@@ -11458,7 +11458,7 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9730      70654465 
  9730      6600
  9731              	.LASF539:
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 192
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 192
 
 
  9732 1895 6C65645F 		.ascii	"led_thread_wa\000"
@@ -11512,39 +11512,39 @@ ARM GAS  /var/tmp//ccyhVUp5.s 			page 1
  9756 1919 4F415232 		.ascii	"OAR2\000"
  9756      00
  9757              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /var/tmp//ccyhVUp5.s 			page 193
+ARM GAS  /var/tmp//ccGMl7Sg.s 			page 193
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 led_external.c
-/var/tmp//ccyhVUp5.s:18     .text.wait_for_state_change:0000000000000000 $t
-/var/tmp//ccyhVUp5.s:25     .text.wait_for_state_change:0000000000000000 wait_for_state_change
-/var/tmp//ccyhVUp5.s:90     .text.wait_for_state_change:000000000000003c $d
-/var/tmp//ccyhVUp5.s:96     .text.set_led_wrapper:0000000000000000 $t
-/var/tmp//ccyhVUp5.s:103    .text.set_led_wrapper:0000000000000000 set_led_wrapper
-/var/tmp//ccyhVUp5.s:136    .text.set_led_wrapper:000000000000001c $d
-/var/tmp//ccyhVUp5.s:141    .text.led_thread:0000000000000000 $t
-/var/tmp//ccyhVUp5.s:148    .text.led_thread:0000000000000000 led_thread
-/var/tmp//ccyhVUp5.s:349    .text.led_thread:00000000000000d0 $d
-/var/tmp//ccyhVUp5.s:357    .text.led_thread:00000000000000d8 $t
-/var/tmp//ccyhVUp5.s:881    .text.led_thread:000000000000035c $d
-/var/tmp//ccyhVUp5.s:898    .text.led_thread:0000000000000394 $t
-/var/tmp//ccyhVUp5.s:926    .text.led_external_init:0000000000000000 $t
-/var/tmp//ccyhVUp5.s:934    .text.led_external_init:0000000000000000 led_external_init
-/var/tmp//ccyhVUp5.s:974    .text.led_external_init:0000000000000024 $d
-/var/tmp//ccyhVUp5.s:982    .text.led_external_set_state:0000000000000000 $t
-/var/tmp//ccyhVUp5.s:990    .text.led_external_set_state:0000000000000000 led_external_set_state
-/var/tmp//ccyhVUp5.s:1005   .text.led_external_set_state:0000000000000008 $d
-/var/tmp//ccyhVUp5.s:1010   .text.led_external_set_reversed:0000000000000000 $t
-/var/tmp//ccyhVUp5.s:1018   .text.led_external_set_reversed:0000000000000000 led_external_set_reversed
-/var/tmp//ccyhVUp5.s:1033   .text.led_external_set_reversed:0000000000000008 $d
-/var/tmp//ccyhVUp5.s:1038   .bss.led_thread_wa:0000000000000000 $d
-/var/tmp//ccyhVUp5.s:1042   .bss.led_thread_wa:0000000000000000 led_thread_wa
-/var/tmp//ccyhVUp5.s:1048   .bss.reverse_leds:0000000000000000 reverse_leds
-/var/tmp//ccyhVUp5.s:1049   .bss.reverse_leds:0000000000000000 $d
-/var/tmp//ccyhVUp5.s:1054   .bss.state:0000000000000000 state
-/var/tmp//ccyhVUp5.s:1055   .bss.state:0000000000000000 $d
-/var/tmp//ccyhVUp5.s:1057   .rodata.led_thread.str1.4:0000000000000000 $d
+/var/tmp//ccGMl7Sg.s:18     .text.wait_for_state_change:0000000000000000 $t
+/var/tmp//ccGMl7Sg.s:25     .text.wait_for_state_change:0000000000000000 wait_for_state_change
+/var/tmp//ccGMl7Sg.s:90     .text.wait_for_state_change:000000000000003c $d
+/var/tmp//ccGMl7Sg.s:96     .text.set_led_wrapper:0000000000000000 $t
+/var/tmp//ccGMl7Sg.s:103    .text.set_led_wrapper:0000000000000000 set_led_wrapper
+/var/tmp//ccGMl7Sg.s:136    .text.set_led_wrapper:000000000000001c $d
+/var/tmp//ccGMl7Sg.s:141    .text.led_thread:0000000000000000 $t
+/var/tmp//ccGMl7Sg.s:148    .text.led_thread:0000000000000000 led_thread
+/var/tmp//ccGMl7Sg.s:349    .text.led_thread:00000000000000d0 $d
+/var/tmp//ccGMl7Sg.s:357    .text.led_thread:00000000000000d8 $t
+/var/tmp//ccGMl7Sg.s:881    .text.led_thread:000000000000035c $d
+/var/tmp//ccGMl7Sg.s:898    .text.led_thread:0000000000000394 $t
+/var/tmp//ccGMl7Sg.s:926    .text.led_external_init:0000000000000000 $t
+/var/tmp//ccGMl7Sg.s:934    .text.led_external_init:0000000000000000 led_external_init
+/var/tmp//ccGMl7Sg.s:974    .text.led_external_init:0000000000000024 $d
+/var/tmp//ccGMl7Sg.s:982    .text.led_external_set_state:0000000000000000 $t
+/var/tmp//ccGMl7Sg.s:990    .text.led_external_set_state:0000000000000000 led_external_set_state
+/var/tmp//ccGMl7Sg.s:1005   .text.led_external_set_state:0000000000000008 $d
+/var/tmp//ccGMl7Sg.s:1010   .text.led_external_set_reversed:0000000000000000 $t
+/var/tmp//ccGMl7Sg.s:1018   .text.led_external_set_reversed:0000000000000000 led_external_set_reversed
+/var/tmp//ccGMl7Sg.s:1033   .text.led_external_set_reversed:0000000000000008 $d
+/var/tmp//ccGMl7Sg.s:1038   .bss.led_thread_wa:0000000000000000 $d
+/var/tmp//ccGMl7Sg.s:1042   .bss.led_thread_wa:0000000000000000 led_thread_wa
+/var/tmp//ccGMl7Sg.s:1048   .bss.reverse_leds:0000000000000000 reverse_leds
+/var/tmp//ccGMl7Sg.s:1049   .bss.reverse_leds:0000000000000000 $d
+/var/tmp//ccGMl7Sg.s:1054   .bss.state:0000000000000000 state
+/var/tmp//ccGMl7Sg.s:1055   .bss.state:0000000000000000 $d
+/var/tmp//ccGMl7Sg.s:1057   .rodata.led_thread.str1.4:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

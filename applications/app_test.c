@@ -60,6 +60,14 @@ static const int noPedalTreshold = 2;
 static systime_t firstPedalStroke;
 static systime_t timeOnPedaling;
 static systime_t timeOffPedaling;
+
+static systime_t timeStartPedaling;
+static const float startUpRoutineEnd = 1000;
+
+static int startUpTrigger = 0;
+
+static bool startUpRoutine = true;
+
 static bool isPedaling = false;
 static int pedalCount = 0;
 static int noPedalCounter = 0;
@@ -88,9 +96,9 @@ static THD_FUNCTION(example_thread, arg) {
     float rotationalSpeedSensor01 = 0.0;
     float rotationalSpeedSensor03 = 0.0;
     
-    int hallSensorState01;
+    int hallSensorBack;
     //int hallSensorState02;
-    int hallSensorState03;
+    int hallSensorCrank;
     
     //Set initial value for old timer
     lastTimeSensor01 = 0;
@@ -109,14 +117,14 @@ static THD_FUNCTION(example_thread, arg) {
         
         
         //Read in Hall Sensor state
-        hallSensorState01 = READ_HALL1();
+        hallSensorBack = READ_HALL2();
         //hallSensorState02 = READ_HALL2();
-        hallSensorState03 = READ_HALL3();
+        hallSensorCrank = READ_HALL1();
         
-        //commands_printf("HallSensor State: %d \n", hallSensorState01);
+        //commands_printf("HallSensor State: %d \n", hallSensorBack);
         
         //Determine rotational speed if the hall sensor is triggered
-        if (hallSensorState01 == 1 && hallTrigger01 == 1) {
+        if (hallSensorBack == 1 && hallTrigger01 == 1) {
             
             rotationalSpeedSensor01 = (1.0 / ((float)ST2MS(chVTTimeElapsedSinceX(lastTimeSensor01))/1000.0)) * 60.0;
             
@@ -130,10 +138,10 @@ static THD_FUNCTION(example_thread, arg) {
             
             //commands_printf("Trigger \n");
             
-        } else if (hallSensorState01 == 0 && hallTrigger01 == 0)  {
+        } else if (hallSensorBack == 0 && hallTrigger01 == 0)  {
             
             hallTrigger01 = 1;
-        } else if (hallSensorState01 == 0 && (float)ST2MS(chVTTimeElapsedSinceX(lastTimeSensor01)) > noRotatingTreshold) {
+        } else if (hallSensorBack == 0 && (float)ST2MS(chVTTimeElapsedSinceX(lastTimeSensor01)) > noRotatingTreshold) {
             
             rotationalSpeedSensor01 = 0.0;
             vehicleVelocity = 0.0;
@@ -141,7 +149,7 @@ static THD_FUNCTION(example_thread, arg) {
         
         
         //Determine rotational speed if the hall sensor is triggered
-        if (hallSensorState03 == 1 && hallTrigger03 == 1) {
+        if (hallSensorCrank == 1 && hallTrigger03 == 1) {
             
             if (pedalCount == 0) {
                 
@@ -152,7 +160,9 @@ static THD_FUNCTION(example_thread, arg) {
                 
                 if(pedalCount >= tresholdMagnet && (float)ST2MS(chVTTimeElapsedSinceX(firstPedalStroke)) < tresholdTimePedaling) {
                     
-                    if (pedalingForward == true) {
+                    //&& vehicleVelocity > 8.0
+                    
+                    if (pedalingForward == true && vehicleVelocity > 8.0) {
                         
                         isPedaling = true;
                     } else {
@@ -175,14 +185,14 @@ static THD_FUNCTION(example_thread, arg) {
             lastTimeSensor03 = chVTGetSystemTimeX();
             
             
-        } else if (hallSensorState03 == 0 && hallTrigger03 == 0)  {
+        } else if (hallSensorCrank == 0 && hallTrigger03 == 0)  {
             
             hallTrigger03 = 1;
         }
         
         
         
-        if (hallSensorState03 == 1) {
+        if (hallSensorCrank == 1) {
             
             if(lowTriggerEnd == 0) {
                 
@@ -203,7 +213,7 @@ static THD_FUNCTION(example_thread, arg) {
             
             timeOnPedaling = chVTGetSystemTimeX();
            
-        } else if (hallSensorState03 == 0) {
+        } else if (hallSensorCrank == 0) {
             
             if(lowTriggerStart == 0) {
                 
@@ -226,7 +236,7 @@ static THD_FUNCTION(example_thread, arg) {
         }
 
         
-        
+        //TODO ABS()?
         if(abs(differenceLow > differenceHigh)) {
             
             pedalingForward = true;
@@ -253,8 +263,6 @@ static THD_FUNCTION(example_thread, arg) {
             isPedaling = false;
             pedalCount = 0;
             
-            
-            
             //commands_printf("OFFFFFFF \n");
         }
         
@@ -267,10 +275,11 @@ static THD_FUNCTION(example_thread, arg) {
         
         //commands_printf("velocity : %f \n", vehicleVelocity);
         //commands_printf("rotation Speed Sensor 1: %f \n", rotationalSpeedSensor01);
-        //commands_printf("HallSensor State: %d \n", hallSensorState01);
+        //commands_printf("HallSensor State: %d \n", hallSensorBack);
         //commands_printf("HallSensor State: %d \n", hallSensorState02);
-        //commands_printf("HallSensor State: %d \n", hallSensorState03);
-        commands_printf("isPedaling: %d \n", isPedaling);
+        //commands_printf("HallSensor State: %d \n", hallSensorCrank);
+        //commands_printf("isPedaling: %d \n", isPedaling);
+        //commands_printf("poti: %d \n", pot);
         //commands_printf("Time Diff: %f \n", timeDiff);
         
         //commands_printf("isPedaling: %f \n", (float)(abs(timeOffPedaling - timeOnPedaling)));
@@ -278,15 +287,57 @@ static THD_FUNCTION(example_thread, arg) {
         //commands_printf("lastTimeSensor01: %f \n", (float) (lastTimeSensor01));
         //commands_printf("-------------------------\n");
         
+        
+        if(isPedaling == true) {
+            
+            if(startUpRoutine == true) {
+                
+                if(startUpTrigger == 0) {
+                    timeStartPedaling = chVTGetSystemTimeX();
+                    startUpTrigger = 1;
+                }
+                
+                if((float)ST2MS(chVTTimeElapsedSinceX(timeStartPedaling)) > startUpRoutineEnd) {
+                    
+                    startUpRoutine = false;
+                }
+                
+                setPointCurrent = (float) 4.0;
+                mc_interface_set_current(setPointCurrent);
+                
+            } else {
+                
+                setPointCurrent = (float) mcconf->lo_current_motor_max_now;
+                mc_interface_set_current(setPointCurrent);
+            }
+            
+            
+            
+        } else {
+            
+            mc_interface_release_motor();
+            startUpTrigger = 0;
+            startUpRoutine = true;
+        }
+        
+        
+        
+        
+        commands_printf("isPedaling: %d \n", isPedaling);
+        //scommands_printf("startUpRoutine: %d \n", startUpRoutine);
+        
+        
+        
+        
+        
         //If the poti is off, then the motor shall be released
         if (pot > 0.01) {
 
-            setPointCurrent = (float) mcconf->lo_current_motor_max_now * pot;
-            mc_interface_set_current(setPointCurrent);
+            
             
         } else {
             // If the button is not pressed, release the motor
-            mc_interface_release_motor();
+            //mc_interface_release_motor();
         }
         
         // Run this loop at 500Hz
