@@ -307,7 +307,7 @@ static THD_FUNCTION(example_thread, arg) {
                 
             } else {
                 
-                setPointCurrent = (float) mcconf->lo_current_motor_max_now;
+                setPointCurrent = ((float) mcconf->lo_current_motor_max_now * pot) + 10.0;
                 mc_interface_set_current(setPointCurrent);
             }
             
@@ -323,11 +323,11 @@ static THD_FUNCTION(example_thread, arg) {
         
         
         
-        commands_printf("isPedaling: %d \n", isPedaling);
+        //commands_printf("isPedaling: %d \n", isPedaling);
         //scommands_printf("startUpRoutine: %d \n", startUpRoutine);
         
         
-        
+        commands_printf("poti: %f \n", pot);
         
         
         //If the poti is off, then the motor shall be released
