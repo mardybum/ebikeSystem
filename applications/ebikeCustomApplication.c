@@ -320,7 +320,7 @@ static THD_FUNCTION(example_thread, arg) {
             startUpRoutine = true;
         }
         
-        commands_printf("isPedaling: %f \n", poti);
+        commands_printf("isPedaling: %f \n", pot);
         
         // Run this loop at 500Hz
         chThdSleepMilliseconds(2);
