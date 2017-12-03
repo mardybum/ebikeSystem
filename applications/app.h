@@ -55,6 +55,7 @@ void app_custom_start(void);
 void app_custom_stop(void);
 void app_custom_configure(app_configuration *conf);
 void app_example_init(void);
+void settingMotorCurrent(void);
 
 
 #endif /* APP_H_ */
