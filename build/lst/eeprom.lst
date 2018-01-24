@@ -1,4 +1,4 @@
-ARM GAS  /var/tmp//cclgCVgN.s 			page 1
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
   55              		.loc 1 409 0
   56 0010 4EF6EE63 		movw	r3, #61166
   57              		.loc 1 423 0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 2
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 2
 
 
   58 0014 D31A     		subs	r3, r2, r3
@@ -118,7 +118,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  112              	.LBB12:
  113              	.LBB11:
  114              		.loc 1 418 0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 3
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 3
 
 
  115 004c 32B9     		cbnz	r2, .L10
@@ -178,7 +178,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  169 0000 10B5     		push	{r4, lr}
  170              		.cfi_def_cfa_offset 8
  171              		.cfi_offset 4, -8
-ARM GAS  /var/tmp//cclgCVgN.s 			page 4
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 4
 
 
  172              		.cfi_offset 14, -4
@@ -238,7 +238,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  226              		.cfi_startproc
  227              		@ args = 0, pretend = 0, frame = 0
  228              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 5
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 5
 
 
  229              	.LVL27:
@@ -298,7 +298,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  283              	EE_ReadVariable:
  284              	.LFB220:
  285              		.loc 1 272 0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 6
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 6
 
 
  286              		.cfi_startproc
@@ -358,7 +358,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  340 0026 04D1     		bne	.L40
  341 0028 0EE0     		b	.L42
  342              	.LVL44:
-ARM GAS  /var/tmp//cclgCVgN.s 			page 7
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 7
 
 
  343              	.L41:
@@ -418,7 +418,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  397              	.L50:
  398 0058 00400008 		.word	134234112
  399 005c 00800008 		.word	134250496
-ARM GAS  /var/tmp//cclgCVgN.s 			page 8
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 8
 
 
  400 0060 FEBF0008 		.word	134266878
@@ -478,7 +478,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  454              	.L83:
  455              		.loc 1 249 0
  456 0022 FFF7FEFF 		bl	EE_Format
-ARM GAS  /var/tmp//cclgCVgN.s 			page 9
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 9
 
 
  457              	.LVL57:
@@ -538,7 +538,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  511 0068 0128     		cmp	r0, #1
  512 006a E9D0     		beq	.L71
  513              		.loc 1 221 0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 10
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 10
 
 
  514 006c 3988     		ldrh	r1, [r7]
@@ -598,7 +598,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  568              	.L63:
  569              		.loc 1 118 0
  570 00b6 3388     		ldrh	r3, [r6]
-ARM GAS  /var/tmp//cclgCVgN.s 			page 11
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 11
 
 
  571 00b8 2A88     		ldrh	r2, [r5]
@@ -658,7 +658,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  625              	.LVL85:
  626 0104 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
  627              	.LVL86:
-ARM GAS  /var/tmp//cclgCVgN.s 			page 12
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 12
 
 
  628              	.L93:
@@ -718,7 +718,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  682 0136 FFF7FEBF 		b	EE_EraseSectorIfNotEmpty.constprop.1
  683              	.LVL94:
  684              	.L96:
-ARM GAS  /var/tmp//cclgCVgN.s 			page 13
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 13
 
 
  685 013a 00BF     		.align	2
@@ -778,7 +778,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  739              	.LBB27:
  740              	.LBB28:
  741              		.loc 1 397 0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 14
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 14
 
 
  742 0014 224E     		ldr	r6, .L120
@@ -838,7 +838,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  796 0048 FFF7FEFF 		bl	EE_VerifyPageFullWriteVariable
  797              	.LVL108:
  798              		.loc 1 568 0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 15
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 15
 
 
  799 004c 0928     		cmp	r0, #9
@@ -898,7 +898,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  853 0094 0021     		movs	r1, #0
  854 0096 FFF7FEFF 		bl	FLASH_ProgramHalfWord
  855              	.LVL117:
-ARM GAS  /var/tmp//cclgCVgN.s 			page 16
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 16
 
 
  856              		.loc 1 605 0
@@ -958,7 +958,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  910 0019 30000000 		.4byte	.Ldebug_ranges0+0x30
  911 001d 00000000 		.4byte	0
  912 0021 00000000 		.4byte	.Ldebug_line0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 17
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 17
 
 
  913 0025 02       		.uleb128 0x2
@@ -1018,7 +1018,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  967 008e BD050000 		.4byte	.LASF12
  968 0092 02       		.byte	0x2
  969 0093 69       		.byte	0x69
-ARM GAS  /var/tmp//cclgCVgN.s 			page 18
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 18
 
 
  970 0094 98000000 		.4byte	0x98
@@ -1078,7 +1078,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1024 0107 07       		.uleb128 0x7
  1025 0108 54020000 		.4byte	.LASF23
  1026 010c 05       		.byte	0x5
-ARM GAS  /var/tmp//cclgCVgN.s 			page 19
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 19
 
 
  1027 010d 4C       		.byte	0x4c
@@ -1138,7 +1138,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1081 017c 48       		.byte	0x48
  1082 017d AD000000 		.4byte	0xad
  1083 0181 03       		.uleb128 0x3
-ARM GAS  /var/tmp//cclgCVgN.s 			page 20
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 20
 
 
  1084 0182 BF010000 		.4byte	.LASF37
@@ -1198,7 +1198,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1138 01fa 0A       		.byte	0xa
  1139 01fb C3       		.byte	0xc3
  1140 01fc F9020000 		.4byte	0x2f9
-ARM GAS  /var/tmp//cclgCVgN.s 			page 21
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 21
 
 
  1141 0200 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1195 026c 1E       		.byte	0x1e
  1196 026d 0B       		.uleb128 0xb
  1197 026e 88060000 		.4byte	.LASF56
-ARM GAS  /var/tmp//cclgCVgN.s 			page 22
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 22
 
 
  1198 0272 0A       		.byte	0xa
@@ -1318,7 +1318,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1252 02e5 0A       		.byte	0xa
  1253 02e6 5801     		.2byte	0x158
  1254 02e8 D6030000 		.4byte	0x3d6
-ARM GAS  /var/tmp//cclgCVgN.s 			page 23
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 23
 
 
  1255 02ec 44       		.byte	0x44
@@ -1378,7 +1378,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1309 0358 09       		.byte	0x9
  1310 0359 57       		.byte	0x57
  1311 035a 5E030000 		.4byte	0x35e
-ARM GAS  /var/tmp//cclgCVgN.s 			page 24
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 24
 
 
  1312 035e 0F       		.uleb128 0xf
@@ -1438,7 +1438,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1366 03d1 D6030000 		.4byte	0x3d6
  1367 03d5 00       		.byte	0
  1368 03d6 12       		.uleb128 0x12
-ARM GAS  /var/tmp//cclgCVgN.s 			page 25
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 25
 
 
  1369 03d7 04       		.byte	0x4
@@ -1498,7 +1498,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1423 044a 0D       		.uleb128 0xd
  1424 044b 43020000 		.4byte	.LASF82
  1425 044f 0A       		.byte	0xa
-ARM GAS  /var/tmp//cclgCVgN.s 			page 26
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 26
 
 
  1426 0450 7C01     		.2byte	0x17c
@@ -1558,7 +1558,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1480 04c4 C601     		.2byte	0x1c6
  1481 04c6 53030000 		.4byte	0x353
  1482 04ca 00       		.byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 27
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 27
 
 
  1483 04cb 0D       		.uleb128 0xd
@@ -1618,7 +1618,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1537 053b 0A       		.uleb128 0xa
  1538 053c 34000000 		.4byte	.LASF102
  1539 0540 64       		.byte	0x64
-ARM GAS  /var/tmp//cclgCVgN.s 			page 28
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 28
 
 
  1540 0541 0C       		.byte	0xc
@@ -1678,7 +1678,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1594 05ad FE       		.byte	0xfe
  1595 05ae 0C050000 		.4byte	0x50c
  1596 05b2 20       		.byte	0x20
-ARM GAS  /var/tmp//cclgCVgN.s 			page 29
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 29
 
 
  1597 05b3 14       		.uleb128 0x14
@@ -1738,7 +1738,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1651 0625 0C       		.uleb128 0xc
  1652 0626 723600   		.ascii	"r6\000"
  1653 0629 0C       		.byte	0xc
-ARM GAS  /var/tmp//cclgCVgN.s 			page 30
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 30
 
 
  1654 062a 0901     		.2byte	0x109
@@ -1798,7 +1798,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1708 0696 00       		.byte	0
  1709 0697 03       		.uleb128 0x3
  1710 0698 86050000 		.4byte	.LASF104
-ARM GAS  /var/tmp//cclgCVgN.s 			page 31
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 31
 
 
  1711 069c 0D       		.byte	0xd
@@ -1858,7 +1858,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1765 0712 DA010000 		.4byte	.LASF113
  1766 0716 0E       		.byte	0xe
  1767 0717 35       		.byte	0x35
-ARM GAS  /var/tmp//cclgCVgN.s 			page 32
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 32
 
 
  1768 0718 23030000 		.4byte	0x323
@@ -1918,7 +1918,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1822 0784 19       		.uleb128 0x19
  1823 0785 17050000 		.4byte	0x517
  1824 0789 94070000 		.4byte	0x794
-ARM GAS  /var/tmp//cclgCVgN.s 			page 33
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 33
 
 
  1825 078d 1A       		.uleb128 0x1a
@@ -1978,7 +1978,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1879 07f6 AD000000 		.4byte	0xad
  1880 07fa 0A       		.byte	0xa
  1881 07fb 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cclgCVgN.s 			page 34
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 34
 
 
  1882 07fc 2D070000 		.4byte	.LASF127
@@ -2038,7 +2038,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1936 0868 B3060000 		.4byte	.LASF136
  1937 086c 10       		.byte	0x10
  1938 086d 46       		.byte	0x46
-ARM GAS  /var/tmp//cclgCVgN.s 			page 35
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 35
 
 
  1939 086e AD000000 		.4byte	0xad
@@ -2098,7 +2098,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  1993 08e0 01       		.byte	0x1
  1994 08e1 24       		.byte	0x24
  1995 08e2 C3000000 		.4byte	0xc3
-ARM GAS  /var/tmp//cclgCVgN.s 			page 36
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 36
 
 
  1996 08e6 05       		.uleb128 0x5
@@ -2158,7 +2158,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2050 0960 01       		.byte	0x1
  2051 0961 0D02     		.2byte	0x20d
  2052 0963 C3000000 		.4byte	0xc3
-ARM GAS  /var/tmp//cclgCVgN.s 			page 37
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 37
 
 
  2053 0967 1F       		.uleb128 0x1f
@@ -2218,7 +2218,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2107 09e8 D001     		.2byte	0x1d0
  2108 09ea C3000000 		.4byte	0xc3
  2109 09ee 00000000 		.4byte	.LLST0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 38
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 38
 
 
  2110 09f2 24       		.uleb128 0x24
@@ -2278,7 +2278,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2164 0a85 2B       		.uleb128 0x2b
  2165 0a86 01       		.uleb128 0x1
  2166 0a87 50       		.byte	0x50
-ARM GAS  /var/tmp//cclgCVgN.s 			page 39
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 39
 
 
  2167 0a88 02       		.uleb128 0x2
@@ -2338,7 +2338,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2221 0af0 6401     		.2byte	0x164
  2222 0af2 55010000 		.4byte	0x155
  2223 0af6 00       		.byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 40
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 40
 
 
  2224 0af7 2D       		.uleb128 0x2d
@@ -2398,7 +2398,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2278 0b89 31       		.uleb128 0x31
  2279 0b8a 97090000 		.4byte	0x997
  2280 0b8e 00       		.byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 41
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 41
 
 
  2281 0b8f 29       		.uleb128 0x29
@@ -2458,7 +2458,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2335 0c0c 02       		.uleb128 0x2
  2336 0c0d 74       		.byte	0x74
  2337 0c0e 00       		.sleb128 0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 42
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 42
 
 
  2338 0c0f 2B       		.uleb128 0x2b
@@ -2518,7 +2518,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2392 0c69 50       		.byte	0x50
  2393 0c6a 02       		.uleb128 0x2
  2394 0c6b 74       		.byte	0x74
-ARM GAS  /var/tmp//cclgCVgN.s 			page 43
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 43
 
 
  2395 0c6c 00       		.sleb128 0
@@ -2578,7 +2578,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2449 0ce5 DE000000 		.4byte	0xde
  2450 0ce9 B4040000 		.4byte	.LLST17
  2451 0ced 25       		.uleb128 0x25
-ARM GAS  /var/tmp//cclgCVgN.s 			page 44
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 44
 
 
  2452 0cee 49050000 		.4byte	.LASF171
@@ -2638,7 +2638,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2506 0d74 C3000000 		.4byte	0xc3
  2507 0d78 04060000 		.4byte	.LLST24
  2508 0d7c 37       		.uleb128 0x37
-ARM GAS  /var/tmp//cclgCVgN.s 			page 45
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 45
 
 
  2509 0d7d CA060000 		.4byte	.LASF158
@@ -2698,7 +2698,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2563 0dfc 2B       		.uleb128 0x2b
  2564 0dfd 01       		.uleb128 0x1
  2565 0dfe 50       		.byte	0x50
-ARM GAS  /var/tmp//cclgCVgN.s 			page 46
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 46
 
 
  2566 0dff 02       		.uleb128 0x2
@@ -2758,7 +2758,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2620 0e5f 01       		.uleb128 0x1
  2621 0e60 50       		.byte	0x50
  2622 0e61 05       		.uleb128 0x5
-ARM GAS  /var/tmp//cclgCVgN.s 			page 47
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 47
 
 
  2623 0e62 0C       		.byte	0xc
@@ -2818,7 +2818,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2677 0ec8 29       		.uleb128 0x29
  2678 0ec9 31090000 		.4byte	0x931
  2679 0ecd C9070000 		.4byte	.LLST10
-ARM GAS  /var/tmp//cclgCVgN.s 			page 48
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 48
 
 
  2680 0ed1 32       		.uleb128 0x32
@@ -2878,7 +2878,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2734 0f43 22000000 		.4byte	.LVL35
  2735 0f47 AC0E0000 		.4byte	0xeac
  2736 0f4b 2B       		.uleb128 0x2b
-ARM GAS  /var/tmp//cclgCVgN.s 			page 49
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 49
 
 
  2737 0f4c 01       		.uleb128 0x1
@@ -2938,7 +2938,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2791 0004 0E       		.uleb128 0xe
  2792 0005 13       		.uleb128 0x13
  2793 0006 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cclgCVgN.s 			page 50
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 50
 
 
  2794 0007 03       		.uleb128 0x3
@@ -2998,7 +2998,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2848 003d 06       		.uleb128 0x6
  2849 003e 34       		.uleb128 0x34
  2850 003f 00       		.byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 51
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 51
 
 
  2851 0040 03       		.uleb128 0x3
@@ -3058,7 +3058,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2905 0076 00       		.byte	0
  2906 0077 0A       		.uleb128 0xa
  2907 0078 13       		.uleb128 0x13
-ARM GAS  /var/tmp//cclgCVgN.s 			page 52
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 52
 
 
  2908 0079 01       		.byte	0x1
@@ -3118,7 +3118,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  2962 00af 38       		.uleb128 0x38
  2963 00b0 0B       		.uleb128 0xb
  2964 00b1 00       		.byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 53
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 53
 
 
  2965 00b2 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3019 00e8 05       		.uleb128 0x5
  3020 00e9 3A       		.uleb128 0x3a
  3021 00ea 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cclgCVgN.s 			page 54
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 54
 
 
  3022 00eb 3B       		.uleb128 0x3b
@@ -3238,7 +3238,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3076 0121 3B       		.uleb128 0x3b
  3077 0122 05       		.uleb128 0x5
  3078 0123 49       		.uleb128 0x49
-ARM GAS  /var/tmp//cclgCVgN.s 			page 55
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 55
 
 
  3079 0124 13       		.uleb128 0x13
@@ -3298,7 +3298,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3133 015a 49       		.uleb128 0x49
  3134 015b 13       		.uleb128 0x13
  3135 015c 3F       		.uleb128 0x3f
-ARM GAS  /var/tmp//cclgCVgN.s 			page 56
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 56
 
 
  3136 015d 19       		.uleb128 0x19
@@ -3358,7 +3358,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3190 0193 05       		.uleb128 0x5
  3191 0194 49       		.uleb128 0x49
  3192 0195 13       		.uleb128 0x13
-ARM GAS  /var/tmp//cclgCVgN.s 			page 57
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 57
 
 
  3193 0196 00       		.byte	0
@@ -3418,7 +3418,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3247 01cd 49       		.uleb128 0x49
  3248 01ce 13       		.uleb128 0x13
  3249 01cf 02       		.uleb128 0x2
-ARM GAS  /var/tmp//cclgCVgN.s 			page 58
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 58
 
 
  3250 01d0 17       		.uleb128 0x17
@@ -3478,7 +3478,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3304 0206 31       		.uleb128 0x31
  3305 0207 13       		.uleb128 0x13
  3306 0208 02       		.uleb128 0x2
-ARM GAS  /var/tmp//cclgCVgN.s 			page 59
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 59
 
 
  3307 0209 17       		.uleb128 0x17
@@ -3538,7 +3538,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3361 0247 19       		.uleb128 0x19
  3362 0248 01       		.uleb128 0x1
  3363 0249 13       		.uleb128 0x13
-ARM GAS  /var/tmp//cclgCVgN.s 			page 60
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 60
 
 
  3364 024a 00       		.byte	0
@@ -3598,7 +3598,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3418 0280 00       		.byte	0
  3419 0281 33       		.uleb128 0x33
  3420 0282 898201   		.uleb128 0x4109
-ARM GAS  /var/tmp//cclgCVgN.s 			page 61
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 61
 
 
  3421 0285 00       		.byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3475 02bb 12       		.uleb128 0x12
  3476 02bc 06       		.uleb128 0x6
  3477 02bd 40       		.uleb128 0x40
-ARM GAS  /var/tmp//cclgCVgN.s 			page 62
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 62
 
 
  3478 02be 18       		.uleb128 0x18
@@ -3718,7 +3718,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3532 02fa 01       		.uleb128 0x1
  3533 02fb 9542     		.uleb128 0x2115
  3534 02fd 19       		.uleb128 0x19
-ARM GAS  /var/tmp//cclgCVgN.s 			page 63
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 63
 
 
  3535 02fe 31       		.uleb128 0x31
@@ -3778,7 +3778,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3589 0335 00       		.byte	0
  3590 0336 00       		.byte	0
  3591 0337 3F       		.uleb128 0x3f
-ARM GAS  /var/tmp//cclgCVgN.s 			page 64
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 64
 
 
  3592 0338 2E       		.uleb128 0x2e
@@ -3838,7 +3838,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3646 004f 00000000 		.4byte	0
  3647              	.LLST1:
  3648 0053 00000000 		.4byte	.LVL0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 65
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 65
 
 
  3649 0057 43000000 		.4byte	.LVL7-1
@@ -3898,7 +3898,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3703 00da 9F       		.byte	0x9f
  3704 00db 00000000 		.4byte	0
  3705 00df 00000000 		.4byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 66
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 66
 
 
  3706              	.LLST4:
@@ -3958,7 +3958,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3760 0173 0200     		.2byte	0x2
  3761 0175 31       		.byte	0x31
  3762 0176 9F       		.byte	0x9f
-ARM GAS  /var/tmp//cclgCVgN.s 			page 67
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 67
 
 
  3763 0177 00000000 		.4byte	0
@@ -4018,7 +4018,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3817 0203 B0000000 		.4byte	.LFE221
  3818 0207 0400     		.2byte	0x4
  3819 0209 F3       		.byte	0xf3
-ARM GAS  /var/tmp//cclgCVgN.s 			page 68
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 68
 
 
  3820 020a 01       		.uleb128 0x1
@@ -4078,7 +4078,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3874 0295 50       		.byte	0x50
  3875 0296 00000000 		.4byte	0
  3876 029a 00000000 		.4byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 69
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 69
 
 
  3877              	.LLST34:
@@ -4138,7 +4138,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3931 0329 9F       		.byte	0x9f
  3932 032a 00000000 		.4byte	0
  3933 032e 00000000 		.4byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 70
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 70
 
 
  3934              	.LLST37:
@@ -4198,7 +4198,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  3988              	.LLST40:
  3989 03bd 14000000 		.4byte	.LVL98
  3990 03c1 20000000 		.4byte	.LVL101
-ARM GAS  /var/tmp//cclgCVgN.s 			page 71
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 71
 
 
  3991 03c5 0200     		.2byte	0x2
@@ -4258,7 +4258,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4045 0445 9F       		.byte	0x9f
  4046 0446 40000000 		.4byte	.LVL49
  4047 044a 48000000 		.4byte	.LVL51
-ARM GAS  /var/tmp//cclgCVgN.s 			page 72
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 72
 
 
  4048 044e 0200     		.2byte	0x2
@@ -4318,7 +4318,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4102 04d7 0600     		.2byte	0x6
  4103 04d9 0C       		.byte	0xc
  4104 04da 00400008 		.4byte	0x8004000
-ARM GAS  /var/tmp//cclgCVgN.s 			page 73
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 73
 
 
  4105 04de 9F       		.byte	0x9f
@@ -4378,7 +4378,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4159 056e 0100     		.2byte	0x1
  4160 0570 52       		.byte	0x52
  4161 0571 00000000 		.4byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 74
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 74
 
 
  4162 0575 00000000 		.4byte	0
@@ -4438,7 +4438,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4216 0604 00000000 		.4byte	.LVL54
  4217 0608 28000000 		.4byte	.LVL58
  4218 060c 0200     		.2byte	0x2
-ARM GAS  /var/tmp//cclgCVgN.s 			page 75
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 75
 
 
  4219 060e 30       		.byte	0x30
@@ -4498,7 +4498,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4273 0696 30       		.byte	0x30
  4274 0697 9F       		.byte	0x9f
  4275 0698 00000000 		.4byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 76
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 76
 
 
  4276 069c 00000000 		.4byte	0
@@ -4558,7 +4558,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4330 071f 9F       		.byte	0x9f
  4331 0720 AC000000 		.4byte	.LVL74
  4332 0724 E8000000 		.4byte	.LVL81
-ARM GAS  /var/tmp//cclgCVgN.s 			page 77
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 77
 
 
  4333 0728 0100     		.2byte	0x1
@@ -4618,7 +4618,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4387 07b6 07000000 		.4byte	.LVL18-1
  4388 07ba 2E000000 		.4byte	.LFE228
  4389 07be 0100     		.2byte	0x1
-ARM GAS  /var/tmp//cclgCVgN.s 			page 78
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 78
 
 
  4390 07c0 54       		.byte	0x54
@@ -4678,7 +4678,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4444 0837 808001   		.uleb128 0x4000
  4445 083a 9F       		.byte	0x9f
  4446 083b 00000000 		.4byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 79
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 79
 
 
  4447 083f 00000000 		.4byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4501 0024 20000000 		.4byte	.LBE20
  4502 0028 00000000 		.4byte	0
  4503 002c 00000000 		.4byte	0
-ARM GAS  /var/tmp//cclgCVgN.s 			page 80
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 80
 
 
  4504 0030 00000000 		.4byte	.LFB224
@@ -4798,7 +4798,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4536      6720756E 
  4536      7369676E 
  4536      65642069 
-ARM GAS  /var/tmp//cclgCVgN.s 			page 81
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 81
 
 
  4537              	.LASF168:
@@ -4858,7 +4858,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4560      524F525F 
  4560      4F504552 
  4560      4154494F 
-ARM GAS  /var/tmp//cclgCVgN.s 			page 82
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 82
 
 
  4561              	.LASF11:
@@ -4918,7 +4918,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4587              	.LASF94:
  4588 01a2 63685F73 		.ascii	"ch_system\000"
  4588      79737465 
-ARM GAS  /var/tmp//cclgCVgN.s 			page 83
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 83
 
 
  4588      6D00
@@ -4978,7 +4978,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4618 0230 636E745F 		.ascii	"cnt_t\000"
  4618      7400
  4619              	.LASF14:
-ARM GAS  /var/tmp//cclgCVgN.s 			page 84
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 84
 
 
  4620 0236 756E7369 		.ascii	"unsigned int\000"
@@ -5038,7 +5038,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4646 02c6 636F6E66 		.ascii	"conf_general_permanent_nrf_found\000"
  4646      5F67656E 
  4646      6572616C 
-ARM GAS  /var/tmp//cclgCVgN.s 			page 85
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 85
 
 
  4646      5F706572 
@@ -5098,7 +5098,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4672      53746174 
  4672      757300
  4673              	.LASF100:
-ARM GAS  /var/tmp//cclgCVgN.s 			page 86
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 86
 
 
  4674 0397 73746B61 		.ascii	"stkalign_t\000"
@@ -5158,7 +5158,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4691      696F00
  4692              	.LASF58:
  4693 0510 705F7761 		.ascii	"p_waiting\000"
-ARM GAS  /var/tmp//cclgCVgN.s 			page 87
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 87
 
 
  4693      6974696E 
@@ -5218,7 +5218,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4719 05a9 464C4153 		.ascii	"FLASH_ERROR_PROGRAM\000"
  4719      485F4552 
  4719      524F525F 
-ARM GAS  /var/tmp//cclgCVgN.s 			page 88
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 88
 
 
  4719      50524F47 
@@ -5278,7 +5278,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4747      616C7565 
  4747      00
  4748              	.LASF163:
-ARM GAS  /var/tmp//cclgCVgN.s 			page 89
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 89
 
 
  4749 0650 4F706572 		.ascii	"Operation\000"
@@ -5338,7 +5338,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4775      655F7400 
  4776              	.LASF81:
  4777 06e7 63685F76 		.ascii	"ch_virtual_timer\000"
-ARM GAS  /var/tmp//cclgCVgN.s 			page 90
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 90
 
 
  4777      69727475 
@@ -5398,7 +5398,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4802              	.LASF27:
  4803 0780 464C4153 		.ascii	"FLASH_ERROR_PGP\000"
  4803      485F4552 
-ARM GAS  /var/tmp//cclgCVgN.s 			page 91
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 91
 
 
  4803      524F525F 
@@ -5458,7 +5458,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4831      41646456 
  4831      61725461 
  4831      6200
-ARM GAS  /var/tmp//cclgCVgN.s 			page 92
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 92
 
 
  4832              	.LASF93:
@@ -5518,7 +5518,7 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4861 08af 44617461 		.ascii	"Data\000"
  4861      00
  4862              	.LASF179:
-ARM GAS  /var/tmp//cclgCVgN.s 			page 93
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 93
 
 
  4863 08b4 45455F56 		.ascii	"EE_VerifyPageFullWriteVariable\000"
@@ -5570,30 +5570,30 @@ ARM GAS  /var/tmp//cclgCVgN.s 			page 1
  4885 0943 76745F66 		.ascii	"vt_func\000"
  4885      756E6300 
  4886              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /var/tmp//cclgCVgN.s 			page 94
+ARM GAS  /var/tmp//ccsa4EU9.s 			page 94
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 eeprom.c
-/var/tmp//cclgCVgN.s:18     .text.EE_VerifyPageFullWriteVariable:0000000000000000 $t
-/var/tmp//cclgCVgN.s:25     .text.EE_VerifyPageFullWriteVariable:0000000000000000 EE_VerifyPageFullWriteVariable
-/var/tmp//cclgCVgN.s:148    .text.EE_VerifyPageFullWriteVariable:0000000000000070 $d
-/var/tmp//cclgCVgN.s:155    .text.EE_EraseSectorIfNotEmpty.constprop.1:0000000000000000 $t
-/var/tmp//cclgCVgN.s:162    .text.EE_EraseSectorIfNotEmpty.constprop.1:0000000000000000 EE_EraseSectorIfNotEmpty.constprop.1
-/var/tmp//cclgCVgN.s:216    .text.EE_Format:0000000000000000 $t
-/var/tmp//cclgCVgN.s:223    .text.EE_Format:0000000000000000 EE_Format
-/var/tmp//cclgCVgN.s:269    .text.EE_Format:0000000000000028 $d
-/var/tmp//cclgCVgN.s:275    .text.EE_ReadVariable:0000000000000000 $t
-/var/tmp//cclgCVgN.s:283    .text.EE_ReadVariable:0000000000000000 EE_ReadVariable
-/var/tmp//cclgCVgN.s:398    .text.EE_ReadVariable:0000000000000058 $d
-/var/tmp//cclgCVgN.s:408    .text.EE_Init:0000000000000000 $t
-/var/tmp//cclgCVgN.s:416    .text.EE_Init:0000000000000000 EE_Init
-/var/tmp//cclgCVgN.s:687    .text.EE_Init:000000000000013c $d
-/var/tmp//cclgCVgN.s:697    .text.EE_WriteVariable:0000000000000000 $t
-/var/tmp//cclgCVgN.s:705    .text.EE_WriteVariable:0000000000000000 EE_WriteVariable
-/var/tmp//cclgCVgN.s:863    .text.EE_WriteVariable:00000000000000a0 $d
-/var/tmp//cclgCVgN.s:878    .bss.DataVar:0000000000000000 DataVar
-/var/tmp//cclgCVgN.s:874    .bss.DataVar:0000000000000000 $d
+/var/tmp//ccsa4EU9.s:18     .text.EE_VerifyPageFullWriteVariable:0000000000000000 $t
+/var/tmp//ccsa4EU9.s:25     .text.EE_VerifyPageFullWriteVariable:0000000000000000 EE_VerifyPageFullWriteVariable
+/var/tmp//ccsa4EU9.s:148    .text.EE_VerifyPageFullWriteVariable:0000000000000070 $d
+/var/tmp//ccsa4EU9.s:155    .text.EE_EraseSectorIfNotEmpty.constprop.1:0000000000000000 $t
+/var/tmp//ccsa4EU9.s:162    .text.EE_EraseSectorIfNotEmpty.constprop.1:0000000000000000 EE_EraseSectorIfNotEmpty.constprop.1
+/var/tmp//ccsa4EU9.s:216    .text.EE_Format:0000000000000000 $t
+/var/tmp//ccsa4EU9.s:223    .text.EE_Format:0000000000000000 EE_Format
+/var/tmp//ccsa4EU9.s:269    .text.EE_Format:0000000000000028 $d
+/var/tmp//ccsa4EU9.s:275    .text.EE_ReadVariable:0000000000000000 $t
+/var/tmp//ccsa4EU9.s:283    .text.EE_ReadVariable:0000000000000000 EE_ReadVariable
+/var/tmp//ccsa4EU9.s:398    .text.EE_ReadVariable:0000000000000058 $d
+/var/tmp//ccsa4EU9.s:408    .text.EE_Init:0000000000000000 $t
+/var/tmp//ccsa4EU9.s:416    .text.EE_Init:0000000000000000 EE_Init
+/var/tmp//ccsa4EU9.s:687    .text.EE_Init:000000000000013c $d
+/var/tmp//ccsa4EU9.s:697    .text.EE_WriteVariable:0000000000000000 $t
+/var/tmp//ccsa4EU9.s:705    .text.EE_WriteVariable:0000000000000000 EE_WriteVariable
+/var/tmp//ccsa4EU9.s:863    .text.EE_WriteVariable:00000000000000a0 $d
+/var/tmp//ccsa4EU9.s:878    .bss.DataVar:0000000000000000 DataVar
+/var/tmp//ccsa4EU9.s:874    .bss.DataVar:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

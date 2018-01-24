@@ -1,4 +1,4 @@
-ARM GAS  /var/tmp//ccPrOykT.s 			page 1
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
   55              		.thumb_func
   56              		.fpu fpv4-sp-d16
   57              		.type	chCondSignal, %function
-ARM GAS  /var/tmp//ccPrOykT.s 			page 2
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 2
 
 
   58              	chCondSignal:
@@ -118,7 +118,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  112 0018 0021     		movs	r1, #0
  113 001a FFF7FEFF 		bl	chSchWakeupS
  114              	.LVL8:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 3
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 3
 
 
  115              	.L3:
@@ -178,7 +178,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  169              	.LBB108:
  170              		.loc 2 674 0
  171 0006 1A68     		ldr	r2, [r3]
-ARM GAS  /var/tmp//ccPrOykT.s 			page 4
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 4
 
 
  172 0008 0260     		str	r2, [r0]
@@ -238,7 +238,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  226              	.LBB114:
  227              		.loc 3 546 0
  228 0004 2023     		movs	r3, #32
-ARM GAS  /var/tmp//ccPrOykT.s 			page 5
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 5
 
 
  229              		.syntax unified
@@ -298,7 +298,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  283              	.L11:
  284              	.LBE116:
  285              	.LBE115:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 6
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 6
 
 
  286              		.loc 1 134 0
@@ -358,7 +358,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  340              		.loc 2 631 0
  341 0004 0068     		ldr	r0, [r0]
  342              	.LVL29:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 7
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 7
 
 
  343              	.LBE129:
@@ -418,7 +418,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  397              	.LVL35:
  398              		.loc 1 206 0
  399 0000 0F4B     		ldr	r3, .L29
-ARM GAS  /var/tmp//ccPrOykT.s 			page 8
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 8
 
 
  400              		.loc 1 205 0
@@ -478,7 +478,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  454              	.LBE136:
  455              		.loc 1 222 0
  456 002a 0720     		movs	r0, #7
-ARM GAS  /var/tmp//ccPrOykT.s 			page 9
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 9
 
 
  457              	.LBB139:
@@ -538,7 +538,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  511              		.loc 3 546 0
  512 0002 2023     		movs	r3, #32
  513              		.syntax unified
-ARM GAS  /var/tmp//ccPrOykT.s 			page 10
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 10
 
 
  514              	@ 546 "ChibiOS_3.0.2/os/ext/CMSIS/include/core_cmFunc.h" 1
@@ -598,7 +598,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  568              		.cfi_def_cfa_offset 24
  569              		.cfi_offset 3, -24
  570              		.cfi_offset 4, -20
-ARM GAS  /var/tmp//ccPrOykT.s 			page 11
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 11
 
 
  571              		.cfi_offset 5, -16
@@ -658,7 +658,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  625              		.loc 2 658 0
  626 0028 5A68     		ldr	r2, [r3, #4]
  627 002a 6260     		str	r2, [r4, #4]
-ARM GAS  /var/tmp//ccPrOykT.s 			page 12
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 12
 
 
  628              		.loc 2 657 0
@@ -718,7 +718,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  682              		.thumb_func
  683              		.fpu fpv4-sp-d16
  684              		.type	chCondWaitTimeout, %function
-ARM GAS  /var/tmp//ccPrOykT.s 			page 13
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 13
 
 
  685              	chCondWaitTimeout:
@@ -778,7 +778,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  739              		.size	chCondWaitTimeout, .-chCondWaitTimeout
  740              		.text
  741              	.Letext0:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 14
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 14
 
 
  742              		.file 6 "/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_defa
@@ -838,7 +838,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  796 0058 06       		.byte	0x6
  797 0059 39       		.byte	0x39
  798 005a 5E000000 		.4byte	0x5e
-ARM GAS  /var/tmp//ccPrOykT.s 			page 15
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 15
 
 
  799 005e 03       		.uleb128 0x3
@@ -898,7 +898,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  853 00cd 07       		.byte	0x7
  854 00ce 30       		.byte	0x30
  855 00cf 77000000 		.4byte	0x77
-ARM GAS  /var/tmp//ccPrOykT.s 			page 16
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 16
 
 
  856 00d3 04       		.uleb128 0x4
@@ -958,7 +958,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  910 0148 C8000000 		.4byte	0xc8
  911 014c 05       		.uleb128 0x5
  912 014d 41010000 		.4byte	0x141
-ARM GAS  /var/tmp//ccPrOykT.s 			page 17
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 17
 
 
  913 0151 04       		.uleb128 0x4
@@ -1018,7 +1018,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  967 01bd DA050000 		.4byte	.LASF37
  968 01c1 02       		.byte	0x2
  969 01c2 DD       		.byte	0xdd
-ARM GAS  /var/tmp//ccPrOykT.s 			page 18
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 18
 
 
  970 01c3 F4000000 		.4byte	0xf4
@@ -1078,7 +1078,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1024 0234 2B010000 		.4byte	0x12b
  1025 0238 38       		.byte	0x38
  1026 0239 09       		.uleb128 0x9
-ARM GAS  /var/tmp//ccPrOykT.s 			page 19
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 19
 
 
  1027 023a C6050000 		.4byte	.LASF46
@@ -1138,7 +1138,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1081 02ac 02       		.byte	0x2
  1082 02ad B7       		.byte	0xb7
  1083 02ae CB020000 		.4byte	0x2cb
-ARM GAS  /var/tmp//ccPrOykT.s 			page 20
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 20
 
 
  1084 02b2 07       		.uleb128 0x7
@@ -1198,7 +1198,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1138 0324 09       		.uleb128 0x9
  1139 0325 3D050000 		.4byte	.LASF62
  1140 0329 02       		.byte	0x2
-ARM GAS  /var/tmp//ccPrOykT.s 			page 21
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 21
 
 
  1141 032a 9B01     		.2byte	0x19b
@@ -1258,7 +1258,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1195 039c 09       		.uleb128 0x9
  1196 039d 9C070000 		.4byte	.LASF70
  1197 03a1 02       		.byte	0x2
-ARM GAS  /var/tmp//ccPrOykT.s 			page 22
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 22
 
 
  1198 03a2 7101     		.2byte	0x171
@@ -1318,7 +1318,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1252 0415 AA01     		.2byte	0x1aa
  1253 0417 03070000 		.4byte	0x703
  1254 041b 00       		.byte	0
-ARM GAS  /var/tmp//ccPrOykT.s 			page 23
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 23
 
 
  1255 041c 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1309 048c D9000000 		.4byte	.LASF84
  1310 0490 0A       		.byte	0xa
  1311 0491 A706     		.2byte	0x6a7
-ARM GAS  /var/tmp//ccPrOykT.s 			page 24
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 24
 
 
  1312 0493 C3000000 		.4byte	0xc3
@@ -1438,7 +1438,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1366 0502 73313900 		.ascii	"s19\000"
  1367 0506 0D       		.byte	0xd
  1368 0507 F9       		.byte	0xf9
-ARM GAS  /var/tmp//ccPrOykT.s 			page 25
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 25
 
 
  1369 0508 A2040000 		.4byte	0x4a2
@@ -1498,7 +1498,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1423 0577 A2040000 		.4byte	0x4a2
  1424 057b 30       		.byte	0x30
  1425 057c 08       		.uleb128 0x8
-ARM GAS  /var/tmp//ccPrOykT.s 			page 26
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 26
 
 
  1426 057d 73323900 		.ascii	"s29\000"
@@ -1558,7 +1558,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1480 05ec 72313000 		.ascii	"r10\000"
  1481 05f0 0D       		.byte	0xd
  1482 05f1 0D01     		.2byte	0x10d
-ARM GAS  /var/tmp//ccPrOykT.s 			page 27
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 27
 
 
  1483 05f3 A2040000 		.4byte	0x4a2
@@ -1618,7 +1618,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1537 0660 4E030000 		.4byte	0x34e
  1538 0664 16       		.uleb128 0x16
  1539 0665 29000000 		.4byte	.LASF95
-ARM GAS  /var/tmp//ccPrOykT.s 			page 28
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 28
 
 
  1540 0669 02       		.byte	0x2
@@ -1678,7 +1678,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1594 06d9 96020000 		.4byte	0x296
  1595 06dd 00       		.byte	0
  1596 06de 07       		.uleb128 0x7
-ARM GAS  /var/tmp//ccPrOykT.s 			page 29
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 29
 
 
  1597 06df 6A080000 		.4byte	.LASF104
@@ -1738,7 +1738,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1651 074e 10       		.byte	0x10
  1652 074f 36       		.byte	0x36
  1653 0750 A2000000 		.4byte	0xa2
-ARM GAS  /var/tmp//ccPrOykT.s 			page 30
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 30
 
 
  1654 0754 04       		.byte	0x4
@@ -1798,7 +1798,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1708 07c0 0E       		.byte	0xe
  1709 07c1 07       		.uleb128 0x7
  1710 07c2 00050000 		.4byte	.LASF118
-ARM GAS  /var/tmp//ccPrOykT.s 			page 31
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 31
 
 
  1711 07c6 10       		.byte	0x10
@@ -1858,7 +1858,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1765 0832 26080000 		.4byte	0x826
  1766 0836 12       		.uleb128 0x12
  1767 0837 BD020000 		.4byte	.LASF126
-ARM GAS  /var/tmp//ccPrOykT.s 			page 32
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 32
 
 
  1768 083b 10       		.byte	0x10
@@ -1918,7 +1918,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1822 08b4 2901     		.2byte	0x129
  1823 08b6 4C080000 		.4byte	0x84c
  1824 08ba 1E       		.uleb128 0x1e
-ARM GAS  /var/tmp//ccPrOykT.s 			page 33
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 33
 
 
  1825 08bb 6D736700 		.ascii	"msg\000"
@@ -1978,7 +1978,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1879 0942 3A000000 		.4byte	.LVL60
  1880 0946 48110000 		.4byte	0x1148
  1881 094a 5A090000 		.4byte	0x95a
-ARM GAS  /var/tmp//ccPrOykT.s 			page 34
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 34
 
 
  1882 094e 27       		.uleb128 0x27
@@ -2038,7 +2038,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1936 09b5 0201     		.2byte	0x102
  1937 09b7 41010000 		.4byte	0x141
  1938 09bb DB000000 		.4byte	.LLST37
-ARM GAS  /var/tmp//ccPrOykT.s 			page 35
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 35
 
 
  1939 09bf 29       		.uleb128 0x29
@@ -2098,7 +2098,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  1993 0a4c 0D       		.byte	0xd
  1994 0a4d CD01     		.2byte	0x1cd
  1995 0a4f 23       		.uleb128 0x23
-ARM GAS  /var/tmp//ccPrOykT.s 			page 36
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 36
 
 
  1996 0a50 B8100000 		.4byte	0x10b8
@@ -2158,7 +2158,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2050 0aba 01       		.byte	0x1
  2051 0abb D0       		.byte	0xd0
  2052 0abc 20010000 		.4byte	0x120
-ARM GAS  /var/tmp//ccPrOykT.s 			page 37
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 37
 
 
  2053 0ac0 64010000 		.4byte	.LLST23
@@ -2218,7 +2218,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2107 0b41 27       		.uleb128 0x27
  2108 0b42 01       		.uleb128 0x1
  2109 0b43 50       		.byte	0x50
-ARM GAS  /var/tmp//ccPrOykT.s 			page 38
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 38
 
 
  2110 0b44 02       		.uleb128 0x2
@@ -2278,7 +2278,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2164 0bc2 0D       		.byte	0xd
  2165 0bc3 BF01     		.2byte	0x1bf
  2166 0bc5 23       		.uleb128 0x23
-ARM GAS  /var/tmp//ccPrOykT.s 			page 39
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 39
 
 
  2167 0bc6 B8100000 		.4byte	0x10b8
@@ -2338,7 +2338,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2221 0c3d 35       		.uleb128 0x35
  2222 0c3e 637000   		.ascii	"cp\000"
  2223 0c41 01       		.byte	0x1
-ARM GAS  /var/tmp//ccPrOykT.s 			page 40
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 40
 
 
  2224 0c42 95       		.byte	0x95
@@ -2398,7 +2398,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2278 0cca 00       		.byte	0
  2279 0ccb 00       		.byte	0
  2280 0ccc 33       		.uleb128 0x33
-ARM GAS  /var/tmp//ccPrOykT.s 			page 41
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 41
 
 
  2281 0ccd 310C0000 		.4byte	0xc31
@@ -2458,7 +2458,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2335 0d5d 2B       		.uleb128 0x2b
  2336 0d5e 2C000000 		.4byte	.LBB124
  2337 0d62 06000000 		.4byte	.LBE124-.LBB124
-ARM GAS  /var/tmp//ccPrOykT.s 			page 42
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 42
 
 
  2338 0d66 2C       		.uleb128 0x2c
@@ -2518,7 +2518,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2392 0dea 06000000 		.4byte	.LBB107
  2393 0dee 00000000 		.4byte	.Ldebug_ranges0+0
  2394 0df2 01       		.byte	0x1
-ARM GAS  /var/tmp//ccPrOykT.s 			page 43
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 43
 
 
  2395 0df3 75       		.byte	0x75
@@ -2578,7 +2578,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2449 0e76 33       		.uleb128 0x33
  2450 0e77 EC0F0000 		.4byte	0xfec
  2451 0e7b 02000000 		.4byte	.LBB91
-ARM GAS  /var/tmp//ccPrOykT.s 			page 44
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 44
 
 
  2452 0e7f 06000000 		.4byte	.LBE91-.LBB91
@@ -2638,7 +2638,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2506 0f0b 08000000 		.4byte	.LBE99-.LBB99
  2507 0f0f 01       		.byte	0x1
  2508 0f10 61       		.byte	0x61
-ARM GAS  /var/tmp//ccPrOykT.s 			page 45
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 45
 
 
  2509 0f11 500F0000 		.4byte	0xf50
@@ -2698,7 +2698,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2563 0f8b 637000   		.ascii	"cp\000"
  2564 0f8e 01       		.byte	0x1
  2565 0f8f 4B       		.byte	0x4b
-ARM GAS  /var/tmp//ccPrOykT.s 			page 46
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 46
 
 
  2566 0f90 6B090000 		.4byte	0x96b
@@ -2758,7 +2758,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2620 100b 02       		.byte	0x2
  2621 100c 9F02     		.2byte	0x29f
  2622 100e 1E100000 		.4byte	0x101e
-ARM GAS  /var/tmp//ccPrOykT.s 			page 47
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 47
 
 
  2623 1012 1D       		.uleb128 0x1d
@@ -2818,7 +2818,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2677 1085 5A02     		.2byte	0x25a
  2678 1087 03       		.byte	0x3
  2679 1088 99100000 		.4byte	0x1099
-ARM GAS  /var/tmp//ccPrOykT.s 			page 48
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 48
 
 
  2680 108c 42       		.uleb128 0x42
@@ -2878,7 +2878,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2734 110c 06000000 		.4byte	.LBE131-.LBB131
  2735 1110 01       		.byte	0x1
  2736 1111 9E       		.byte	0x9e
-ARM GAS  /var/tmp//ccPrOykT.s 			page 49
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 49
 
 
  2737 1112 33110000 		.4byte	0x1133
@@ -2938,7 +2938,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2791 0000 01       		.uleb128 0x1
  2792 0001 11       		.uleb128 0x11
  2793 0002 01       		.byte	0x1
-ARM GAS  /var/tmp//ccPrOykT.s 			page 50
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 50
 
 
  2794 0003 25       		.uleb128 0x25
@@ -2998,7 +2998,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2848 0039 49       		.uleb128 0x49
  2849 003a 13       		.uleb128 0x13
  2850 003b 00       		.byte	0
-ARM GAS  /var/tmp//ccPrOykT.s 			page 51
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 51
 
 
  2851 003c 00       		.byte	0
@@ -3058,7 +3058,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2905 0072 05       		.uleb128 0x5
  2906 0073 49       		.uleb128 0x49
  2907 0074 13       		.uleb128 0x13
-ARM GAS  /var/tmp//ccPrOykT.s 			page 52
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 52
 
 
  2908 0075 38       		.uleb128 0x38
@@ -3118,7 +3118,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  2962 00ab 0B       		.uleb128 0xb
  2963 00ac 0B       		.uleb128 0xb
  2964 00ad 00       		.byte	0
-ARM GAS  /var/tmp//ccPrOykT.s 			page 53
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 53
 
 
  2965 00ae 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3019 00e4 08       		.uleb128 0x8
  3020 00e5 3A       		.uleb128 0x3a
  3021 00e6 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//ccPrOykT.s 			page 54
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 54
 
 
  3022 00e7 3B       		.uleb128 0x3b
@@ -3238,7 +3238,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3076 011d 00       		.byte	0
  3077 011e 00       		.byte	0
  3078 011f 18       		.uleb128 0x18
-ARM GAS  /var/tmp//ccPrOykT.s 			page 55
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 55
 
 
  3079 0120 21       		.uleb128 0x21
@@ -3298,7 +3298,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3133 0157 00       		.byte	0
  3134 0158 03       		.uleb128 0x3
  3135 0159 08       		.uleb128 0x8
-ARM GAS  /var/tmp//ccPrOykT.s 			page 56
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 56
 
 
  3136 015a 3A       		.uleb128 0x3a
@@ -3358,7 +3358,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3190 0190 34       		.uleb128 0x34
  3191 0191 00       		.byte	0
  3192 0192 03       		.uleb128 0x3
-ARM GAS  /var/tmp//ccPrOykT.s 			page 57
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 57
 
 
  3193 0193 0E       		.uleb128 0xe
@@ -3418,7 +3418,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3247 01c9 00       		.byte	0
  3248 01ca 00       		.byte	0
  3249 01cb 23       		.uleb128 0x23
-ARM GAS  /var/tmp//ccPrOykT.s 			page 58
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 58
 
 
  3250 01cc 05       		.uleb128 0x5
@@ -3478,7 +3478,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3304 0209 34       		.uleb128 0x34
  3305 020a 00       		.byte	0
  3306 020b 03       		.uleb128 0x3
-ARM GAS  /var/tmp//ccPrOykT.s 			page 59
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 59
 
 
  3307 020c 08       		.uleb128 0x8
@@ -3538,7 +3538,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3361 0242 19       		.uleb128 0x19
  3362 0243 49       		.uleb128 0x49
  3363 0244 13       		.uleb128 0x13
-ARM GAS  /var/tmp//ccPrOykT.s 			page 60
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 60
 
 
  3364 0245 11       		.uleb128 0x11
@@ -3598,7 +3598,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3418 027c 00       		.byte	0
  3419 027d 31       		.uleb128 0x31
  3420 027e 1D       		.uleb128 0x1d
-ARM GAS  /var/tmp//ccPrOykT.s 			page 61
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 61
 
 
  3421 027f 01       		.byte	0x1
@@ -3658,7 +3658,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3475 02b5 3A       		.uleb128 0x3a
  3476 02b6 0B       		.uleb128 0xb
  3477 02b7 3B       		.uleb128 0x3b
-ARM GAS  /var/tmp//ccPrOykT.s 			page 62
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 62
 
 
  3478 02b8 0B       		.uleb128 0xb
@@ -3718,7 +3718,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3532 02ee 9742     		.uleb128 0x2117
  3533 02f0 19       		.uleb128 0x19
  3534 02f1 01       		.uleb128 0x1
-ARM GAS  /var/tmp//ccPrOykT.s 			page 63
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 63
 
 
  3535 02f2 13       		.uleb128 0x13
@@ -3778,7 +3778,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3589 032d 00       		.byte	0
  3590 032e 00       		.byte	0
  3591 032f 3D       		.uleb128 0x3d
-ARM GAS  /var/tmp//ccPrOykT.s 			page 64
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 64
 
 
  3592 0330 05       		.uleb128 0x5
@@ -3838,7 +3838,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3646 0366 0B       		.uleb128 0xb
  3647 0367 3B       		.uleb128 0x3b
  3648 0368 05       		.uleb128 0x5
-ARM GAS  /var/tmp//ccPrOykT.s 			page 65
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 65
 
 
  3649 0369 27       		.uleb128 0x27
@@ -3898,7 +3898,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3703 039f 31       		.uleb128 0x31
  3704 03a0 13       		.uleb128 0x13
  3705 03a1 11       		.uleb128 0x11
-ARM GAS  /var/tmp//ccPrOykT.s 			page 66
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 66
 
 
  3706 03a2 01       		.uleb128 0x1
@@ -3958,7 +3958,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3760 000f 4A000000 		.4byte	.LVL64
  3761 0013 0100     		.2byte	0x1
  3762 0015 55       		.byte	0x55
-ARM GAS  /var/tmp//ccPrOykT.s 			page 67
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 67
 
 
  3763 0016 4A000000 		.4byte	.LVL64
@@ -4018,7 +4018,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3817 009f 00000000 		.4byte	0
  3818 00a3 00000000 		.4byte	0
  3819              	.LLST35:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 68
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 68
 
 
  3820 00a7 1A000000 		.4byte	.LVL56
@@ -4078,7 +4078,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3874 012d 0100     		.2byte	0x1
  3875 012f 50       		.byte	0x50
  3876 0130 0C000000 		.4byte	.LVL37
-ARM GAS  /var/tmp//ccPrOykT.s 			page 69
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 69
 
 
  3877 0134 40000000 		.4byte	.LVL47
@@ -4138,7 +4138,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3931 01c3 0100     		.2byte	0x1
  3932 01c5 50       		.byte	0x50
  3933 01c6 0B000000 		.4byte	.LVL50-1
-ARM GAS  /var/tmp//ccPrOykT.s 			page 70
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 70
 
 
  3934 01ca 14000000 		.4byte	.LFE224
@@ -4198,7 +4198,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  3988 024e 00000000 		.4byte	0
  3989 0252 00000000 		.4byte	0
  3990              	.LLST14:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 71
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 71
 
 
  3991 0256 16000000 		.4byte	.LVL20
@@ -4258,7 +4258,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4045 02e3 0100     		.2byte	0x1
  4046 02e5 53       		.byte	0x53
  4047 02e6 00000000 		.4byte	0
-ARM GAS  /var/tmp//ccPrOykT.s 			page 72
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 72
 
 
  4048 02ea 00000000 		.4byte	0
@@ -4318,7 +4318,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4102 0373 00000000 		.4byte	0
  4103 0377 00000000 		.4byte	0
  4104              	.LLST6:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 73
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 73
 
 
  4105 037b 1E000000 		.4byte	.LVL8
@@ -4378,7 +4378,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4159 000a 04       		.byte	0x4
  4160 000b 00       		.byte	0
  4161 000c 0000     		.2byte	0
-ARM GAS  /var/tmp//ccPrOykT.s 			page 74
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 74
 
 
  4162 000e 0000     		.2byte	0
@@ -4438,7 +4438,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4216 007c 00000000 		.4byte	0
  4217 0080 00000000 		.4byte	.LFB219
  4218 0084 06000000 		.4byte	.LFE219
-ARM GAS  /var/tmp//ccPrOykT.s 			page 75
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 75
 
 
  4219 0088 00000000 		.4byte	.LFB220
@@ -4498,7 +4498,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4254              	.LASF89:
  4255 0049 706F7274 		.ascii	"port_intctx\000"
  4255      5F696E74 
-ARM GAS  /var/tmp//ccPrOykT.s 			page 76
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 76
 
 
  4255      63747800 
@@ -4558,7 +4558,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4277      322F6F73 
  4277      2F72742F 
  4278              	.LASF54:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 77
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 77
 
 
  4279 0107 63685F74 		.ascii	"ch_threads_queue\000"
@@ -4618,7 +4618,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4303      7400
  4304              	.LASF78:
  4305 01a5 63685F73 		.ascii	"ch_system\000"
-ARM GAS  /var/tmp//ccPrOykT.s 			page 78
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 78
 
 
  4305      79737465 
@@ -4678,7 +4678,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4333 0238 76616C75 		.ascii	"value\000"
  4333      6500
  4334              	.LASF139:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 79
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 79
 
 
  4335 023e 6368436F 		.ascii	"chCondSignal\000"
@@ -4738,7 +4738,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4361      7400
  4362              	.LASF6:
  4363 02cc 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  /var/tmp//ccPrOykT.s 			page 80
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 80
 
 
  4363      7420756E 
@@ -4798,7 +4798,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4385 03ca 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
  4385      2D6D6670 
  4385      753D6670 
-ARM GAS  /var/tmp//ccPrOykT.s 			page 81
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 81
 
 
  4385      76342D73 
@@ -4858,7 +4858,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4406 04f4 63685F74 		.ascii	"ch_timesize\000"
  4406      696D6573 
  4406      697A6500 
-ARM GAS  /var/tmp//ccPrOykT.s 			page 82
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 82
 
 
  4407              	.LASF118:
@@ -4918,7 +4918,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4436 058d 705F7072 		.ascii	"p_prev\000"
  4436      657600
  4437              	.LASF24:
-ARM GAS  /var/tmp//ccPrOykT.s 			page 83
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 83
 
 
  4438 0594 74707269 		.ascii	"tprio_t\000"
@@ -4978,7 +4978,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4468 0620 5F5F6675 		.ascii	"__func__\000"
  4468      6E635F5F 
  4468      00
-ARM GAS  /var/tmp//ccPrOykT.s 			page 84
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 84
 
 
  4469              	.LASF150:
@@ -5038,7 +5038,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4492      64794900 
  4493              	.LASF52:
  4494 06c3 63685F74 		.ascii	"ch_threads_list\000"
-ARM GAS  /var/tmp//ccPrOykT.s 			page 85
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 85
 
 
  4494      68726561 
@@ -5098,7 +5098,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4518      4900
  4519              	.LASF76:
  4520 075e 70616E69 		.ascii	"panic_msg\000"
-ARM GAS  /var/tmp//ccPrOykT.s 			page 86
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 86
 
 
  4520      635F6D73 
@@ -5158,7 +5158,7 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4550      65666572 
  4550      656E6365 
  4550      5F7400
-ARM GAS  /var/tmp//ccPrOykT.s 			page 87
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 87
 
 
  4551              	.LASF94:
@@ -5213,31 +5213,31 @@ ARM GAS  /var/tmp//ccPrOykT.s 			page 1
  4574 0880 76745F66 		.ascii	"vt_func\000"
  4574      756E6300 
  4575              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /var/tmp//ccPrOykT.s 			page 88
+ARM GAS  /var/tmp//ccGbfAGO.s 			page 88
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chcond.c
-/var/tmp//ccPrOykT.s:18     .text.chCondObjectInit:0000000000000000 $t
-/var/tmp//ccPrOykT.s:26     .text.chCondObjectInit:0000000000000000 chCondObjectInit
-/var/tmp//ccPrOykT.s:50     .text.chCondSignal:0000000000000000 $t
-/var/tmp//ccPrOykT.s:58     .text.chCondSignal:0000000000000000 chCondSignal
-/var/tmp//ccPrOykT.s:140    .text.chCondSignalI:0000000000000000 $t
-/var/tmp//ccPrOykT.s:148    .text.chCondSignalI:0000000000000000 chCondSignalI
-/var/tmp//ccPrOykT.s:200    .text.chCondBroadcast:0000000000000000 $t
-/var/tmp//ccPrOykT.s:208    .text.chCondBroadcast:0000000000000000 chCondBroadcast
-/var/tmp//ccPrOykT.s:314    .text.chCondBroadcastI:0000000000000000 $t
-/var/tmp//ccPrOykT.s:322    .text.chCondBroadcastI:0000000000000000 chCondBroadcastI
-/var/tmp//ccPrOykT.s:383    .text.chCondWaitS:0000000000000000 $t
-/var/tmp//ccPrOykT.s:391    .text.chCondWaitS:0000000000000000 chCondWaitS
-/var/tmp//ccPrOykT.s:483    .text.chCondWaitS:0000000000000040 $d
-/var/tmp//ccPrOykT.s:488    .text.chCondWait:0000000000000000 $t
-/var/tmp//ccPrOykT.s:496    .text.chCondWait:0000000000000000 chCondWait
-/var/tmp//ccPrOykT.s:552    .text.chCondWaitTimeoutS:0000000000000000 $t
-/var/tmp//ccPrOykT.s:560    .text.chCondWaitTimeoutS:0000000000000000 chCondWaitTimeoutS
-/var/tmp//ccPrOykT.s:672    .text.chCondWaitTimeoutS:000000000000004c $d
-/var/tmp//ccPrOykT.s:677    .text.chCondWaitTimeout:0000000000000000 $t
-/var/tmp//ccPrOykT.s:685    .text.chCondWaitTimeout:0000000000000000 chCondWaitTimeout
+/var/tmp//ccGbfAGO.s:18     .text.chCondObjectInit:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:26     .text.chCondObjectInit:0000000000000000 chCondObjectInit
+/var/tmp//ccGbfAGO.s:50     .text.chCondSignal:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:58     .text.chCondSignal:0000000000000000 chCondSignal
+/var/tmp//ccGbfAGO.s:140    .text.chCondSignalI:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:148    .text.chCondSignalI:0000000000000000 chCondSignalI
+/var/tmp//ccGbfAGO.s:200    .text.chCondBroadcast:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:208    .text.chCondBroadcast:0000000000000000 chCondBroadcast
+/var/tmp//ccGbfAGO.s:314    .text.chCondBroadcastI:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:322    .text.chCondBroadcastI:0000000000000000 chCondBroadcastI
+/var/tmp//ccGbfAGO.s:383    .text.chCondWaitS:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:391    .text.chCondWaitS:0000000000000000 chCondWaitS
+/var/tmp//ccGbfAGO.s:483    .text.chCondWaitS:0000000000000040 $d
+/var/tmp//ccGbfAGO.s:488    .text.chCondWait:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:496    .text.chCondWait:0000000000000000 chCondWait
+/var/tmp//ccGbfAGO.s:552    .text.chCondWaitTimeoutS:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:560    .text.chCondWaitTimeoutS:0000000000000000 chCondWaitTimeoutS
+/var/tmp//ccGbfAGO.s:672    .text.chCondWaitTimeoutS:000000000000004c $d
+/var/tmp//ccGbfAGO.s:677    .text.chCondWaitTimeout:0000000000000000 $t
+/var/tmp//ccGbfAGO.s:685    .text.chCondWaitTimeout:0000000000000000 chCondWaitTimeout
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

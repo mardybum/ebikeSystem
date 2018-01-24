@@ -1,4 +1,4 @@
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
+ARM GAS  /var/tmp//cc59njq4.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
   55 0006 037F     		ldrb	r3, [r0, #28]	@ zero_extendqisi2
   56 0008 072B     		cmp	r3, #7
   57 000a 0ED8     		bhi	.L2
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 2
+ARM GAS  /var/tmp//cc59njq4.s 			page 2
 
 
   58 000c DFE803F0 		tbb	[pc, r3]
@@ -118,7 +118,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  112              	.LBB142:
  113              	.LBB143:
  114              		.loc 1 228 0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 3
+ARM GAS  /var/tmp//cc59njq4.s 			page 3
 
 
  115 0034 0C4B     		ldr	r3, .L15
@@ -178,7 +178,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  169              	.LBE156:
  170              	.LBB157:
  171              	.LBB155:
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 4
+ARM GAS  /var/tmp//cc59njq4.s 			page 4
 
 
  172              	.LBB154:
@@ -238,7 +238,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  226              	.LBE163:
  227              	.LBE162:
  228              	.LBE161:
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 5
+ARM GAS  /var/tmp//cc59njq4.s 			page 5
 
 
  229              		.cfi_endproc
@@ -298,7 +298,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  283              		.global	chSchReadyI
  284              		.syntax unified
  285              		.thumb
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 6
+ARM GAS  /var/tmp//cc59njq4.s 			page 6
 
 
  286              		.thumb_func
@@ -358,7 +358,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  340 0028 00000000 		.word	.LANCHOR0
  341              		.cfi_endproc
  342              	.LFE220:
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 7
+ARM GAS  /var/tmp//cc59njq4.s 			page 7
 
 
  343              		.size	chSchReadyI, .-chSchReadyI
@@ -418,7 +418,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  397              	.LBE175:
  398              		.loc 1 268 0
  399 0016 1477     		strb	r4, [r2, #28]
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 8
+ARM GAS  /var/tmp//cc59njq4.s 			page 8
 
 
  400              		.loc 1 269 0
@@ -478,7 +478,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  454 0012 FFF7FEFF 		bl	chVTDoSetI
  455              	.LVL28:
  456              		.loc 1 338 0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 9
+ARM GAS  /var/tmp//cc59njq4.s 			page 9
 
 
  457 0016 2846     		mov	r0, r5
@@ -538,7 +538,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  511              	chSchWakeupS:
  512              	.LFB224:
  513              		.loc 1 367 0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 10
+ARM GAS  /var/tmp//cc59njq4.s 			page 10
 
 
  514              		.cfi_startproc
@@ -598,7 +598,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  568              	.LVL40:
  569              		.loc 1 236 0
  570 0028 5C60     		str	r4, [r3, #4]
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 11
+ARM GAS  /var/tmp//cc59njq4.s 			page 11
 
 
  571              	.LBE179:
@@ -658,7 +658,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  625              		.loc 1 384 0
  626 004c 9C61     		str	r4, [r3, #24]
  627              	.LBE181:
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 12
+ARM GAS  /var/tmp//cc59njq4.s 			page 12
 
 
  628              		.loc 1 393 0
@@ -718,7 +718,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  682 0012 0020     		movcc	r0, #0
  683              	.LVL51:
  684 0014 0120     		movcs	r0, #1
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 13
+ARM GAS  /var/tmp//cc59njq4.s 			page 13
 
 
  685              		.loc 1 439 0 is_stmt 1 discriminator 2
@@ -778,7 +778,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  739              	.LBE192:
  740              		.loc 1 454 0
  741 0008 9469     		ldr	r4, [r2, #24]
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 14
+ARM GAS  /var/tmp//cc59njq4.s 			page 14
 
 
  742              	.LVL54:
@@ -838,7 +838,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  796              		.loc 1 467 0
  797 002e 2146     		mov	r1, r4
  798              	.LBB200:
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 15
+ARM GAS  /var/tmp//cc59njq4.s 			page 15
 
 
  799              	.LBB197:
@@ -898,7 +898,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  853              		.cfi_offset 5, -8
  854              		.cfi_offset 6, -4
  855              	.LBB206:
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 16
+ARM GAS  /var/tmp//cc59njq4.s 			page 16
 
 
  856              	.LBB203:
@@ -958,7 +958,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  910              		.loc 1 504 0
  911 0030 70BC     		pop	{r4, r5, r6}
  912              		.cfi_restore 6
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 17
+ARM GAS  /var/tmp//cc59njq4.s 			page 17
 
 
  913              		.cfi_restore 5
@@ -1018,7 +1018,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  967              		.size	chSchRescheduleS, .-chSchRescheduleS
  968              		.section	.text.chSchDoReschedule,"ax",%progbits
  969              		.align	1
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 18
+ARM GAS  /var/tmp//cc59njq4.s 			page 18
 
 
  970              		.p2align 4,,15
@@ -1078,7 +1078,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1020              		.file 12 "ChibiOS_3.0.2/os/rt/ports/ARMCMx/chcore.h"
  1021              		.file 13 "ChibiOS_3.0.2/os/rt/ports/ARMCMx/chcore_v7m.h"
  1022              		.file 14 "ChibiOS_3.0.2/os/rt/include/chtm.h"
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 19
+ARM GAS  /var/tmp//cc59njq4.s 			page 19
 
 
  1023              		.file 15 "ChibiOS_3.0.2/os/rt/include/chmtx.h"
@@ -1138,7 +1138,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1077 006a 02       		.byte	0x2
  1078 006b 07       		.byte	0x7
  1079 006c D4020000 		.4byte	.LASF7
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 20
+ARM GAS  /var/tmp//cc59njq4.s 			page 20
 
 
  1080 0070 03       		.uleb128 0x3
@@ -1198,7 +1198,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1134 00df 28000000 		.4byte	.LASF19
  1135 00e3 07       		.byte	0x7
  1136 00e4 3C       		.byte	0x3c
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 21
+ARM GAS  /var/tmp//cc59njq4.s 			page 21
 
 
  1137 00e5 9B000000 		.4byte	0x9b
@@ -1258,7 +1258,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1191 015d 44070000 		.4byte	.LASF30
  1192 0161 09       		.byte	0x9
  1193 0162 3F       		.byte	0x3f
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 22
+ARM GAS  /var/tmp//cc59njq4.s 			page 22
 
 
  1194 0163 67010000 		.4byte	0x167
@@ -1318,7 +1318,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1248 01d2 1C       		.byte	0x1c
  1249 01d3 07       		.uleb128 0x7
  1250 01d4 26060000 		.4byte	.LASF39
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 23
+ARM GAS  /var/tmp//cc59njq4.s 			page 23
 
 
  1251 01d8 04       		.byte	0x4
@@ -1378,7 +1378,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1305 0249 04       		.byte	0x4
  1306 024a 4D01     		.2byte	0x14d
  1307 024c FD060000 		.4byte	0x6fd
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 24
+ARM GAS  /var/tmp//cc59njq4.s 			page 24
 
 
  1308 0250 3C       		.byte	0x3c
@@ -1438,7 +1438,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1362 02be B8       		.byte	0xb8
  1363 02bf 77020000 		.4byte	0x277
  1364 02c3 00       		.byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 25
+ARM GAS  /var/tmp//cc59njq4.s 			page 25
 
 
  1365 02c4 07       		.uleb128 0x7
@@ -1498,7 +1498,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1419 0337 00       		.byte	0
  1420 0338 03       		.uleb128 0x3
  1421 0339 74070000 		.4byte	.LASF64
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 26
+ARM GAS  /var/tmp//cc59njq4.s 			page 26
 
 
  1422 033d 09       		.byte	0x9
@@ -1558,7 +1558,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1476 03af 00       		.byte	0
  1477 03b0 03       		.uleb128 0x3
  1478 03b1 DE000000 		.4byte	.LASF72
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 27
+ARM GAS  /var/tmp//cc59njq4.s 			page 27
 
 
  1479 03b5 09       		.byte	0x9
@@ -1618,7 +1618,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1533 0428 09       		.byte	0x9
  1534 0429 70       		.byte	0x70
  1535 042a 2E040000 		.4byte	0x42e
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 28
+ARM GAS  /var/tmp//cc59njq4.s 			page 28
 
 
  1536 042e 0F       		.uleb128 0xf
@@ -1678,7 +1678,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1590 04a2 0B       		.byte	0xb
  1591 04a3 4C       		.byte	0x4c
  1592 04a4 D3000000 		.4byte	0xd3
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 29
+ARM GAS  /var/tmp//cc59njq4.s 			page 29
 
 
  1593 04a8 03       		.uleb128 0x3
@@ -1738,7 +1738,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1647 0514 73323000 		.ascii	"s20\000"
  1648 0518 0D       		.byte	0xd
  1649 0519 FA       		.byte	0xfa
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 30
+ARM GAS  /var/tmp//cc59njq4.s 			page 30
 
 
  1650 051a A8040000 		.4byte	0x4a8
@@ -1798,7 +1798,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1704 058a A8040000 		.4byte	0x4a8
  1705 058e 34       		.byte	0x34
  1706 058f 08       		.uleb128 0x8
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 31
+ARM GAS  /var/tmp//cc59njq4.s 			page 31
 
 
  1707 0590 73333000 		.ascii	"s30\000"
@@ -1858,7 +1858,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1761 05ff 72313100 		.ascii	"r11\000"
  1762 0603 0D       		.byte	0xd
  1763 0604 0E01     		.2byte	0x10e
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 32
+ARM GAS  /var/tmp//cc59njq4.s 			page 32
 
 
  1764 0606 A8040000 		.4byte	0x4a8
@@ -1918,7 +1918,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1818 0676 15       		.uleb128 0x15
  1819 0677 8F020000 		.4byte	.LASF97
  1820 067b 04       		.byte	0x4
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 33
+ARM GAS  /var/tmp//cc59njq4.s 			page 33
 
 
  1821 067c 1E01     		.2byte	0x11e
@@ -1978,7 +1978,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1875 06eb 77020000 		.4byte	0x277
  1876 06ef 08       		.byte	0x8
  1877 06f0 07       		.uleb128 0x7
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 34
+ARM GAS  /var/tmp//cc59njq4.s 			page 34
 
 
  1878 06f1 25050000 		.4byte	.LASF106
@@ -2038,7 +2038,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1932 0760 10       		.byte	0x10
  1933 0761 37       		.byte	0x37
  1934 0762 AD000000 		.4byte	0xad
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 35
+ARM GAS  /var/tmp//cc59njq4.s 			page 35
 
 
  1935 0766 05       		.byte	0x5
@@ -2098,7 +2098,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  1989 07d2 0F       		.byte	0xf
  1990 07d3 07       		.uleb128 0x7
  1991 07d4 50010000 		.4byte	.LASF120
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 36
+ARM GAS  /var/tmp//cc59njq4.s 			page 36
 
 
  1992 07d8 10       		.byte	0x10
@@ -2158,7 +2158,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2046 0847 03       		.uleb128 0x3
  2047 0848 65060000 		.4byte	.LASF128
  2048 084c 03       		.byte	0x3
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 37
+ARM GAS  /var/tmp//cc59njq4.s 			page 37
 
 
  2049 084d 38       		.byte	0x38
@@ -2218,7 +2218,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2103 08ce 1E       		.uleb128 0x1e
  2104 08cf D60C0000 		.4byte	0xcd6
  2105 08d3 02000000 		.4byte	.LBB201
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 38
+ARM GAS  /var/tmp//cc59njq4.s 			page 38
 
 
  2106 08d7 30010000 		.4byte	.Ldebug_ranges0+0x130
@@ -2278,7 +2278,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2160 0965 01       		.byte	0x1
  2161 0966 D201     		.2byte	0x1d2
  2162 0968 86090000 		.4byte	0x986
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 39
+ARM GAS  /var/tmp//cc59njq4.s 			page 39
 
 
  2163 096c 1F       		.uleb128 0x1f
@@ -2338,7 +2338,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2217 09e9 00000000 		.4byte	.LBB209
  2218 09ed 06000000 		.4byte	.LBE209-.LBB209
  2219 09f1 01       		.byte	0x1
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 40
+ARM GAS  /var/tmp//cc59njq4.s 			page 40
 
 
  2220 09f2 9601     		.2byte	0x196
@@ -2398,7 +2398,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2274 0a7c 4D0F0000 		.4byte	0xf4d
  2275 0a80 2A       		.uleb128 0x2a
  2276 0a81 01       		.uleb128 0x1
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 41
+ARM GAS  /var/tmp//cc59njq4.s 			page 41
 
 
  2277 0a82 50       		.byte	0x50
@@ -2458,7 +2458,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2331 0b00 4F01     		.2byte	0x14f
  2332 0b02 56030000 		.4byte	0x356
  2333 0b06 02       		.uleb128 0x2
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 42
+ARM GAS  /var/tmp//cc59njq4.s 			page 42
 
 
  2334 0b07 91       		.byte	0x91
@@ -2518,7 +2518,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2388 0b61 01       		.byte	0x1
  2389 0b62 1301     		.2byte	0x113
  2390 0b64 01       		.byte	0x1
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 43
+ARM GAS  /var/tmp//cc59njq4.s 			page 43
 
 
  2391 0b65 7F0B0000 		.4byte	0xb7f
@@ -2578,7 +2578,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2445 0be9 36       		.uleb128 0x36
  2446 0bea E2060000 		.4byte	.LASF163
  2447 0bee 01       		.byte	0x1
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 44
+ARM GAS  /var/tmp//cc59njq4.s 			page 44
 
 
  2448 0bef DA       		.byte	0xda
@@ -2638,7 +2638,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2502 0c6b 37       		.uleb128 0x37
  2503 0c6c 737000   		.ascii	"sp\000"
  2504 0c6f 03       		.byte	0x3
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 45
+ARM GAS  /var/tmp//cc59njq4.s 			page 45
 
 
  2505 0c70 86       		.byte	0x86
@@ -2698,7 +2698,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2559 0ce3 FF0C0000 		.4byte	0xcff
  2560 0ce7 32       		.uleb128 0x32
  2561 0ce8 74717000 		.ascii	"tqp\000"
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 46
+ARM GAS  /var/tmp//cc59njq4.s 			page 46
 
 
  2562 0cec 04       		.byte	0x4
@@ -2758,7 +2758,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2616 0d58 D3000000 		.4byte	0xd3
  2617 0d5c 00       		.byte	0
  2618 0d5d 40       		.uleb128 0x40
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 47
+ARM GAS  /var/tmp//cc59njq4.s 			page 47
 
 
  2619 0d5e 5C0B0000 		.4byte	0xb5c
@@ -2818,7 +2818,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2673 0de4 6B0C0000 		.4byte	0xc6b
  2674 0de8 C6020000 		.4byte	.LLST1
  2675 0dec 00       		.byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 48
+ARM GAS  /var/tmp//cc59njq4.s 			page 48
 
 
  2676 0ded 43       		.uleb128 0x43
@@ -2878,7 +2878,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2730 0e80 22       		.uleb128 0x22
  2731 0e81 0D0C0000 		.4byte	0xc0d
  2732 0e85 00       		.byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 49
+ARM GAS  /var/tmp//cc59njq4.s 			page 49
 
 
  2733 0e86 00       		.byte	0
@@ -2938,7 +2938,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2787 0f0b 60000000 		.4byte	.LBB164
  2788 0f0f 0C000000 		.4byte	.LBE164-.LBB164
  2789 0f13 0D       		.byte	0xd
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 50
+ARM GAS  /var/tmp//cc59njq4.s 			page 50
 
 
  2790 0f14 CD01     		.2byte	0x1cd
@@ -2998,7 +2998,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2844 000a 0E       		.uleb128 0xe
  2845 000b 55       		.uleb128 0x55
  2846 000c 17       		.uleb128 0x17
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 51
+ARM GAS  /var/tmp//cc59njq4.s 			page 51
 
 
  2847 000d 11       		.uleb128 0x11
@@ -3058,7 +3058,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2901 0043 0B       		.uleb128 0xb
  2902 0044 3A       		.uleb128 0x3a
  2903 0045 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 52
+ARM GAS  /var/tmp//cc59njq4.s 			page 52
 
 
  2904 0046 3B       		.uleb128 0x3b
@@ -3118,7 +3118,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  2958 007c 0B       		.uleb128 0xb
  2959 007d 0B       		.uleb128 0xb
  2960 007e 49       		.uleb128 0x49
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 53
+ARM GAS  /var/tmp//cc59njq4.s 			page 53
 
 
  2961 007f 13       		.uleb128 0x13
@@ -3178,7 +3178,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3015 00b5 00       		.byte	0
  3016 00b6 00       		.byte	0
  3017 00b7 10       		.uleb128 0x10
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 54
+ARM GAS  /var/tmp//cc59njq4.s 			page 54
 
 
  3018 00b8 34       		.uleb128 0x34
@@ -3238,7 +3238,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3072 00ee 0B       		.uleb128 0xb
  3073 00ef 3B       		.uleb128 0x3b
  3074 00f0 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 55
+ARM GAS  /var/tmp//cc59njq4.s 			page 55
 
 
  3075 00f1 01       		.uleb128 0x1
@@ -3298,7 +3298,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3129 0127 00       		.byte	0
  3130 0128 19       		.uleb128 0x19
  3131 0129 34       		.uleb128 0x34
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 56
+ARM GAS  /var/tmp//cc59njq4.s 			page 56
 
 
  3132 012a 00       		.byte	0
@@ -3358,7 +3358,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3186 0161 898201   		.uleb128 0x4109
  3187 0164 00       		.byte	0
  3188 0165 11       		.uleb128 0x11
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 57
+ARM GAS  /var/tmp//cc59njq4.s 			page 57
 
 
  3189 0166 01       		.uleb128 0x1
@@ -3418,7 +3418,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3243 019d 00       		.byte	0
  3244 019e 21       		.uleb128 0x21
  3245 019f 34       		.uleb128 0x34
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 58
+ARM GAS  /var/tmp//cc59njq4.s 			page 58
 
 
  3246 01a0 00       		.byte	0
@@ -3478,7 +3478,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3300 01d7 00       		.byte	0
  3301 01d8 00       		.byte	0
  3302 01d9 25       		.uleb128 0x25
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 59
+ARM GAS  /var/tmp//cc59njq4.s 			page 59
 
 
  3303 01da 1D       		.uleb128 0x1d
@@ -3538,7 +3538,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3357 0212 11       		.uleb128 0x11
  3358 0213 01       		.uleb128 0x1
  3359 0214 9542     		.uleb128 0x2115
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 60
+ARM GAS  /var/tmp//cc59njq4.s 			page 60
 
 
  3360 0216 19       		.uleb128 0x19
@@ -3598,7 +3598,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3414 024f 00       		.byte	0
  3415 0250 2E       		.uleb128 0x2e
  3416 0251 898201   		.uleb128 0x4109
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 61
+ARM GAS  /var/tmp//cc59njq4.s 			page 61
 
 
  3417 0254 01       		.byte	0x1
@@ -3658,7 +3658,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3471 028e 13       		.uleb128 0x13
  3472 028f 00       		.byte	0
  3473 0290 00       		.byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 62
+ARM GAS  /var/tmp//cc59njq4.s 			page 62
 
 
  3474 0291 33       		.uleb128 0x33
@@ -3718,7 +3718,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3528 02c8 00       		.byte	0
  3529 02c9 36       		.uleb128 0x36
  3530 02ca 2E       		.uleb128 0x2e
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 63
+ARM GAS  /var/tmp//cc59njq4.s 			page 63
 
 
  3531 02cb 01       		.byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3585 0301 1C       		.uleb128 0x1c
  3586 0302 0E       		.uleb128 0xe
  3587 0303 00       		.byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 64
+ARM GAS  /var/tmp//cc59njq4.s 			page 64
 
 
  3588 0304 00       		.byte	0
@@ -3838,7 +3838,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3642 033a 00       		.byte	0
  3643 033b 03       		.uleb128 0x3
  3644 033c 0E       		.uleb128 0xe
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 65
+ARM GAS  /var/tmp//cc59njq4.s 			page 65
 
 
  3645 033d 3A       		.uleb128 0x3a
@@ -3898,7 +3898,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3699 0374 13       		.uleb128 0x13
  3700 0375 00       		.byte	0
  3701 0376 00       		.byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 66
+ARM GAS  /var/tmp//cc59njq4.s 			page 66
 
 
  3702 0377 41       		.uleb128 0x41
@@ -3958,7 +3958,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3756 03ad 13       		.uleb128 0x13
  3757 03ae 00       		.byte	0
  3758 03af 00       		.byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 67
+ARM GAS  /var/tmp//cc59njq4.s 			page 67
 
 
  3759 03b0 46       		.uleb128 0x46
@@ -4018,7 +4018,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3813 002d 9F       		.byte	0x9f
  3814 002e 00000000 		.4byte	0
  3815 0032 00000000 		.4byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 68
+ARM GAS  /var/tmp//cc59njq4.s 			page 68
 
 
  3816              	.LLST28:
@@ -4078,7 +4078,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3870 00c7 50       		.byte	0x50
  3871 00c8 14000000 		.4byte	.LVL51
  3872 00cc 18000000 		.4byte	.LVL52
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 69
+ARM GAS  /var/tmp//cc59njq4.s 			page 69
 
 
  3873 00d0 0200     		.2byte	0x2
@@ -4138,7 +4138,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3927 0157 24       		.sleb128 36
  3928 0158 28000000 		.4byte	.LVL40
  3929 015c 2E000000 		.4byte	.LVL42
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 70
+ARM GAS  /var/tmp//cc59njq4.s 			page 70
 
 
  3930 0160 0400     		.2byte	0x4
@@ -4198,7 +4198,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  3984 01de 33000000 		.4byte	.LVL33-1
  3985 01e2 44000000 		.4byte	.LFE223
  3986 01e6 0400     		.2byte	0x4
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 71
+ARM GAS  /var/tmp//cc59njq4.s 			page 71
 
 
  3987 01e8 F3       		.byte	0xf3
@@ -4258,7 +4258,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4041 0265 51       		.byte	0x51
  4042 0266 00000000 		.4byte	0
  4043 026a 00000000 		.4byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 72
+ARM GAS  /var/tmp//cc59njq4.s 			page 72
 
 
  4044              	.LLST13:
@@ -4318,7 +4318,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4098 02fb 00000000 		.4byte	0
  4099              	.LLST4:
  4100 02ff 3A000000 		.4byte	.LVL6
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 73
+ARM GAS  /var/tmp//cc59njq4.s 			page 73
 
 
  4101 0303 58000000 		.4byte	.LVL10
@@ -4378,7 +4378,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4155 0004 0200     		.2byte	0x2
  4156 0006 00000000 		.4byte	.Ldebug_info0
  4157 000a 04       		.byte	0x4
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 74
+ARM GAS  /var/tmp//cc59njq4.s 			page 74
 
 
  4158 000b 00       		.byte	0
@@ -4438,7 +4438,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4212 0064 00000000 		.4byte	0
  4213 0068 00000000 		.4byte	.LBB166
  4214 006c 02000000 		.4byte	.LBE166
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 75
+ARM GAS  /var/tmp//cc59njq4.s 			page 75
 
 
  4215 0070 04000000 		.4byte	.LBB169
@@ -4498,7 +4498,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4269 0148 12000000 		.4byte	.LBB208
  4270 014c 14000000 		.4byte	.LBE208
  4271 0150 00000000 		.4byte	0
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 76
+ARM GAS  /var/tmp//cc59njq4.s 			page 76
 
 
  4272 0154 00000000 		.4byte	0
@@ -4558,7 +4558,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4311      68446F52 
  4311      65736368 
  4311      6564756C 
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 77
+ARM GAS  /var/tmp//cc59njq4.s 			page 77
 
 
  4311      65416865 
@@ -4618,7 +4618,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4336              	.LASF72:
  4337 00de 76697274 		.ascii	"virtual_timers_list_t\000"
  4337      75616C5F 
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 78
+ARM GAS  /var/tmp//cc59njq4.s 			page 78
 
 
  4337      74696D65 
@@ -4678,7 +4678,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4361      737400
  4362              	.LASF153:
  4363 0184 706F7274 		.ascii	"port_unlock\000"
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 79
+ARM GAS  /var/tmp//cc59njq4.s 			page 79
 
 
  4363      5F756E6C 
@@ -4738,7 +4738,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4389      65736368 
  4389      6564756C 
  4389      6500
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 80
+ARM GAS  /var/tmp//cc59njq4.s 			page 80
 
 
  4390              	.LASF68:
@@ -4798,7 +4798,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4419      67717565 
  4419      756500
  4420              	.LASF127:
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 81
+ARM GAS  /var/tmp//cc59njq4.s 			page 81
 
 
  4421 02b7 63685F64 		.ascii	"ch_debug\000"
@@ -4858,7 +4858,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4445      31203230 
  4445      31373036 
  4446 038b 616E6368 		.ascii	"anch revision 249437] -mcpu=cortex-m4 -mfloat-abi=h"
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 82
+ARM GAS  /var/tmp//cc59njq4.s 			page 82
 
 
  4446      20726576 
@@ -4918,7 +4918,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4466 04d0 63685F74 		.ascii	"ch_timesize\000"
  4466      696D6573 
  4466      697A6500 
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 83
+ARM GAS  /var/tmp//cc59njq4.s 			page 83
 
 
  4467              	.LASF132:
@@ -4978,7 +4978,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4495              	.LASF32:
  4496 0571 705F7072 		.ascii	"p_prev\000"
  4496      657600
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 84
+ARM GAS  /var/tmp//cc59njq4.s 			page 84
 
 
  4497              	.LASF25:
@@ -5038,7 +5038,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4524 0608 705F6E65 		.ascii	"p_next\000"
  4524      787400
  4525              	.LASF21:
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 85
+ARM GAS  /var/tmp//cc59njq4.s 			page 85
 
 
  4526 060f 746D6F64 		.ascii	"tmode_t\000"
@@ -5098,7 +5098,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4548      5300
  4549              	.LASF46:
  4550 06ba 705F6570 		.ascii	"p_epending\000"
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 86
+ARM GAS  /var/tmp//cc59njq4.s 			page 86
 
 
  4550      656E6469 
@@ -5158,7 +5158,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4576      666F5F72 
  4576      656D6F76 
  4576      6500
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 87
+ARM GAS  /var/tmp//cc59njq4.s 			page 87
 
 
  4577              	.LASF29:
@@ -5218,7 +5218,7 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4605              	.LASF103:
  4606 07ee 63685F6D 		.ascii	"ch_mutex\000"
  4606      75746578 
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 88
+ARM GAS  /var/tmp//cc59njq4.s 			page 88
 
 
  4606      00
@@ -5278,55 +5278,55 @@ ARM GAS  /var/tmp//cc3lz6Nv.s 			page 1
  4632      64656E74 
  4632      69666965 
  4632      7200
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 89
+ARM GAS  /var/tmp//cc59njq4.s 			page 89
 
 
  4633              	.LASF70:
  4634 0897 76745F66 		.ascii	"vt_func\000"
  4634      756E6300 
  4635              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /var/tmp//cc3lz6Nv.s 			page 90
+ARM GAS  /var/tmp//cc59njq4.s 			page 90
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chschd.c
-/var/tmp//cc3lz6Nv.s:18     .text.wakeup:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:25     .text.wakeup:0000000000000000 wakeup
-/var/tmp//cc3lz6Nv.s:60     .text.wakeup:0000000000000010 $d
-/var/tmp//cc3lz6Nv.s:68     .text.wakeup:0000000000000018 $t
-/var/tmp//cc3lz6Nv.s:223    .text.wakeup:0000000000000068 $d
-/var/tmp//cc3lz6Nv.s:233    .text._scheduler_init:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:241    .text._scheduler_init:0000000000000000 _scheduler_init
-/var/tmp//cc3lz6Nv.s:276    .text._scheduler_init:0000000000000010 $d
-/var/tmp//cc3lz6Nv.s:281    .text.chSchReadyI:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:289    .text.chSchReadyI:0000000000000000 chSchReadyI
-/var/tmp//cc3lz6Nv.s:340    .text.chSchReadyI:0000000000000028 $d
-/var/tmp//cc3lz6Nv.s:345    .text.chSchGoSleepS:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:353    .text.chSchGoSleepS:0000000000000000 chSchGoSleepS
-/var/tmp//cc3lz6Nv.s:414    .text.chSchGoSleepS:0000000000000024 $d
-/var/tmp//cc3lz6Nv.s:419    .text.chSchGoSleepTimeoutS:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:427    .text.chSchGoSleepTimeoutS:0000000000000000 chSchGoSleepTimeoutS
-/var/tmp//cc3lz6Nv.s:497    .text.chSchGoSleepTimeoutS:000000000000003c $d
-/var/tmp//cc3lz6Nv.s:503    .text.chSchWakeupS:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:511    .text.chSchWakeupS:0000000000000000 chSchWakeupS
-/var/tmp//cc3lz6Nv.s:642    .text.chSchWakeupS:0000000000000054 $d
-/var/tmp//cc3lz6Nv.s:648    .text.chSchIsPreemptionRequired:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:656    .text.chSchIsPreemptionRequired:0000000000000000 chSchIsPreemptionRequired
-/var/tmp//cc3lz6Nv.s:699    .text.chSchIsPreemptionRequired:0000000000000024 $d
-/var/tmp//cc3lz6Nv.s:704    .text.chSchDoRescheduleBehind:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:712    .text.chSchDoRescheduleBehind:0000000000000000 chSchDoRescheduleBehind
-/var/tmp//cc3lz6Nv.s:821    .text.chSchDoRescheduleBehind:000000000000003c $d
-/var/tmp//cc3lz6Nv.s:826    .text.chSchDoRescheduleAhead:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:834    .text.chSchDoRescheduleAhead:0000000000000000 chSchDoRescheduleAhead
-/var/tmp//cc3lz6Nv.s:923    .text.chSchDoRescheduleAhead:0000000000000038 $d
-/var/tmp//cc3lz6Nv.s:928    .text.chSchRescheduleS:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:936    .text.chSchRescheduleS:0000000000000000 chSchRescheduleS
-/var/tmp//cc3lz6Nv.s:964    .text.chSchRescheduleS:0000000000000014 $d
-/var/tmp//cc3lz6Nv.s:969    .text.chSchDoReschedule:0000000000000000 $t
-/var/tmp//cc3lz6Nv.s:977    .text.chSchDoReschedule:0000000000000000 chSchDoReschedule
-/var/tmp//cc3lz6Nv.s:999    .text.chSchDoReschedule:0000000000000010 $d
-/var/tmp//cc3lz6Nv.s:1009   .bss.ch:0000000000000000 ch
-/var/tmp//cc3lz6Nv.s:1005   .bss.ch:0000000000000000 $d
+/var/tmp//cc59njq4.s:18     .text.wakeup:0000000000000000 $t
+/var/tmp//cc59njq4.s:25     .text.wakeup:0000000000000000 wakeup
+/var/tmp//cc59njq4.s:60     .text.wakeup:0000000000000010 $d
+/var/tmp//cc59njq4.s:68     .text.wakeup:0000000000000018 $t
+/var/tmp//cc59njq4.s:223    .text.wakeup:0000000000000068 $d
+/var/tmp//cc59njq4.s:233    .text._scheduler_init:0000000000000000 $t
+/var/tmp//cc59njq4.s:241    .text._scheduler_init:0000000000000000 _scheduler_init
+/var/tmp//cc59njq4.s:276    .text._scheduler_init:0000000000000010 $d
+/var/tmp//cc59njq4.s:281    .text.chSchReadyI:0000000000000000 $t
+/var/tmp//cc59njq4.s:289    .text.chSchReadyI:0000000000000000 chSchReadyI
+/var/tmp//cc59njq4.s:340    .text.chSchReadyI:0000000000000028 $d
+/var/tmp//cc59njq4.s:345    .text.chSchGoSleepS:0000000000000000 $t
+/var/tmp//cc59njq4.s:353    .text.chSchGoSleepS:0000000000000000 chSchGoSleepS
+/var/tmp//cc59njq4.s:414    .text.chSchGoSleepS:0000000000000024 $d
+/var/tmp//cc59njq4.s:419    .text.chSchGoSleepTimeoutS:0000000000000000 $t
+/var/tmp//cc59njq4.s:427    .text.chSchGoSleepTimeoutS:0000000000000000 chSchGoSleepTimeoutS
+/var/tmp//cc59njq4.s:497    .text.chSchGoSleepTimeoutS:000000000000003c $d
+/var/tmp//cc59njq4.s:503    .text.chSchWakeupS:0000000000000000 $t
+/var/tmp//cc59njq4.s:511    .text.chSchWakeupS:0000000000000000 chSchWakeupS
+/var/tmp//cc59njq4.s:642    .text.chSchWakeupS:0000000000000054 $d
+/var/tmp//cc59njq4.s:648    .text.chSchIsPreemptionRequired:0000000000000000 $t
+/var/tmp//cc59njq4.s:656    .text.chSchIsPreemptionRequired:0000000000000000 chSchIsPreemptionRequired
+/var/tmp//cc59njq4.s:699    .text.chSchIsPreemptionRequired:0000000000000024 $d
+/var/tmp//cc59njq4.s:704    .text.chSchDoRescheduleBehind:0000000000000000 $t
+/var/tmp//cc59njq4.s:712    .text.chSchDoRescheduleBehind:0000000000000000 chSchDoRescheduleBehind
+/var/tmp//cc59njq4.s:821    .text.chSchDoRescheduleBehind:000000000000003c $d
+/var/tmp//cc59njq4.s:826    .text.chSchDoRescheduleAhead:0000000000000000 $t
+/var/tmp//cc59njq4.s:834    .text.chSchDoRescheduleAhead:0000000000000000 chSchDoRescheduleAhead
+/var/tmp//cc59njq4.s:923    .text.chSchDoRescheduleAhead:0000000000000038 $d
+/var/tmp//cc59njq4.s:928    .text.chSchRescheduleS:0000000000000000 $t
+/var/tmp//cc59njq4.s:936    .text.chSchRescheduleS:0000000000000000 chSchRescheduleS
+/var/tmp//cc59njq4.s:964    .text.chSchRescheduleS:0000000000000014 $d
+/var/tmp//cc59njq4.s:969    .text.chSchDoReschedule:0000000000000000 $t
+/var/tmp//cc59njq4.s:977    .text.chSchDoReschedule:0000000000000000 chSchDoReschedule
+/var/tmp//cc59njq4.s:999    .text.chSchDoReschedule:0000000000000010 $d
+/var/tmp//cc59njq4.s:1009   .bss.ch:0000000000000000 ch
+/var/tmp//cc59njq4.s:1005   .bss.ch:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

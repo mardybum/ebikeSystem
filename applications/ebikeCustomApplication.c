@@ -24,6 +24,8 @@
 #include "timeout.h" // To reset the timeout
 #include "commands.h"
 
+#define speedLimit
+
 //Change between different bike setups (e.g. crank sensor type)
 #define mode1
 //#define mode2
@@ -80,7 +82,7 @@ static systime_t timeOffPedaling;
 static systime_t timeStartPedaling;
 
 //Timer for the duration of a different current that will be applied (Startup routine)
-static const float startUpRoutineEnd = 1000;
+static const float startUpRoutineEnd = 2000;
 
 //Semaphore for the startup
 static int startUpTrigger = 0;
@@ -93,6 +95,9 @@ static bool isPedaling = false;
 
 //Number of pedal counts
 static int pedalCount = 0;
+
+int hystereseActive = 0;
+int speedLimitActive = 23.0;
 
 //Velocity of the bike
 static float vehicleVelocity;
@@ -140,7 +145,7 @@ static THD_FUNCTION(example_thread, arg) {
         // Read the pot value and scale it to a number between 0 and 1 (see hw_46.h)
         
         //Read value of the poti
-        float pot = (float)ADC_Value[ADC_IND_EXT];
+        float pot = (float)ADC_Value[ADC_IND_EXT2];
         pot /= 4095.0;
         
         
@@ -302,8 +307,15 @@ static THD_FUNCTION(example_thread, arg) {
                     startUpRoutine = false;
                 }
                 
-                setPointCurrent = (float) 4.0;
+                setPointCurrent = (float) 10.0;
                 mc_interface_set_current(setPointCurrent);
+                
+                //vehicleVelocity = (3.14*0.0007112 * speedSensorWheel*60.0);
+                
+                //float motorRPM = vehicleVelocity/(3.14*0.000052*60);
+                
+                //mc_interface_set_pid_speed(motorRPM*4);
+                
                 
             } else {
                 
@@ -311,6 +323,24 @@ static THD_FUNCTION(example_thread, arg) {
                 setPointCurrent = ((float) mcconf->lo_current_motor_max_now * pot) + 10.0;
                 mc_interface_set_current(setPointCurrent);
             }
+            
+        //Todo check if this works
+        #ifdef speedLimit
+            
+            if (vehicleVelocity > 25.0 && hystereseActive == 0) {
+                
+                mc_interface_release_motor();
+                startUpTrigger = 0;
+                startUpRoutine = true;
+                hystereseActive = 1;
+            }
+            else if(vehicleVelocity > speedLimitActive && hystereseActive == 1){
+                
+                hystereseActive = 0;
+            }
+            
+        #endif
+            
             
         } else {
             
@@ -320,7 +350,7 @@ static THD_FUNCTION(example_thread, arg) {
             startUpRoutine = true;
         }
         
-        commands_printf("isPedaling: %f \n", pot);
+        commands_printf("hall1: %f \n", (double)pot);
         
         // Run this loop at 500Hz
         chThdSleepMilliseconds(2);

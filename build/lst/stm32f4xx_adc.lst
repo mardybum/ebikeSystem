@@ -1,4 +1,4 @@
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
+ARM GAS  /var/tmp//cctPaOXo.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
   55              		.size	ADC_DeInit, .-ADC_DeInit
   56 001a 00BF     		.section	.text.ADC_Init,"ax",%progbits
   57              		.align	1
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 2
+ARM GAS  /var/tmp//cctPaOXo.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  112 002c 2B43     		orrs	r3, r3, r5
  113              		.loc 1 280 0
  114 002e 43EA4203 		orr	r3, r3, r2, lsl #1
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 3
+ARM GAS  /var/tmp//cctPaOXo.s 			page 3
 
 
  115              	.LVL8:
@@ -178,7 +178,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  169 0008 0371     		strb	r3, [r0, #4]
  170              		.loc 1 323 0
  171 000a 4371     		strb	r3, [r0, #5]
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 4
+ARM GAS  /var/tmp//cctPaOXo.s 			page 4
 
 
  172              		.loc 1 326 0
@@ -238,7 +238,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  226              	.LVL18:
  227              		.loc 1 372 0
  228 001a 4B60     		str	r3, [r1, #4]
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 5
+ARM GAS  /var/tmp//cctPaOXo.s 			page 5
 
 
  229              		.loc 1 373 0
@@ -298,7 +298,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  283              	ADC_Cmd:
  284              	.LFB117:
  285              		.loc 1 404 0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 6
+ARM GAS  /var/tmp//cctPaOXo.s 			page 6
 
 
  286              		.cfi_startproc
@@ -358,7 +358,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  340              		.size	ADC_AnalogWatchdogCmd, .-ADC_AnalogWatchdogCmd
  341              		.section	.text.ADC_AnalogWatchdogThresholdsConfig,"ax",%progbits
  342              		.align	1
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 7
+ARM GAS  /var/tmp//cctPaOXo.s 			page 7
 
 
  343              		.p2align 4,,15
@@ -418,7 +418,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  397              		.size	ADC_AnalogWatchdogSingleChannelConfig, .-ADC_AnalogWatchdogSingleChannelConfig
  398              		.section	.text.ADC_TempSensorVrefintCmd,"ax",%progbits
  399              		.align	1
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 8
+ARM GAS  /var/tmp//cctPaOXo.s 			page 8
 
 
  400              		.p2align 4,,15
@@ -478,7 +478,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  454 0000 054A     		ldr	r2, .L31
  455 0002 5368     		ldr	r3, [r2, #4]
  456              		.loc 1 623 0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 9
+ARM GAS  /var/tmp//cctPaOXo.s 			page 9
 
 
  457 0004 18B9     		cbnz	r0, .L30
@@ -538,7 +538,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  511              		.loc 1 741 0
  512 0014 A340     		lsls	r3, r3, r4
  513              	.LVL36:
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 10
+ARM GAS  /var/tmp//cctPaOXo.s 			page 10
 
 
  514              		.loc 1 738 0
@@ -598,7 +598,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  568              		.loc 1 755 0
  569 0046 0725     		movs	r5, #7
  570 0048 B540     		lsls	r5, r5, r6
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 11
+ARM GAS  /var/tmp//cctPaOXo.s 			page 11
 
 
  571              	.LVL47:
@@ -658,7 +658,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  625              		.loc 1 794 0
  626 0078 036B     		ldr	r3, [r0, #48]
  627              	.LVL59:
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 12
+ARM GAS  /var/tmp//cctPaOXo.s 			page 12
 
 
  628              		.loc 1 797 0
@@ -718,7 +718,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  682              		.syntax unified
  683              		.thumb
  684              		.thumb_func
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 13
+ARM GAS  /var/tmp//cctPaOXo.s 			page 13
 
 
  685              		.fpu fpv4-sp-d16
@@ -778,7 +778,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  739              		.align	1
  740              		.p2align 4,,15
  741              		.global	ADC_ContinuousModeCmd
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 14
+ARM GAS  /var/tmp//cctPaOXo.s 			page 14
 
 
  742              		.syntax unified
@@ -838,7 +838,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  796              		.loc 1 951 0
  797 0008 41EA4331 		orr	r1, r1, r3, lsl #13
  798              	.LVL73:
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 15
+ARM GAS  /var/tmp//cctPaOXo.s 			page 15
 
 
  799              		.loc 1 954 0
@@ -898,7 +898,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  853              		@ link register save eliminated.
  854              	.LVL75:
  855              		.loc 1 995 0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 16
+ARM GAS  /var/tmp//cctPaOXo.s 			page 16
 
 
  856 0000 C06C     		ldr	r0, [r0, #76]
@@ -958,7 +958,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  910 0000 8368     		ldr	r3, [r0, #8]
  911              		.loc 1 1061 0
  912 0002 19B9     		cbnz	r1, .L64
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 17
+ARM GAS  /var/tmp//cctPaOXo.s 			page 17
 
 
  913              		.loc 1 1069 0
@@ -1018,7 +1018,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  967              	ADC_MultiModeDMARequestAfterLastTransferCmd:
  968              	.LFB134:
  969              		.loc 1 1108 0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 18
+ARM GAS  /var/tmp//cctPaOXo.s 			page 18
 
 
  970              		.cfi_startproc
@@ -1078,7 +1078,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1024 0006 01EB4106 		add	r6, r1, r1, lsl #1
  1025              		.loc 1 1221 0
  1026 000a 0469     		ldr	r4, [r0, #16]
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 19
+ARM GAS  /var/tmp//cctPaOXo.s 			page 19
 
 
  1027              	.LVL81:
@@ -1138,7 +1138,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1081              		.cfi_restore_state
  1082              		.loc 1 1208 0
  1083 003c A1F10A04 		sub	r4, r1, #10
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 20
+ARM GAS  /var/tmp//cctPaOXo.s 			page 20
 
 
  1084 0040 04EB4404 		add	r4, r4, r4, lsl #1
@@ -1198,7 +1198,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1138              		.cfi_endproc
  1139              	.LFE136:
  1140              		.size	ADC_InjectedSequencerLengthConfig, .-ADC_InjectedSequencerLengthConfig
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 21
+ARM GAS  /var/tmp//cctPaOXo.s 			page 21
 
 
  1141              		.section	.text.ADC_SetInjectedOffset,"ax",%progbits
@@ -1258,7 +1258,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1195              		@ frame_needed = 0, uses_anonymous_args = 0
  1196              		@ link register save eliminated.
  1197              	.LVL105:
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 22
+ARM GAS  /var/tmp//cctPaOXo.s 			page 22
 
 
  1198              		.loc 1 1338 0
@@ -1318,7 +1318,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1252              		.fpu fpv4-sp-d16
  1253              		.type	ADC_SoftwareStartInjectedConv, %function
  1254              	ADC_SoftwareStartInjectedConv:
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 23
+ARM GAS  /var/tmp//cctPaOXo.s 			page 23
 
 
  1255              	.LFB140:
@@ -1378,7 +1378,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1309              		.cfi_startproc
  1310              		@ args = 0, pretend = 0, frame = 0
  1311              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 24
+ARM GAS  /var/tmp//cctPaOXo.s 			page 24
 
 
  1312              		@ link register save eliminated.
@@ -1438,7 +1438,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1366              		.global	ADC_GetInjectedConversionValue
  1367              		.syntax unified
  1368              		.thumb
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 25
+ARM GAS  /var/tmp//cctPaOXo.s 			page 25
 
 
  1369              		.thumb_func
@@ -1498,7 +1498,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1423              		.loc 1 1597 0
  1424 0000 C9B2     		uxtb	r1, r1
  1425              	.LVL123:
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 26
+ARM GAS  /var/tmp//cctPaOXo.s 			page 26
 
 
  1426              		.loc 1 1598 0
@@ -1558,7 +1558,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1480              		.align	1
  1481              		.p2align 4,,15
  1482              		.global	ADC_ClearFlag
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 27
+ARM GAS  /var/tmp//cctPaOXo.s 			page 27
 
 
  1483              		.syntax unified
@@ -1618,7 +1618,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1537 0014 14BF     		ite	ne
  1538 0016 1846     		movne	r0, r3
  1539 0018 0020     		moveq	r0, #0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 28
+ARM GAS  /var/tmp//cctPaOXo.s 			page 28
 
 
  1540              	.L104:
@@ -1678,7 +1678,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1594 001d 00000000 		.4byte	0
  1595 0021 00000000 		.4byte	.Ldebug_line0
  1596 0025 02       		.uleb128 0x2
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 29
+ARM GAS  /var/tmp//cctPaOXo.s 			page 29
 
 
  1597 0026 01       		.byte	0x1
@@ -1738,7 +1738,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1651 008c 696E7400 		.ascii	"int\000"
  1652 0090 02       		.uleb128 0x2
  1653 0091 04       		.byte	0x4
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 30
+ARM GAS  /var/tmp//cctPaOXo.s 			page 30
 
 
  1654 0092 07       		.byte	0x7
@@ -1798,7 +1798,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1708 0104 C7       		.byte	0xc7
  1709 0105 C8000000 		.4byte	0xc8
  1710 0109 04       		.byte	0x4
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 31
+ARM GAS  /var/tmp//cctPaOXo.s 			page 31
 
 
  1711 010a 09       		.uleb128 0x9
@@ -1858,7 +1858,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1765 0176 0A       		.uleb128 0xa
  1766 0177 CE040000 		.4byte	.LASF26
  1767 017b 06       		.byte	0x6
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 32
+ARM GAS  /var/tmp//cctPaOXo.s 			page 32
 
 
  1768 017c D1       		.byte	0xd1
@@ -1918,7 +1918,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1822 01e7 06       		.byte	0x6
  1823 01e8 DA       		.byte	0xda
  1824 01e9 EB000000 		.4byte	0xeb
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 33
+ARM GAS  /var/tmp//cctPaOXo.s 			page 33
 
 
  1825 01ed 08       		.uleb128 0x8
@@ -1978,7 +1978,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1879 0256 37000000 		.4byte	0x37
  1880 025a 07       		.byte	0x7
  1881 025b A8       		.byte	0xa8
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 34
+ARM GAS  /var/tmp//cctPaOXo.s 			page 34
 
 
  1882 025c 6D020000 		.4byte	0x26d
@@ -2038,7 +2038,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1936 02c8 0A       		.uleb128 0xa
  1937 02c9 C1000000 		.4byte	.LASF48
  1938 02cd 08       		.byte	0x8
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 35
+ARM GAS  /var/tmp//cctPaOXo.s 			page 35
 
 
  1939 02ce 4B       		.byte	0x4b
@@ -2098,7 +2098,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  1993 033b 56000000 		.4byte	.LASF55
  1994 033f 01       		.byte	0x1
  1995 0340 BA06     		.2byte	0x6ba
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 36
+ARM GAS  /var/tmp//cctPaOXo.s 			page 36
 
 
  1996 0342 69030000 		.4byte	0x369
@@ -2158,7 +2158,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2050 03ca A8070000 		.4byte	.LASF59
  2051 03ce 01       		.byte	0x1
  2052 03cf 9406     		.2byte	0x694
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 37
+ARM GAS  /var/tmp//cctPaOXo.s 			page 37
 
 
  2053 03d1 BD000000 		.4byte	0xbd
@@ -2218,7 +2218,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2107 0453 59010000 		.4byte	.LLST40
  2108 0457 00       		.byte	0
  2109 0458 0E       		.uleb128 0xe
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 38
+ARM GAS  /var/tmp//cctPaOXo.s 			page 38
 
 
  2110 0459 B3020000 		.4byte	.LASF65
@@ -2278,7 +2278,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2164 04db C905     		.2byte	0x5c9
  2165 04dd 97000000 		.4byte	0x97
  2166 04e1 1F020000 		.4byte	.LLST36
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 39
+ARM GAS  /var/tmp//cctPaOXo.s 			page 39
 
 
  2167 04e5 14       		.uleb128 0x14
@@ -2338,7 +2338,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2221 0558 01       		.uleb128 0x1
  2222 0559 51       		.byte	0x51
  2223 055a 00       		.byte	0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 40
+ARM GAS  /var/tmp//cctPaOXo.s 			page 40
 
 
  2224 055b 13       		.uleb128 0x13
@@ -2398,7 +2398,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2278 05dd 01       		.uleb128 0x1
  2279 05de 50       		.byte	0x50
  2280 05df 10       		.uleb128 0x10
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 41
+ARM GAS  /var/tmp//cctPaOXo.s 			page 41
 
 
  2281 05e0 24010000 		.4byte	.LASF74
@@ -2458,7 +2458,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2335 0663 69030000 		.4byte	0x369
  2336 0667 01       		.uleb128 0x1
  2337 0668 50       		.byte	0x50
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 42
+ARM GAS  /var/tmp//cctPaOXo.s 			page 42
 
 
  2338 0669 10       		.uleb128 0x10
@@ -2518,7 +2518,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2392 06e3 BD000000 		.4byte	0xbd
  2393 06e7 7F030000 		.4byte	.LLST27
  2394 06eb 00       		.byte	0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 43
+ARM GAS  /var/tmp//cctPaOXo.s 			page 43
 
 
  2395 06ec 0E       		.uleb128 0xe
@@ -2578,7 +2578,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2449 0772 DE070000 		.4byte	.LASF89
  2450 0776 01       		.byte	0x1
  2451 0777 5304     		.2byte	0x453
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 44
+ARM GAS  /var/tmp//cctPaOXo.s 			page 44
 
 
  2452 0779 00000000 		.4byte	.LFB134
@@ -2638,7 +2638,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2506 07ee 00000000 		.4byte	.LASF66
  2507 07f2 01       		.byte	0x1
  2508 07f3 2004     		.2byte	0x420
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 45
+ARM GAS  /var/tmp//cctPaOXo.s 			page 45
 
 
  2509 07f5 6D020000 		.4byte	0x26d
@@ -2698,7 +2698,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2563 0870 0E       		.uleb128 0xe
  2564 0871 04020000 		.4byte	.LASF94
  2565 0875 01       		.byte	0x1
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 46
+ARM GAS  /var/tmp//cctPaOXo.s 			page 46
 
 
  2566 0876 A603     		.2byte	0x3a6
@@ -2758,7 +2758,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2620 08f6 51       		.byte	0x51
  2621 08f7 00       		.byte	0
  2622 08f8 0E       		.uleb128 0xe
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 47
+ARM GAS  /var/tmp//cctPaOXo.s 			page 47
 
 
  2623 08f9 66070000 		.4byte	.LASF97
@@ -2818,7 +2818,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2677 0978 8B090000 		.4byte	0x98b
  2678 097c 0F       		.uleb128 0xf
  2679 097d 56000000 		.4byte	.LASF55
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 48
+ARM GAS  /var/tmp//cctPaOXo.s 			page 48
 
 
  2680 0981 01       		.byte	0x1
@@ -2878,7 +2878,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2734 0a01 D5080000 		.4byte	.LASF101
  2735 0a05 01       		.byte	0x1
  2736 0a06 6B02     		.2byte	0x26b
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 49
+ARM GAS  /var/tmp//cctPaOXo.s 			page 49
 
 
  2737 0a08 00000000 		.4byte	.LFB122
@@ -2938,7 +2938,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2791 0a83 01       		.byte	0x1
  2792 0a84 1302     		.2byte	0x213
  2793 0a86 BD000000 		.4byte	0xbd
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 50
+ARM GAS  /var/tmp//cctPaOXo.s 			page 50
 
 
  2794 0a8a 63080000 		.4byte	.LLST7
@@ -2998,7 +2998,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2848 0b00 8D080000 		.4byte	.LLST4
  2849 0b04 11       		.uleb128 0x11
  2850 0b05 5C010000 		.4byte	.LASF75
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 51
+ARM GAS  /var/tmp//cctPaOXo.s 			page 51
 
 
  2851 0b09 01       		.byte	0x1
@@ -3058,7 +3058,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2905 0b7f 28000000 		.4byte	.LFE115-.LFB115
  2906 0b83 01       		.uleb128 0x1
  2907 0b84 9C       		.byte	0x9c
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 52
+ARM GAS  /var/tmp//cctPaOXo.s 			page 52
 
 
  2908 0b85 AA0B0000 		.4byte	0xbaa
@@ -3118,7 +3118,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  2962 0bfe CF0B0000 		.4byte	0xbcf
  2963 0c02 01       		.uleb128 0x1
  2964 0c03 51       		.byte	0x51
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 53
+ARM GAS  /var/tmp//cctPaOXo.s 			page 53
 
 
  2965 0c04 18       		.uleb128 0x18
@@ -3178,7 +3178,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3019 0c69 1C       		.uleb128 0x1c
  3020 0c6a A1040000 		.4byte	.LASF121
  3021 0c6e A1040000 		.4byte	.LASF121
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 54
+ARM GAS  /var/tmp//cctPaOXo.s 			page 54
 
 
  3022 0c72 09       		.byte	0x9
@@ -3238,7 +3238,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3076 0031 0B       		.uleb128 0xb
  3077 0032 03       		.uleb128 0x3
  3078 0033 08       		.uleb128 0x8
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 55
+ARM GAS  /var/tmp//cctPaOXo.s 			page 55
 
 
  3079 0034 00       		.byte	0
@@ -3298,7 +3298,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3133 006a 00       		.byte	0
  3134 006b 00       		.byte	0
  3135 006c 09       		.uleb128 0x9
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 56
+ARM GAS  /var/tmp//cctPaOXo.s 			page 56
 
 
  3136 006d 0D       		.uleb128 0xd
@@ -3358,7 +3358,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3190 00a3 28       		.uleb128 0x28
  3191 00a4 00       		.byte	0
  3192 00a5 03       		.uleb128 0x3
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 57
+ARM GAS  /var/tmp//cctPaOXo.s 			page 57
 
 
  3193 00a6 08       		.uleb128 0x8
@@ -3418,7 +3418,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3247 00dd 49       		.uleb128 0x49
  3248 00de 13       		.uleb128 0x13
  3249 00df 02       		.uleb128 0x2
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 58
+ARM GAS  /var/tmp//cctPaOXo.s 			page 58
 
 
  3250 00e0 17       		.uleb128 0x17
@@ -3478,7 +3478,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3304 0117 14       		.uleb128 0x14
  3305 0118 34       		.uleb128 0x34
  3306 0119 00       		.byte	0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 59
+ARM GAS  /var/tmp//cctPaOXo.s 			page 59
 
 
  3307 011a 03       		.uleb128 0x3
@@ -3538,7 +3538,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3361 0151 40       		.uleb128 0x40
  3362 0152 18       		.uleb128 0x18
  3363 0153 9742     		.uleb128 0x2117
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 60
+ARM GAS  /var/tmp//cctPaOXo.s 			page 60
 
 
  3364 0155 19       		.uleb128 0x19
@@ -3598,7 +3598,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3418 0190 00       		.byte	0
  3419 0191 1B       		.uleb128 0x1b
  3420 0192 898201   		.uleb128 0x4109
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 61
+ARM GAS  /var/tmp//cctPaOXo.s 			page 61
 
 
  3421 0195 01       		.byte	0x1
@@ -3658,7 +3658,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3475 0038 0600     		.2byte	0x6
  3476 003a F3       		.byte	0xf3
  3477 003b 01       		.uleb128 0x1
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 62
+ARM GAS  /var/tmp//cctPaOXo.s 			page 62
 
 
  3478 003c 51       		.byte	0x51
@@ -3718,7 +3718,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3532 00b7 0A       		.byte	0xa
  3533 00b8 FFFF     		.2byte	0xffff
  3534 00ba 1A       		.byte	0x1a
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 63
+ARM GAS  /var/tmp//cctPaOXo.s 			page 63
 
 
  3535 00bb 9F       		.byte	0x9f
@@ -3778,7 +3778,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3589 011b 02000000 		.4byte	.LVL132
  3590 011f 0100     		.2byte	0x1
  3591 0121 51       		.byte	0x51
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 64
+ARM GAS  /var/tmp//cctPaOXo.s 			page 64
 
 
  3592 0122 02000000 		.4byte	.LVL132
@@ -3838,7 +3838,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3646 0198 01       		.uleb128 0x1
  3647 0199 51       		.byte	0x51
  3648 019a 9F       		.byte	0x9f
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 65
+ARM GAS  /var/tmp//cctPaOXo.s 			page 65
 
 
  3649 019b 00000000 		.4byte	0
@@ -3898,7 +3898,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3703 0213 F3       		.byte	0xf3
  3704 0214 01       		.uleb128 0x1
  3705 0215 50       		.byte	0x50
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 66
+ARM GAS  /var/tmp//cctPaOXo.s 			page 66
 
 
  3706 0216 9F       		.byte	0x9f
@@ -3958,7 +3958,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3760 0290 0100     		.2byte	0x1
  3761 0292 51       		.byte	0x51
  3762 0293 08000000 		.4byte	.LVL112
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 67
+ARM GAS  /var/tmp//cctPaOXo.s 			page 67
 
 
  3763 0297 0C000000 		.4byte	.LFE139
@@ -4018,7 +4018,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3817              	.LLST28:
  3818 031e 00000000 		.4byte	.LVL103
  3819 0322 0C000000 		.4byte	.LVL104
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 68
+ARM GAS  /var/tmp//cctPaOXo.s 			page 68
 
 
  3820 0326 0100     		.2byte	0x1
@@ -4078,7 +4078,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3874 039d 9F       		.byte	0x9f
  3875 039e 00000000 		.4byte	0
  3876 03a2 00000000 		.4byte	0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 69
+ARM GAS  /var/tmp//cctPaOXo.s 			page 69
 
 
  3877              	.LLST19:
@@ -4138,7 +4138,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3931 042a 0400     		.2byte	0x4
  3932 042c F3       		.byte	0xf3
  3933 042d 01       		.uleb128 0x1
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 70
+ARM GAS  /var/tmp//cctPaOXo.s 			page 70
 
 
  3934 042e 53       		.byte	0x53
@@ -4198,7 +4198,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  3988 04b4 9F       		.byte	0x9f
  3989 04b5 10000000 		.4byte	.LVL82
  3990 04b9 16000000 		.4byte	.LVL84
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 71
+ARM GAS  /var/tmp//cctPaOXo.s 			page 71
 
 
  3991 04bd 0100     		.2byte	0x1
@@ -4258,7 +4258,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4045 0531 73       		.byte	0x73
  4046 0532 00       		.sleb128 0
  4047 0533 44       		.byte	0x44
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 72
+ARM GAS  /var/tmp//cctPaOXo.s 			page 72
 
 
  4048 0534 25       		.byte	0x25
@@ -4318,7 +4318,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4102 05b5 0200     		.2byte	0x2
  4103 05b7 30       		.byte	0x30
  4104 05b8 9F       		.byte	0x9f
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 73
+ARM GAS  /var/tmp//cctPaOXo.s 			page 73
 
 
  4105 05b9 08000000 		.4byte	.LVL72
@@ -4378,7 +4378,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4159 062b 40000000 		.4byte	.LVL45
  4160 062f 0400     		.2byte	0x4
  4161 0631 F3       		.byte	0xf3
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 74
+ARM GAS  /var/tmp//cctPaOXo.s 			page 74
 
 
  4162 0632 01       		.uleb128 0x1
@@ -4438,7 +4438,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4216 06ac 74000000 		.4byte	.LVL58
  4217 06b0 8C000000 		.4byte	.LFE123
  4218 06b4 0400     		.2byte	0x4
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 75
+ARM GAS  /var/tmp//cctPaOXo.s 			page 75
 
 
  4219 06b6 F3       		.byte	0xf3
@@ -4498,7 +4498,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4273 0738 40000000 		.4byte	.LVL45
  4274 073c 0100     		.2byte	0x1
  4275 073e 51       		.byte	0x51
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 76
+ARM GAS  /var/tmp//cctPaOXo.s 			page 76
 
 
  4276 073f 40000000 		.4byte	.LVL45
@@ -4558,7 +4558,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4330 07ca 32000000 		.4byte	.LVL41
  4331 07ce 0500     		.2byte	0x5
  4332 07d0 4F       		.byte	0x4f
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 77
+ARM GAS  /var/tmp//cctPaOXo.s 			page 77
 
 
  4333 07d1 72       		.byte	0x72
@@ -4618,7 +4618,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4387 084a 0100     		.2byte	0x1
  4388 084c 51       		.byte	0x51
  4389 084d 08000000 		.4byte	.LVL30
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 78
+ARM GAS  /var/tmp//cctPaOXo.s 			page 78
 
 
  4390 0851 0C000000 		.4byte	.LFE120
@@ -4678,7 +4678,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4444 08d8 0100     		.2byte	0x1
  4445 08da 51       		.byte	0x51
  4446 08db 00000000 		.4byte	0
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 79
+ARM GAS  /var/tmp//cctPaOXo.s 			page 79
 
 
  4447 08df 00000000 		.4byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4501 095e 9F       		.byte	0x9f
  4502 095f 20000000 		.4byte	.LVL5
  4503 0963 24000000 		.4byte	.LVL6
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 80
+ARM GAS  /var/tmp//cctPaOXo.s 			page 80
 
 
  4504 0967 0100     		.2byte	0x1
@@ -4798,7 +4798,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4557 0028 00000000 		.4byte	.LFB115
  4558 002c 28000000 		.4byte	.LFE115-.LFB115
  4559 0030 00000000 		.4byte	.LFB116
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 81
+ARM GAS  /var/tmp//cctPaOXo.s 			page 81
 
 
  4560 0034 0C000000 		.4byte	.LFE116-.LFB116
@@ -4858,7 +4858,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4614 010c 14000000 		.4byte	.LFE143-.LFB143
  4615 0110 00000000 		.4byte	.LFB144
  4616 0114 1A000000 		.4byte	.LFE144-.LFB144
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 82
+ARM GAS  /var/tmp//cctPaOXo.s 			page 82
 
 
  4617 0118 00000000 		.4byte	.LFB145
@@ -4918,7 +4918,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4671 00a0 00000000 		.4byte	.LFB132
  4672 00a4 14000000 		.4byte	.LFE132
  4673 00a8 00000000 		.4byte	.LFB133
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 83
+ARM GAS  /var/tmp//cctPaOXo.s 			page 83
 
 
  4674 00ac 14000000 		.4byte	.LFE133
@@ -4978,7 +4978,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4717      436F6E76 
  4718              	.LASF37:
  4719 0025 466C6167 		.ascii	"FlagStatus\000"
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 84
+ARM GAS  /var/tmp//cctPaOXo.s 			page 84
 
 
  4719      53746174 
@@ -5038,7 +5038,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4744 00e2 4A535152 		.ascii	"JSQR\000"
  4744      00
  4745              	.LASF10:
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 85
+ARM GAS  /var/tmp//cctPaOXo.s 			page 85
 
 
  4746 00e7 6C6F6E67 		.ascii	"long long int\000"
@@ -5098,7 +5098,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4768      444D4152 
  4768      65717565 
  4768      73744166 
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 86
+ARM GAS  /var/tmp//cctPaOXo.s 			page 86
 
 
  4768      7465724C 
@@ -5158,7 +5158,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4792      496E6A65 
  4792      63746564 
  4792      44697363 
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 87
+ARM GAS  /var/tmp//cctPaOXo.s 			page 87
 
 
  4792      4D6F6465 
@@ -5218,7 +5218,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4812      52656775 
  4812      6C617243 
  4812      68616E6E 
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 88
+ARM GAS  /var/tmp//cctPaOXo.s 			page 88
 
 
  4812      656C436F 
@@ -5278,7 +5278,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4838      00
  4839              	.LASF119:
  4840 0414 2F557365 		.ascii	"/Users/yanrudall/Documents/eBike/ebikeSystem\000"
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 89
+ARM GAS  /var/tmp//cctPaOXo.s 			page 89
 
 
  4840      72732F79 
@@ -5338,7 +5338,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4862      00
  4863              	.LASF57:
  4864 04dd 69746D61 		.ascii	"itmask\000"
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 90
+ARM GAS  /var/tmp//cctPaOXo.s 			page 90
 
 
  4864      736B00
@@ -5398,7 +5398,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4888 05a7 4144435F 		.ascii	"ADC_InjectedSequencerLengthConfig\000"
  4888      496E6A65 
  4888      63746564 
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 91
+ARM GAS  /var/tmp//cctPaOXo.s 			page 91
 
 
  4888      53657175 
@@ -5458,7 +5458,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4903      74757300 
  4904              	.LASF16:
  4905 0737 75696E74 		.ascii	"uint32_t\000"
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 92
+ARM GAS  /var/tmp//cctPaOXo.s 			page 92
 
 
  4905      33325F74 
@@ -5518,7 +5518,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4927 080a 4C656E67 		.ascii	"Length\000"
  4927      746800
  4928              	.LASF93:
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 93
+ARM GAS  /var/tmp//cctPaOXo.s 			page 93
 
 
  4929 0811 4144435F 		.ascii	"ADC_DiscModeCmd\000"
@@ -5578,7 +5578,7 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4955      536F6674 
  4955      77617265 
  4955      53746172 
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 94
+ARM GAS  /var/tmp//cctPaOXo.s 			page 94
 
 
  4955      74436F6E 
@@ -5598,96 +5598,96 @@ ARM GAS  /var/tmp//ccB9c6ba.s 			page 1
  4961      63616C65 
  4961      7200
  4962              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 95
+ARM GAS  /var/tmp//cctPaOXo.s 			page 95
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f4xx_adc.c
-/var/tmp//ccB9c6ba.s:18     .text.ADC_DeInit:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:26     .text.ADC_DeInit:0000000000000000 ADC_DeInit
-/var/tmp//ccB9c6ba.s:57     .text.ADC_Init:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:65     .text.ADC_Init:0000000000000000 ADC_Init
-/var/tmp//ccB9c6ba.s:140    .text.ADC_Init:0000000000000048 $d
-/var/tmp//ccB9c6ba.s:145    .text.ADC_StructInit:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:153    .text.ADC_StructInit:0000000000000000 ADC_StructInit
-/var/tmp//ccB9c6ba.s:183    .text.ADC_CommonInit:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:191    .text.ADC_CommonInit:0000000000000000 ADC_CommonInit
-/var/tmp//ccB9c6ba.s:239    .text.ADC_CommonInit:0000000000000020 $d
-/var/tmp//ccB9c6ba.s:245    .text.ADC_CommonStructInit:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:253    .text.ADC_CommonStructInit:0000000000000000 ADC_CommonStructInit
-/var/tmp//ccB9c6ba.s:275    .text.ADC_Cmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:283    .text.ADC_Cmd:0000000000000000 ADC_Cmd
-/var/tmp//ccB9c6ba.s:308    .text.ADC_AnalogWatchdogCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:316    .text.ADC_AnalogWatchdogCmd:0000000000000000 ADC_AnalogWatchdogCmd
-/var/tmp//ccB9c6ba.s:342    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:350    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 ADC_AnalogWatchdogThresholdsConfig
-/var/tmp//ccB9c6ba.s:367    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:375    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 ADC_AnalogWatchdogSingleChannelConfig
-/var/tmp//ccB9c6ba.s:399    .text.ADC_TempSensorVrefintCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:407    .text.ADC_TempSensorVrefintCmd:0000000000000000 ADC_TempSensorVrefintCmd
-/var/tmp//ccB9c6ba.s:432    .text.ADC_TempSensorVrefintCmd:0000000000000018 $d
-/var/tmp//ccB9c6ba.s:437    .text.ADC_VBATCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:445    .text.ADC_VBATCmd:0000000000000000 ADC_VBATCmd
-/var/tmp//ccB9c6ba.s:470    .text.ADC_VBATCmd:0000000000000018 $d
-/var/tmp//ccB9c6ba.s:475    .text.ADC_RegularChannelConfig:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:483    .text.ADC_RegularChannelConfig:0000000000000000 ADC_RegularChannelConfig
-/var/tmp//ccB9c6ba.s:654    .text.ADC_SoftwareStartConv:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:662    .text.ADC_SoftwareStartConv:0000000000000000 ADC_SoftwareStartConv
-/var/tmp//ccB9c6ba.s:679    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:687    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 ADC_GetSoftwareStartConvStatus
-/var/tmp//ccB9c6ba.s:706    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:714    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 ADC_EOCOnEachRegularChannelCmd
-/var/tmp//ccB9c6ba.s:739    .text.ADC_ContinuousModeCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:747    .text.ADC_ContinuousModeCmd:0000000000000000 ADC_ContinuousModeCmd
-/var/tmp//ccB9c6ba.s:772    .text.ADC_DiscModeChannelCountConfig:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:780    .text.ADC_DiscModeChannelCountConfig:0000000000000000 ADC_DiscModeChannelCountConfig
-/var/tmp//ccB9c6ba.s:806    .text.ADC_DiscModeCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:814    .text.ADC_DiscModeCmd:0000000000000000 ADC_DiscModeCmd
-/var/tmp//ccB9c6ba.s:839    .text.ADC_GetConversionValue:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:847    .text.ADC_GetConversionValue:0000000000000000 ADC_GetConversionValue
-/var/tmp//ccB9c6ba.s:865    .text.ADC_GetMultiModeConversionValue:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:873    .text.ADC_GetMultiModeConversionValue:0000000000000000 ADC_GetMultiModeConversionValue
-/var/tmp//ccB9c6ba.s:888    .text.ADC_GetMultiModeConversionValue:0000000000000008 $d
-/var/tmp//ccB9c6ba.s:893    .text.ADC_DMACmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:901    .text.ADC_DMACmd:0000000000000000 ADC_DMACmd
-/var/tmp//ccB9c6ba.s:926    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:934    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 ADC_DMARequestAfterLastTransferCmd
-/var/tmp//ccB9c6ba.s:959    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:967    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 ADC_MultiModeDMARequestAfterLastTransferCmd
-/var/tmp//ccB9c6ba.s:992    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000018 $d
-/var/tmp//ccB9c6ba.s:997    .text.ADC_InjectedChannelConfig:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1005   .text.ADC_InjectedChannelConfig:0000000000000000 ADC_InjectedChannelConfig
-/var/tmp//ccB9c6ba.s:1108   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 $t
-ARM GAS  /var/tmp//ccB9c6ba.s 			page 96
+/var/tmp//cctPaOXo.s:18     .text.ADC_DeInit:0000000000000000 $t
+/var/tmp//cctPaOXo.s:26     .text.ADC_DeInit:0000000000000000 ADC_DeInit
+/var/tmp//cctPaOXo.s:57     .text.ADC_Init:0000000000000000 $t
+/var/tmp//cctPaOXo.s:65     .text.ADC_Init:0000000000000000 ADC_Init
+/var/tmp//cctPaOXo.s:140    .text.ADC_Init:0000000000000048 $d
+/var/tmp//cctPaOXo.s:145    .text.ADC_StructInit:0000000000000000 $t
+/var/tmp//cctPaOXo.s:153    .text.ADC_StructInit:0000000000000000 ADC_StructInit
+/var/tmp//cctPaOXo.s:183    .text.ADC_CommonInit:0000000000000000 $t
+/var/tmp//cctPaOXo.s:191    .text.ADC_CommonInit:0000000000000000 ADC_CommonInit
+/var/tmp//cctPaOXo.s:239    .text.ADC_CommonInit:0000000000000020 $d
+/var/tmp//cctPaOXo.s:245    .text.ADC_CommonStructInit:0000000000000000 $t
+/var/tmp//cctPaOXo.s:253    .text.ADC_CommonStructInit:0000000000000000 ADC_CommonStructInit
+/var/tmp//cctPaOXo.s:275    .text.ADC_Cmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:283    .text.ADC_Cmd:0000000000000000 ADC_Cmd
+/var/tmp//cctPaOXo.s:308    .text.ADC_AnalogWatchdogCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:316    .text.ADC_AnalogWatchdogCmd:0000000000000000 ADC_AnalogWatchdogCmd
+/var/tmp//cctPaOXo.s:342    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 $t
+/var/tmp//cctPaOXo.s:350    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 ADC_AnalogWatchdogThresholdsConfig
+/var/tmp//cctPaOXo.s:367    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 $t
+/var/tmp//cctPaOXo.s:375    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 ADC_AnalogWatchdogSingleChannelConfig
+/var/tmp//cctPaOXo.s:399    .text.ADC_TempSensorVrefintCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:407    .text.ADC_TempSensorVrefintCmd:0000000000000000 ADC_TempSensorVrefintCmd
+/var/tmp//cctPaOXo.s:432    .text.ADC_TempSensorVrefintCmd:0000000000000018 $d
+/var/tmp//cctPaOXo.s:437    .text.ADC_VBATCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:445    .text.ADC_VBATCmd:0000000000000000 ADC_VBATCmd
+/var/tmp//cctPaOXo.s:470    .text.ADC_VBATCmd:0000000000000018 $d
+/var/tmp//cctPaOXo.s:475    .text.ADC_RegularChannelConfig:0000000000000000 $t
+/var/tmp//cctPaOXo.s:483    .text.ADC_RegularChannelConfig:0000000000000000 ADC_RegularChannelConfig
+/var/tmp//cctPaOXo.s:654    .text.ADC_SoftwareStartConv:0000000000000000 $t
+/var/tmp//cctPaOXo.s:662    .text.ADC_SoftwareStartConv:0000000000000000 ADC_SoftwareStartConv
+/var/tmp//cctPaOXo.s:679    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 $t
+/var/tmp//cctPaOXo.s:687    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 ADC_GetSoftwareStartConvStatus
+/var/tmp//cctPaOXo.s:706    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:714    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 ADC_EOCOnEachRegularChannelCmd
+/var/tmp//cctPaOXo.s:739    .text.ADC_ContinuousModeCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:747    .text.ADC_ContinuousModeCmd:0000000000000000 ADC_ContinuousModeCmd
+/var/tmp//cctPaOXo.s:772    .text.ADC_DiscModeChannelCountConfig:0000000000000000 $t
+/var/tmp//cctPaOXo.s:780    .text.ADC_DiscModeChannelCountConfig:0000000000000000 ADC_DiscModeChannelCountConfig
+/var/tmp//cctPaOXo.s:806    .text.ADC_DiscModeCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:814    .text.ADC_DiscModeCmd:0000000000000000 ADC_DiscModeCmd
+/var/tmp//cctPaOXo.s:839    .text.ADC_GetConversionValue:0000000000000000 $t
+/var/tmp//cctPaOXo.s:847    .text.ADC_GetConversionValue:0000000000000000 ADC_GetConversionValue
+/var/tmp//cctPaOXo.s:865    .text.ADC_GetMultiModeConversionValue:0000000000000000 $t
+/var/tmp//cctPaOXo.s:873    .text.ADC_GetMultiModeConversionValue:0000000000000000 ADC_GetMultiModeConversionValue
+/var/tmp//cctPaOXo.s:888    .text.ADC_GetMultiModeConversionValue:0000000000000008 $d
+/var/tmp//cctPaOXo.s:893    .text.ADC_DMACmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:901    .text.ADC_DMACmd:0000000000000000 ADC_DMACmd
+/var/tmp//cctPaOXo.s:926    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:934    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 ADC_DMARequestAfterLastTransferCmd
+/var/tmp//cctPaOXo.s:959    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:967    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 ADC_MultiModeDMARequestAfterLastTransferCmd
+/var/tmp//cctPaOXo.s:992    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000018 $d
+/var/tmp//cctPaOXo.s:997    .text.ADC_InjectedChannelConfig:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1005   .text.ADC_InjectedChannelConfig:0000000000000000 ADC_InjectedChannelConfig
+/var/tmp//cctPaOXo.s:1108   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 $t
+ARM GAS  /var/tmp//cctPaOXo.s 			page 96
 
 
-/var/tmp//ccB9c6ba.s:1116   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 ADC_InjectedSequencerLengthConfig
-/var/tmp//ccB9c6ba.s:1142   .text.ADC_SetInjectedOffset:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1150   .text.ADC_SetInjectedOffset:0000000000000000 ADC_SetInjectedOffset
-/var/tmp//ccB9c6ba.s:1182   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1190   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 ADC_ExternalTrigInjectedConvConfig
-/var/tmp//ccB9c6ba.s:1214   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1222   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 ADC_ExternalTrigInjectedConvEdgeConfig
-/var/tmp//ccB9c6ba.s:1246   .text.ADC_SoftwareStartInjectedConv:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1254   .text.ADC_SoftwareStartInjectedConv:0000000000000000 ADC_SoftwareStartInjectedConv
-/var/tmp//ccB9c6ba.s:1271   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1279   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 ADC_GetSoftwareStartInjectedConvCmdStatus
-/var/tmp//ccB9c6ba.s:1298   .text.ADC_AutoInjectedConvCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1306   .text.ADC_AutoInjectedConvCmd:0000000000000000 ADC_AutoInjectedConvCmd
-/var/tmp//ccB9c6ba.s:1331   .text.ADC_InjectedDiscModeCmd:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1339   .text.ADC_InjectedDiscModeCmd:0000000000000000 ADC_InjectedDiscModeCmd
-/var/tmp//ccB9c6ba.s:1364   .text.ADC_GetInjectedConversionValue:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1372   .text.ADC_GetInjectedConversionValue:0000000000000000 ADC_GetInjectedConversionValue
-/var/tmp//ccB9c6ba.s:1407   .text.ADC_ITConfig:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1415   .text.ADC_ITConfig:0000000000000000 ADC_ITConfig
-/var/tmp//ccB9c6ba.s:1450   .text.ADC_GetFlagStatus:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1458   .text.ADC_GetFlagStatus:0000000000000000 ADC_GetFlagStatus
-/var/tmp//ccB9c6ba.s:1480   .text.ADC_ClearFlag:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1488   .text.ADC_ClearFlag:0000000000000000 ADC_ClearFlag
-/var/tmp//ccB9c6ba.s:1505   .text.ADC_GetITStatus:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1513   .text.ADC_GetITStatus:0000000000000000 ADC_GetITStatus
-/var/tmp//ccB9c6ba.s:1548   .text.ADC_ClearITPendingBit:0000000000000000 $t
-/var/tmp//ccB9c6ba.s:1556   .text.ADC_ClearITPendingBit:0000000000000000 ADC_ClearITPendingBit
+/var/tmp//cctPaOXo.s:1116   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 ADC_InjectedSequencerLengthConfig
+/var/tmp//cctPaOXo.s:1142   .text.ADC_SetInjectedOffset:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1150   .text.ADC_SetInjectedOffset:0000000000000000 ADC_SetInjectedOffset
+/var/tmp//cctPaOXo.s:1182   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1190   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 ADC_ExternalTrigInjectedConvConfig
+/var/tmp//cctPaOXo.s:1214   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1222   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 ADC_ExternalTrigInjectedConvEdgeConfig
+/var/tmp//cctPaOXo.s:1246   .text.ADC_SoftwareStartInjectedConv:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1254   .text.ADC_SoftwareStartInjectedConv:0000000000000000 ADC_SoftwareStartInjectedConv
+/var/tmp//cctPaOXo.s:1271   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1279   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 ADC_GetSoftwareStartInjectedConvCmdStatus
+/var/tmp//cctPaOXo.s:1298   .text.ADC_AutoInjectedConvCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1306   .text.ADC_AutoInjectedConvCmd:0000000000000000 ADC_AutoInjectedConvCmd
+/var/tmp//cctPaOXo.s:1331   .text.ADC_InjectedDiscModeCmd:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1339   .text.ADC_InjectedDiscModeCmd:0000000000000000 ADC_InjectedDiscModeCmd
+/var/tmp//cctPaOXo.s:1364   .text.ADC_GetInjectedConversionValue:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1372   .text.ADC_GetInjectedConversionValue:0000000000000000 ADC_GetInjectedConversionValue
+/var/tmp//cctPaOXo.s:1407   .text.ADC_ITConfig:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1415   .text.ADC_ITConfig:0000000000000000 ADC_ITConfig
+/var/tmp//cctPaOXo.s:1450   .text.ADC_GetFlagStatus:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1458   .text.ADC_GetFlagStatus:0000000000000000 ADC_GetFlagStatus
+/var/tmp//cctPaOXo.s:1480   .text.ADC_ClearFlag:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1488   .text.ADC_ClearFlag:0000000000000000 ADC_ClearFlag
+/var/tmp//cctPaOXo.s:1505   .text.ADC_GetITStatus:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1513   .text.ADC_GetITStatus:0000000000000000 ADC_GetITStatus
+/var/tmp//cctPaOXo.s:1548   .text.ADC_ClearITPendingBit:0000000000000000 $t
+/var/tmp//cctPaOXo.s:1556   .text.ADC_ClearITPendingBit:0000000000000000 ADC_ClearITPendingBit
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
