@@ -31,7 +31,7 @@
 //#define mode2
 
 //HIGHLY experimental, sets engine to 2.0A in case of too high poti
-#define debug
+//#define debug
 
 static THD_FUNCTION(example_thread, arg);
 static THD_WORKING_AREA(example_thread_wa, 2048); // 2kb stack for this thread
