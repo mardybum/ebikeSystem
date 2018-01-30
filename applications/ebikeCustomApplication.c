@@ -24,11 +24,14 @@
 #include "timeout.h" // To reset the timeout
 #include "commands.h"
 
-#define speedLimit
+//#define speedLimit
 
 //Change between different bike setups (e.g. crank sensor type)
 #define mode1
 //#define mode2
+
+//HIGHLY experimental, sets engine to 2.0A in case of too high poti
+#define debug
 
 static THD_FUNCTION(example_thread, arg);
 static THD_WORKING_AREA(example_thread_wa, 2048); // 2kb stack for this thread
@@ -66,6 +69,10 @@ static const float noRotatingTreshold = 3000.0;
 //timer in milli seconds for not pedaling
 static const float noPedalingTreshold = 8000.0;
 
+static const float setPointCurrentStartup = 12.0;
+
+static const float lowerCurrent = 10.0;
+
 //Number of magnets that have to be triggered at the crank to set isPedaling true
 static const int tresholdMagnet = 1;
 
@@ -80,12 +87,19 @@ static systime_t firstPedalStroke;
 static systime_t timeOnPedaling;
 static systime_t timeOffPedaling;
 static systime_t timeStartPedaling;
+static systime_t timeMotorRelease;
 
 //Timer for the duration of a different current that will be applied (Startup routine)
-static const float startUpRoutineEnd = 2000;
+static const float startUpRoutineEnd = 2000.0;
+
+//timer for motor release
+static const float motorReleaseTreshold = 2500.0;
 
 //Semaphore for the startup
 static int startUpTrigger = 0;
+
+//Semaphore motor release
+static int motorReleaseTrigger = 0;
 
 //for the state transition => in what state are we?
 static bool startUpRoutine = true;
@@ -293,7 +307,7 @@ static THD_FUNCTION(example_thread, arg) {
         }
         
         //If we are pedaling, then first a startup roune is activated in order to limit the motor current (Currently 4 amps)
-        if(isPedaling == true) {
+        if(isPedaling == true && (float)ST2MS(chVTTimeElapsedSinceX(timeMotorRelease)) > motorReleaseTreshold ) {
             
             if(startUpRoutine == true) {
                 
@@ -307,7 +321,7 @@ static THD_FUNCTION(example_thread, arg) {
                     startUpRoutine = false;
                 }
                 
-                setPointCurrent = (float) 10.0;
+                setPointCurrent = setPointCurrentStartup;
                 mc_interface_set_current(setPointCurrent);
                 
                 //vehicleVelocity = (3.14*0.0007112 * speedSensorWheel*60.0);
@@ -319,10 +333,32 @@ static THD_FUNCTION(example_thread, arg) {
                 
             } else {
                 
+            #ifndef debug
+                
                 //At least 10 Amps and additionaly the amoount of the max motor current times poti value
-                setPointCurrent = ((float) mcconf->lo_current_motor_max_now * pot) + 10.0;
+                setPointCurrent = ((float) mcconf->lo_current_motor_max_now * pot) + lowerCurrent;
                 mc_interface_set_current(setPointCurrent);
+                
+            #endif
+                
+            #ifdef debug
+                
+                if(pot > 0.95) {
+                    
+                    mc_interface_set_current(1.0);
+                } else {
+                    
+                    //At least 10 Amps and additionaly the amoount of the max motor current times poti value
+                    setPointCurrent = ((float) mcconf->lo_current_motor_max_now * pot) + lowerCurrent;
+                    mc_interface_set_current(setPointCurrent);
+                }
+                
+            #endif
+                
             }
+            
+            //Reset Motor Release
+            motorReleaseTrigger = 0;
             
         //Todo check if this works
         #ifdef speedLimit
@@ -348,9 +384,17 @@ static THD_FUNCTION(example_thread, arg) {
             mc_interface_release_motor();
             startUpTrigger = 0;
             startUpRoutine = true;
+            
+            //Start timer when motor was released
+            if(motorReleaseTrigger == 0) {
+                
+                timeMotorRelease = chVTGetSystemTimeX();
+                motorReleaseTrigger = 1;
+            }
+            
         }
         
-        commands_printf("hall1: %f \n", (double)pot);
+        //commands_printf("hall1: %f \n", (double)pot);
         
         // Run this loop at 500Hz
         chThdSleepMilliseconds(2);
