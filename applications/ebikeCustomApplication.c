@@ -307,7 +307,7 @@ static THD_FUNCTION(example_thread, arg) {
         }
         
         //If we are pedaling, then first a startup roune is activated in order to limit the motor current (Currently 4 amps)
-        if(isPedaling == true && (float)ST2MS(chVTTimeElapsedSinceX(timeMotorRelease)) > motorReleaseTreshold ) {
+        if(isPedaling == true && (float)ST2MS(chVTTimeElapsedSinceX(timeMotorRelease)) > motorReleaseTreshold || motorReleaseTrigger == 0) {
             
             if(startUpRoutine == true) {
                 
