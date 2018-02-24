@@ -71,6 +71,8 @@ static const float noPedalingTreshold = 8000.0;
 
 static const float setPointCurrentStartup = 13.0;
 
+
+// standard current
 static const float lowerCurrent = 8.0;
 
 //Number of magnets that have to be triggered at the crank to set isPedaling true
