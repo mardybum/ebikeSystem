@@ -31,7 +31,7 @@
 //#define mode2
 
 //HIGHLY experimental, sets engine to 2.0A in case of too high poti
-//#define debug
+#define debug
 
 static THD_FUNCTION(example_thread, arg);
 static THD_WORKING_AREA(example_thread_wa, 2048); // 2kb stack for this thread
@@ -69,14 +69,14 @@ static const float noRotatingTreshold = 3000.0;
 //timer in milli seconds for not pedaling
 static const float noPedalingTreshold = 8000.0;
 
-static const float setPointCurrentStartup = 12.0;
+static const float setPointCurrentStartup = 13.0;
 
-static const float lowerCurrent = 10.0;
+static const float lowerCurrent = 8.0;
 
 //Number of magnets that have to be triggered at the crank to set isPedaling true
 static const int tresholdMagnet = 1;
 
-//timer ifor not pedaling
+//timer for not pedaling, Time difference between two magnets
 static const float tresholdTimePedaling = 15000.0;
 
 //Min speed to start the engine
@@ -92,8 +92,8 @@ static systime_t timeMotorRelease;
 //Timer for the duration of a different current that will be applied (Startup routine)
 static const float startUpRoutineEnd = 2000.0;
 
-//timer for motor release
-static const float motorReleaseTreshold = 2500.0;
+//timer for applying motor after it was released
+static const float motorReleaseTreshold = 1500.0;
 
 //Semaphore for the startup
 static int startUpTrigger = 0;
@@ -159,7 +159,7 @@ static THD_FUNCTION(example_thread, arg) {
         // Read the pot value and scale it to a number between 0 and 1 (see hw_46.h)
         
         //Read value of the poti
-        float pot = (float)ADC_Value[ADC_IND_EXT2];
+        float pot = (float)ADC_Value[ADC_IND_EXT];
         pot /= 4095.0;
         
         
@@ -307,7 +307,7 @@ static THD_FUNCTION(example_thread, arg) {
         }
         
         //If we are pedaling, then first a startup roune is activated in order to limit the motor current (Currently 4 amps)
-        if(isPedaling == true && (float)ST2MS(chVTTimeElapsedSinceX(timeMotorRelease)) > motorReleaseTreshold || motorReleaseTrigger == 0) {
+        if(isPedaling == true && ((float)ST2MS(chVTTimeElapsedSinceX(timeMotorRelease)) > motorReleaseTreshold || motorReleaseTrigger == 0)) {
             
             if(startUpRoutine == true) {
                 
@@ -333,13 +333,13 @@ static THD_FUNCTION(example_thread, arg) {
                 
             } else {
                 
-            #ifndef debug
+            //#ifndef debug
                 
                 //At least 10 Amps and additionaly the amoount of the max motor current times poti value
                 setPointCurrent = ((float) mcconf->lo_current_motor_max_now * pot) + lowerCurrent;
                 mc_interface_set_current(setPointCurrent);
                 
-            #endif
+            //#endif
                 
             #ifdef debug
                 
@@ -394,7 +394,7 @@ static THD_FUNCTION(example_thread, arg) {
             
         }
         
-        //commands_printf("hall1: %f \n", (double)pot);
+        //commands_printf("hall1: %f \n", (float)pot);
         
         // Run this loop at 500Hz
         chThdSleepMilliseconds(2);
