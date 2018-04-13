@@ -69,9 +69,16 @@ static const float noRotatingTreshold = 3000.0;
 //timer in milli seconds for not pedaling
 static const float noPedalingTreshold = 8000.0;
 
-static const float setPointCurrentStartup = 13.0;
+static const float setPointCurrentStartupLower = 15.0;
+static const float setPointCurrentStartupUpper = 10.0;
+static const float startUpRoutineVelocityTrigger = 15.0;
 
+<<<<<<< HEAD
 //Wert scheisse?
+=======
+
+// standard current
+>>>>>>> 7c3c5d721076612df226589898cf2e0bbd36b9d6
 static const float lowerCurrent = 8.0;
 
 //Number of magnets that have to be triggered at the crank to set isPedaling true
@@ -278,6 +285,8 @@ static THD_FUNCTION(example_thread, arg) {
         //TODO ABS()?
         if(abs(differenceLow > differenceHigh)) {
             
+         if((differenceLow > differenceHigh) && (differenceLow - differenceHigh < 2.0)) {
+            
             pedalingForward = true;
         } else {
             
@@ -322,7 +331,16 @@ static THD_FUNCTION(example_thread, arg) {
                     startUpRoutine = false;
                 }
                 
-                setPointCurrent = setPointCurrentStartup;
+                //Depend the startup current on the velocity of the bikeA
+                if(vehicleVelocity > 0.0 && vehicleVelocity < startUpRoutineVelocityTrigger) {
+                    
+                    setPointCurrent = setPointCurrentStartupLower;
+                } else if (vehicleVelocity > startUpRoutineVelocityTrigger) {
+                    
+                    setPointCurrent = setPointCurrentStartupUpper;
+                }
+                
+                
                 mc_interface_set_current(setPointCurrent);
                 
                 //vehicleVelocity = (3.14*0.0007112 * speedSensorWheel*60.0);
@@ -396,6 +414,8 @@ static THD_FUNCTION(example_thread, arg) {
         }
         
         //commands_printf("hall1: %f \n", (float)pot);
+        
+        commands_printf("Hallsensor: %d \n", hallSensorCrank);
         
         // Run this loop at 500Hz
         chThdSleepMilliseconds(2);
