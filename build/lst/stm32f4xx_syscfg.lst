@@ -1,4 +1,4 @@
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
   55              		.size	SYSCFG_DeInit, .-SYSCFG_DeInit
   56 001a 00BF     		.section	.text.SYSCFG_MemoryRemapConfig,"ax",%progbits
   57              		.align	1
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 2
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  112              		.section	.text.SYSCFG_EXTILineConfig,"ax",%progbits
  113              		.align	1
  114              		.p2align 4,,15
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 3
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 3
 
 
  115              		.global	SYSCFG_EXTILineConfig
@@ -178,7 +178,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  169              		.p2align 4,,15
  170              		.global	SYSCFG_ETH_MediaInterfaceConfig
  171              		.syntax unified
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 4
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 4
 
 
  172              		.thumb
@@ -238,7 +238,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  226              		.global	SYSCFG_GetCompensationCellStatus
  227              		.syntax unified
  228              		.thumb
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 5
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 5
 
 
  229              		.thumb_func
@@ -269,8 +269,8 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  254              		.size	SYSCFG_GetCompensationCellStatus, .-SYSCFG_GetCompensationCellStatus
  255              		.text
  256              	.Letext0:
- 257              		.file 2 "/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_defa
- 258              		.file 3 "/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h
+ 257              		.file 2 "c:\\chibistudio\\tools\\gnu tools arm embedded\\6.3 2017q1\\arm-none-eabi\\include\\machi
+ 258              		.file 3 "c:\\chibistudio\\tools\\gnu tools arm embedded\\6.3 2017q1\\arm-none-eabi\\include\\sys\\
  259              		.file 4 "ChibiOS_3.0.2/os/ext/CMSIS/include/core_cm4.h"
  260              		.file 5 "ChibiOS_3.0.2/os/ext/CMSIS/ST/system_stm32f4xx.h"
  261              		.file 6 "ChibiOS_3.0.2/os/ext/CMSIS/ST/stm32f407xx.h"
@@ -283,63 +283,63 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  268 0006 00000000 		.4byte	.Ldebug_abbrev0
  269 000a 04       		.byte	0x4
  270 000b 01       		.uleb128 0x1
- 271 000c 00000000 		.4byte	.LASF40
+ 271 000c F8010000 		.4byte	.LASF40
  272 0010 0C       		.byte	0xc
- 273 0011 E2020000 		.4byte	.LASF41
- 274 0015 7C020000 		.4byte	.LASF42
+ 273 0011 A0010000 		.4byte	.LASF41
+ 274 0015 72010000 		.4byte	.LASF42
  275 0019 00000000 		.4byte	.Ldebug_ranges0+0
  276 001d 00000000 		.4byte	0
  277 0021 00000000 		.4byte	.Ldebug_line0
  278 0025 02       		.uleb128 0x2
  279 0026 01       		.byte	0x1
  280 0027 06       		.byte	0x6
- 281 0028 1D030000 		.4byte	.LASF0
+ 281 0028 DB010000 		.4byte	.LASF0
  282 002c 03       		.uleb128 0x3
- 283 002d 24010000 		.4byte	.LASF4
+ 283 002d 00000000 		.4byte	.LASF4
  284 0031 02       		.byte	0x2
  285 0032 2B       		.byte	0x2b
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 6
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 6
 
 
  286 0033 37000000 		.4byte	0x37
  287 0037 02       		.uleb128 0x2
  288 0038 01       		.byte	0x1
  289 0039 08       		.byte	0x8
- 290 003a 0D020000 		.4byte	.LASF1
+ 290 003a EF000000 		.4byte	.LASF1
  291 003e 02       		.uleb128 0x2
  292 003f 02       		.byte	0x2
  293 0040 05       		.byte	0x5
- 294 0041 6B030000 		.4byte	.LASF2
+ 294 0041 4D030000 		.4byte	.LASF2
  295 0045 02       		.uleb128 0x2
  296 0046 02       		.byte	0x2
  297 0047 07       		.byte	0x7
- 298 0048 73010000 		.4byte	.LASF3
+ 298 0048 4F000000 		.4byte	.LASF3
  299 004c 03       		.uleb128 0x3
- 300 004d 4E010000 		.4byte	.LASF5
+ 300 004d 2A000000 		.4byte	.LASF5
  301 0051 02       		.byte	0x2
  302 0052 4D       		.byte	0x4d
  303 0053 57000000 		.4byte	0x57
  304 0057 02       		.uleb128 0x2
  305 0058 04       		.byte	0x4
  306 0059 05       		.byte	0x5
- 307 005a AB030000 		.4byte	.LASF6
+ 307 005a 8D030000 		.4byte	.LASF6
  308 005e 03       		.uleb128 0x3
- 309 005f DF010000 		.4byte	.LASF7
+ 309 005f C1000000 		.4byte	.LASF7
  310 0063 02       		.byte	0x2
  311 0064 4F       		.byte	0x4f
  312 0065 69000000 		.4byte	0x69
  313 0069 02       		.uleb128 0x2
  314 006a 04       		.byte	0x4
  315 006b 07       		.byte	0x7
- 316 006c 26020000 		.4byte	.LASF8
+ 316 006c 08010000 		.4byte	.LASF8
  317 0070 02       		.uleb128 0x2
  318 0071 08       		.byte	0x8
  319 0072 05       		.byte	0x5
- 320 0073 3A030000 		.4byte	.LASF9
+ 320 0073 1C030000 		.4byte	.LASF9
  321 0077 02       		.uleb128 0x2
  322 0078 08       		.byte	0x8
  323 0079 07       		.byte	0x7
- 324 007a C3020000 		.4byte	.LASF10
+ 324 007a 81010000 		.4byte	.LASF10
  325 007e 04       		.uleb128 0x4
  326 007f 04       		.byte	0x4
  327 0080 05       		.byte	0x5
@@ -347,24 +347,24 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  329 0085 02       		.uleb128 0x2
  330 0086 04       		.byte	0x4
  331 0087 07       		.byte	0x7
- 332 0088 B0020000 		.4byte	.LASF11
+ 332 0088 65010000 		.4byte	.LASF11
  333 008c 03       		.uleb128 0x3
- 334 008d DA020000 		.4byte	.LASF12
+ 334 008d 98010000 		.4byte	.LASF12
  335 0091 03       		.byte	0x3
  336 0092 18       		.byte	0x18
  337 0093 2C000000 		.4byte	0x2c
  338 0097 03       		.uleb128 0x3
- 339 0098 29030000 		.4byte	.LASF13
+ 339 0098 E7010000 		.4byte	.LASF13
  340 009c 03       		.byte	0x3
  341 009d 2C       		.byte	0x2c
  342 009e 4C000000 		.4byte	0x4c
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 7
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 7
 
 
  343 00a2 05       		.uleb128 0x5
  344 00a3 97000000 		.4byte	0x97
  345 00a7 03       		.uleb128 0x3
- 346 00a8 A2030000 		.4byte	.LASF14
+ 346 00a8 84030000 		.4byte	.LASF14
  347 00ac 03       		.byte	0x3
  348 00ad 30       		.byte	0x30
  349 00ae 5E000000 		.4byte	0x5e
@@ -373,7 +373,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  352 00b7 02       		.uleb128 0x2
  353 00b8 04       		.byte	0x4
  354 00b9 07       		.byte	0x7
- 355 00ba 31030000 		.4byte	.LASF15
+ 355 00ba EF010000 		.4byte	.LASF15
  356 00be 06       		.uleb128 0x6
  357 00bf A7000000 		.4byte	0xa7
  358 00c3 CE000000 		.4byte	0xce
@@ -382,12 +382,12 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  361 00cc 01       		.byte	0x1
  362 00cd 00       		.byte	0
  363 00ce 08       		.uleb128 0x8
- 364 00cf 56020000 		.4byte	.LASF16
+ 364 00cf 38010000 		.4byte	.LASF16
  365 00d3 04       		.byte	0x4
  366 00d4 A706     		.2byte	0x6a7
  367 00d6 A2000000 		.4byte	0xa2
  368 00da 09       		.uleb128 0x9
- 369 00db 48030000 		.4byte	.LASF17
+ 369 00db 2A030000 		.4byte	.LASF17
  370 00df 05       		.byte	0x5
  371 00e0 4C       		.byte	0x4c
  372 00e1 A7000000 		.4byte	0xa7
@@ -397,7 +397,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  376 00e8 3202     		.2byte	0x232
  377 00ea 30010000 		.4byte	0x130
  378 00ee 0B       		.uleb128 0xb
- 379 00ef 38020000 		.4byte	.LASF18
+ 379 00ef 1A010000 		.4byte	.LASF18
  380 00f3 06       		.byte	0x6
  381 00f4 3402     		.2byte	0x234
  382 00f6 B2000000 		.4byte	0xb2
@@ -409,22 +409,22 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  388 0103 B2000000 		.4byte	0xb2
  389 0107 04       		.byte	0x4
  390 0108 0B       		.uleb128 0xb
- 391 0109 A9020000 		.4byte	.LASF19
+ 391 0109 5E010000 		.4byte	.LASF19
  392 010d 06       		.byte	0x6
  393 010e 3602     		.2byte	0x236
  394 0110 40010000 		.4byte	0x140
  395 0114 08       		.byte	0x8
  396 0115 0B       		.uleb128 0xb
- 397 0116 73020000 		.4byte	.LASF20
+ 397 0116 55010000 		.4byte	.LASF20
  398 011a 06       		.byte	0x6
  399 011b 3702     		.2byte	0x237
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 8
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 8
 
 
  400 011d BE000000 		.4byte	0xbe
  401 0121 18       		.byte	0x18
  402 0122 0B       		.uleb128 0xb
- 403 0123 07020000 		.4byte	.LASF21
+ 403 0123 E9000000 		.4byte	.LASF21
  404 0127 06       		.byte	0x6
  405 0128 3802     		.2byte	0x238
  406 012a B2000000 		.4byte	0xb2
@@ -440,7 +440,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  416 0140 05       		.uleb128 0x5
  417 0141 30010000 		.4byte	0x130
  418 0145 0D       		.uleb128 0xd
- 419 0146 7E030000 		.4byte	.LASF22
+ 419 0146 60030000 		.4byte	.LASF22
  420 014a 06       		.byte	0x6
  421 014b 3902     		.2byte	0x239
  422 014d E5000000 		.4byte	0xe5
@@ -451,14 +451,14 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  427 0158 A2       		.byte	0xa2
  428 0159 6A010000 		.4byte	0x16a
  429 015d 0F       		.uleb128 0xf
- 430 015e BD020000 		.4byte	.LASF23
+ 430 015e 93000000 		.4byte	.LASF23
  431 0162 00       		.byte	0
  432 0163 10       		.uleb128 0x10
  433 0164 53455400 		.ascii	"SET\000"
  434 0168 01       		.byte	0x1
  435 0169 00       		.byte	0
  436 016a 03       		.uleb128 0x3
- 437 016b 1B020000 		.4byte	.LASF24
+ 437 016b FD000000 		.4byte	.LASF24
  438 016f 07       		.byte	0x7
  439 0170 A5       		.byte	0xa5
  440 0171 51010000 		.4byte	0x151
@@ -469,22 +469,22 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  445 017c A8       		.byte	0xa8
  446 017d 8E010000 		.4byte	0x18e
  447 0181 0F       		.uleb128 0xf
- 448 0182 B4030000 		.4byte	.LASF25
+ 448 0182 96030000 		.4byte	.LASF25
  449 0186 00       		.byte	0
  450 0187 0F       		.uleb128 0xf
- 451 0188 EA010000 		.4byte	.LASF26
+ 451 0188 CC000000 		.4byte	.LASF26
  452 018c 01       		.byte	0x1
  453 018d 00       		.byte	0
  454 018e 03       		.uleb128 0x3
- 455 018f A7010000 		.4byte	.LASF27
+ 455 018f 83000000 		.4byte	.LASF27
  456 0193 07       		.byte	0x7
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 9
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 9
 
 
  457 0194 AB       		.byte	0xab
  458 0195 75010000 		.4byte	0x175
  459 0199 11       		.uleb128 0x11
- 460 019a 86010000 		.4byte	.LASF43
+ 460 019a 62000000 		.4byte	.LASF43
  461 019e 01       		.byte	0x1
  462 019f D9       		.byte	0xd9
  463 01a0 6A010000 		.4byte	0x16a
@@ -494,14 +494,14 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  467 01ad 9C       		.byte	0x9c
  468 01ae C2010000 		.4byte	0x1c2
  469 01b2 12       		.uleb128 0x12
- 470 01b3 BC030000 		.4byte	.LASF35
+ 470 01b3 9E030000 		.4byte	.LASF35
  471 01b7 01       		.byte	0x1
  472 01b8 DB       		.byte	0xdb
  473 01b9 6A010000 		.4byte	0x16a
  474 01bd 00000000 		.4byte	.LLST2
  475 01c1 00       		.byte	0
  476 01c2 13       		.uleb128 0x13
- 477 01c3 58010000 		.4byte	.LASF28
+ 477 01c3 34000000 		.4byte	.LASF28
  478 01c7 01       		.byte	0x1
  479 01c8 CC       		.byte	0xcc
  480 01c9 00000000 		.4byte	.LFB117
@@ -510,7 +510,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  483 01d2 9C       		.byte	0x9c
  484 01d3 E5010000 		.4byte	0x1e5
  485 01d7 14       		.uleb128 0x14
- 486 01d8 75030000 		.4byte	.LASF30
+ 486 01d8 57030000 		.4byte	.LASF30
  487 01dc 01       		.byte	0x1
  488 01dd CC       		.byte	0xcc
  489 01de 8E010000 		.4byte	0x18e
@@ -518,7 +518,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  491 01e3 50       		.byte	0x50
  492 01e4 00       		.byte	0
  493 01e5 13       		.uleb128 0x13
- 494 01e6 2E010000 		.4byte	.LASF29
+ 494 01e6 0A000000 		.4byte	.LASF29
  495 01ea 01       		.byte	0x1
  496 01eb BB       		.byte	0xbb
  497 01ec 00000000 		.4byte	.LFB116
@@ -527,7 +527,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  500 01f5 9C       		.byte	0x9c
  501 01f6 08020000 		.4byte	0x208
  502 01fa 14       		.uleb128 0x14
- 503 01fb C5010000 		.4byte	.LASF31
+ 503 01fb A7000000 		.4byte	.LASF31
  504 01ff 01       		.byte	0x1
  505 0200 BB       		.byte	0xbb
  506 0201 A7000000 		.4byte	0xa7
@@ -535,10 +535,10 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  508 0206 50       		.byte	0x50
  509 0207 00       		.byte	0
  510 0208 13       		.uleb128 0x13
- 511 0209 F1010000 		.4byte	.LASF32
+ 511 0209 D3000000 		.4byte	.LASF32
  512 020d 01       		.byte	0x1
  513 020e A6       		.byte	0xa6
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 10
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 10
 
 
  514 020f 00000000 		.4byte	.LFB115
@@ -547,14 +547,14 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  517 0218 9C       		.byte	0x9c
  518 0219 49020000 		.4byte	0x249
  519 021d 14       		.uleb128 0x14
- 520 021e 8D030000 		.4byte	.LASF33
+ 520 021e 6F030000 		.4byte	.LASF33
  521 0222 01       		.byte	0x1
  522 0223 A6       		.byte	0xa6
  523 0224 8C000000 		.4byte	0x8c
  524 0228 01       		.uleb128 0x1
  525 0229 50       		.byte	0x50
  526 022a 15       		.uleb128 0x15
- 527 022b 63020000 		.4byte	.LASF34
+ 527 022b 45010000 		.4byte	.LASF34
  528 022f 01       		.byte	0x1
  529 0230 A6       		.byte	0xa6
  530 0231 8C000000 		.4byte	0x8c
@@ -567,7 +567,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  537 0244 48000000 		.4byte	.LLST1
  538 0248 00       		.byte	0
  539 0249 13       		.uleb128 0x13
- 540 024a C6030000 		.4byte	.LASF36
+ 540 024a A8030000 		.4byte	.LASF36
  541 024e 01       		.byte	0x1
  542 024f 8F       		.byte	0x8f
  543 0250 00000000 		.4byte	.LFB114
@@ -576,7 +576,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  546 0259 9C       		.byte	0x9c
  547 025a 6C020000 		.4byte	0x26c
  548 025e 14       		.uleb128 0x14
- 549 025f 75030000 		.4byte	.LASF30
+ 549 025f 57030000 		.4byte	.LASF30
  550 0263 01       		.byte	0x1
  551 0264 8F       		.byte	0x8f
  552 0265 8E010000 		.4byte	0x18e
@@ -584,7 +584,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  554 026a 50       		.byte	0x50
  555 026b 00       		.byte	0
  556 026c 13       		.uleb128 0x13
- 557 026d E0030000 		.4byte	.LASF37
+ 557 026d C2030000 		.4byte	.LASF37
  558 0271 01       		.byte	0x1
  559 0272 7A       		.byte	0x7a
  560 0273 00000000 		.4byte	.LFB113
@@ -593,18 +593,18 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  563 027c 9C       		.byte	0x9c
  564 027d 8F020000 		.4byte	0x28f
  565 0281 14       		.uleb128 0x14
- 566 0282 58030000 		.4byte	.LASF38
+ 566 0282 3A030000 		.4byte	.LASF38
  567 0286 01       		.byte	0x1
  568 0287 7A       		.byte	0x7a
  569 0288 8C000000 		.4byte	0x8c
  570 028c 01       		.uleb128 0x1
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 11
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 11
 
 
  571 028d 50       		.byte	0x50
  572 028e 00       		.byte	0
  573 028f 13       		.uleb128 0x13
- 574 0290 B7010000 		.4byte	.LASF39
+ 574 0290 99000000 		.4byte	.LASF39
  575 0294 01       		.byte	0x1
  576 0295 67       		.byte	0x67
  577 0296 00000000 		.4byte	.LFB112
@@ -645,8 +645,8 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  612 02d3 00       		.byte	0
  613 02d4 00       		.byte	0
  614 02d5 1A       		.uleb128 0x1a
- 615 02d6 3F020000 		.4byte	.LASF44
- 616 02da 3F020000 		.4byte	.LASF44
+ 615 02d6 21010000 		.4byte	.LASF44
+ 616 02da 21010000 		.4byte	.LASF44
  617 02de 08       		.byte	0x8
  618 02df 6203     		.2byte	0x362
  619 02e1 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  625 0003 25       		.uleb128 0x25
  626 0004 0E       		.uleb128 0xe
  627 0005 13       		.uleb128 0x13
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 12
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 12
 
 
  628 0006 0B       		.uleb128 0xb
@@ -718,7 +718,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  682 003c 00       		.byte	0
  683 003d 06       		.uleb128 0x6
  684 003e 01       		.uleb128 0x1
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 13
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 13
 
 
  685 003f 01       		.byte	0x1
@@ -778,7 +778,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  739 0075 0B       		.uleb128 0xb
  740 0076 3A       		.uleb128 0x3a
  741 0077 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 14
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 14
 
 
  742 0078 3B       		.uleb128 0x3b
@@ -838,7 +838,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  796 00ae 49       		.uleb128 0x49
  797 00af 13       		.uleb128 0x13
  798 00b0 3A       		.uleb128 0x3a
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 15
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 15
 
 
  799 00b1 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  853 00e8 00       		.byte	0
  854 00e9 03       		.uleb128 0x3
  855 00ea 0E       		.uleb128 0xe
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 16
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 16
 
 
  856 00eb 3A       		.uleb128 0x3a
@@ -958,7 +958,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  910 0122 0E       		.uleb128 0xe
  911 0123 3A       		.uleb128 0x3a
  912 0124 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 17
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 17
 
 
  913 0125 3B       		.uleb128 0x3b
@@ -1018,7 +1018,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  967 0163 1A       		.uleb128 0x1a
  968 0164 2E       		.uleb128 0x2e
  969 0165 00       		.byte	0
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 18
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 18
 
 
  970 0166 3F       		.uleb128 0x3f
@@ -1078,7 +1078,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  1024 0052 30       		.byte	0x30
  1025 0053 9F       		.byte	0x9f
  1026 0054 16000000 		.4byte	.LVL6
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 19
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 19
 
 
  1027 0058 1A000000 		.4byte	.LVL7
@@ -1138,7 +1138,7 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  1081 001c 30000000 		.4byte	.LFE115
  1082 0020 00000000 		.4byte	.LFB116
  1083 0024 0C000000 		.4byte	.LFE116
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 20
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 20
 
 
  1084 0028 00000000 		.4byte	.LFB117
@@ -1149,289 +1149,288 @@ ARM GAS  /var/tmp//ccMvqrCE.s 			page 1
  1089 003c 00000000 		.4byte	0
  1090              		.section	.debug_line,"",%progbits
  1091              	.Ldebug_line0:
- 1092 0000 63020000 		.section	.debug_str,"MS",%progbits,1
- 1092      0200D601 
+ 1092 0000 65020000 		.section	.debug_str,"MS",%progbits,1
+ 1092      0200D801 
  1092      00000201 
  1092      FB0E0D00 
  1092      01010101 
- 1093              	.LASF40:
- 1094 0000 474E5520 		.ascii	"GNU C99 6.3.1 20170620 (release) [ARM/embedded-6-br"
- 1094      43393920 
- 1094      362E332E 
- 1094      31203230 
- 1094      31373036 
- 1095 0033 616E6368 		.ascii	"anch revision 249437] -mcpu=cortex-m4 -mfloat-abi=h"
- 1095      20726576 
- 1095      6973696F 
- 1095      6E203234 
- 1095      39343337 
- 1096 0066 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 1096      2D6D6670 
- 1096      753D6670 
- 1096      76342D73 
- 1096      702D6431 
- 1097 0099 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
- 1097      62202D4F 
- 1097      32202D73 
- 1097      74643D67 
- 1097      6E753939 
- 1098 00cc 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
- 1098      696F6E73 
- 1098      3D313620 
- 1098      2D666675 
- 1098      6E637469 
- 1099 00ff 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
- 1099      6D6D6F6E 
- 1099      202D6673 
- 1099      696E676C 
- 1099      652D7072 
- 1100              	.LASF4:
- 1101 0124 5F5F7569 		.ascii	"__uint8_t\000"
- 1101      6E74385F 
- 1101      7400
- 1102              	.LASF29:
- 1103 012e 53595343 		.ascii	"SYSCFG_ETH_MediaInterfaceConfig\000"
- 1103      46475F45 
- 1103      54485F4D 
- 1103      65646961 
- 1103      496E7465 
- 1104              	.LASF5:
- 1105 014e 5F5F696E 		.ascii	"__int32_t\000"
- 1105      7433325F 
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 21
+ 1093              	.LASF4:
+ 1094 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1094      6E74385F 
+ 1094      7400
+ 1095              	.LASF29:
+ 1096 000a 53595343 		.ascii	"SYSCFG_ETH_MediaInterfaceConfig\000"
+ 1096      46475F45 
+ 1096      54485F4D 
+ 1096      65646961 
+ 1096      496E7465 
+ 1097              	.LASF5:
+ 1098 002a 5F5F696E 		.ascii	"__int32_t\000"
+ 1098      7433325F 
+ 1098      7400
+ 1099              	.LASF28:
+ 1100 0034 53595343 		.ascii	"SYSCFG_CompensationCellCmd\000"
+ 1100      46475F43 
+ 1100      6F6D7065 
+ 1100      6E736174 
+ 1100      696F6E43 
+ 1101              	.LASF3:
+ 1102 004f 73686F72 		.ascii	"short unsigned int\000"
+ 1102      7420756E 
+ 1102      7369676E 
+ 1102      65642069 
+ 1102      6E7400
+ 1103              	.LASF43:
+ 1104 0062 53595343 		.ascii	"SYSCFG_GetCompensationCellStatus\000"
+ 1104      46475F47 
+ 1104      6574436F 
+ 1104      6D70656E 
+ 1104      73617469 
+ 1105              	.LASF27:
+ 1106 0083 46756E63 		.ascii	"FunctionalState\000"
+ 1106      74696F6E 
+ 1106      616C5374 
+ 1106      61746500 
+ 1107              	.LASF23:
+ 1108 0093 52455345 		.ascii	"RESET\000"
+ 1108      5400
+ 1109              	.LASF39:
+ 1110 0099 53595343 		.ascii	"SYSCFG_DeInit\000"
+ 1110      46475F44 
+ 1110      65496E69 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 21
 
 
- 1105      7400
- 1106              	.LASF28:
- 1107 0158 53595343 		.ascii	"SYSCFG_CompensationCellCmd\000"
- 1107      46475F43 
- 1107      6F6D7065 
- 1107      6E736174 
- 1107      696F6E43 
- 1108              	.LASF3:
- 1109 0173 73686F72 		.ascii	"short unsigned int\000"
- 1109      7420756E 
- 1109      7369676E 
- 1109      65642069 
- 1109      6E7400
- 1110              	.LASF43:
- 1111 0186 53595343 		.ascii	"SYSCFG_GetCompensationCellStatus\000"
- 1111      46475F47 
- 1111      6574436F 
- 1111      6D70656E 
- 1111      73617469 
- 1112              	.LASF27:
- 1113 01a7 46756E63 		.ascii	"FunctionalState\000"
- 1113      74696F6E 
- 1113      616C5374 
- 1113      61746500 
- 1114              	.LASF39:
- 1115 01b7 53595343 		.ascii	"SYSCFG_DeInit\000"
- 1115      46475F44 
- 1115      65496E69 
- 1115      7400
- 1116              	.LASF31:
- 1117 01c5 53595343 		.ascii	"SYSCFG_ETH_MediaInterface\000"
- 1117      46475F45 
- 1117      54485F4D 
- 1117      65646961 
- 1117      496E7465 
- 1118              	.LASF7:
- 1119 01df 5F5F7569 		.ascii	"__uint32_t\000"
- 1119      6E743332 
- 1119      5F7400
- 1120              	.LASF26:
- 1121 01ea 454E4142 		.ascii	"ENABLE\000"
- 1121      4C4500
- 1122              	.LASF32:
- 1123 01f1 53595343 		.ascii	"SYSCFG_EXTILineConfig\000"
- 1123      46475F45 
- 1123      5854494C 
- 1123      696E6543 
- 1123      6F6E6669 
- 1124              	.LASF21:
- 1125 0207 434D5043 		.ascii	"CMPCR\000"
- 1125      5200
- 1126              	.LASF1:
- 1127 020d 756E7369 		.ascii	"unsigned char\000"
- 1127      676E6564 
- 1127      20636861 
- 1127      7200
- 1128              	.LASF24:
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 22
+ 1110      7400
+ 1111              	.LASF31:
+ 1112 00a7 53595343 		.ascii	"SYSCFG_ETH_MediaInterface\000"
+ 1112      46475F45 
+ 1112      54485F4D 
+ 1112      65646961 
+ 1112      496E7465 
+ 1113              	.LASF7:
+ 1114 00c1 5F5F7569 		.ascii	"__uint32_t\000"
+ 1114      6E743332 
+ 1114      5F7400
+ 1115              	.LASF26:
+ 1116 00cc 454E4142 		.ascii	"ENABLE\000"
+ 1116      4C4500
+ 1117              	.LASF32:
+ 1118 00d3 53595343 		.ascii	"SYSCFG_EXTILineConfig\000"
+ 1118      46475F45 
+ 1118      5854494C 
+ 1118      696E6543 
+ 1118      6F6E6669 
+ 1119              	.LASF21:
+ 1120 00e9 434D5043 		.ascii	"CMPCR\000"
+ 1120      5200
+ 1121              	.LASF1:
+ 1122 00ef 756E7369 		.ascii	"unsigned char\000"
+ 1122      676E6564 
+ 1122      20636861 
+ 1122      7200
+ 1123              	.LASF24:
+ 1124 00fd 466C6167 		.ascii	"FlagStatus\000"
+ 1124      53746174 
+ 1124      757300
+ 1125              	.LASF8:
+ 1126 0108 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1126      20756E73 
+ 1126      69676E65 
+ 1126      6420696E 
+ 1126      7400
+ 1127              	.LASF18:
+ 1128 011a 4D454D52 		.ascii	"MEMRMP\000"
+ 1128      4D5000
+ 1129              	.LASF44:
+ 1130 0121 5243435F 		.ascii	"RCC_APB2PeriphResetCmd\000"
+ 1130      41504232 
+ 1130      50657269 
+ 1130      70685265 
+ 1130      73657443 
+ 1131              	.LASF16:
+ 1132 0138 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1132      52784275 
+ 1132      66666572 
+ 1132      00
+ 1133              	.LASF34:
+ 1134 0145 45585449 		.ascii	"EXTI_PinSourcex\000"
+ 1134      5F50696E 
+ 1134      536F7572 
+ 1134      63657800 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 22
 
 
- 1129 021b 466C6167 		.ascii	"FlagStatus\000"
- 1129      53746174 
- 1129      757300
- 1130              	.LASF8:
- 1131 0226 6C6F6E67 		.ascii	"long unsigned int\000"
- 1131      20756E73 
- 1131      69676E65 
- 1131      6420696E 
- 1131      7400
- 1132              	.LASF18:
- 1133 0238 4D454D52 		.ascii	"MEMRMP\000"
- 1133      4D5000
- 1134              	.LASF44:
- 1135 023f 5243435F 		.ascii	"RCC_APB2PeriphResetCmd\000"
- 1135      41504232 
- 1135      50657269 
- 1135      70685265 
- 1135      73657443 
- 1136              	.LASF16:
- 1137 0256 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1137      52784275 
- 1137      66666572 
- 1137      00
- 1138              	.LASF34:
- 1139 0263 45585449 		.ascii	"EXTI_PinSourcex\000"
- 1139      5F50696E 
- 1139      536F7572 
- 1139      63657800 
- 1140              	.LASF20:
- 1141 0273 52455345 		.ascii	"RESERVED\000"
- 1141      52564544 
- 1141      00
- 1142              	.LASF42:
- 1143 027c 2F557365 		.ascii	"/Users/yanrudall/Documents/eBike/ebikeSystem\000"
- 1143      72732F79 
- 1143      616E7275 
- 1143      64616C6C 
- 1143      2F446F63 
- 1144              	.LASF19:
- 1145 02a9 45585449 		.ascii	"EXTICR\000"
- 1145      435200
- 1146              	.LASF11:
- 1147 02b0 756E7369 		.ascii	"unsigned int\000"
- 1147      676E6564 
- 1147      20696E74 
- 1147      00
- 1148              	.LASF23:
- 1149 02bd 52455345 		.ascii	"RESET\000"
- 1149      5400
- 1150              	.LASF10:
- 1151 02c3 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1151      206C6F6E 
- 1151      6720756E 
- 1151      7369676E 
- 1151      65642069 
- 1152              	.LASF12:
- 1153 02da 75696E74 		.ascii	"uint8_t\000"
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 23
+ 1135              	.LASF20:
+ 1136 0155 52455345 		.ascii	"RESERVED\000"
+ 1136      52564544 
+ 1136      00
+ 1137              	.LASF19:
+ 1138 015e 45585449 		.ascii	"EXTICR\000"
+ 1138      435200
+ 1139              	.LASF11:
+ 1140 0165 756E7369 		.ascii	"unsigned int\000"
+ 1140      676E6564 
+ 1140      20696E74 
+ 1140      00
+ 1141              	.LASF42:
+ 1142 0172 443A5C65 		.ascii	"D:\\ebikeSystem\000"
+ 1142      62696B65 
+ 1142      53797374 
+ 1142      656D00
+ 1143              	.LASF10:
+ 1144 0181 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1144      206C6F6E 
+ 1144      6720756E 
+ 1144      7369676E 
+ 1144      65642069 
+ 1145              	.LASF12:
+ 1146 0198 75696E74 		.ascii	"uint8_t\000"
+ 1146      385F7400 
+ 1147              	.LASF41:
+ 1148 01a0 43686962 		.ascii	"ChibiOS_3.0.2/ext/stdperiph_stm32f4/src/stm32f4xx_s"
+ 1148      694F535F 
+ 1148      332E302E 
+ 1148      322F6578 
+ 1148      742F7374 
+ 1149 01d3 79736366 		.ascii	"yscfg.c\000"
+ 1149      672E6300 
+ 1150              	.LASF0:
+ 1151 01db 7369676E 		.ascii	"signed char\000"
+ 1151      65642063 
+ 1151      68617200 
+ 1152              	.LASF13:
+ 1153 01e7 696E7433 		.ascii	"int32_t\000"
+ 1153      325F7400 
+ 1154              	.LASF15:
+ 1155 01ef 73697A65 		.ascii	"sizetype\000"
+ 1155      74797065 
+ 1155      00
+ 1156              	.LASF40:
+ 1157 01f8 474E5520 		.ascii	"GNU C99 6.3.1 20170215 (release) [ARM/embedded-6-br"
+ 1157      43393920 
+ 1157      362E332E 
+ 1157      31203230 
+ 1157      31373032 
+ 1158 022b 616E6368 		.ascii	"anch revision 245512] -mcpu=cortex-m4 -mfloat-abi=h"
+ 1158      20726576 
+ 1158      6973696F 
+ 1158      6E203234 
+ 1158      35353132 
+ 1159 025e 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 23
 
 
- 1153      385F7400 
- 1154              	.LASF41:
- 1155 02e2 43686962 		.ascii	"ChibiOS_3.0.2/ext/stdperiph_stm32f4/src/stm32f4xx_s"
- 1155      694F535F 
- 1155      332E302E 
- 1155      322F6578 
- 1155      742F7374 
- 1156 0315 79736366 		.ascii	"yscfg.c\000"
- 1156      672E6300 
- 1157              	.LASF0:
- 1158 031d 7369676E 		.ascii	"signed char\000"
- 1158      65642063 
- 1158      68617200 
- 1159              	.LASF13:
- 1160 0329 696E7433 		.ascii	"int32_t\000"
- 1160      325F7400 
- 1161              	.LASF15:
- 1162 0331 73697A65 		.ascii	"sizetype\000"
- 1162      74797065 
- 1162      00
+ 1159      2D6D6670 
+ 1159      753D6670 
+ 1159      76342D73 
+ 1159      702D6431 
+ 1160 0291 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
+ 1160      62202D4F 
+ 1160      32202D73 
+ 1160      74643D67 
+ 1160      6E753939 
+ 1161 02c4 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
+ 1161      696F6E73 
+ 1161      3D313620 
+ 1161      2D666675 
+ 1161      6E637469 
+ 1162 02f7 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
+ 1162      6D6D6F6E 
+ 1162      202D6673 
+ 1162      696E676C 
+ 1162      652D7072 
  1163              	.LASF9:
- 1164 033a 6C6F6E67 		.ascii	"long long int\000"
+ 1164 031c 6C6F6E67 		.ascii	"long long int\000"
  1164      206C6F6E 
  1164      6720696E 
  1164      7400
  1165              	.LASF17:
- 1166 0348 53797374 		.ascii	"SystemCoreClock\000"
+ 1166 032a 53797374 		.ascii	"SystemCoreClock\000"
  1166      656D436F 
  1166      7265436C 
  1166      6F636B00 
  1167              	.LASF38:
- 1168 0358 53595343 		.ascii	"SYSCFG_MemoryRemap\000"
+ 1168 033a 53595343 		.ascii	"SYSCFG_MemoryRemap\000"
  1168      46475F4D 
  1168      656D6F72 
  1168      7952656D 
  1168      617000
  1169              	.LASF2:
- 1170 036b 73686F72 		.ascii	"short int\000"
+ 1170 034d 73686F72 		.ascii	"short int\000"
  1170      7420696E 
  1170      7400
  1171              	.LASF30:
- 1172 0375 4E657753 		.ascii	"NewState\000"
+ 1172 0357 4E657753 		.ascii	"NewState\000"
  1172      74617465 
  1172      00
  1173              	.LASF22:
- 1174 037e 53595343 		.ascii	"SYSCFG_TypeDef\000"
+ 1174 0360 53595343 		.ascii	"SYSCFG_TypeDef\000"
  1174      46475F54 
  1174      79706544 
  1174      656600
  1175              	.LASF33:
- 1176 038d 45585449 		.ascii	"EXTI_PortSourceGPIOx\000"
+ 1176 036f 45585449 		.ascii	"EXTI_PortSourceGPIOx\000"
  1176      5F506F72 
  1176      74536F75 
  1176      72636547 
  1176      50494F78 
  1177              	.LASF14:
- 1178 03a2 75696E74 		.ascii	"uint32_t\000"
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 24
-
-
+ 1178 0384 75696E74 		.ascii	"uint32_t\000"
  1178      33325F74 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 24
+
+
  1178      00
  1179              	.LASF6:
- 1180 03ab 6C6F6E67 		.ascii	"long int\000"
+ 1180 038d 6C6F6E67 		.ascii	"long int\000"
  1180      20696E74 
  1180      00
  1181              	.LASF25:
- 1182 03b4 44495341 		.ascii	"DISABLE\000"
+ 1182 0396 44495341 		.ascii	"DISABLE\000"
  1182      424C4500 
  1183              	.LASF35:
- 1184 03bc 62697473 		.ascii	"bitstatus\000"
+ 1184 039e 62697473 		.ascii	"bitstatus\000"
  1184      74617475 
  1184      7300
  1185              	.LASF36:
- 1186 03c6 53595343 		.ascii	"SYSCFG_MemorySwappingBank\000"
+ 1186 03a8 53595343 		.ascii	"SYSCFG_MemorySwappingBank\000"
  1186      46475F4D 
  1186      656D6F72 
  1186      79537761 
  1186      7070696E 
  1187              	.LASF37:
- 1188 03e0 53595343 		.ascii	"SYSCFG_MemoryRemapConfig\000"
+ 1188 03c2 53595343 		.ascii	"SYSCFG_MemoryRemapConfig\000"
  1188      46475F4D 
  1188      656D6F72 
  1188      7952656D 
  1188      6170436F 
- 1189              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /var/tmp//ccMvqrCE.s 			page 25
+ 1189              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q1-update) 6.3.1 20170215 (release) [AR
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s 			page 25
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 stm32f4xx_syscfg.c
-/var/tmp//ccMvqrCE.s:18     .text.SYSCFG_DeInit:0000000000000000 $t
-/var/tmp//ccMvqrCE.s:26     .text.SYSCFG_DeInit:0000000000000000 SYSCFG_DeInit
-/var/tmp//ccMvqrCE.s:57     .text.SYSCFG_MemoryRemapConfig:0000000000000000 $t
-/var/tmp//ccMvqrCE.s:65     .text.SYSCFG_MemoryRemapConfig:0000000000000000 SYSCFG_MemoryRemapConfig
-/var/tmp//ccMvqrCE.s:80     .text.SYSCFG_MemoryRemapConfig:0000000000000008 $d
-/var/tmp//ccMvqrCE.s:85     .text.SYSCFG_MemorySwappingBank:0000000000000000 $t
-/var/tmp//ccMvqrCE.s:93     .text.SYSCFG_MemorySwappingBank:0000000000000000 SYSCFG_MemorySwappingBank
-/var/tmp//ccMvqrCE.s:108    .text.SYSCFG_MemorySwappingBank:0000000000000008 $d
-/var/tmp//ccMvqrCE.s:113    .text.SYSCFG_EXTILineConfig:0000000000000000 $t
-/var/tmp//ccMvqrCE.s:121    .text.SYSCFG_EXTILineConfig:0000000000000000 SYSCFG_EXTILineConfig
-/var/tmp//ccMvqrCE.s:168    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000000 $t
-/var/tmp//ccMvqrCE.s:176    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000000 SYSCFG_ETH_MediaInterfaceConfig
-/var/tmp//ccMvqrCE.s:191    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000008 $d
-/var/tmp//ccMvqrCE.s:196    .text.SYSCFG_CompensationCellCmd:0000000000000000 $t
-/var/tmp//ccMvqrCE.s:204    .text.SYSCFG_CompensationCellCmd:0000000000000000 SYSCFG_CompensationCellCmd
-/var/tmp//ccMvqrCE.s:219    .text.SYSCFG_CompensationCellCmd:0000000000000008 $d
-/var/tmp//ccMvqrCE.s:224    .text.SYSCFG_GetCompensationCellStatus:0000000000000000 $t
-/var/tmp//ccMvqrCE.s:232    .text.SYSCFG_GetCompensationCellStatus:0000000000000000 SYSCFG_GetCompensationCellStatus
-/var/tmp//ccMvqrCE.s:251    .text.SYSCFG_GetCompensationCellStatus:000000000000000c $d
-                     .debug_frame:0000000000000010 $d
+                            *ABS*:00000000 stm32f4xx_syscfg.c
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:18     .text.SYSCFG_DeInit:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:26     .text.SYSCFG_DeInit:00000000 SYSCFG_DeInit
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:57     .text.SYSCFG_MemoryRemapConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:65     .text.SYSCFG_MemoryRemapConfig:00000000 SYSCFG_MemoryRemapConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:80     .text.SYSCFG_MemoryRemapConfig:00000008 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:85     .text.SYSCFG_MemorySwappingBank:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:93     .text.SYSCFG_MemorySwappingBank:00000000 SYSCFG_MemorySwappingBank
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:108    .text.SYSCFG_MemorySwappingBank:00000008 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:113    .text.SYSCFG_EXTILineConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:121    .text.SYSCFG_EXTILineConfig:00000000 SYSCFG_EXTILineConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:168    .text.SYSCFG_ETH_MediaInterfaceConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:176    .text.SYSCFG_ETH_MediaInterfaceConfig:00000000 SYSCFG_ETH_MediaInterfaceConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:191    .text.SYSCFG_ETH_MediaInterfaceConfig:00000008 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:196    .text.SYSCFG_CompensationCellCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:204    .text.SYSCFG_CompensationCellCmd:00000000 SYSCFG_CompensationCellCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:219    .text.SYSCFG_CompensationCellCmd:00000008 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:224    .text.SYSCFG_GetCompensationCellStatus:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:232    .text.SYSCFG_GetCompensationCellStatus:00000000 SYSCFG_GetCompensationCellStatus
+C:\Users\Grillmo\AppData\Local\Temp\ccJpxRCh.s:251    .text.SYSCFG_GetCompensationCellStatus:0000000c $d
+                     .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
 RCC_APB2PeriphResetCmd

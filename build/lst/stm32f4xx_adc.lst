@@ -1,4 +1,4 @@
-ARM GAS  /var/tmp//cctPaOXo.s 			page 1
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
   55              		.size	ADC_DeInit, .-ADC_DeInit
   56 001a 00BF     		.section	.text.ADC_Init,"ax",%progbits
   57              		.align	1
-ARM GAS  /var/tmp//cctPaOXo.s 			page 2
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  112 002c 2B43     		orrs	r3, r3, r5
  113              		.loc 1 280 0
  114 002e 43EA4203 		orr	r3, r3, r2, lsl #1
-ARM GAS  /var/tmp//cctPaOXo.s 			page 3
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 3
 
 
  115              	.LVL8:
@@ -178,7 +178,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  169 0008 0371     		strb	r3, [r0, #4]
  170              		.loc 1 323 0
  171 000a 4371     		strb	r3, [r0, #5]
-ARM GAS  /var/tmp//cctPaOXo.s 			page 4
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 4
 
 
  172              		.loc 1 326 0
@@ -238,7 +238,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  226              	.LVL18:
  227              		.loc 1 372 0
  228 001a 4B60     		str	r3, [r1, #4]
-ARM GAS  /var/tmp//cctPaOXo.s 			page 5
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 5
 
 
  229              		.loc 1 373 0
@@ -298,7 +298,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  283              	ADC_Cmd:
  284              	.LFB117:
  285              		.loc 1 404 0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 6
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 6
 
 
  286              		.cfi_startproc
@@ -358,7 +358,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  340              		.size	ADC_AnalogWatchdogCmd, .-ADC_AnalogWatchdogCmd
  341              		.section	.text.ADC_AnalogWatchdogThresholdsConfig,"ax",%progbits
  342              		.align	1
-ARM GAS  /var/tmp//cctPaOXo.s 			page 7
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 7
 
 
  343              		.p2align 4,,15
@@ -384,7 +384,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  363              		.cfi_endproc
  364              	.LFE119:
  365              		.size	ADC_AnalogWatchdogThresholdsConfig, .-ADC_AnalogWatchdogThresholdsConfig
- 366              		.section	.text.ADC_AnalogWatchdogSingleChannelConfig,"ax",%progbits
+ 366 0006 00BF     		.section	.text.ADC_AnalogWatchdogSingleChannelConfig,"ax",%progbits
  367              		.align	1
  368              		.p2align 4,,15
  369              		.global	ADC_AnalogWatchdogSingleChannelConfig
@@ -418,7 +418,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  397              		.size	ADC_AnalogWatchdogSingleChannelConfig, .-ADC_AnalogWatchdogSingleChannelConfig
  398              		.section	.text.ADC_TempSensorVrefintCmd,"ax",%progbits
  399              		.align	1
-ARM GAS  /var/tmp//cctPaOXo.s 			page 8
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 8
 
 
  400              		.p2align 4,,15
@@ -478,7 +478,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  454 0000 054A     		ldr	r2, .L31
  455 0002 5368     		ldr	r3, [r2, #4]
  456              		.loc 1 623 0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 9
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 9
 
 
  457 0004 18B9     		cbnz	r0, .L30
@@ -538,7 +538,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  511              		.loc 1 741 0
  512 0014 A340     		lsls	r3, r3, r4
  513              	.LVL36:
-ARM GAS  /var/tmp//cctPaOXo.s 			page 10
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 10
 
 
  514              		.loc 1 738 0
@@ -598,7 +598,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  568              		.loc 1 755 0
  569 0046 0725     		movs	r5, #7
  570 0048 B540     		lsls	r5, r5, r6
-ARM GAS  /var/tmp//cctPaOXo.s 			page 11
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 11
 
 
  571              	.LVL47:
@@ -658,7 +658,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  625              		.loc 1 794 0
  626 0078 036B     		ldr	r3, [r0, #48]
  627              	.LVL59:
-ARM GAS  /var/tmp//cctPaOXo.s 			page 12
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 12
 
 
  628              		.loc 1 797 0
@@ -718,7 +718,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  682              		.syntax unified
  683              		.thumb
  684              		.thumb_func
-ARM GAS  /var/tmp//cctPaOXo.s 			page 13
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 13
 
 
  685              		.fpu fpv4-sp-d16
@@ -778,7 +778,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  739              		.align	1
  740              		.p2align 4,,15
  741              		.global	ADC_ContinuousModeCmd
-ARM GAS  /var/tmp//cctPaOXo.s 			page 14
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 14
 
 
  742              		.syntax unified
@@ -838,7 +838,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  796              		.loc 1 951 0
  797 0008 41EA4331 		orr	r1, r1, r3, lsl #13
  798              	.LVL73:
-ARM GAS  /var/tmp//cctPaOXo.s 			page 15
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 15
 
 
  799              		.loc 1 954 0
@@ -898,7 +898,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  853              		@ link register save eliminated.
  854              	.LVL75:
  855              		.loc 1 995 0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 16
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 16
 
 
  856 0000 C06C     		ldr	r0, [r0, #76]
@@ -958,7 +958,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  910 0000 8368     		ldr	r3, [r0, #8]
  911              		.loc 1 1061 0
  912 0002 19B9     		cbnz	r1, .L64
-ARM GAS  /var/tmp//cctPaOXo.s 			page 17
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 17
 
 
  913              		.loc 1 1069 0
@@ -1018,7 +1018,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  967              	ADC_MultiModeDMARequestAfterLastTransferCmd:
  968              	.LFB134:
  969              		.loc 1 1108 0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 18
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 18
 
 
  970              		.cfi_startproc
@@ -1078,7 +1078,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1024 0006 01EB4106 		add	r6, r1, r1, lsl #1
  1025              		.loc 1 1221 0
  1026 000a 0469     		ldr	r4, [r0, #16]
-ARM GAS  /var/tmp//cctPaOXo.s 			page 19
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 19
 
 
  1027              	.LVL81:
@@ -1138,7 +1138,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1081              		.cfi_restore_state
  1082              		.loc 1 1208 0
  1083 003c A1F10A04 		sub	r4, r1, #10
-ARM GAS  /var/tmp//cctPaOXo.s 			page 20
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 20
 
 
  1084 0040 04EB4404 		add	r4, r4, r4, lsl #1
@@ -1198,7 +1198,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1138              		.cfi_endproc
  1139              	.LFE136:
  1140              		.size	ADC_InjectedSequencerLengthConfig, .-ADC_InjectedSequencerLengthConfig
-ARM GAS  /var/tmp//cctPaOXo.s 			page 21
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 21
 
 
  1141              		.section	.text.ADC_SetInjectedOffset,"ax",%progbits
@@ -1258,7 +1258,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1195              		@ frame_needed = 0, uses_anonymous_args = 0
  1196              		@ link register save eliminated.
  1197              	.LVL105:
-ARM GAS  /var/tmp//cctPaOXo.s 			page 22
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 22
 
 
  1198              		.loc 1 1338 0
@@ -1318,7 +1318,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1252              		.fpu fpv4-sp-d16
  1253              		.type	ADC_SoftwareStartInjectedConv, %function
  1254              	ADC_SoftwareStartInjectedConv:
-ARM GAS  /var/tmp//cctPaOXo.s 			page 23
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 23
 
 
  1255              	.LFB140:
@@ -1378,7 +1378,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1309              		.cfi_startproc
  1310              		@ args = 0, pretend = 0, frame = 0
  1311              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 24
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 24
 
 
  1312              		@ link register save eliminated.
@@ -1438,7 +1438,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1366              		.global	ADC_GetInjectedConversionValue
  1367              		.syntax unified
  1368              		.thumb
-ARM GAS  /var/tmp//cctPaOXo.s 			page 25
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 25
 
 
  1369              		.thumb_func
@@ -1498,7 +1498,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1423              		.loc 1 1597 0
  1424 0000 C9B2     		uxtb	r1, r1
  1425              	.LVL123:
-ARM GAS  /var/tmp//cctPaOXo.s 			page 26
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 26
 
 
  1426              		.loc 1 1598 0
@@ -1558,7 +1558,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1480              		.align	1
  1481              		.p2align 4,,15
  1482              		.global	ADC_ClearFlag
-ARM GAS  /var/tmp//cctPaOXo.s 			page 27
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 27
 
 
  1483              		.syntax unified
@@ -1618,7 +1618,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1537 0014 14BF     		ite	ne
  1538 0016 1846     		movne	r0, r3
  1539 0018 0020     		moveq	r0, #0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 28
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 28
 
 
  1540              	.L104:
@@ -1655,8 +1655,8 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1571              		.size	ADC_ClearITPendingBit, .-ADC_ClearITPendingBit
  1572              		.text
  1573              	.Letext0:
- 1574              		.file 2 "/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_defa
- 1575              		.file 3 "/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h
+ 1574              		.file 2 "c:\\chibistudio\\tools\\gnu tools arm embedded\\6.3 2017q1\\arm-none-eabi\\include\\machi
+ 1575              		.file 3 "c:\\chibistudio\\tools\\gnu tools arm embedded\\6.3 2017q1\\arm-none-eabi\\include\\sys\\
  1576              		.file 4 "ChibiOS_3.0.2/os/ext/CMSIS/include/core_cm4.h"
  1577              		.file 5 "ChibiOS_3.0.2/os/ext/CMSIS/ST/system_stm32f4xx.h"
  1578              		.file 6 "ChibiOS_3.0.2/os/ext/CMSIS/ST/stm32f407xx.h"
@@ -1670,15 +1670,15 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1586 0006 00000000 		.4byte	.Ldebug_abbrev0
  1587 000a 04       		.byte	0x4
  1588 000b 01       		.uleb128 0x1
- 1589 000c F3050000 		.4byte	.LASF117
+ 1589 000c FD020000 		.4byte	.LASF117
  1590 0010 0C       		.byte	0xc
  1591 0011 89000000 		.4byte	.LASF118
- 1592 0015 14040000 		.4byte	.LASF119
+ 1592 0015 1F080000 		.4byte	.LASF119
  1593 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1594 001d 00000000 		.4byte	0
  1595 0021 00000000 		.4byte	.Ldebug_line0
  1596 0025 02       		.uleb128 0x2
-ARM GAS  /var/tmp//cctPaOXo.s 			page 29
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 29
 
 
  1597 0026 01       		.byte	0x1
@@ -1692,22 +1692,22 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1605 0037 02       		.uleb128 0x2
  1606 0038 01       		.byte	0x1
  1607 0039 08       		.byte	0x8
- 1608 003a 8F050000 		.4byte	.LASF1
+ 1608 003a 86060000 		.4byte	.LASF1
  1609 003e 02       		.uleb128 0x2
  1610 003f 02       		.byte	0x2
  1611 0040 05       		.byte	0x5
- 1612 0041 9D050000 		.4byte	.LASF2
+ 1612 0041 94060000 		.4byte	.LASF2
  1613 0045 03       		.uleb128 0x3
- 1614 0046 8E070000 		.4byte	.LASF4
+ 1614 0046 67070000 		.4byte	.LASF4
  1615 004a 02       		.byte	0x2
  1616 004b 39       		.byte	0x39
  1617 004c 50000000 		.4byte	0x50
  1618 0050 02       		.uleb128 0x2
  1619 0051 02       		.byte	0x2
  1620 0052 07       		.byte	0x7
- 1621 0053 1B030000 		.4byte	.LASF5
+ 1621 0053 3F040000 		.4byte	.LASF5
  1622 0057 03       		.uleb128 0x3
- 1623 0058 B5070000 		.4byte	.LASF6
+ 1623 0058 8E070000 		.4byte	.LASF6
  1624 005c 02       		.byte	0x2
  1625 005d 4D       		.byte	0x4d
  1626 005e 62000000 		.4byte	0x62
@@ -1738,13 +1738,13 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1651 008c 696E7400 		.ascii	"int\000"
  1652 0090 02       		.uleb128 0x2
  1653 0091 04       		.byte	0x4
-ARM GAS  /var/tmp//cctPaOXo.s 			page 30
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 30
 
 
  1654 0092 07       		.byte	0x7
  1655 0093 96020000 		.4byte	.LASF12
  1656 0097 03       		.uleb128 0x3
- 1657 0098 3E080000 		.4byte	.LASF13
+ 1657 0098 17080000 		.4byte	.LASF13
  1658 009c 03       		.byte	0x3
  1659 009d 18       		.byte	0x18
  1660 009e 2C000000 		.4byte	0x2c
@@ -1754,14 +1754,14 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1664 00a8 24       		.byte	0x24
  1665 00a9 45000000 		.4byte	0x45
  1666 00ad 03       		.uleb128 0x3
- 1667 00ae 87050000 		.4byte	.LASF15
+ 1667 00ae 7E060000 		.4byte	.LASF15
  1668 00b2 03       		.byte	0x3
  1669 00b3 2C       		.byte	0x2c
  1670 00b4 57000000 		.4byte	0x57
  1671 00b8 05       		.uleb128 0x5
  1672 00b9 AD000000 		.4byte	0xad
  1673 00bd 03       		.uleb128 0x3
- 1674 00be 37070000 		.4byte	.LASF16
+ 1674 00be 10070000 		.4byte	.LASF16
  1675 00c2 03       		.byte	0x3
  1676 00c3 30       		.byte	0x30
  1677 00c4 69000000 		.4byte	0x69
@@ -1770,7 +1770,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1680 00cd 02       		.uleb128 0x2
  1681 00ce 04       		.byte	0x4
  1682 00cf 07       		.byte	0x7
- 1683 00d0 0B040000 		.4byte	.LASF17
+ 1683 00d0 2F050000 		.4byte	.LASF17
  1684 00d4 06       		.uleb128 0x6
  1685 00d5 D5000000 		.4byte	.LASF18
  1686 00d9 04       		.byte	0x4
@@ -1798,7 +1798,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1708 0104 C7       		.byte	0xc7
  1709 0105 C8000000 		.4byte	0xc8
  1710 0109 04       		.byte	0x4
-ARM GAS  /var/tmp//cctPaOXo.s 			page 31
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 31
 
 
  1711 010a 09       		.uleb128 0x9
@@ -1808,7 +1808,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1715 0111 C8000000 		.4byte	0xc8
  1716 0115 08       		.byte	0x8
  1717 0116 0A       		.uleb128 0xa
- 1718 0117 8C040000 		.4byte	.LASF20
+ 1718 0117 83050000 		.4byte	.LASF20
  1719 011b 06       		.byte	0x6
  1720 011c C9       		.byte	0xc9
  1721 011d C8000000 		.4byte	0xc8
@@ -1826,19 +1826,19 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1733 0135 C8000000 		.4byte	0xc8
  1734 0139 14       		.byte	0x14
  1735 013a 0A       		.uleb128 0xa
- 1736 013b B1030000 		.4byte	.LASF23
+ 1736 013b D5040000 		.4byte	.LASF23
  1737 013f 06       		.byte	0x6
  1738 0140 CC       		.byte	0xcc
  1739 0141 C8000000 		.4byte	0xc8
  1740 0145 18       		.byte	0x18
  1741 0146 0A       		.uleb128 0xa
- 1742 0147 B7030000 		.4byte	.LASF24
+ 1742 0147 DB040000 		.4byte	.LASF24
  1743 014b 06       		.byte	0x6
  1744 014c CD       		.byte	0xcd
  1745 014d C8000000 		.4byte	0xc8
  1746 0151 1C       		.byte	0x1c
  1747 0152 0A       		.uleb128 0xa
- 1748 0153 46080000 		.4byte	.LASF25
+ 1748 0153 EA060000 		.4byte	.LASF25
  1749 0157 06       		.byte	0x6
  1750 0158 CE       		.byte	0xce
  1751 0159 C8000000 		.4byte	0xc8
@@ -1856,22 +1856,22 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1763 0171 C8000000 		.4byte	0xc8
  1764 0175 28       		.byte	0x28
  1765 0176 0A       		.uleb128 0xa
- 1766 0177 CE040000 		.4byte	.LASF26
+ 1766 0177 C5050000 		.4byte	.LASF26
  1767 017b 06       		.byte	0x6
-ARM GAS  /var/tmp//cctPaOXo.s 			page 32
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 32
 
 
  1768 017c D1       		.byte	0xd1
  1769 017d C8000000 		.4byte	0xc8
  1770 0181 2C       		.byte	0x2c
  1771 0182 0A       		.uleb128 0xa
- 1772 0183 D3040000 		.4byte	.LASF27
+ 1772 0183 CA050000 		.4byte	.LASF27
  1773 0187 06       		.byte	0x6
  1774 0188 D2       		.byte	0xd2
  1775 0189 C8000000 		.4byte	0xc8
  1776 018d 30       		.byte	0x30
  1777 018e 0A       		.uleb128 0xa
- 1778 018f D8040000 		.4byte	.LASF28
+ 1778 018f CF050000 		.4byte	.LASF28
  1779 0193 06       		.byte	0x6
  1780 0194 D3       		.byte	0xd3
  1781 0195 C8000000 		.4byte	0xc8
@@ -1883,25 +1883,25 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1787 01a1 C8000000 		.4byte	0xc8
  1788 01a5 38       		.byte	0x38
  1789 01a6 0A       		.uleb128 0xa
- 1790 01a7 5E080000 		.4byte	.LASF30
+ 1790 01a7 40080000 		.4byte	.LASF30
  1791 01ab 06       		.byte	0x6
  1792 01ac D5       		.byte	0xd5
  1793 01ad C8000000 		.4byte	0xc8
  1794 01b1 3C       		.byte	0x3c
  1795 01b2 0A       		.uleb128 0xa
- 1796 01b3 63080000 		.4byte	.LASF31
+ 1796 01b3 45080000 		.4byte	.LASF31
  1797 01b7 06       		.byte	0x6
  1798 01b8 D6       		.byte	0xd6
  1799 01b9 C8000000 		.4byte	0xc8
  1800 01bd 40       		.byte	0x40
  1801 01be 0A       		.uleb128 0xa
- 1802 01bf 68080000 		.4byte	.LASF32
+ 1802 01bf 4A080000 		.4byte	.LASF32
  1803 01c3 06       		.byte	0x6
  1804 01c4 D7       		.byte	0xd7
  1805 01c5 C8000000 		.4byte	0xc8
  1806 01c9 44       		.byte	0x44
  1807 01ca 0A       		.uleb128 0xa
- 1808 01cb 6D080000 		.4byte	.LASF33
+ 1808 01cb 4F080000 		.4byte	.LASF33
  1809 01cf 06       		.byte	0x6
  1810 01d0 D8       		.byte	0xd8
  1811 01d1 C8000000 		.4byte	0xc8
@@ -1918,7 +1918,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1822 01e7 06       		.byte	0x6
  1823 01e8 DA       		.byte	0xda
  1824 01e9 EB000000 		.4byte	0xeb
-ARM GAS  /var/tmp//cctPaOXo.s 			page 33
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 33
 
 
  1825 01ed 08       		.uleb128 0x8
@@ -1946,7 +1946,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1847 0218 08       		.byte	0x8
  1848 0219 00       		.byte	0
  1849 021a 03       		.uleb128 0x3
- 1850 021b 4C040000 		.4byte	.LASF35
+ 1850 021b 43050000 		.4byte	.LASF35
  1851 021f 06       		.byte	0x6
  1852 0220 E2       		.byte	0xe2
  1853 0221 ED010000 		.4byte	0x1ed
@@ -1957,7 +1957,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1858 022c A2       		.byte	0xa2
  1859 022d 3E020000 		.4byte	0x23e
  1860 0231 0C       		.uleb128 0xc
- 1861 0232 0B050000 		.4byte	.LASF36
+ 1861 0232 02060000 		.4byte	.LASF36
  1862 0236 00       		.byte	0
  1863 0237 0D       		.uleb128 0xd
  1864 0238 53455400 		.ascii	"SET\000"
@@ -1978,7 +1978,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1879 0256 37000000 		.4byte	0x37
  1880 025a 07       		.byte	0x7
  1881 025b A8       		.byte	0xa8
-ARM GAS  /var/tmp//cctPaOXo.s 			page 34
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 34
 
 
  1882 025c 6D020000 		.4byte	0x26d
@@ -2000,13 +2000,13 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1898 027b 35       		.byte	0x35
  1899 027c D5020000 		.4byte	0x2d5
  1900 0280 0A       		.uleb128 0xa
- 1901 0281 7C080000 		.4byte	.LASF42
+ 1901 0281 5E080000 		.4byte	.LASF42
  1902 0285 08       		.byte	0x8
  1903 0286 37       		.byte	0x37
  1904 0287 BD000000 		.4byte	0xbd
  1905 028b 00       		.byte	0
  1906 028c 0A       		.uleb128 0xa
- 1907 028d E2050000 		.4byte	.LASF43
+ 1907 028d D9060000 		.4byte	.LASF43
  1908 0291 08       		.byte	0x8
  1909 0292 39       		.byte	0x39
  1910 0293 6D020000 		.4byte	0x26d
@@ -2018,7 +2018,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1916 029f 6D020000 		.4byte	0x26d
  1917 02a3 05       		.byte	0x5
  1918 02a4 0A       		.uleb128 0xa
- 1919 02a5 C9050000 		.4byte	.LASF45
+ 1919 02a5 C0060000 		.4byte	.LASF45
  1920 02a9 08       		.byte	0x8
  1921 02aa 40       		.byte	0x40
  1922 02ab BD000000 		.4byte	0xbd
@@ -2030,7 +2030,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1928 02b7 BD000000 		.4byte	0xbd
  1929 02bb 0C       		.byte	0xc
  1930 02bc 0A       		.uleb128 0xa
- 1931 02bd 40070000 		.4byte	.LASF47
+ 1931 02bd 19070000 		.4byte	.LASF47
  1932 02c1 08       		.byte	0x8
  1933 02c2 48       		.byte	0x48
  1934 02c3 BD000000 		.4byte	0xbd
@@ -2038,7 +2038,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1936 02c8 0A       		.uleb128 0xa
  1937 02c9 C1000000 		.4byte	.LASF48
  1938 02cd 08       		.byte	0x8
-ARM GAS  /var/tmp//cctPaOXo.s 			page 35
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 35
 
 
  1939 02ce 4B       		.byte	0x4b
@@ -2046,7 +2046,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1941 02d3 14       		.byte	0x14
  1942 02d4 00       		.byte	0
  1943 02d5 03       		.uleb128 0x3
- 1944 02d6 17070000 		.4byte	.LASF49
+ 1944 02d6 F0060000 		.4byte	.LASF49
  1945 02da 08       		.byte	0x8
  1946 02db 4F       		.byte	0x4f
  1947 02dc 78020000 		.4byte	0x278
@@ -2056,13 +2056,13 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1951 02e3 54       		.byte	0x54
  1952 02e4 19030000 		.4byte	0x319
  1953 02e8 0A       		.uleb128 0xa
- 1954 02e9 85070000 		.4byte	.LASF50
+ 1954 02e9 5E070000 		.4byte	.LASF50
  1955 02ed 08       		.byte	0x8
  1956 02ee 56       		.byte	0x56
  1957 02ef BD000000 		.4byte	0xbd
  1958 02f3 00       		.byte	0
  1959 02f4 0A       		.uleb128 0xa
- 1960 02f5 E1080000 		.4byte	.LASF51
+ 1960 02f5 C3080000 		.4byte	.LASF51
  1961 02f9 08       		.byte	0x8
  1962 02fa 59       		.byte	0x59
  1963 02fb BD000000 		.4byte	0xbd
@@ -2074,7 +2074,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1969 0307 BD000000 		.4byte	0xbd
  1970 030b 08       		.byte	0x8
  1971 030c 0A       		.uleb128 0xa
- 1972 030d C0080000 		.4byte	.LASF53
+ 1972 030d A2080000 		.4byte	.LASF53
  1973 0311 08       		.byte	0x8
  1974 0312 60       		.byte	0x60
  1975 0313 BD000000 		.4byte	0xbd
@@ -2086,7 +2086,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1981 031f 64       		.byte	0x64
  1982 0320 E0020000 		.4byte	0x2e0
  1983 0324 0E       		.uleb128 0xe
- 1984 0325 E4040000 		.4byte	.LASF60
+ 1984 0325 DB050000 		.4byte	.LASF60
  1985 0329 01       		.byte	0x1
  1986 032a BA06     		.2byte	0x6ba
  1987 032c 00000000 		.4byte	.LFB149
@@ -2098,7 +2098,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  1993 033b 56000000 		.4byte	.LASF55
  1994 033f 01       		.byte	0x1
  1995 0340 BA06     		.2byte	0x6ba
-ARM GAS  /var/tmp//cctPaOXo.s 			page 36
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 36
 
 
  1996 0342 69030000 		.4byte	0x369
@@ -2111,7 +2111,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2003 0350 A2000000 		.4byte	0xa2
  2004 0354 00000000 		.4byte	.LLST47
  2005 0358 11       		.uleb128 0x11
- 2006 0359 DD040000 		.4byte	.LASF57
+ 2006 0359 D4050000 		.4byte	.LASF57
  2007 035d 01       		.byte	0x1
  2008 035e BC06     		.2byte	0x6bc
  2009 0360 97000000 		.4byte	0x97
@@ -2121,7 +2121,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2013 036a 04       		.byte	0x4
  2014 036b E2010000 		.4byte	0x1e2
  2015 036f 13       		.uleb128 0x13
- 2016 0370 27070000 		.4byte	.LASF63
+ 2016 0370 00070000 		.4byte	.LASF63
  2017 0374 01       		.byte	0x1
  2018 0375 9106     		.2byte	0x691
  2019 0377 49020000 		.4byte	0x249
@@ -2143,29 +2143,29 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2035 03a1 A2000000 		.4byte	0xa2
  2036 03a5 69000000 		.4byte	.LLST43
  2037 03a9 11       		.uleb128 0x11
- 2038 03aa 72080000 		.4byte	.LASF58
+ 2038 03aa 54080000 		.4byte	.LASF58
  2039 03ae 01       		.byte	0x1
  2040 03af 9306     		.2byte	0x693
  2041 03b1 49020000 		.4byte	0x249
  2042 03b5 8A000000 		.4byte	.LLST44
  2043 03b9 11       		.uleb128 0x11
- 2044 03ba DD040000 		.4byte	.LASF57
+ 2044 03ba D4050000 		.4byte	.LASF57
  2045 03be 01       		.byte	0x1
  2046 03bf 9406     		.2byte	0x694
  2047 03c1 BD000000 		.4byte	0xbd
  2048 03c5 A9000000 		.4byte	.LLST45
  2049 03c9 11       		.uleb128 0x11
- 2050 03ca A8070000 		.4byte	.LASF59
+ 2050 03ca 81070000 		.4byte	.LASF59
  2051 03ce 01       		.byte	0x1
  2052 03cf 9406     		.2byte	0x694
-ARM GAS  /var/tmp//cctPaOXo.s 			page 37
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 37
 
 
  2053 03d1 BD000000 		.4byte	0xbd
  2054 03d5 D8000000 		.4byte	.LLST46
  2055 03d9 00       		.byte	0
  2056 03da 0E       		.uleb128 0xe
- 2057 03db A3030000 		.4byte	.LASF61
+ 2057 03db C7040000 		.4byte	.LASF61
  2058 03df 01       		.byte	0x1
  2059 03e0 7C06     		.2byte	0x67c
  2060 03e2 00000000 		.4byte	.LFB147
@@ -2188,7 +2188,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2077 040a 17010000 		.4byte	.LLST41
  2078 040e 00       		.byte	0
  2079 040f 13       		.uleb128 0x13
- 2080 0410 4C080000 		.4byte	.LASF64
+ 2080 0410 2E080000 		.4byte	.LASF64
  2081 0414 01       		.byte	0x1
  2082 0415 5906     		.2byte	0x659
  2083 0417 3E020000 		.4byte	0x23e
@@ -2211,14 +2211,14 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2100 0445 01       		.uleb128 0x1
  2101 0446 51       		.byte	0x51
  2102 0447 11       		.uleb128 0x11
- 2103 0448 72080000 		.4byte	.LASF58
+ 2103 0448 54080000 		.4byte	.LASF58
  2104 044c 01       		.byte	0x1
  2105 044d 5B06     		.2byte	0x65b
  2106 044f 3E020000 		.4byte	0x23e
  2107 0453 59010000 		.4byte	.LLST40
  2108 0457 00       		.byte	0
  2109 0458 0E       		.uleb128 0xe
-ARM GAS  /var/tmp//cctPaOXo.s 			page 38
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 38
 
 
  2110 0459 B3020000 		.4byte	.LASF65
@@ -2250,14 +2250,14 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2136 0498 01       		.uleb128 0x1
  2137 0499 52       		.byte	0x52
  2138 049a 11       		.uleb128 0x11
- 2139 049b DD040000 		.4byte	.LASF57
+ 2139 049b D4050000 		.4byte	.LASF57
  2140 049f 01       		.byte	0x1
  2141 04a0 3606     		.2byte	0x636
  2142 04a2 BD000000 		.4byte	0xbd
  2143 04a6 A3010000 		.4byte	.LLST38
  2144 04aa 00       		.byte	0
  2145 04ab 13       		.uleb128 0x13
- 2146 04ac 8B080000 		.4byte	.LASF67
+ 2146 04ac 6D080000 		.4byte	.LASF67
  2147 04b0 01       		.byte	0x1
  2148 04b1 C905     		.2byte	0x5c9
  2149 04b3 A2000000 		.4byte	0xa2
@@ -2273,12 +2273,12 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2159 04cd 69030000 		.4byte	0x369
  2160 04d1 FE010000 		.4byte	.LLST35
  2161 04d5 10       		.uleb128 0x10
- 2162 04d6 11050000 		.4byte	.LASF68
+ 2162 04d6 08060000 		.4byte	.LASF68
  2163 04da 01       		.byte	0x1
  2164 04db C905     		.2byte	0x5c9
  2165 04dd 97000000 		.4byte	0x97
  2166 04e1 1F020000 		.4byte	.LLST36
-ARM GAS  /var/tmp//cctPaOXo.s 			page 39
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 39
 
 
  2167 04e5 14       		.uleb128 0x14
@@ -2315,7 +2315,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2198 0526 51       		.byte	0x51
  2199 0527 00       		.byte	0
  2200 0528 0E       		.uleb128 0xe
- 2201 0529 4E070000 		.4byte	.LASF70
+ 2201 0529 27070000 		.4byte	.LASF70
  2202 052d 01       		.byte	0x1
  2203 052e 9305     		.2byte	0x593
  2204 0530 00000000 		.4byte	.LFB142
@@ -2338,11 +2338,11 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2221 0558 01       		.uleb128 0x1
  2222 0559 51       		.byte	0x51
  2223 055a 00       		.byte	0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 40
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 40
 
 
  2224 055b 13       		.uleb128 0x13
- 2225 055c 25050000 		.4byte	.LASF71
+ 2225 055c 1C060000 		.4byte	.LASF71
  2226 0560 01       		.byte	0x1
  2227 0561 7605     		.2byte	0x576
  2228 0563 3E020000 		.4byte	0x23e
@@ -2358,14 +2358,14 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2238 057d 69030000 		.4byte	0x369
  2239 0581 40020000 		.4byte	.LLST33
  2240 0585 11       		.uleb128 0x11
- 2241 0586 72080000 		.4byte	.LASF58
+ 2241 0586 54080000 		.4byte	.LASF58
  2242 058a 01       		.byte	0x1
  2243 058b 7805     		.2byte	0x578
  2244 058d 3E020000 		.4byte	0x23e
  2245 0591 61020000 		.4byte	.LLST34
  2246 0595 00       		.byte	0
  2247 0596 0E       		.uleb128 0xe
- 2248 0597 FD020000 		.4byte	.LASF72
+ 2248 0597 21040000 		.4byte	.LASF72
  2249 059b 01       		.byte	0x1
  2250 059c 6905     		.2byte	0x569
  2251 059e 00000000 		.4byte	.LFB140
@@ -2382,7 +2382,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2262 05b9 50       		.byte	0x50
  2263 05ba 00       		.byte	0
  2264 05bb 0E       		.uleb128 0xe
- 2265 05bc BD030000 		.4byte	.LASF73
+ 2265 05bc E1040000 		.4byte	.LASF73
  2266 05c0 01       		.byte	0x1
  2267 05c1 5405     		.2byte	0x554
  2268 05c3 00000000 		.4byte	.LFB139
@@ -2398,7 +2398,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2278 05dd 01       		.uleb128 0x1
  2279 05de 50       		.byte	0x50
  2280 05df 10       		.uleb128 0x10
-ARM GAS  /var/tmp//cctPaOXo.s 			page 41
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 41
 
 
  2281 05e0 24010000 		.4byte	.LASF74
@@ -2414,7 +2414,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2291 05fb A9020000 		.4byte	.LLST32
  2292 05ff 00       		.byte	0
  2293 0600 0E       		.uleb128 0xe
- 2294 0601 4F050000 		.4byte	.LASF76
+ 2294 0601 46060000 		.4byte	.LASF76
  2295 0605 01       		.byte	0x1
  2296 0606 3205     		.2byte	0x532
  2297 0608 00000000 		.4byte	.LFB138
@@ -2430,7 +2430,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2307 0622 01       		.uleb128 0x1
  2308 0623 50       		.byte	0x50
  2309 0624 10       		.uleb128 0x10
- 2310 0625 5F040000 		.4byte	.LASF77
+ 2310 0625 56050000 		.4byte	.LASF77
  2311 0629 01       		.byte	0x1
  2312 062a 3205     		.2byte	0x532
  2313 062c BD000000 		.4byte	0xbd
@@ -2443,7 +2443,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2320 0640 F4020000 		.4byte	.LLST30
  2321 0644 00       		.byte	0
  2322 0645 0E       		.uleb128 0xe
- 2323 0646 B8040000 		.4byte	.LASF78
+ 2323 0646 AF050000 		.4byte	.LASF78
  2324 064a 01       		.byte	0x1
  2325 064b 0C05     		.2byte	0x50c
  2326 064d 00000000 		.4byte	.LFB137
@@ -2458,17 +2458,17 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2335 0663 69030000 		.4byte	0x369
  2336 0667 01       		.uleb128 0x1
  2337 0668 50       		.byte	0x50
-ARM GAS  /var/tmp//cctPaOXo.s 			page 42
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 42
 
 
  2338 0669 10       		.uleb128 0x10
- 2339 066a 11050000 		.4byte	.LASF68
+ 2339 066a 08060000 		.4byte	.LASF68
  2340 066e 01       		.byte	0x1
  2341 066f 0C05     		.2byte	0x50c
  2342 0671 97000000 		.4byte	0x97
  2343 0675 1E030000 		.4byte	.LLST28
  2344 0679 0F       		.uleb128 0xf
- 2345 067a 37080000 		.4byte	.LASF79
+ 2345 067a 10080000 		.4byte	.LASF79
  2346 067e 01       		.byte	0x1
  2347 067f 0C05     		.2byte	0x50c
  2348 0681 A2000000 		.4byte	0xa2
@@ -2484,7 +2484,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2358 0695 7C       		.sleb128 -4
  2359 0696 00       		.byte	0
  2360 0697 0E       		.uleb128 0xe
- 2361 0698 A7050000 		.4byte	.LASF80
+ 2361 0698 9E060000 		.4byte	.LASF80
  2362 069c 01       		.byte	0x1
  2363 069d E904     		.2byte	0x4e9
  2364 069f 00000000 		.4byte	.LFB136
@@ -2500,25 +2500,25 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2374 06b9 01       		.uleb128 0x1
  2375 06ba 50       		.byte	0x50
  2376 06bb 10       		.uleb128 0x10
- 2377 06bc 0A080000 		.4byte	.LASF81
+ 2377 06bc E3070000 		.4byte	.LASF81
  2378 06c0 01       		.byte	0x1
  2379 06c1 E904     		.2byte	0x4e9
  2380 06c3 97000000 		.4byte	0x97
  2381 06c7 3F030000 		.4byte	.LLST25
  2382 06cb 11       		.uleb128 0x11
- 2383 06cc 6A030000 		.4byte	.LASF82
+ 2383 06cc 8E040000 		.4byte	.LASF82
  2384 06d0 01       		.byte	0x1
  2385 06d1 EB04     		.2byte	0x4eb
  2386 06d3 BD000000 		.4byte	0xbd
  2387 06d7 60030000 		.4byte	.LLST26
  2388 06db 11       		.uleb128 0x11
- 2389 06dc 72030000 		.4byte	.LASF83
+ 2389 06dc 96040000 		.4byte	.LASF83
  2390 06e0 01       		.byte	0x1
  2391 06e1 EC04     		.2byte	0x4ec
  2392 06e3 BD000000 		.4byte	0xbd
  2393 06e7 7F030000 		.4byte	.LLST27
  2394 06eb 00       		.byte	0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 43
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 43
 
 
  2395 06ec 0E       		.uleb128 0xe
@@ -2538,47 +2538,47 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2409 070e 01       		.uleb128 0x1
  2410 070f 50       		.byte	0x50
  2411 0710 10       		.uleb128 0x10
- 2412 0711 FF040000 		.4byte	.LASF85
+ 2412 0711 F6050000 		.4byte	.LASF85
  2413 0715 01       		.byte	0x1
  2414 0716 AA04     		.2byte	0x4aa
  2415 0718 97000000 		.4byte	0x97
  2416 071c A6030000 		.4byte	.LLST19
  2417 0720 10       		.uleb128 0x10
- 2418 0721 FA040000 		.4byte	.LASF86
+ 2418 0721 F1050000 		.4byte	.LASF86
  2419 0725 01       		.byte	0x1
  2420 0726 AA04     		.2byte	0x4aa
  2421 0728 97000000 		.4byte	0x97
  2422 072c D2030000 		.4byte	.LLST20
  2423 0730 10       		.uleb128 0x10
- 2424 0731 92040000 		.4byte	.LASF87
+ 2424 0731 89050000 		.4byte	.LASF87
  2425 0735 01       		.byte	0x1
  2426 0736 AA04     		.2byte	0x4aa
  2427 0738 97000000 		.4byte	0x97
  2428 073c FE030000 		.4byte	.LLST21
  2429 0740 11       		.uleb128 0x11
- 2430 0741 6A030000 		.4byte	.LASF82
+ 2430 0741 8E040000 		.4byte	.LASF82
  2431 0745 01       		.byte	0x1
  2432 0746 AC04     		.2byte	0x4ac
  2433 0748 BD000000 		.4byte	0xbd
  2434 074c 38040000 		.4byte	.LLST22
  2435 0750 11       		.uleb128 0x11
- 2436 0751 72030000 		.4byte	.LASF83
+ 2436 0751 96040000 		.4byte	.LASF83
  2437 0755 01       		.byte	0x1
  2438 0756 AC04     		.2byte	0x4ac
  2439 0758 BD000000 		.4byte	0xbd
  2440 075c 9A040000 		.4byte	.LLST23
  2441 0760 11       		.uleb128 0x11
- 2442 0761 7A030000 		.4byte	.LASF88
+ 2442 0761 9E040000 		.4byte	.LASF88
  2443 0765 01       		.byte	0x1
  2444 0766 AC04     		.2byte	0x4ac
  2445 0768 BD000000 		.4byte	0xbd
  2446 076c 1B050000 		.4byte	.LLST24
  2447 0770 00       		.byte	0
  2448 0771 0E       		.uleb128 0xe
- 2449 0772 DE070000 		.4byte	.LASF89
+ 2449 0772 B7070000 		.4byte	.LASF89
  2450 0776 01       		.byte	0x1
  2451 0777 5304     		.2byte	0x453
-ARM GAS  /var/tmp//cctPaOXo.s 			page 44
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 44
 
 
  2452 0779 00000000 		.4byte	.LFB134
@@ -2619,7 +2619,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2487 07c7 51       		.byte	0x51
  2488 07c8 00       		.byte	0
  2489 07c9 0E       		.uleb128 0xe
- 2490 07ca 41040000 		.4byte	.LASF91
+ 2490 07ca 38050000 		.4byte	.LASF91
  2491 07ce 01       		.byte	0x1
  2492 07cf 2004     		.2byte	0x420
  2493 07d1 00000000 		.4byte	.LFB132
@@ -2638,7 +2638,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2506 07ee 00000000 		.4byte	.LASF66
  2507 07f2 01       		.byte	0x1
  2508 07f3 2004     		.2byte	0x420
-ARM GAS  /var/tmp//cctPaOXo.s 			page 45
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 45
 
 
  2509 07f5 6D020000 		.4byte	0x26d
@@ -2646,7 +2646,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2511 07fa 51       		.byte	0x51
  2512 07fb 00       		.byte	0
  2513 07fc 15       		.uleb128 0x15
- 2514 07fd EB030000 		.4byte	.LASF120
+ 2514 07fd 0F050000 		.4byte	.LASF120
  2515 0801 01       		.byte	0x1
  2516 0802 F203     		.2byte	0x3f2
  2517 0804 BD000000 		.4byte	0xbd
@@ -2672,7 +2672,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2537 0838 4C050000 		.4byte	.LLST18
  2538 083c 00       		.byte	0
  2539 083d 0E       		.uleb128 0xe
- 2540 083e 11080000 		.4byte	.LASF93
+ 2540 083e EA070000 		.4byte	.LASF93
  2541 0842 01       		.byte	0x1
  2542 0843 C603     		.2byte	0x3c6
  2543 0845 00000000 		.4byte	.LFB129
@@ -2698,7 +2698,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2563 0870 0E       		.uleb128 0xe
  2564 0871 04020000 		.4byte	.LASF94
  2565 0875 01       		.byte	0x1
-ARM GAS  /var/tmp//cctPaOXo.s 			page 46
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 46
 
 
  2566 0876 A603     		.2byte	0x3a6
@@ -2715,26 +2715,26 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2577 0892 01       		.uleb128 0x1
  2578 0893 50       		.byte	0x50
  2579 0894 10       		.uleb128 0x10
- 2580 0895 E4030000 		.4byte	.LASF95
+ 2580 0895 08050000 		.4byte	.LASF95
  2581 0899 01       		.byte	0x1
  2582 089a A603     		.2byte	0x3a6
  2583 089c 97000000 		.4byte	0x97
  2584 08a0 6D050000 		.4byte	.LLST15
  2585 08a4 11       		.uleb128 0x11
- 2586 08a5 6A030000 		.4byte	.LASF82
+ 2586 08a5 8E040000 		.4byte	.LASF82
  2587 08a9 01       		.byte	0x1
  2588 08aa A803     		.2byte	0x3a8
  2589 08ac BD000000 		.4byte	0xbd
  2590 08b0 8E050000 		.4byte	.LLST16
  2591 08b4 11       		.uleb128 0x11
- 2592 08b5 72030000 		.4byte	.LASF83
+ 2592 08b5 96040000 		.4byte	.LASF83
  2593 08b9 01       		.byte	0x1
  2594 08ba A903     		.2byte	0x3a9
  2595 08bc BD000000 		.4byte	0xbd
  2596 08c0 AD050000 		.4byte	.LLST17
  2597 08c4 00       		.byte	0
  2598 08c5 0E       		.uleb128 0xe
- 2599 08c6 8D030000 		.4byte	.LASF96
+ 2599 08c6 B1040000 		.4byte	.LASF96
  2600 08ca 01       		.byte	0x1
  2601 08cb 8C03     		.2byte	0x38c
  2602 08cd 00000000 		.4byte	.LFB127
@@ -2758,10 +2758,10 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2620 08f6 51       		.byte	0x51
  2621 08f7 00       		.byte	0
  2622 08f8 0E       		.uleb128 0xe
-ARM GAS  /var/tmp//cctPaOXo.s 			page 47
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 47
 
 
- 2623 08f9 66070000 		.4byte	.LASF97
+ 2623 08f9 3F070000 		.4byte	.LASF97
  2624 08fd 01       		.byte	0x1
  2625 08fe 7303     		.2byte	0x373
  2626 0900 00000000 		.4byte	.LFB126
@@ -2785,7 +2785,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2644 0929 51       		.byte	0x51
  2645 092a 00       		.byte	0
  2646 092b 13       		.uleb128 0x13
- 2647 092c BF070000 		.4byte	.LASF98
+ 2647 092c 98070000 		.4byte	.LASF98
  2648 0930 01       		.byte	0x1
  2649 0931 5503     		.2byte	0x355
  2650 0933 3E020000 		.4byte	0x23e
@@ -2801,14 +2801,14 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2660 094d 69030000 		.4byte	0x369
  2661 0951 D4050000 		.4byte	.LLST13
  2662 0955 11       		.uleb128 0x11
- 2663 0956 72080000 		.4byte	.LASF58
+ 2663 0956 54080000 		.4byte	.LASF58
  2664 095a 01       		.byte	0x1
  2665 095b 5703     		.2byte	0x357
  2666 095d 3E020000 		.4byte	0x23e
  2667 0961 F5050000 		.4byte	.LLST14
  2668 0965 00       		.byte	0
  2669 0966 0E       		.uleb128 0xe
- 2670 0967 AA080000 		.4byte	.LASF99
+ 2670 0967 8C080000 		.4byte	.LASF99
  2671 096b 01       		.byte	0x1
  2672 096c 4703     		.2byte	0x347
  2673 096e 00000000 		.4byte	.LFB124
@@ -2818,7 +2818,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2677 0978 8B090000 		.4byte	0x98b
  2678 097c 0F       		.uleb128 0xf
  2679 097d 56000000 		.4byte	.LASF55
-ARM GAS  /var/tmp//cctPaOXo.s 			page 48
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 48
 
 
  2680 0981 01       		.byte	0x1
@@ -2828,7 +2828,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2684 0989 50       		.byte	0x50
  2685 098a 00       		.byte	0
  2686 098b 0E       		.uleb128 0xe
- 2687 098c 43030000 		.4byte	.LASF100
+ 2687 098c 67040000 		.4byte	.LASF100
  2688 0990 01       		.byte	0x1
  2689 0991 CF02     		.2byte	0x2cf
  2690 0993 00000000 		.4byte	.LFB123
@@ -2844,41 +2844,41 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2700 09ad 01       		.uleb128 0x1
  2701 09ae 50       		.byte	0x50
  2702 09af 10       		.uleb128 0x10
- 2703 09b0 FF040000 		.4byte	.LASF85
+ 2703 09b0 F6050000 		.4byte	.LASF85
  2704 09b4 01       		.byte	0x1
  2705 09b5 CF02     		.2byte	0x2cf
  2706 09b7 97000000 		.4byte	0x97
  2707 09bb 1C060000 		.4byte	.LLST8
  2708 09bf 10       		.uleb128 0x10
- 2709 09c0 FA040000 		.4byte	.LASF86
+ 2709 09c0 F1050000 		.4byte	.LASF86
  2710 09c4 01       		.byte	0x1
  2711 09c5 CF02     		.2byte	0x2cf
  2712 09c7 97000000 		.4byte	0x97
  2713 09cb 6F060000 		.4byte	.LLST9
  2714 09cf 10       		.uleb128 0x10
- 2715 09d0 92040000 		.4byte	.LASF87
+ 2715 09d0 89050000 		.4byte	.LASF87
  2716 09d4 01       		.byte	0x1
  2717 09d5 CF02     		.2byte	0x2cf
  2718 09d7 97000000 		.4byte	0x97
  2719 09db C2060000 		.4byte	.LLST10
  2720 09df 11       		.uleb128 0x11
- 2721 09e0 6A030000 		.4byte	.LASF82
+ 2721 09e0 8E040000 		.4byte	.LASF82
  2722 09e4 01       		.byte	0x1
  2723 09e5 D102     		.2byte	0x2d1
  2724 09e7 BD000000 		.4byte	0xbd
  2725 09eb FC060000 		.4byte	.LLST11
  2726 09ef 11       		.uleb128 0x11
- 2727 09f0 72030000 		.4byte	.LASF83
+ 2727 09f0 96040000 		.4byte	.LASF83
  2728 09f4 01       		.byte	0x1
  2729 09f5 D102     		.2byte	0x2d1
  2730 09f7 BD000000 		.4byte	0xbd
  2731 09fb A0070000 		.4byte	.LLST12
  2732 09ff 00       		.byte	0
  2733 0a00 0E       		.uleb128 0xe
- 2734 0a01 D5080000 		.4byte	.LASF101
+ 2734 0a01 B7080000 		.4byte	.LASF101
  2735 0a05 01       		.byte	0x1
  2736 0a06 6B02     		.2byte	0x26b
-ARM GAS  /var/tmp//cctPaOXo.s 			page 49
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 49
 
 
  2737 0a08 00000000 		.4byte	.LFB122
@@ -2928,7 +2928,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2781 0a6c 01       		.uleb128 0x1
  2782 0a6d 50       		.byte	0x50
  2783 0a6e 10       		.uleb128 0x10
- 2784 0a6f FF040000 		.4byte	.LASF85
+ 2784 0a6f F6050000 		.4byte	.LASF85
  2785 0a73 01       		.byte	0x1
  2786 0a74 1102     		.2byte	0x211
  2787 0a76 97000000 		.4byte	0x97
@@ -2938,7 +2938,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2791 0a83 01       		.byte	0x1
  2792 0a84 1302     		.2byte	0x213
  2793 0a86 BD000000 		.4byte	0xbd
-ARM GAS  /var/tmp//cctPaOXo.s 			page 50
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 50
 
 
  2794 0a8a 63080000 		.4byte	.LLST7
@@ -2960,7 +2960,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2810 0ab1 01       		.uleb128 0x1
  2811 0ab2 50       		.byte	0x50
  2812 0ab3 0F       		.uleb128 0xf
- 2813 0ab4 5C030000 		.4byte	.LASF105
+ 2813 0ab4 80040000 		.4byte	.LASF105
  2814 0ab8 01       		.byte	0x1
  2815 0ab9 E801     		.2byte	0x1e8
  2816 0abb A2000000 		.4byte	0xa2
@@ -2975,7 +2975,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2825 0ace 52       		.byte	0x52
  2826 0acf 00       		.byte	0
  2827 0ad0 0E       		.uleb128 0xe
- 2828 0ad1 21080000 		.4byte	.LASF107
+ 2828 0ad1 FA070000 		.4byte	.LASF107
  2829 0ad5 01       		.byte	0x1
  2830 0ad6 CB01     		.2byte	0x1cb
  2831 0ad8 00000000 		.4byte	.LFB118
@@ -2991,14 +2991,14 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2841 0af2 01       		.uleb128 0x1
  2842 0af3 50       		.byte	0x50
  2843 0af4 10       		.uleb128 0x10
- 2844 0af5 79040000 		.4byte	.LASF108
+ 2844 0af5 70050000 		.4byte	.LASF108
  2845 0af9 01       		.byte	0x1
  2846 0afa CB01     		.2byte	0x1cb
  2847 0afc BD000000 		.4byte	0xbd
  2848 0b00 8D080000 		.4byte	.LLST4
  2849 0b04 11       		.uleb128 0x11
  2850 0b05 5C010000 		.4byte	.LASF75
-ARM GAS  /var/tmp//cctPaOXo.s 			page 51
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 51
 
 
  2851 0b09 01       		.byte	0x1
@@ -3031,7 +3031,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2878 0b46 51       		.byte	0x51
  2879 0b47 00       		.byte	0
  2880 0b48 0E       		.uleb128 0xe
- 2881 0b49 2E030000 		.4byte	.LASF110
+ 2881 0b49 52040000 		.4byte	.LASF110
  2882 0b4d 01       		.byte	0x1
  2883 0b4e 7D01     		.2byte	0x17d
  2884 0b50 00000000 		.4byte	.LFB116
@@ -3040,7 +3040,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2887 0b59 9C       		.byte	0x9c
  2888 0b5a 6D0B0000 		.4byte	0xb6d
  2889 0b5e 0F       		.uleb128 0xf
- 2890 0b5f 72050000 		.4byte	.LASF111
+ 2890 0b5f 69060000 		.4byte	.LASF111
  2891 0b63 01       		.byte	0x1
  2892 0b64 7D01     		.2byte	0x17d
  2893 0b66 6D0B0000 		.4byte	0xb6d
@@ -3051,25 +3051,25 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2898 0b6e 04       		.byte	0x4
  2899 0b6f 19030000 		.4byte	0x319
  2900 0b73 0E       		.uleb128 0xe
- 2901 0b74 99070000 		.4byte	.LASF112
+ 2901 0b74 72070000 		.4byte	.LASF112
  2902 0b78 01       		.byte	0x1
  2903 0b79 5901     		.2byte	0x159
  2904 0b7b 00000000 		.4byte	.LFB115
  2905 0b7f 28000000 		.4byte	.LFE115-.LFB115
  2906 0b83 01       		.uleb128 0x1
  2907 0b84 9C       		.byte	0x9c
-ARM GAS  /var/tmp//cctPaOXo.s 			page 52
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 52
 
 
  2908 0b85 AA0B0000 		.4byte	0xbaa
  2909 0b89 10       		.uleb128 0x10
- 2910 0b8a 72050000 		.4byte	.LASF111
+ 2910 0b8a 69060000 		.4byte	.LASF111
  2911 0b8e 01       		.byte	0x1
  2912 0b8f 5901     		.2byte	0x159
  2913 0b91 6D0B0000 		.4byte	0xb6d
  2914 0b95 E3080000 		.4byte	.LLST2
  2915 0b99 11       		.uleb128 0x11
- 2916 0b9a 6A030000 		.4byte	.LASF82
+ 2916 0b9a 8E040000 		.4byte	.LASF82
  2917 0b9e 01       		.byte	0x1
  2918 0b9f 5B01     		.2byte	0x15b
  2919 0ba1 BD000000 		.4byte	0xbd
@@ -3118,24 +3118,24 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  2962 0bfe CF0B0000 		.4byte	0xbcf
  2963 0c02 01       		.uleb128 0x1
  2964 0c03 51       		.byte	0x51
-ARM GAS  /var/tmp//cctPaOXo.s 			page 53
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 53
 
 
  2965 0c04 18       		.uleb128 0x18
- 2966 0c05 6A030000 		.4byte	.LASF82
+ 2966 0c05 8E040000 		.4byte	.LASF82
  2967 0c09 01       		.byte	0x1
  2968 0c0a F1       		.byte	0xf1
  2969 0c0b BD000000 		.4byte	0xbd
  2970 0c0f 40090000 		.4byte	.LLST0
  2971 0c13 18       		.uleb128 0x18
- 2972 0c14 72030000 		.4byte	.LASF83
+ 2972 0c14 96040000 		.4byte	.LASF83
  2973 0c18 01       		.byte	0x1
  2974 0c19 F2       		.byte	0xf2
  2975 0c1a 97000000 		.4byte	0x97
  2976 0c1e 9C090000 		.4byte	.LLST1
  2977 0c22 00       		.byte	0
  2978 0c23 16       		.uleb128 0x16
- 2979 0c24 82030000 		.4byte	.LASF116
+ 2979 0c24 A6040000 		.4byte	.LASF116
  2980 0c28 01       		.byte	0x1
  2981 0c29 D9       		.byte	0xd9
  2982 0c2a 00000000 		.4byte	.LFB112
@@ -3176,9 +3176,9 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3017 0c67 00       		.byte	0
  3018 0c68 00       		.byte	0
  3019 0c69 1C       		.uleb128 0x1c
- 3020 0c6a A1040000 		.4byte	.LASF121
- 3021 0c6e A1040000 		.4byte	.LASF121
-ARM GAS  /var/tmp//cctPaOXo.s 			page 54
+ 3020 0c6a 98050000 		.4byte	.LASF121
+ 3021 0c6e 98050000 		.4byte	.LASF121
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 54
 
 
  3022 0c72 09       		.byte	0x9
@@ -3238,7 +3238,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3076 0031 0B       		.uleb128 0xb
  3077 0032 03       		.uleb128 0x3
  3078 0033 08       		.uleb128 0x8
-ARM GAS  /var/tmp//cctPaOXo.s 			page 55
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 55
 
 
  3079 0034 00       		.byte	0
@@ -3298,7 +3298,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3133 006a 00       		.byte	0
  3134 006b 00       		.byte	0
  3135 006c 09       		.uleb128 0x9
-ARM GAS  /var/tmp//cctPaOXo.s 			page 56
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 56
 
 
  3136 006d 0D       		.uleb128 0xd
@@ -3358,7 +3358,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3190 00a3 28       		.uleb128 0x28
  3191 00a4 00       		.byte	0
  3192 00a5 03       		.uleb128 0x3
-ARM GAS  /var/tmp//cctPaOXo.s 			page 57
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 57
 
 
  3193 00a6 08       		.uleb128 0x8
@@ -3418,7 +3418,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3247 00dd 49       		.uleb128 0x49
  3248 00de 13       		.uleb128 0x13
  3249 00df 02       		.uleb128 0x2
-ARM GAS  /var/tmp//cctPaOXo.s 			page 58
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 58
 
 
  3250 00e0 17       		.uleb128 0x17
@@ -3478,7 +3478,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3304 0117 14       		.uleb128 0x14
  3305 0118 34       		.uleb128 0x34
  3306 0119 00       		.byte	0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 59
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 59
 
 
  3307 011a 03       		.uleb128 0x3
@@ -3538,7 +3538,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3361 0151 40       		.uleb128 0x40
  3362 0152 18       		.uleb128 0x18
  3363 0153 9742     		.uleb128 0x2117
-ARM GAS  /var/tmp//cctPaOXo.s 			page 60
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 60
 
 
  3364 0155 19       		.uleb128 0x19
@@ -3598,7 +3598,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3418 0190 00       		.byte	0
  3419 0191 1B       		.uleb128 0x1b
  3420 0192 898201   		.uleb128 0x4109
-ARM GAS  /var/tmp//cctPaOXo.s 			page 61
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 61
 
 
  3421 0195 01       		.byte	0x1
@@ -3658,7 +3658,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3475 0038 0600     		.2byte	0x6
  3476 003a F3       		.byte	0xf3
  3477 003b 01       		.uleb128 0x1
-ARM GAS  /var/tmp//cctPaOXo.s 			page 62
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 62
 
 
  3478 003c 51       		.byte	0x51
@@ -3718,7 +3718,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3532 00b7 0A       		.byte	0xa
  3533 00b8 FFFF     		.2byte	0xffff
  3534 00ba 1A       		.byte	0x1a
-ARM GAS  /var/tmp//cctPaOXo.s 			page 63
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 63
 
 
  3535 00bb 9F       		.byte	0x9f
@@ -3778,7 +3778,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3589 011b 02000000 		.4byte	.LVL132
  3590 011f 0100     		.2byte	0x1
  3591 0121 51       		.byte	0x51
-ARM GAS  /var/tmp//cctPaOXo.s 			page 64
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 64
 
 
  3592 0122 02000000 		.4byte	.LVL132
@@ -3838,7 +3838,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3646 0198 01       		.uleb128 0x1
  3647 0199 51       		.byte	0x51
  3648 019a 9F       		.byte	0x9f
-ARM GAS  /var/tmp//cctPaOXo.s 			page 65
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 65
 
 
  3649 019b 00000000 		.4byte	0
@@ -3898,7 +3898,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3703 0213 F3       		.byte	0xf3
  3704 0214 01       		.uleb128 0x1
  3705 0215 50       		.byte	0x50
-ARM GAS  /var/tmp//cctPaOXo.s 			page 66
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 66
 
 
  3706 0216 9F       		.byte	0x9f
@@ -3958,7 +3958,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3760 0290 0100     		.2byte	0x1
  3761 0292 51       		.byte	0x51
  3762 0293 08000000 		.4byte	.LVL112
-ARM GAS  /var/tmp//cctPaOXo.s 			page 67
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 67
 
 
  3763 0297 0C000000 		.4byte	.LFE139
@@ -4018,7 +4018,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3817              	.LLST28:
  3818 031e 00000000 		.4byte	.LVL103
  3819 0322 0C000000 		.4byte	.LVL104
-ARM GAS  /var/tmp//cctPaOXo.s 			page 68
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 68
 
 
  3820 0326 0100     		.2byte	0x1
@@ -4078,7 +4078,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3874 039d 9F       		.byte	0x9f
  3875 039e 00000000 		.4byte	0
  3876 03a2 00000000 		.4byte	0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 69
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 69
 
 
  3877              	.LLST19:
@@ -4138,7 +4138,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3931 042a 0400     		.2byte	0x4
  3932 042c F3       		.byte	0xf3
  3933 042d 01       		.uleb128 0x1
-ARM GAS  /var/tmp//cctPaOXo.s 			page 70
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 70
 
 
  3934 042e 53       		.byte	0x53
@@ -4198,7 +4198,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  3988 04b4 9F       		.byte	0x9f
  3989 04b5 10000000 		.4byte	.LVL82
  3990 04b9 16000000 		.4byte	.LVL84
-ARM GAS  /var/tmp//cctPaOXo.s 			page 71
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 71
 
 
  3991 04bd 0100     		.2byte	0x1
@@ -4258,7 +4258,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4045 0531 73       		.byte	0x73
  4046 0532 00       		.sleb128 0
  4047 0533 44       		.byte	0x44
-ARM GAS  /var/tmp//cctPaOXo.s 			page 72
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 72
 
 
  4048 0534 25       		.byte	0x25
@@ -4318,7 +4318,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4102 05b5 0200     		.2byte	0x2
  4103 05b7 30       		.byte	0x30
  4104 05b8 9F       		.byte	0x9f
-ARM GAS  /var/tmp//cctPaOXo.s 			page 73
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 73
 
 
  4105 05b9 08000000 		.4byte	.LVL72
@@ -4378,7 +4378,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4159 062b 40000000 		.4byte	.LVL45
  4160 062f 0400     		.2byte	0x4
  4161 0631 F3       		.byte	0xf3
-ARM GAS  /var/tmp//cctPaOXo.s 			page 74
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 74
 
 
  4162 0632 01       		.uleb128 0x1
@@ -4438,7 +4438,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4216 06ac 74000000 		.4byte	.LVL58
  4217 06b0 8C000000 		.4byte	.LFE123
  4218 06b4 0400     		.2byte	0x4
-ARM GAS  /var/tmp//cctPaOXo.s 			page 75
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 75
 
 
  4219 06b6 F3       		.byte	0xf3
@@ -4498,7 +4498,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4273 0738 40000000 		.4byte	.LVL45
  4274 073c 0100     		.2byte	0x1
  4275 073e 51       		.byte	0x51
-ARM GAS  /var/tmp//cctPaOXo.s 			page 76
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 76
 
 
  4276 073f 40000000 		.4byte	.LVL45
@@ -4558,7 +4558,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4330 07ca 32000000 		.4byte	.LVL41
  4331 07ce 0500     		.2byte	0x5
  4332 07d0 4F       		.byte	0x4f
-ARM GAS  /var/tmp//cctPaOXo.s 			page 77
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 77
 
 
  4333 07d1 72       		.byte	0x72
@@ -4618,7 +4618,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4387 084a 0100     		.2byte	0x1
  4388 084c 51       		.byte	0x51
  4389 084d 08000000 		.4byte	.LVL30
-ARM GAS  /var/tmp//cctPaOXo.s 			page 78
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 78
 
 
  4390 0851 0C000000 		.4byte	.LFE120
@@ -4678,7 +4678,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4444 08d8 0100     		.2byte	0x1
  4445 08da 51       		.byte	0x51
  4446 08db 00000000 		.4byte	0
-ARM GAS  /var/tmp//cctPaOXo.s 			page 79
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 79
 
 
  4447 08df 00000000 		.4byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4501 095e 9F       		.byte	0x9f
  4502 095f 20000000 		.4byte	.LVL5
  4503 0963 24000000 		.4byte	.LVL6
-ARM GAS  /var/tmp//cctPaOXo.s 			page 80
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 80
 
 
  4504 0967 0100     		.2byte	0x1
@@ -4798,7 +4798,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4557 0028 00000000 		.4byte	.LFB115
  4558 002c 28000000 		.4byte	.LFE115-.LFB115
  4559 0030 00000000 		.4byte	.LFB116
-ARM GAS  /var/tmp//cctPaOXo.s 			page 81
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 81
 
 
  4560 0034 0C000000 		.4byte	.LFE116-.LFB116
@@ -4858,7 +4858,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4614 010c 14000000 		.4byte	.LFE143-.LFB143
  4615 0110 00000000 		.4byte	.LFB144
  4616 0114 1A000000 		.4byte	.LFE144-.LFB144
-ARM GAS  /var/tmp//cctPaOXo.s 			page 82
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 82
 
 
  4617 0118 00000000 		.4byte	.LFB145
@@ -4918,7 +4918,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4671 00a0 00000000 		.4byte	.LFB132
  4672 00a4 14000000 		.4byte	.LFE132
  4673 00a8 00000000 		.4byte	.LFB133
-ARM GAS  /var/tmp//cctPaOXo.s 			page 83
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 83
 
 
  4674 00ac 14000000 		.4byte	.LFE133
@@ -4958,8 +4958,8 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4708 0134 00000000 		.4byte	0
  4709              		.section	.debug_line,"",%progbits
  4710              	.Ldebug_line0:
- 4711 0000 88050000 		.section	.debug_str,"MS",%progbits,1
- 4711      0200E601 
+ 4711 0000 8A050000 		.section	.debug_str,"MS",%progbits,1
+ 4711      0200E801 
  4711      00000201 
  4711      FB0E0D00 
  4711      01010101 
@@ -4978,7 +4978,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4717      436F6E76 
  4718              	.LASF37:
  4719 0025 466C6167 		.ascii	"FlagStatus\000"
-ARM GAS  /var/tmp//cctPaOXo.s 			page 84
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 84
 
 
  4719      53746174 
@@ -5038,7 +5038,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4744 00e2 4A535152 		.ascii	"JSQR\000"
  4744      00
  4745              	.LASF10:
-ARM GAS  /var/tmp//cctPaOXo.s 			page 85
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 85
 
 
  4746 00e7 6C6F6E67 		.ascii	"long long int\000"
@@ -5098,7 +5098,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4768      444D4152 
  4768      65717565 
  4768      73744166 
-ARM GAS  /var/tmp//cctPaOXo.s 			page 86
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 86
 
 
  4768      7465724C 
@@ -5158,7 +5158,7 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4792      496E6A65 
  4792      63746564 
  4792      44697363 
-ARM GAS  /var/tmp//cctPaOXo.s 			page 87
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 87
 
 
  4792      4D6F6465 
@@ -5195,500 +5195,499 @@ ARM GAS  /var/tmp//cctPaOXo.s 			page 1
  4804      63636573 
  4804      734D6F64 
  4804      6500
- 4805              	.LASF72:
- 4806 02fd 4144435F 		.ascii	"ADC_SoftwareStartInjectedConv\000"
- 4806      536F6674 
- 4806      77617265 
- 4806      53746172 
- 4806      74496E6A 
- 4807              	.LASF5:
- 4808 031b 73686F72 		.ascii	"short unsigned int\000"
- 4808      7420756E 
- 4808      7369676E 
- 4808      65642069 
- 4808      6E7400
- 4809              	.LASF110:
- 4810 032e 4144435F 		.ascii	"ADC_CommonStructInit\000"
- 4810      436F6D6D 
- 4810      6F6E5374 
- 4810      72756374 
- 4810      496E6974 
- 4811              	.LASF100:
- 4812 0343 4144435F 		.ascii	"ADC_RegularChannelConfig\000"
- 4812      52656775 
- 4812      6C617243 
- 4812      68616E6E 
-ARM GAS  /var/tmp//cctPaOXo.s 			page 88
+ 4805              	.LASF117:
+ 4806 02fd 474E5520 		.ascii	"GNU C99 6.3.1 20170215 (release) [ARM/embedded-6-br"
+ 4806      43393920 
+ 4806      362E332E 
+ 4806      31203230 
+ 4806      31373032 
+ 4807 0330 616E6368 		.ascii	"anch revision 245512] -mcpu=cortex-m4 -mfloat-abi=h"
+ 4807      20726576 
+ 4807      6973696F 
+ 4807      6E203234 
+ 4807      35353132 
+ 4808 0363 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 4808      2D6D6670 
+ 4808      753D6670 
+ 4808      76342D73 
+ 4808      702D6431 
+ 4809 0396 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
+ 4809      62202D4F 
+ 4809      32202D73 
+ 4809      74643D67 
+ 4809      6E753939 
+ 4810 03c9 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
+ 4810      696F6E73 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 88
 
 
- 4812      656C436F 
- 4813              	.LASF105:
- 4814 035c 48696768 		.ascii	"HighThreshold\000"
- 4814      54687265 
- 4814      73686F6C 
- 4814      6400
- 4815              	.LASF82:
- 4816 036a 746D7072 		.ascii	"tmpreg1\000"
- 4816      65673100 
- 4817              	.LASF83:
- 4818 0372 746D7072 		.ascii	"tmpreg2\000"
- 4818      65673200 
- 4819              	.LASF88:
- 4820 037a 746D7072 		.ascii	"tmpreg3\000"
- 4820      65673300 
- 4821              	.LASF116:
- 4822 0382 4144435F 		.ascii	"ADC_DeInit\000"
- 4822      4465496E 
- 4822      697400
- 4823              	.LASF96:
- 4824 038d 4144435F 		.ascii	"ADC_ContinuousModeCmd\000"
- 4824      436F6E74 
- 4824      696E756F 
- 4824      75734D6F 
- 4824      6465436D 
- 4825              	.LASF61:
- 4826 03a3 4144435F 		.ascii	"ADC_ClearFlag\000"
- 4826      436C6561 
- 4826      72466C61 
- 4826      6700
- 4827              	.LASF23:
- 4828 03b1 4A4F4652 		.ascii	"JOFR2\000"
- 4828      3200
- 4829              	.LASF24:
- 4830 03b7 4A4F4652 		.ascii	"JOFR3\000"
- 4830      3300
- 4831              	.LASF73:
- 4832 03bd 4144435F 		.ascii	"ADC_ExternalTrigInjectedConvEdgeConfig\000"
- 4832      45787465 
- 4832      726E616C 
- 4832      54726967 
- 4832      496E6A65 
- 4833              	.LASF95:
- 4834 03e4 4E756D62 		.ascii	"Number\000"
- 4834      657200
- 4835              	.LASF120:
- 4836 03eb 4144435F 		.ascii	"ADC_GetMultiModeConversionValue\000"
- 4836      4765744D 
- 4836      756C7469 
- 4836      4D6F6465 
- 4836      436F6E76 
- 4837              	.LASF17:
- 4838 040b 73697A65 		.ascii	"sizetype\000"
- 4838      74797065 
- 4838      00
- 4839              	.LASF119:
- 4840 0414 2F557365 		.ascii	"/Users/yanrudall/Documents/eBike/ebikeSystem\000"
-ARM GAS  /var/tmp//cctPaOXo.s 			page 89
+ 4810      3D313620 
+ 4810      2D666675 
+ 4810      6E637469 
+ 4811 03fc 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
+ 4811      6D6D6F6E 
+ 4811      202D6673 
+ 4811      696E676C 
+ 4811      652D7072 
+ 4812              	.LASF72:
+ 4813 0421 4144435F 		.ascii	"ADC_SoftwareStartInjectedConv\000"
+ 4813      536F6674 
+ 4813      77617265 
+ 4813      53746172 
+ 4813      74496E6A 
+ 4814              	.LASF5:
+ 4815 043f 73686F72 		.ascii	"short unsigned int\000"
+ 4815      7420756E 
+ 4815      7369676E 
+ 4815      65642069 
+ 4815      6E7400
+ 4816              	.LASF110:
+ 4817 0452 4144435F 		.ascii	"ADC_CommonStructInit\000"
+ 4817      436F6D6D 
+ 4817      6F6E5374 
+ 4817      72756374 
+ 4817      496E6974 
+ 4818              	.LASF100:
+ 4819 0467 4144435F 		.ascii	"ADC_RegularChannelConfig\000"
+ 4819      52656775 
+ 4819      6C617243 
+ 4819      68616E6E 
+ 4819      656C436F 
+ 4820              	.LASF105:
+ 4821 0480 48696768 		.ascii	"HighThreshold\000"
+ 4821      54687265 
+ 4821      73686F6C 
+ 4821      6400
+ 4822              	.LASF82:
+ 4823 048e 746D7072 		.ascii	"tmpreg1\000"
+ 4823      65673100 
+ 4824              	.LASF83:
+ 4825 0496 746D7072 		.ascii	"tmpreg2\000"
+ 4825      65673200 
+ 4826              	.LASF88:
+ 4827 049e 746D7072 		.ascii	"tmpreg3\000"
+ 4827      65673300 
+ 4828              	.LASF116:
+ 4829 04a6 4144435F 		.ascii	"ADC_DeInit\000"
+ 4829      4465496E 
+ 4829      697400
+ 4830              	.LASF96:
+ 4831 04b1 4144435F 		.ascii	"ADC_ContinuousModeCmd\000"
+ 4831      436F6E74 
+ 4831      696E756F 
+ 4831      75734D6F 
+ 4831      6465436D 
+ 4832              	.LASF61:
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 89
 
 
- 4840      72732F79 
- 4840      616E7275 
- 4840      64616C6C 
- 4840      2F446F63 
- 4841              	.LASF91:
- 4842 0441 4144435F 		.ascii	"ADC_DMACmd\000"
- 4842      444D4143 
- 4842      6D6400
- 4843              	.LASF35:
- 4844 044c 4144435F 		.ascii	"ADC_Common_TypeDef\000"
- 4844      436F6D6D 
- 4844      6F6E5F54 
- 4844      79706544 
- 4844      656600
- 4845              	.LASF77:
- 4846 045f 4144435F 		.ascii	"ADC_ExternalTrigInjecConv\000"
- 4846      45787465 
- 4846      726E616C 
- 4846      54726967 
- 4846      496E6A65 
- 4847              	.LASF108:
- 4848 0479 4144435F 		.ascii	"ADC_AnalogWatchdog\000"
- 4848      416E616C 
- 4848      6F675761 
- 4848      74636864 
- 4848      6F6700
- 4849              	.LASF20:
- 4850 048c 534D5052 		.ascii	"SMPR1\000"
- 4850      3100
- 4851              	.LASF87:
- 4852 0492 4144435F 		.ascii	"ADC_SampleTime\000"
- 4852      53616D70 
- 4852      6C655469 
- 4852      6D6500
- 4853              	.LASF121:
- 4854 04a1 5243435F 		.ascii	"RCC_APB2PeriphResetCmd\000"
- 4854      41504232 
- 4854      50657269 
- 4854      70685265 
- 4854      73657443 
- 4855              	.LASF78:
- 4856 04b8 4144435F 		.ascii	"ADC_SetInjectedOffset\000"
- 4856      53657449 
- 4856      6E6A6563 
- 4856      7465644F 
- 4856      66667365 
- 4857              	.LASF26:
- 4858 04ce 53515231 		.ascii	"SQR1\000"
- 4858      00
- 4859              	.LASF27:
- 4860 04d3 53515232 		.ascii	"SQR2\000"
- 4860      00
- 4861              	.LASF28:
- 4862 04d8 53515233 		.ascii	"SQR3\000"
- 4862      00
- 4863              	.LASF57:
- 4864 04dd 69746D61 		.ascii	"itmask\000"
-ARM GAS  /var/tmp//cctPaOXo.s 			page 90
+ 4833 04c7 4144435F 		.ascii	"ADC_ClearFlag\000"
+ 4833      436C6561 
+ 4833      72466C61 
+ 4833      6700
+ 4834              	.LASF23:
+ 4835 04d5 4A4F4652 		.ascii	"JOFR2\000"
+ 4835      3200
+ 4836              	.LASF24:
+ 4837 04db 4A4F4652 		.ascii	"JOFR3\000"
+ 4837      3300
+ 4838              	.LASF73:
+ 4839 04e1 4144435F 		.ascii	"ADC_ExternalTrigInjectedConvEdgeConfig\000"
+ 4839      45787465 
+ 4839      726E616C 
+ 4839      54726967 
+ 4839      496E6A65 
+ 4840              	.LASF95:
+ 4841 0508 4E756D62 		.ascii	"Number\000"
+ 4841      657200
+ 4842              	.LASF120:
+ 4843 050f 4144435F 		.ascii	"ADC_GetMultiModeConversionValue\000"
+ 4843      4765744D 
+ 4843      756C7469 
+ 4843      4D6F6465 
+ 4843      436F6E76 
+ 4844              	.LASF17:
+ 4845 052f 73697A65 		.ascii	"sizetype\000"
+ 4845      74797065 
+ 4845      00
+ 4846              	.LASF91:
+ 4847 0538 4144435F 		.ascii	"ADC_DMACmd\000"
+ 4847      444D4143 
+ 4847      6D6400
+ 4848              	.LASF35:
+ 4849 0543 4144435F 		.ascii	"ADC_Common_TypeDef\000"
+ 4849      436F6D6D 
+ 4849      6F6E5F54 
+ 4849      79706544 
+ 4849      656600
+ 4850              	.LASF77:
+ 4851 0556 4144435F 		.ascii	"ADC_ExternalTrigInjecConv\000"
+ 4851      45787465 
+ 4851      726E616C 
+ 4851      54726967 
+ 4851      496E6A65 
+ 4852              	.LASF108:
+ 4853 0570 4144435F 		.ascii	"ADC_AnalogWatchdog\000"
+ 4853      416E616C 
+ 4853      6F675761 
+ 4853      74636864 
+ 4853      6F6700
+ 4854              	.LASF20:
+ 4855 0583 534D5052 		.ascii	"SMPR1\000"
+ 4855      3100
+ 4856              	.LASF87:
+ 4857 0589 4144435F 		.ascii	"ADC_SampleTime\000"
+ 4857      53616D70 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 90
 
 
- 4864      736B00
- 4865              	.LASF60:
- 4866 04e4 4144435F 		.ascii	"ADC_ClearITPendingBit\000"
- 4866      436C6561 
- 4866      72495450 
- 4866      656E6469 
- 4866      6E674269 
- 4867              	.LASF86:
- 4868 04fa 52616E6B 		.ascii	"Rank\000"
- 4868      00
- 4869              	.LASF85:
- 4870 04ff 4144435F 		.ascii	"ADC_Channel\000"
- 4870      4368616E 
- 4870      6E656C00 
- 4871              	.LASF36:
- 4872 050b 52455345 		.ascii	"RESET\000"
- 4872      5400
- 4873              	.LASF68:
- 4874 0511 4144435F 		.ascii	"ADC_InjectedChannel\000"
- 4874      496E6A65 
- 4874      63746564 
- 4874      4368616E 
- 4874      6E656C00 
- 4875              	.LASF71:
- 4876 0525 4144435F 		.ascii	"ADC_GetSoftwareStartInjectedConvCmdStatus\000"
- 4876      47657453 
- 4876      6F667477 
- 4876      61726553 
- 4876      74617274 
- 4877              	.LASF76:
- 4878 054f 4144435F 		.ascii	"ADC_ExternalTrigInjectedConvConfig\000"
- 4878      45787465 
- 4878      726E616C 
- 4878      54726967 
- 4878      496E6A65 
- 4879              	.LASF111:
- 4880 0572 4144435F 		.ascii	"ADC_CommonInitStruct\000"
- 4880      436F6D6D 
- 4880      6F6E496E 
- 4880      69745374 
- 4880      72756374 
- 4881              	.LASF15:
- 4882 0587 696E7433 		.ascii	"int32_t\000"
- 4882      325F7400 
- 4883              	.LASF1:
- 4884 058f 756E7369 		.ascii	"unsigned char\000"
- 4884      676E6564 
- 4884      20636861 
- 4884      7200
- 4885              	.LASF2:
- 4886 059d 73686F72 		.ascii	"short int\000"
- 4886      7420696E 
- 4886      7400
- 4887              	.LASF80:
- 4888 05a7 4144435F 		.ascii	"ADC_InjectedSequencerLengthConfig\000"
- 4888      496E6A65 
- 4888      63746564 
-ARM GAS  /var/tmp//cctPaOXo.s 			page 91
+ 4857      6C655469 
+ 4857      6D6500
+ 4858              	.LASF121:
+ 4859 0598 5243435F 		.ascii	"RCC_APB2PeriphResetCmd\000"
+ 4859      41504232 
+ 4859      50657269 
+ 4859      70685265 
+ 4859      73657443 
+ 4860              	.LASF78:
+ 4861 05af 4144435F 		.ascii	"ADC_SetInjectedOffset\000"
+ 4861      53657449 
+ 4861      6E6A6563 
+ 4861      7465644F 
+ 4861      66667365 
+ 4862              	.LASF26:
+ 4863 05c5 53515231 		.ascii	"SQR1\000"
+ 4863      00
+ 4864              	.LASF27:
+ 4865 05ca 53515232 		.ascii	"SQR2\000"
+ 4865      00
+ 4866              	.LASF28:
+ 4867 05cf 53515233 		.ascii	"SQR3\000"
+ 4867      00
+ 4868              	.LASF57:
+ 4869 05d4 69746D61 		.ascii	"itmask\000"
+ 4869      736B00
+ 4870              	.LASF60:
+ 4871 05db 4144435F 		.ascii	"ADC_ClearITPendingBit\000"
+ 4871      436C6561 
+ 4871      72495450 
+ 4871      656E6469 
+ 4871      6E674269 
+ 4872              	.LASF86:
+ 4873 05f1 52616E6B 		.ascii	"Rank\000"
+ 4873      00
+ 4874              	.LASF85:
+ 4875 05f6 4144435F 		.ascii	"ADC_Channel\000"
+ 4875      4368616E 
+ 4875      6E656C00 
+ 4876              	.LASF36:
+ 4877 0602 52455345 		.ascii	"RESET\000"
+ 4877      5400
+ 4878              	.LASF68:
+ 4879 0608 4144435F 		.ascii	"ADC_InjectedChannel\000"
+ 4879      496E6A65 
+ 4879      63746564 
+ 4879      4368616E 
+ 4879      6E656C00 
+ 4880              	.LASF71:
+ 4881 061c 4144435F 		.ascii	"ADC_GetSoftwareStartInjectedConvCmdStatus\000"
+ 4881      47657453 
+ 4881      6F667477 
+ 4881      61726553 
+ 4881      74617274 
+ 4882              	.LASF76:
+ 4883 0646 4144435F 		.ascii	"ADC_ExternalTrigInjectedConvConfig\000"
+ 4883      45787465 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 91
 
 
- 4888      53657175 
- 4888      656E6365 
- 4889              	.LASF45:
- 4890 05c9 4144435F 		.ascii	"ADC_ExternalTrigConvEdge\000"
- 4890      45787465 
- 4890      726E616C 
- 4890      54726967 
- 4890      436F6E76 
- 4891              	.LASF43:
- 4892 05e2 4144435F 		.ascii	"ADC_ScanConvMode\000"
- 4892      5363616E 
- 4892      436F6E76 
- 4892      4D6F6465 
- 4892      00
- 4893              	.LASF117:
- 4894 05f3 474E5520 		.ascii	"GNU C99 6.3.1 20170620 (release) [ARM/embedded-6-br"
- 4894      43393920 
- 4894      362E332E 
- 4894      31203230 
- 4894      31373036 
- 4895 0626 616E6368 		.ascii	"anch revision 249437] -mcpu=cortex-m4 -mfloat-abi=h"
- 4895      20726576 
- 4895      6973696F 
- 4895      6E203234 
- 4895      39343337 
- 4896 0659 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 4896      2D6D6670 
- 4896      753D6670 
- 4896      76342D73 
- 4896      702D6431 
- 4897 068c 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
- 4897      62202D4F 
- 4897      32202D73 
- 4897      74643D67 
- 4897      6E753939 
- 4898 06bf 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
- 4898      696F6E73 
- 4898      3D313620 
- 4898      2D666675 
- 4898      6E637469 
- 4899 06f2 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
- 4899      6D6D6F6E 
- 4899      202D6673 
- 4899      696E676C 
- 4899      652D7072 
+ 4883      726E616C 
+ 4883      54726967 
+ 4883      496E6A65 
+ 4884              	.LASF111:
+ 4885 0669 4144435F 		.ascii	"ADC_CommonInitStruct\000"
+ 4885      436F6D6D 
+ 4885      6F6E496E 
+ 4885      69745374 
+ 4885      72756374 
+ 4886              	.LASF15:
+ 4887 067e 696E7433 		.ascii	"int32_t\000"
+ 4887      325F7400 
+ 4888              	.LASF1:
+ 4889 0686 756E7369 		.ascii	"unsigned char\000"
+ 4889      676E6564 
+ 4889      20636861 
+ 4889      7200
+ 4890              	.LASF2:
+ 4891 0694 73686F72 		.ascii	"short int\000"
+ 4891      7420696E 
+ 4891      7400
+ 4892              	.LASF80:
+ 4893 069e 4144435F 		.ascii	"ADC_InjectedSequencerLengthConfig\000"
+ 4893      496E6A65 
+ 4893      63746564 
+ 4893      53657175 
+ 4893      656E6365 
+ 4894              	.LASF45:
+ 4895 06c0 4144435F 		.ascii	"ADC_ExternalTrigConvEdge\000"
+ 4895      45787465 
+ 4895      726E616C 
+ 4895      54726967 
+ 4895      436F6E76 
+ 4896              	.LASF43:
+ 4897 06d9 4144435F 		.ascii	"ADC_ScanConvMode\000"
+ 4897      5363616E 
+ 4897      436F6E76 
+ 4897      4D6F6465 
+ 4897      00
+ 4898              	.LASF25:
+ 4899 06ea 4A4F4652 		.ascii	"JOFR4\000"
+ 4899      3400
  4900              	.LASF49:
- 4901 0717 4144435F 		.ascii	"ADC_InitTypeDef\000"
+ 4901 06f0 4144435F 		.ascii	"ADC_InitTypeDef\000"
  4901      496E6974 
  4901      54797065 
  4901      44656600 
  4902              	.LASF63:
- 4903 0727 4144435F 		.ascii	"ADC_GetITStatus\000"
+ 4903 0700 4144435F 		.ascii	"ADC_GetITStatus\000"
  4903      47657449 
  4903      54537461 
  4903      74757300 
  4904              	.LASF16:
- 4905 0737 75696E74 		.ascii	"uint32_t\000"
-ARM GAS  /var/tmp//cctPaOXo.s 			page 92
-
-
+ 4905 0710 75696E74 		.ascii	"uint32_t\000"
  4905      33325F74 
  4905      00
  4906              	.LASF47:
- 4907 0740 4144435F 		.ascii	"ADC_DataAlign\000"
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 92
+
+
+ 4907 0719 4144435F 		.ascii	"ADC_DataAlign\000"
  4907      44617461 
  4907      416C6967 
  4907      6E00
  4908              	.LASF70:
- 4909 074e 4144435F 		.ascii	"ADC_AutoInjectedConvCmd\000"
+ 4909 0727 4144435F 		.ascii	"ADC_AutoInjectedConvCmd\000"
  4909      4175746F 
  4909      496E6A65 
  4909      63746564 
  4909      436F6E76 
  4910              	.LASF97:
- 4911 0766 4144435F 		.ascii	"ADC_EOCOnEachRegularChannelCmd\000"
+ 4911 073f 4144435F 		.ascii	"ADC_EOCOnEachRegularChannelCmd\000"
  4911      454F434F 
  4911      6E456163 
  4911      68526567 
  4911      756C6172 
  4912              	.LASF50:
- 4913 0785 4144435F 		.ascii	"ADC_Mode\000"
+ 4913 075e 4144435F 		.ascii	"ADC_Mode\000"
  4913      4D6F6465 
  4913      00
  4914              	.LASF4:
- 4915 078e 5F5F7569 		.ascii	"__uint16_t\000"
+ 4915 0767 5F5F7569 		.ascii	"__uint16_t\000"
  4915      6E743136 
  4915      5F7400
  4916              	.LASF112:
- 4917 0799 4144435F 		.ascii	"ADC_CommonInit\000"
+ 4917 0772 4144435F 		.ascii	"ADC_CommonInit\000"
  4917      436F6D6D 
  4917      6F6E496E 
  4917      697400
  4918              	.LASF59:
- 4919 07a8 656E6162 		.ascii	"enablestatus\000"
+ 4919 0781 656E6162 		.ascii	"enablestatus\000"
  4919      6C657374 
  4919      61747573 
  4919      00
  4920              	.LASF6:
- 4921 07b5 5F5F696E 		.ascii	"__int32_t\000"
+ 4921 078e 5F5F696E 		.ascii	"__int32_t\000"
  4921      7433325F 
  4921      7400
  4922              	.LASF98:
- 4923 07bf 4144435F 		.ascii	"ADC_GetSoftwareStartConvStatus\000"
+ 4923 0798 4144435F 		.ascii	"ADC_GetSoftwareStartConvStatus\000"
  4923      47657453 
  4923      6F667477 
  4923      61726553 
  4923      74617274 
  4924              	.LASF89:
- 4925 07de 4144435F 		.ascii	"ADC_MultiModeDMARequestAfterLastTransferCmd\000"
+ 4925 07b7 4144435F 		.ascii	"ADC_MultiModeDMARequestAfterLastTransferCmd\000"
  4925      4D756C74 
  4925      694D6F64 
  4925      65444D41 
  4925      52657175 
  4926              	.LASF81:
- 4927 080a 4C656E67 		.ascii	"Length\000"
+ 4927 07e3 4C656E67 		.ascii	"Length\000"
  4927      746800
  4928              	.LASF93:
-ARM GAS  /var/tmp//cctPaOXo.s 			page 93
-
-
- 4929 0811 4144435F 		.ascii	"ADC_DiscModeCmd\000"
+ 4929 07ea 4144435F 		.ascii	"ADC_DiscModeCmd\000"
  4929      44697363 
  4929      4D6F6465 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 93
+
+
  4929      436D6400 
  4930              	.LASF107:
- 4931 0821 4144435F 		.ascii	"ADC_AnalogWatchdogCmd\000"
+ 4931 07fa 4144435F 		.ascii	"ADC_AnalogWatchdogCmd\000"
  4931      416E616C 
  4931      6F675761 
  4931      74636864 
  4931      6F67436D 
  4932              	.LASF79:
- 4933 0837 4F666673 		.ascii	"Offset\000"
+ 4933 0810 4F666673 		.ascii	"Offset\000"
  4933      657400
  4934              	.LASF13:
- 4935 083e 75696E74 		.ascii	"uint8_t\000"
+ 4935 0817 75696E74 		.ascii	"uint8_t\000"
  4935      385F7400 
- 4936              	.LASF25:
- 4937 0846 4A4F4652 		.ascii	"JOFR4\000"
- 4937      3400
+ 4936              	.LASF119:
+ 4937 081f 443A5C65 		.ascii	"D:\\ebikeSystem\000"
+ 4937      62696B65 
+ 4937      53797374 
+ 4937      656D00
  4938              	.LASF64:
- 4939 084c 4144435F 		.ascii	"ADC_GetFlagStatus\000"
+ 4939 082e 4144435F 		.ascii	"ADC_GetFlagStatus\000"
  4939      47657446 
  4939      6C616753 
  4939      74617475 
  4939      7300
  4940              	.LASF30:
- 4941 085e 4A445231 		.ascii	"JDR1\000"
+ 4941 0840 4A445231 		.ascii	"JDR1\000"
  4941      00
  4942              	.LASF31:
- 4943 0863 4A445232 		.ascii	"JDR2\000"
+ 4943 0845 4A445232 		.ascii	"JDR2\000"
  4943      00
  4944              	.LASF32:
- 4945 0868 4A445233 		.ascii	"JDR3\000"
+ 4945 084a 4A445233 		.ascii	"JDR3\000"
  4945      00
  4946              	.LASF33:
- 4947 086d 4A445234 		.ascii	"JDR4\000"
+ 4947 084f 4A445234 		.ascii	"JDR4\000"
  4947      00
  4948              	.LASF58:
- 4949 0872 62697473 		.ascii	"bitstatus\000"
+ 4949 0854 62697473 		.ascii	"bitstatus\000"
  4949      74617475 
  4949      7300
  4950              	.LASF42:
- 4951 087c 4144435F 		.ascii	"ADC_Resolution\000"
+ 4951 085e 4144435F 		.ascii	"ADC_Resolution\000"
  4951      5265736F 
  4951      6C757469 
  4951      6F6E00
  4952              	.LASF67:
- 4953 088b 4144435F 		.ascii	"ADC_GetInjectedConversionValue\000"
+ 4953 086d 4144435F 		.ascii	"ADC_GetInjectedConversionValue\000"
  4953      47657449 
  4953      6E6A6563 
  4953      74656443 
  4953      6F6E7665 
  4954              	.LASF99:
- 4955 08aa 4144435F 		.ascii	"ADC_SoftwareStartConv\000"
+ 4955 088c 4144435F 		.ascii	"ADC_SoftwareStartConv\000"
  4955      536F6674 
  4955      77617265 
  4955      53746172 
-ARM GAS  /var/tmp//cctPaOXo.s 			page 94
-
-
  4955      74436F6E 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 94
+
+
  4956              	.LASF53:
- 4957 08c0 4144435F 		.ascii	"ADC_TwoSamplingDelay\000"
+ 4957 08a2 4144435F 		.ascii	"ADC_TwoSamplingDelay\000"
  4957      54776F53 
  4957      616D706C 
  4957      696E6744 
  4957      656C6179 
  4958              	.LASF101:
- 4959 08d5 4144435F 		.ascii	"ADC_VBATCmd\000"
+ 4959 08b7 4144435F 		.ascii	"ADC_VBATCmd\000"
  4959      56424154 
  4959      436D6400 
  4960              	.LASF51:
- 4961 08e1 4144435F 		.ascii	"ADC_Prescaler\000"
+ 4961 08c3 4144435F 		.ascii	"ADC_Prescaler\000"
  4961      50726573 
  4961      63616C65 
  4961      7200
- 4962              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /var/tmp//cctPaOXo.s 			page 95
+ 4962              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q1-update) 6.3.1 20170215 (release) [AR
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 95
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 stm32f4xx_adc.c
-/var/tmp//cctPaOXo.s:18     .text.ADC_DeInit:0000000000000000 $t
-/var/tmp//cctPaOXo.s:26     .text.ADC_DeInit:0000000000000000 ADC_DeInit
-/var/tmp//cctPaOXo.s:57     .text.ADC_Init:0000000000000000 $t
-/var/tmp//cctPaOXo.s:65     .text.ADC_Init:0000000000000000 ADC_Init
-/var/tmp//cctPaOXo.s:140    .text.ADC_Init:0000000000000048 $d
-/var/tmp//cctPaOXo.s:145    .text.ADC_StructInit:0000000000000000 $t
-/var/tmp//cctPaOXo.s:153    .text.ADC_StructInit:0000000000000000 ADC_StructInit
-/var/tmp//cctPaOXo.s:183    .text.ADC_CommonInit:0000000000000000 $t
-/var/tmp//cctPaOXo.s:191    .text.ADC_CommonInit:0000000000000000 ADC_CommonInit
-/var/tmp//cctPaOXo.s:239    .text.ADC_CommonInit:0000000000000020 $d
-/var/tmp//cctPaOXo.s:245    .text.ADC_CommonStructInit:0000000000000000 $t
-/var/tmp//cctPaOXo.s:253    .text.ADC_CommonStructInit:0000000000000000 ADC_CommonStructInit
-/var/tmp//cctPaOXo.s:275    .text.ADC_Cmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:283    .text.ADC_Cmd:0000000000000000 ADC_Cmd
-/var/tmp//cctPaOXo.s:308    .text.ADC_AnalogWatchdogCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:316    .text.ADC_AnalogWatchdogCmd:0000000000000000 ADC_AnalogWatchdogCmd
-/var/tmp//cctPaOXo.s:342    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 $t
-/var/tmp//cctPaOXo.s:350    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 ADC_AnalogWatchdogThresholdsConfig
-/var/tmp//cctPaOXo.s:367    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 $t
-/var/tmp//cctPaOXo.s:375    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 ADC_AnalogWatchdogSingleChannelConfig
-/var/tmp//cctPaOXo.s:399    .text.ADC_TempSensorVrefintCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:407    .text.ADC_TempSensorVrefintCmd:0000000000000000 ADC_TempSensorVrefintCmd
-/var/tmp//cctPaOXo.s:432    .text.ADC_TempSensorVrefintCmd:0000000000000018 $d
-/var/tmp//cctPaOXo.s:437    .text.ADC_VBATCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:445    .text.ADC_VBATCmd:0000000000000000 ADC_VBATCmd
-/var/tmp//cctPaOXo.s:470    .text.ADC_VBATCmd:0000000000000018 $d
-/var/tmp//cctPaOXo.s:475    .text.ADC_RegularChannelConfig:0000000000000000 $t
-/var/tmp//cctPaOXo.s:483    .text.ADC_RegularChannelConfig:0000000000000000 ADC_RegularChannelConfig
-/var/tmp//cctPaOXo.s:654    .text.ADC_SoftwareStartConv:0000000000000000 $t
-/var/tmp//cctPaOXo.s:662    .text.ADC_SoftwareStartConv:0000000000000000 ADC_SoftwareStartConv
-/var/tmp//cctPaOXo.s:679    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 $t
-/var/tmp//cctPaOXo.s:687    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 ADC_GetSoftwareStartConvStatus
-/var/tmp//cctPaOXo.s:706    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:714    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 ADC_EOCOnEachRegularChannelCmd
-/var/tmp//cctPaOXo.s:739    .text.ADC_ContinuousModeCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:747    .text.ADC_ContinuousModeCmd:0000000000000000 ADC_ContinuousModeCmd
-/var/tmp//cctPaOXo.s:772    .text.ADC_DiscModeChannelCountConfig:0000000000000000 $t
-/var/tmp//cctPaOXo.s:780    .text.ADC_DiscModeChannelCountConfig:0000000000000000 ADC_DiscModeChannelCountConfig
-/var/tmp//cctPaOXo.s:806    .text.ADC_DiscModeCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:814    .text.ADC_DiscModeCmd:0000000000000000 ADC_DiscModeCmd
-/var/tmp//cctPaOXo.s:839    .text.ADC_GetConversionValue:0000000000000000 $t
-/var/tmp//cctPaOXo.s:847    .text.ADC_GetConversionValue:0000000000000000 ADC_GetConversionValue
-/var/tmp//cctPaOXo.s:865    .text.ADC_GetMultiModeConversionValue:0000000000000000 $t
-/var/tmp//cctPaOXo.s:873    .text.ADC_GetMultiModeConversionValue:0000000000000000 ADC_GetMultiModeConversionValue
-/var/tmp//cctPaOXo.s:888    .text.ADC_GetMultiModeConversionValue:0000000000000008 $d
-/var/tmp//cctPaOXo.s:893    .text.ADC_DMACmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:901    .text.ADC_DMACmd:0000000000000000 ADC_DMACmd
-/var/tmp//cctPaOXo.s:926    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:934    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 ADC_DMARequestAfterLastTransferCmd
-/var/tmp//cctPaOXo.s:959    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:967    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 ADC_MultiModeDMARequestAfterLastTransferCmd
-/var/tmp//cctPaOXo.s:992    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000018 $d
-/var/tmp//cctPaOXo.s:997    .text.ADC_InjectedChannelConfig:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1005   .text.ADC_InjectedChannelConfig:0000000000000000 ADC_InjectedChannelConfig
-/var/tmp//cctPaOXo.s:1108   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 $t
-ARM GAS  /var/tmp//cctPaOXo.s 			page 96
+                            *ABS*:00000000 stm32f4xx_adc.c
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:18     .text.ADC_DeInit:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:26     .text.ADC_DeInit:00000000 ADC_DeInit
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:57     .text.ADC_Init:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:65     .text.ADC_Init:00000000 ADC_Init
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:140    .text.ADC_Init:00000048 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:145    .text.ADC_StructInit:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:153    .text.ADC_StructInit:00000000 ADC_StructInit
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:183    .text.ADC_CommonInit:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:191    .text.ADC_CommonInit:00000000 ADC_CommonInit
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:239    .text.ADC_CommonInit:00000020 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:245    .text.ADC_CommonStructInit:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:253    .text.ADC_CommonStructInit:00000000 ADC_CommonStructInit
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:275    .text.ADC_Cmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:283    .text.ADC_Cmd:00000000 ADC_Cmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:308    .text.ADC_AnalogWatchdogCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:316    .text.ADC_AnalogWatchdogCmd:00000000 ADC_AnalogWatchdogCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:342    .text.ADC_AnalogWatchdogThresholdsConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:350    .text.ADC_AnalogWatchdogThresholdsConfig:00000000 ADC_AnalogWatchdogThresholdsConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:367    .text.ADC_AnalogWatchdogSingleChannelConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:375    .text.ADC_AnalogWatchdogSingleChannelConfig:00000000 ADC_AnalogWatchdogSingleChannelConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:399    .text.ADC_TempSensorVrefintCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:407    .text.ADC_TempSensorVrefintCmd:00000000 ADC_TempSensorVrefintCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:432    .text.ADC_TempSensorVrefintCmd:00000018 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:437    .text.ADC_VBATCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:445    .text.ADC_VBATCmd:00000000 ADC_VBATCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:470    .text.ADC_VBATCmd:00000018 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:475    .text.ADC_RegularChannelConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:483    .text.ADC_RegularChannelConfig:00000000 ADC_RegularChannelConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:654    .text.ADC_SoftwareStartConv:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:662    .text.ADC_SoftwareStartConv:00000000 ADC_SoftwareStartConv
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:679    .text.ADC_GetSoftwareStartConvStatus:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:687    .text.ADC_GetSoftwareStartConvStatus:00000000 ADC_GetSoftwareStartConvStatus
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:706    .text.ADC_EOCOnEachRegularChannelCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:714    .text.ADC_EOCOnEachRegularChannelCmd:00000000 ADC_EOCOnEachRegularChannelCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:739    .text.ADC_ContinuousModeCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:747    .text.ADC_ContinuousModeCmd:00000000 ADC_ContinuousModeCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:772    .text.ADC_DiscModeChannelCountConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:780    .text.ADC_DiscModeChannelCountConfig:00000000 ADC_DiscModeChannelCountConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:806    .text.ADC_DiscModeCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:814    .text.ADC_DiscModeCmd:00000000 ADC_DiscModeCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:839    .text.ADC_GetConversionValue:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:847    .text.ADC_GetConversionValue:00000000 ADC_GetConversionValue
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:865    .text.ADC_GetMultiModeConversionValue:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:873    .text.ADC_GetMultiModeConversionValue:00000000 ADC_GetMultiModeConversionValue
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:888    .text.ADC_GetMultiModeConversionValue:00000008 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:893    .text.ADC_DMACmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:901    .text.ADC_DMACmd:00000000 ADC_DMACmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:926    .text.ADC_DMARequestAfterLastTransferCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:934    .text.ADC_DMARequestAfterLastTransferCmd:00000000 ADC_DMARequestAfterLastTransferCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:959    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:967    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:00000000 ADC_MultiModeDMARequestAfterLastTransferCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:992    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:00000018 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:997    .text.ADC_InjectedChannelConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1005   .text.ADC_InjectedChannelConfig:00000000 ADC_InjectedChannelConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1108   .text.ADC_InjectedSequencerLengthConfig:00000000 $t
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s 			page 96
 
 
-/var/tmp//cctPaOXo.s:1116   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 ADC_InjectedSequencerLengthConfig
-/var/tmp//cctPaOXo.s:1142   .text.ADC_SetInjectedOffset:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1150   .text.ADC_SetInjectedOffset:0000000000000000 ADC_SetInjectedOffset
-/var/tmp//cctPaOXo.s:1182   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1190   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 ADC_ExternalTrigInjectedConvConfig
-/var/tmp//cctPaOXo.s:1214   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1222   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 ADC_ExternalTrigInjectedConvEdgeConfig
-/var/tmp//cctPaOXo.s:1246   .text.ADC_SoftwareStartInjectedConv:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1254   .text.ADC_SoftwareStartInjectedConv:0000000000000000 ADC_SoftwareStartInjectedConv
-/var/tmp//cctPaOXo.s:1271   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1279   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 ADC_GetSoftwareStartInjectedConvCmdStatus
-/var/tmp//cctPaOXo.s:1298   .text.ADC_AutoInjectedConvCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1306   .text.ADC_AutoInjectedConvCmd:0000000000000000 ADC_AutoInjectedConvCmd
-/var/tmp//cctPaOXo.s:1331   .text.ADC_InjectedDiscModeCmd:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1339   .text.ADC_InjectedDiscModeCmd:0000000000000000 ADC_InjectedDiscModeCmd
-/var/tmp//cctPaOXo.s:1364   .text.ADC_GetInjectedConversionValue:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1372   .text.ADC_GetInjectedConversionValue:0000000000000000 ADC_GetInjectedConversionValue
-/var/tmp//cctPaOXo.s:1407   .text.ADC_ITConfig:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1415   .text.ADC_ITConfig:0000000000000000 ADC_ITConfig
-/var/tmp//cctPaOXo.s:1450   .text.ADC_GetFlagStatus:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1458   .text.ADC_GetFlagStatus:0000000000000000 ADC_GetFlagStatus
-/var/tmp//cctPaOXo.s:1480   .text.ADC_ClearFlag:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1488   .text.ADC_ClearFlag:0000000000000000 ADC_ClearFlag
-/var/tmp//cctPaOXo.s:1505   .text.ADC_GetITStatus:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1513   .text.ADC_GetITStatus:0000000000000000 ADC_GetITStatus
-/var/tmp//cctPaOXo.s:1548   .text.ADC_ClearITPendingBit:0000000000000000 $t
-/var/tmp//cctPaOXo.s:1556   .text.ADC_ClearITPendingBit:0000000000000000 ADC_ClearITPendingBit
-                     .debug_frame:0000000000000010 $d
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1116   .text.ADC_InjectedSequencerLengthConfig:00000000 ADC_InjectedSequencerLengthConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1142   .text.ADC_SetInjectedOffset:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1150   .text.ADC_SetInjectedOffset:00000000 ADC_SetInjectedOffset
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1182   .text.ADC_ExternalTrigInjectedConvConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1190   .text.ADC_ExternalTrigInjectedConvConfig:00000000 ADC_ExternalTrigInjectedConvConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1214   .text.ADC_ExternalTrigInjectedConvEdgeConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1222   .text.ADC_ExternalTrigInjectedConvEdgeConfig:00000000 ADC_ExternalTrigInjectedConvEdgeConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1246   .text.ADC_SoftwareStartInjectedConv:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1254   .text.ADC_SoftwareStartInjectedConv:00000000 ADC_SoftwareStartInjectedConv
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1271   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1279   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:00000000 ADC_GetSoftwareStartInjectedConvCmdStatus
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1298   .text.ADC_AutoInjectedConvCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1306   .text.ADC_AutoInjectedConvCmd:00000000 ADC_AutoInjectedConvCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1331   .text.ADC_InjectedDiscModeCmd:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1339   .text.ADC_InjectedDiscModeCmd:00000000 ADC_InjectedDiscModeCmd
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1364   .text.ADC_GetInjectedConversionValue:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1372   .text.ADC_GetInjectedConversionValue:00000000 ADC_GetInjectedConversionValue
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1407   .text.ADC_ITConfig:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1415   .text.ADC_ITConfig:00000000 ADC_ITConfig
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1450   .text.ADC_GetFlagStatus:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1458   .text.ADC_GetFlagStatus:00000000 ADC_GetFlagStatus
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1480   .text.ADC_ClearFlag:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1488   .text.ADC_ClearFlag:00000000 ADC_ClearFlag
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1505   .text.ADC_GetITStatus:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1513   .text.ADC_GetITStatus:00000000 ADC_GetITStatus
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1548   .text.ADC_ClearITPendingBit:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWs5o27.s:1556   .text.ADC_ClearITPendingBit:00000000 ADC_ClearITPendingBit
+                     .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
 RCC_APB2PeriphResetCmd

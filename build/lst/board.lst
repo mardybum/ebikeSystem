@@ -1,4 +1,4 @@
-ARM GAS  /var/tmp//cc2GGylR.s 			page 1
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
   55              		@ link register save eliminated.
   56 0000 7047     		bx	lr
   57              		.cfi_endproc
-ARM GAS  /var/tmp//cc2GGylR.s 			page 2
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 2
 
 
   58              	.LFE257:
@@ -118,7 +118,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  112 00b8 FFFF0000 		.word	65535
  113 00bc 00000000 		.word	0
  114 00c0 00000000 		.word	0
-ARM GAS  /var/tmp//cc2GGylR.s 			page 3
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 3
 
 
  115 00c4 00000000 		.word	0
@@ -137,9 +137,9 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  128 00f8 00000000 		.word	0
  129              		.text
  130              	.Letext0:
- 131              		.file 2 "/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/lib/gcc/arm-none-eabi/6.3.1/include
- 132              		.file 3 "/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/machine/_defa
- 133              		.file 4 "/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/arm-none-eabi/include/sys/_stdint.h
+ 131              		.file 2 "c:\\chibistudio\\tools\\gnu tools arm embedded\\6.3 2017q1\\lib\\gcc\\arm-none-eabi\\6.3.
+ 132              		.file 3 "c:\\chibistudio\\tools\\gnu tools arm embedded\\6.3 2017q1\\arm-none-eabi\\include\\machi
+ 133              		.file 4 "c:\\chibistudio\\tools\\gnu tools arm embedded\\6.3 2017q1\\arm-none-eabi\\include\\sys\\
  134              		.file 5 "ChibiOS_3.0.2/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h"
  135              		.file 6 "ChibiOS_3.0.2/os/rt/include/chsystypes.h"
  136              		.file 7 "ChibiOS_3.0.2/os/rt/include/chschd.h"
@@ -178,14 +178,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  169 0004 0400     		.2byte	0x4
  170 0006 00000000 		.4byte	.Ldebug_abbrev0
  171 000a 04       		.byte	0x4
-ARM GAS  /var/tmp//cc2GGylR.s 			page 4
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 4
 
 
  172 000b 01       		.uleb128 0x1
- 173 000c B6040000 		.4byte	.LASF520
+ 173 000c 42040000 		.4byte	.LASF520
  174 0010 0C       		.byte	0xc
  175 0011 1C010000 		.4byte	.LASF521
- 176 0015 CA0F0000 		.4byte	.LASF522
+ 176 0015 0C0C0000 		.4byte	.LASF522
  177 0019 00000000 		.4byte	.Ldebug_ranges0+0
  178 001d 00000000 		.4byte	0
  179 0021 00000000 		.4byte	.Ldebug_line0
@@ -203,11 +203,11 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  191 003c 05       		.uleb128 0x5
  192 003d 04       		.byte	0x4
  193 003e 07       		.byte	0x7
- 194 003f 1F150000 		.4byte	.LASF0
+ 194 003f 01150000 		.4byte	.LASF0
  195 0043 05       		.uleb128 0x5
  196 0044 01       		.byte	0x1
  197 0045 06       		.byte	0x6
- 198 0046 790C0000 		.4byte	.LASF1
+ 198 0046 880C0000 		.4byte	.LASF1
  199 004a 03       		.uleb128 0x3
  200 004b 84000000 		.4byte	.LASF3
  201 004f 03       		.byte	0x3
@@ -220,41 +220,41 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  208 005c 05       		.uleb128 0x5
  209 005d 02       		.byte	0x2
  210 005e 05       		.byte	0x5
- 211 005f 4F150000 		.4byte	.LASF5
+ 211 005f 31150000 		.4byte	.LASF5
  212 0063 03       		.uleb128 0x3
- 213 0064 64040000 		.4byte	.LASF6
+ 213 0064 88050000 		.4byte	.LASF6
  214 0068 03       		.byte	0x3
  215 0069 39       		.byte	0x39
  216 006a 6E000000 		.4byte	0x6e
  217 006e 05       		.uleb128 0x5
  218 006f 02       		.byte	0x2
  219 0070 07       		.byte	0x7
- 220 0071 660C0000 		.4byte	.LASF7
+ 220 0071 750C0000 		.4byte	.LASF7
  221 0075 03       		.uleb128 0x3
- 222 0076 FD100000 		.4byte	.LASF8
+ 222 0076 DF100000 		.4byte	.LASF8
  223 007a 03       		.byte	0x3
  224 007b 4D       		.byte	0x4d
  225 007c 80000000 		.4byte	0x80
  226 0080 05       		.uleb128 0x5
  227 0081 04       		.byte	0x4
  228 0082 05       		.byte	0x5
-ARM GAS  /var/tmp//cc2GGylR.s 			page 5
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 5
 
 
- 229 0083 990D0000 		.4byte	.LASF9
+ 229 0083 A80D0000 		.4byte	.LASF9
  230 0087 03       		.uleb128 0x3
- 231 0088 07110000 		.4byte	.LASF10
+ 231 0088 E9100000 		.4byte	.LASF10
  232 008c 03       		.byte	0x3
  233 008d 4F       		.byte	0x4f
  234 008e 92000000 		.4byte	0x92
  235 0092 05       		.uleb128 0x5
  236 0093 04       		.byte	0x4
  237 0094 07       		.byte	0x7
- 238 0095 8B0E0000 		.4byte	.LASF11
+ 238 0095 9A0E0000 		.4byte	.LASF11
  239 0099 05       		.uleb128 0x5
  240 009a 08       		.byte	0x8
  241 009b 05       		.byte	0x5
- 242 009c D2130000 		.4byte	.LASF12
+ 242 009c B4130000 		.4byte	.LASF12
  243 00a0 03       		.uleb128 0x3
  244 00a1 450A0000 		.4byte	.LASF13
  245 00a5 03       		.byte	0x3
@@ -263,7 +263,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  248 00ab 05       		.uleb128 0x5
  249 00ac 08       		.byte	0x8
  250 00ad 07       		.byte	0x7
- 251 00ae 61120000 		.4byte	.LASF14
+ 251 00ae 43120000 		.4byte	.LASF14
  252 00b2 03       		.uleb128 0x3
  253 00b3 B9080000 		.4byte	.LASF15
  254 00b7 04       		.byte	0x4
@@ -286,7 +286,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  271 00dd 04       		.uleb128 0x4
  272 00de D2000000 		.4byte	0xd2
  273 00e2 03       		.uleb128 0x3
- 274 00e3 140E0000 		.4byte	.LASF18
+ 274 00e3 230E0000 		.4byte	.LASF18
  275 00e7 04       		.byte	0x4
  276 00e8 30       		.byte	0x30
  277 00e9 87000000 		.4byte	0x87
@@ -298,7 +298,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  283 00f8 3C       		.byte	0x3c
  284 00f9 A0000000 		.4byte	0xa0
  285 00fd 03       		.uleb128 0x3
-ARM GAS  /var/tmp//cc2GGylR.s 			page 6
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 6
 
 
  286 00fe 66080000 		.4byte	.LASF20
@@ -311,7 +311,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  293 010e 48       		.byte	0x48
  294 010f B2000000 		.4byte	0xb2
  295 0113 03       		.uleb128 0x3
- 296 0114 2B130000 		.4byte	.LASF22
+ 296 0114 0D130000 		.4byte	.LASF22
  297 0118 05       		.byte	0x5
  298 0119 49       		.byte	0x49
  299 011a B2000000 		.4byte	0xb2
@@ -321,7 +321,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  303 0124 4A       		.byte	0x4a
  304 0125 B2000000 		.4byte	0xb2
  305 0129 03       		.uleb128 0x3
- 306 012a 0C0C0000 		.4byte	.LASF24
+ 306 012a 1B0C0000 		.4byte	.LASF24
  307 012e 05       		.byte	0x5
  308 012f 4B       		.byte	0x4b
  309 0130 B2000000 		.4byte	0xb2
@@ -336,17 +336,17 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  318 0145 4D       		.byte	0x4d
  319 0146 D2000000 		.4byte	0xd2
  320 014a 03       		.uleb128 0x3
- 321 014b 5C0E0000 		.4byte	.LASF27
+ 321 014b 6B0E0000 		.4byte	.LASF27
  322 014f 05       		.byte	0x5
  323 0150 4F       		.byte	0x4f
  324 0151 E2000000 		.4byte	0xe2
  325 0155 03       		.uleb128 0x3
- 326 0156 17140000 		.4byte	.LASF28
+ 326 0156 F9130000 		.4byte	.LASF28
  327 015a 05       		.byte	0x5
  328 015b 50       		.byte	0x50
  329 015c E2000000 		.4byte	0xe2
  330 0160 03       		.uleb128 0x3
- 331 0161 B00F0000 		.4byte	.LASF29
+ 331 0161 BF0F0000 		.4byte	.LASF29
  332 0165 05       		.byte	0x5
  333 0166 51       		.byte	0x51
  334 0167 D2000000 		.4byte	0xd2
@@ -358,7 +358,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  340 0176 04       		.uleb128 0x4
  341 0177 6B010000 		.4byte	0x16b
  342 017b 03       		.uleb128 0x3
-ARM GAS  /var/tmp//cc2GGylR.s 			page 7
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 7
 
 
  343 017c CA010000 		.4byte	.LASF31
@@ -402,46 +402,46 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  381 01c9 96020000 		.4byte	0x296
  382 01cd 10       		.byte	0x10
  383 01ce 08       		.uleb128 0x8
- 384 01cf 64140000 		.4byte	.LASF37
+ 384 01cf 46140000 		.4byte	.LASF37
  385 01d3 07       		.byte	0x7
  386 01d4 CB       		.byte	0xcb
  387 01d5 96020000 		.4byte	0x296
  388 01d9 14       		.byte	0x14
  389 01da 08       		.uleb128 0x8
- 390 01db 61130000 		.4byte	.LASF38
+ 390 01db 43130000 		.4byte	.LASF38
  391 01df 07       		.byte	0x7
  392 01e0 D2       		.byte	0xd2
  393 01e1 AD0B0000 		.4byte	0xbad
  394 01e5 18       		.byte	0x18
  395 01e6 08       		.uleb128 0x8
- 396 01e7 D6150000 		.4byte	.LASF39
+ 396 01e7 B8150000 		.4byte	.LASF39
  397 01eb 07       		.byte	0x7
  398 01ec DD       		.byte	0xdd
  399 01ed 13010000 		.4byte	0x113
-ARM GAS  /var/tmp//cc2GGylR.s 			page 8
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 8
 
 
  400 01f1 1C       		.byte	0x1c
  401 01f2 08       		.uleb128 0x8
- 402 01f3 F1120000 		.4byte	.LASF40
+ 402 01f3 D3120000 		.4byte	.LASF40
  403 01f7 07       		.byte	0x7
  404 01f8 E1       		.byte	0xe1
  405 01f9 08010000 		.4byte	0x108
  406 01fd 1D       		.byte	0x1d
  407 01fe 08       		.uleb128 0x8
- 408 01ff 720D0000 		.4byte	.LASF41
+ 408 01ff 810D0000 		.4byte	.LASF41
  409 0203 07       		.byte	0x7
  410 0204 E6       		.byte	0xe6
  411 0205 1E010000 		.4byte	0x11e
  412 0209 1E       		.byte	0x1e
  413 020a 08       		.uleb128 0x8
- 414 020b 850C0000 		.4byte	.LASF42
+ 414 020b 940C0000 		.4byte	.LASF42
  415 020f 07       		.byte	0x7
  416 0210 EC       		.byte	0xec
  417 0211 29010000 		.4byte	0x129
  418 0215 1F       		.byte	0x1f
  419 0216 08       		.uleb128 0x8
- 420 0217 8F0C0000 		.4byte	.LASF43
+ 420 0217 9E0C0000 		.4byte	.LASF43
  421 021b 07       		.byte	0x7
  422 021c F3       		.byte	0xf3
  423 021d 76010000 		.4byte	0x176
@@ -459,26 +459,26 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  435 0237 9C020000 		.4byte	0x29c
  436 023b 28       		.byte	0x28
  437 023c 0A       		.uleb128 0xa
- 438 023d CB0C0000 		.4byte	.LASF45
+ 438 023d DA0C0000 		.4byte	.LASF45
  439 0241 07       		.byte	0x7
  440 0242 3C01     		.2byte	0x13c
  441 0244 C0020000 		.4byte	0x2c0
  442 0248 2C       		.byte	0x2c
  443 0249 0A       		.uleb128 0xa
- 444 024a 78040000 		.4byte	.LASF46
+ 444 024a 9C050000 		.4byte	.LASF46
  445 024e 07       		.byte	0x7
  446 024f 4001     		.2byte	0x140
  447 0251 3F010000 		.4byte	0x13f
  448 0255 34       		.byte	0x34
  449 0256 0A       		.uleb128 0xa
- 450 0257 85110000 		.4byte	.LASF47
+ 450 0257 67110000 		.4byte	.LASF47
  451 025b 07       		.byte	0x7
  452 025c 4601     		.2byte	0x146
  453 025e 4A010000 		.4byte	0x14a
  454 0262 38       		.byte	0x38
  455 0263 0A       		.uleb128 0xa
- 456 0264 16130000 		.4byte	.LASF48
-ARM GAS  /var/tmp//cc2GGylR.s 			page 9
+ 456 0264 F8120000 		.4byte	.LASF48
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 9
 
 
  457 0268 07       		.byte	0x7
@@ -486,7 +486,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  459 026b A70B0000 		.4byte	0xba7
  460 026f 3C       		.byte	0x3c
  461 0270 0A       		.uleb128 0xa
- 462 0271 9C100000 		.4byte	.LASF49
+ 462 0271 7E100000 		.4byte	.LASF49
  463 0275 07       		.byte	0x7
  464 0276 5101     		.2byte	0x151
  465 0278 34010000 		.4byte	0x134
@@ -499,7 +499,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  472 0289 44       		.byte	0x44
  473 028a 00       		.byte	0
  474 028b 03       		.uleb128 0x3
- 475 028c 8F140000 		.4byte	.LASF51
+ 475 028c 71140000 		.4byte	.LASF51
  476 0290 06       		.byte	0x6
  477 0291 44       		.byte	0x44
  478 0292 96020000 		.4byte	0x296
@@ -512,7 +512,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  485 02a2 49       		.byte	0x49
  486 02a3 A7020000 		.4byte	0x2a7
  487 02a7 07       		.uleb128 0x7
- 488 02a8 DE150000 		.4byte	.LASF54
+ 488 02a8 C0150000 		.4byte	.LASF54
  489 02ac 04       		.byte	0x4
  490 02ad 07       		.byte	0x7
  491 02ae B0       		.byte	0xb0
@@ -525,7 +525,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  498 02be 00       		.byte	0
  499 02bf 00       		.byte	0
  500 02c0 03       		.uleb128 0x3
- 501 02c1 620D0000 		.4byte	.LASF55
+ 501 02c1 710D0000 		.4byte	.LASF55
  502 02c5 06       		.byte	0x6
  503 02c6 50       		.byte	0x50
  504 02c7 CB020000 		.4byte	0x2cb
@@ -538,7 +538,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  511 02d7 08       		.uleb128 0x8
  512 02d8 A60A0000 		.4byte	.LASF32
  513 02dc 07       		.byte	0x7
-ARM GAS  /var/tmp//cc2GGylR.s 			page 10
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 10
 
 
  514 02dd B8       		.byte	0xb8
@@ -557,19 +557,19 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  527 02f6 57       		.byte	0x57
  528 02f7 FB020000 		.4byte	0x2fb
  529 02fb 0C       		.uleb128 0xc
- 530 02fc DF100000 		.4byte	.LASF58
+ 530 02fc C1100000 		.4byte	.LASF58
  531 0300 1C       		.byte	0x1c
  532 0301 07       		.byte	0x7
  533 0302 9001     		.2byte	0x190
  534 0304 57030000 		.4byte	0x357
  535 0308 0A       		.uleb128 0xa
- 536 0309 130F0000 		.4byte	.LASF59
+ 536 0309 220F0000 		.4byte	.LASF59
  537 030d 07       		.byte	0x7
  538 030e 9101     		.2byte	0x191
  539 0310 C0020000 		.4byte	0x2c0
  540 0314 00       		.byte	0
  541 0315 0A       		.uleb128 0xa
- 542 0316 38120000 		.4byte	.LASF60
+ 542 0316 1A120000 		.4byte	.LASF60
  543 031a 07       		.byte	0x7
  544 031b 9201     		.2byte	0x192
  545 031d 34010000 		.4byte	0x134
@@ -598,12 +598,12 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  568 034f 9B01     		.2byte	0x19b
  569 0351 96020000 		.4byte	0x296
  570 0355 18       		.byte	0x18
-ARM GAS  /var/tmp//cc2GGylR.s 			page 11
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 11
 
 
  571 0356 00       		.byte	0
  572 0357 03       		.uleb128 0x3
- 573 0358 74100000 		.4byte	.LASF65
+ 573 0358 56100000 		.4byte	.LASF65
  574 035c 06       		.byte	0x6
  575 035d 5C       		.byte	0x5c
  576 035e 62030000 		.4byte	0x362
@@ -623,7 +623,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  590 037b 61       		.byte	0x61
  591 037c 80030000 		.4byte	0x380
  592 0380 0C       		.uleb128 0xc
- 593 0381 E0120000 		.4byte	.LASF67
+ 593 0381 C2120000 		.4byte	.LASF67
  594 0385 14       		.byte	0x14
  595 0386 07       		.byte	0x7
  596 0387 6B01     		.2byte	0x16b
@@ -641,13 +641,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  608 03a2 C40B0000 		.4byte	0xbc4
  609 03a6 04       		.byte	0x4
  610 03a7 0A       		.uleb128 0xa
- 611 03a8 420C0000 		.4byte	.LASF70
+ 611 03a8 510C0000 		.4byte	.LASF70
  612 03ac 07       		.byte	0x7
  613 03ad 6E01     		.2byte	0x16e
  614 03af 6B010000 		.4byte	0x16b
  615 03b3 08       		.byte	0x8
  616 03b4 0A       		.uleb128 0xa
- 617 03b5 CB120000 		.4byte	.LASF71
+ 617 03b5 AD120000 		.4byte	.LASF71
  618 03b9 07       		.byte	0x7
  619 03ba 6F01     		.2byte	0x16f
  620 03bc 57030000 		.4byte	0x357
@@ -658,12 +658,12 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  625 03c7 7101     		.2byte	0x171
  626 03c9 73030000 		.4byte	0x373
  627 03cd 10       		.byte	0x10
-ARM GAS  /var/tmp//cc2GGylR.s 			page 12
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 12
 
 
  628 03ce 00       		.byte	0
  629 03cf 03       		.uleb128 0x3
- 630 03d0 8A130000 		.4byte	.LASF73
+ 630 03d0 6C130000 		.4byte	.LASF73
  631 03d4 06       		.byte	0x6
  632 03d5 66       		.byte	0x66
  633 03d6 DA030000 		.4byte	0x3da
@@ -686,7 +686,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  650 03fc C40B0000 		.4byte	0xbc4
  651 0400 04       		.byte	0x4
  652 0401 0A       		.uleb128 0xa
- 653 0402 420C0000 		.4byte	.LASF70
+ 653 0402 510C0000 		.4byte	.LASF70
  654 0406 07       		.byte	0x7
  655 0407 8001     		.2byte	0x180
  656 0409 6B010000 		.4byte	0x16b
@@ -704,7 +704,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  668 0422 6B       		.byte	0x6b
  669 0423 27040000 		.4byte	0x427
  670 0427 0C       		.uleb128 0xc
- 671 0428 18110000 		.4byte	.LASF77
+ 671 0428 FA100000 		.4byte	.LASF77
  672 042c 04       		.byte	0x4
  673 042d 07       		.byte	0x7
  674 042e A201     		.2byte	0x1a2
@@ -718,14 +718,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  682 0441 00       		.byte	0
  683 0442 03       		.uleb128 0x3
  684 0443 78000000 		.4byte	.LASF79
-ARM GAS  /var/tmp//cc2GGylR.s 			page 13
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 13
 
 
  685 0447 06       		.byte	0x6
  686 0448 70       		.byte	0x70
  687 0449 4D040000 		.4byte	0x44d
  688 044d 10       		.uleb128 0x10
- 689 044e 350D0000 		.4byte	.LASF80
+ 689 044e 440D0000 		.4byte	.LASF80
  690 0452 5802     		.2byte	0x258
  691 0454 07       		.byte	0x7
  692 0455 C201     		.2byte	0x1c2
@@ -749,7 +749,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  710 047d 1C040000 		.4byte	0x41c
  711 0481 2C       		.byte	0x2c
  712 0482 0A       		.uleb128 0xa
- 713 0483 A20D0000 		.4byte	.LASF83
+ 713 0483 B10D0000 		.4byte	.LASF83
  714 0487 07       		.byte	0x7
  715 0488 D201     		.2byte	0x1d2
  716 048a 7B010000 		.4byte	0x17b
@@ -761,7 +761,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  722 0496 DD0A0000 		.4byte	0xadd
  723 049a 78       		.byte	0x78
  724 049b 0A       		.uleb128 0xa
- 725 049c 9D120000 		.4byte	.LASF84
+ 725 049c 7F120000 		.4byte	.LASF84
  726 04a0 07       		.byte	0x7
  727 04a1 E301     		.2byte	0x1e3
  728 04a3 CA0B0000 		.4byte	0xbca
@@ -770,7 +770,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  731 04a9 05       		.uleb128 0x5
  732 04aa 04       		.byte	0x4
  733 04ab 07       		.byte	0x7
- 734 04ac 4B0C0000 		.4byte	.LASF85
+ 734 04ac 5A0C0000 		.4byte	.LASF85
  735 04b0 11       		.uleb128 0x11
  736 04b1 E2000000 		.4byte	0xe2
  737 04b5 C0040000 		.4byte	0x4c0
@@ -778,16 +778,16 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  739 04ba A9040000 		.4byte	0x4a9
  740 04be 07       		.byte	0x7
  741 04bf 00       		.byte	0
-ARM GAS  /var/tmp//cc2GGylR.s 			page 14
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 14
 
 
  742 04c0 13       		.uleb128 0x13
- 743 04c1 46120000 		.4byte	.LASF86
+ 743 04c1 28120000 		.4byte	.LASF86
  744 04c5 08       		.byte	0x8
  745 04c6 A706     		.2byte	0x6a7
  746 04c8 DD000000 		.4byte	0xdd
  747 04cc 14       		.uleb128 0x14
- 748 04cd EA0C0000 		.4byte	.LASF87
+ 748 04cd F90C0000 		.4byte	.LASF87
  749 04d1 09       		.byte	0x9
  750 04d2 4C       		.byte	0x4c
  751 04d3 E2000000 		.4byte	0xe2
@@ -809,13 +809,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  767 04f2 ED000000 		.4byte	0xed
  768 04f6 04       		.byte	0x4
  769 04f7 08       		.uleb128 0x8
- 770 04f8 940D0000 		.4byte	.LASF89
+ 770 04f8 A30D0000 		.4byte	.LASF89
  771 04fc 0A       		.byte	0xa
  772 04fd ED       		.byte	0xed
  773 04fe ED000000 		.4byte	0xed
  774 0502 08       		.byte	0x8
  775 0503 08       		.uleb128 0x8
- 776 0504 960C0000 		.4byte	.LASF90
+ 776 0504 A50C0000 		.4byte	.LASF90
  777 0508 0A       		.byte	0xa
  778 0509 EE       		.byte	0xee
  779 050a ED000000 		.4byte	0xed
@@ -838,29 +838,29 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  796 052a ED000000 		.4byte	0xed
  797 052e 00       		.byte	0
  798 052f 08       		.uleb128 0x8
-ARM GAS  /var/tmp//cc2GGylR.s 			page 15
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 15
 
 
- 799 0530 D4100000 		.4byte	.LASF92
+ 799 0530 B6100000 		.4byte	.LASF92
  800 0534 0A       		.byte	0xa
  801 0535 F8       		.byte	0xf8
  802 0536 ED000000 		.4byte	0xed
  803 053a 04       		.byte	0x4
  804 053b 08       		.uleb128 0x8
- 805 053c 4E0E0000 		.4byte	.LASF93
+ 805 053c 5D0E0000 		.4byte	.LASF93
  806 0540 0A       		.byte	0xa
  807 0541 F9       		.byte	0xf9
  808 0542 ED000000 		.4byte	0xed
  809 0546 08       		.byte	0x8
  810 0547 08       		.uleb128 0x8
- 811 0548 2B0D0000 		.4byte	.LASF94
+ 811 0548 3A0D0000 		.4byte	.LASF94
  812 054c 0A       		.byte	0xa
  813 054d FA       		.byte	0xfa
  814 054e ED000000 		.4byte	0xed
  815 0552 0C       		.byte	0xc
  816 0553 00       		.byte	0
  817 0554 03       		.uleb128 0x3
- 818 0555 7D100000 		.4byte	.LASF95
+ 818 0555 5F100000 		.4byte	.LASF95
  819 0559 0A       		.byte	0xa
  820 055a FB       		.byte	0xfb
  821 055b 1B050000 		.4byte	0x51b
@@ -898,7 +898,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  853 059f 0D01     		.2byte	0x10d
  854 05a1 ED000000 		.4byte	0xed
  855 05a5 00       		.byte	0
-ARM GAS  /var/tmp//cc2GGylR.s 			page 16
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 16
 
 
  856 05a6 09       		.uleb128 0x9
@@ -944,7 +944,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  896 05fc ED000000 		.4byte	0xed
  897 0600 1C       		.byte	0x1c
  898 0601 0A       		.uleb128 0xa
- 899 0602 96110000 		.4byte	.LASF99
+ 899 0602 78110000 		.4byte	.LASF99
  900 0606 0A       		.byte	0xa
  901 0607 1501     		.2byte	0x115
  902 0609 C5060000 		.4byte	0x6c5
@@ -956,16 +956,16 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  908 0616 D5060000 		.4byte	0x6d5
  909 061a 8001     		.2byte	0x180
  910 061c 1A       		.uleb128 0x1a
- 911 061d 33140000 		.4byte	.LASF101
+ 911 061d 15140000 		.4byte	.LASF101
  912 0621 0A       		.byte	0xa
-ARM GAS  /var/tmp//cc2GGylR.s 			page 17
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 17
 
 
  913 0622 1701     		.2byte	0x117
  914 0624 E5060000 		.4byte	0x6e5
  915 0628 B001     		.2byte	0x1b0
  916 062a 1A       		.uleb128 0x1a
- 917 062b A0110000 		.4byte	.LASF102
+ 917 062b 82110000 		.4byte	.LASF102
  918 062f 0A       		.byte	0xa
  919 0630 1801     		.2byte	0x118
  920 0632 F5060000 		.4byte	0x6f5
@@ -983,31 +983,31 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  932 064e ED000000 		.4byte	0xed
  933 0652 0402     		.2byte	0x204
  934 0654 1A       		.uleb128 0x1a
- 935 0655 AA110000 		.4byte	.LASF104
+ 935 0655 8C110000 		.4byte	.LASF104
  936 0659 0A       		.byte	0xa
  937 065a 1B01     		.2byte	0x11b
  938 065c E2000000 		.4byte	0xe2
  939 0660 0802     		.2byte	0x208
  940 0662 1A       		.uleb128 0x1a
- 941 0663 26130000 		.4byte	.LASF105
+ 941 0663 08130000 		.4byte	.LASF105
  942 0667 0A       		.byte	0xa
  943 0668 1C01     		.2byte	0x11c
  944 066a ED000000 		.4byte	0xed
  945 066e 0C02     		.2byte	0x20c
  946 0670 1A       		.uleb128 0x1a
- 947 0671 B4110000 		.4byte	.LASF106
+ 947 0671 96110000 		.4byte	.LASF106
  948 0675 0A       		.byte	0xa
  949 0676 1D01     		.2byte	0x11d
  950 0678 E2000000 		.4byte	0xe2
  951 067c 1002     		.2byte	0x210
  952 067e 1A       		.uleb128 0x1a
- 953 067f 780E0000 		.4byte	.LASF107
+ 953 067f 870E0000 		.4byte	.LASF107
  954 0683 0A       		.byte	0xa
  955 0684 1E01     		.2byte	0x11e
  956 0686 ED000000 		.4byte	0xed
  957 068a 1402     		.2byte	0x214
  958 068c 1A       		.uleb128 0x1a
- 959 068d BE110000 		.4byte	.LASF108
+ 959 068d A0110000 		.4byte	.LASF108
  960 0691 0A       		.byte	0xa
  961 0692 1F01     		.2byte	0x11f
  962 0694 E2000000 		.4byte	0xe2
@@ -1018,11 +1018,11 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  967 06a0 2001     		.2byte	0x120
  968 06a2 ED000000 		.4byte	0xed
  969 06a6 1C02     		.2byte	0x21c
-ARM GAS  /var/tmp//cc2GGylR.s 			page 18
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 18
 
 
  970 06a8 1A       		.uleb128 0x1a
- 971 06a9 C8110000 		.4byte	.LASF110
+ 971 06a9 AA110000 		.4byte	.LASF110
  972 06ad 0A       		.byte	0xa
  973 06ae 2101     		.2byte	0x121
  974 06b0 B0040000 		.4byte	0x4b0
@@ -1078,7 +1078,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1024 0722 18       		.byte	0x18
  1025 0723 0A       		.byte	0xa
  1026 0724 6B01     		.2byte	0x16b
-ARM GAS  /var/tmp//cc2GGylR.s 			page 19
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 19
 
 
  1027 0726 78070000 		.4byte	0x778
@@ -1089,7 +1089,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1032 0731 ED000000 		.4byte	0xed
  1033 0735 00       		.byte	0
  1034 0736 0A       		.uleb128 0xa
- 1035 0737 88120000 		.4byte	.LASF113
+ 1035 0737 6A120000 		.4byte	.LASF113
  1036 073b 0A       		.byte	0xa
  1037 073c 6E01     		.2byte	0x16e
  1038 073e ED000000 		.4byte	0xed
@@ -1107,7 +1107,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1050 0758 ED000000 		.4byte	0xed
  1051 075c 0C       		.byte	0xc
  1052 075d 0A       		.uleb128 0xa
- 1053 075e 8E040000 		.4byte	.LASF115
+ 1053 075e B2050000 		.4byte	.LASF115
  1054 0762 0A       		.byte	0xa
  1055 0763 7101     		.2byte	0x171
  1056 0765 ED000000 		.4byte	0xed
@@ -1120,7 +1120,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1063 0776 14       		.byte	0x14
  1064 0777 00       		.byte	0
  1065 0778 18       		.uleb128 0x18
- 1066 0779 98040000 		.4byte	.LASF116
+ 1066 0779 BC050000 		.4byte	.LASF116
  1067 077d 0A       		.byte	0xa
  1068 077e 7301     		.2byte	0x173
  1069 0780 21070000 		.4byte	0x721
@@ -1138,7 +1138,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1081 079e A9070000 		.4byte	0x7a9
  1082 07a2 12       		.uleb128 0x12
  1083 07a3 A9040000 		.4byte	0x4a9
-ARM GAS  /var/tmp//cc2GGylR.s 			page 20
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 20
 
 
  1084 07a7 03       		.byte	0x3
@@ -1163,13 +1163,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1103 07cc ED000000 		.4byte	0xed
  1104 07d0 04       		.byte	0x4
  1105 07d1 0A       		.uleb128 0xa
- 1106 07d2 EE150000 		.4byte	.LASF117
+ 1106 07d2 D0150000 		.4byte	.LASF117
  1107 07d6 0A       		.byte	0xa
  1108 07d7 4302     		.2byte	0x243
  1109 07d9 ED000000 		.4byte	0xed
  1110 07dd 08       		.byte	0x8
  1111 07de 0A       		.uleb128 0xa
- 1112 07df F3150000 		.4byte	.LASF118
+ 1112 07df D5150000 		.4byte	.LASF118
  1113 07e3 0A       		.byte	0xa
  1114 07e4 4402     		.2byte	0x244
  1115 07e6 ED000000 		.4byte	0xed
@@ -1198,7 +1198,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1138 0817 4802     		.2byte	0x248
  1139 0819 ED000000 		.4byte	0xed
  1140 081d 1C       		.byte	0x1c
-ARM GAS  /var/tmp//cc2GGylR.s 			page 21
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 21
 
 
  1141 081e 0A       		.uleb128 0xa
@@ -1208,14 +1208,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1145 0826 ED000000 		.4byte	0xed
  1146 082a 20       		.byte	0x20
  1147 082b 0A       		.uleb128 0xa
- 1148 082c FD140000 		.4byte	.LASF120
+ 1148 082c DF140000 		.4byte	.LASF120
  1149 0830 0A       		.byte	0xa
  1150 0831 4A02     		.2byte	0x24a
  1151 0833 ED000000 		.4byte	0xed
  1152 0837 24       		.byte	0x24
  1153 0838 00       		.byte	0
  1154 0839 18       		.uleb128 0x18
- 1155 083a 1F0D0000 		.4byte	.LASF121
+ 1155 083a 2E0D0000 		.4byte	.LASF121
  1156 083e 0A       		.byte	0xa
  1157 083f 4B02     		.2byte	0x24b
  1158 0841 AE070000 		.4byte	0x7ae
@@ -1249,7 +1249,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1186 087b ED000000 		.4byte	0xed
  1187 087f 0C       		.byte	0xc
  1188 0880 0A       		.uleb128 0xa
- 1189 0881 5E040000 		.4byte	.LASF122
+ 1189 0881 82050000 		.4byte	.LASF122
  1190 0885 0A       		.byte	0xa
  1191 0886 E102     		.2byte	0x2e1
  1192 0888 ED000000 		.4byte	0xed
@@ -1258,7 +1258,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1195 088e C3070000 		.4byte	.LASF123
  1196 0892 0A       		.byte	0xa
  1197 0893 E202     		.2byte	0x2e2
-ARM GAS  /var/tmp//cc2GGylR.s 			page 22
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 22
 
 
  1198 0895 ED000000 		.4byte	0xed
@@ -1270,20 +1270,20 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1204 08a2 ED000000 		.4byte	0xed
  1205 08a6 18       		.byte	0x18
  1206 08a7 0A       		.uleb128 0xa
- 1207 08a8 BC130000 		.4byte	.LASF125
+ 1207 08a8 9E130000 		.4byte	.LASF125
  1208 08ac 0A       		.byte	0xa
  1209 08ad E402     		.2byte	0x2e4
  1210 08af ED000000 		.4byte	0xed
  1211 08b3 1C       		.byte	0x1c
  1212 08b4 0A       		.uleb128 0xa
- 1213 08b5 47040000 		.4byte	.LASF126
+ 1213 08b5 6B050000 		.4byte	.LASF126
  1214 08b9 0A       		.byte	0xa
  1215 08ba E502     		.2byte	0x2e5
  1216 08bc ED000000 		.4byte	0xed
  1217 08c0 20       		.byte	0x20
  1218 08c1 00       		.byte	0
  1219 08c2 18       		.uleb128 0x18
- 1220 08c3 BF120000 		.4byte	.LASF127
+ 1220 08c3 A1120000 		.4byte	.LASF127
  1221 08c7 0A       		.byte	0xa
  1222 08c8 E602     		.2byte	0x2e6
  1223 08ca 45080000 		.4byte	0x845
@@ -1318,7 +1318,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1252 0908 0C       		.byte	0xc
  1253 0909 09       		.uleb128 0x9
  1254 090a 43523200 		.ascii	"CR2\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 23
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 23
 
 
  1255 090e 0A       		.byte	0xa
@@ -1332,14 +1332,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1263 091e ED000000 		.4byte	0xed
  1264 0922 14       		.byte	0x14
  1265 0923 0A       		.uleb128 0xa
- 1266 0924 D0140000 		.4byte	.LASF128
+ 1266 0924 B2140000 		.4byte	.LASF128
  1267 0928 0A       		.byte	0xa
  1268 0929 1103     		.2byte	0x311
  1269 092b ED000000 		.4byte	0xed
  1270 092f 18       		.byte	0x18
  1271 0930 00       		.byte	0
  1272 0931 18       		.uleb128 0x18
- 1273 0932 6F150000 		.4byte	.LASF129
+ 1273 0932 51150000 		.4byte	.LASF129
  1274 0936 0A       		.byte	0xa
  1275 0937 1203     		.2byte	0x312
  1276 0939 CE080000 		.4byte	0x8ce
@@ -1353,7 +1353,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1284 094d 04       		.uleb128 0x4
  1285 094e 3D090000 		.4byte	0x93d
  1286 0952 03       		.uleb128 0x3
- 1287 0953 530E0000 		.4byte	.LASF130
+ 1287 0953 620E0000 		.4byte	.LASF130
  1288 0957 0B       		.byte	0xb
  1289 0958 65       		.byte	0x65
  1290 0959 73030000 		.4byte	0x373
@@ -1363,7 +1363,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1294 0963 6D       		.byte	0x6d
  1295 0964 F2000000 		.4byte	0xf2
  1296 0968 07       		.uleb128 0x7
- 1297 0969 F90D0000 		.4byte	.LASF132
+ 1297 0969 080E0000 		.4byte	.LASF132
  1298 096d 04       		.byte	0x4
  1299 096e 0B       		.byte	0xb
  1300 096f 89       		.byte	0x89
@@ -1378,7 +1378,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1309 0981 07       		.uleb128 0x7
  1310 0982 09000000 		.4byte	.LASF133
  1311 0986 64       		.byte	0x64
-ARM GAS  /var/tmp//cc2GGylR.s 			page 24
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 24
 
 
  1312 0987 0C       		.byte	0xc
@@ -1438,7 +1438,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1366 09f3 FE       		.byte	0xfe
  1367 09f4 52090000 		.4byte	0x952
  1368 09f8 20       		.byte	0x20
-ARM GAS  /var/tmp//cc2GGylR.s 			page 25
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 25
 
 
  1369 09f9 16       		.uleb128 0x16
@@ -1498,7 +1498,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1423 0a6b 09       		.uleb128 0x9
  1424 0a6c 723600   		.ascii	"r6\000"
  1425 0a6f 0C       		.byte	0xc
-ARM GAS  /var/tmp//cc2GGylR.s 			page 26
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 26
 
 
  1426 0a70 0901     		.2byte	0x109
@@ -1550,15 +1550,15 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1472 0acb 38       		.byte	0x38
  1473 0acc DD0A0000 		.4byte	0xadd
  1474 0ad0 08       		.uleb128 0x8
- 1475 0ad1 78120000 		.4byte	.LASF134
+ 1475 0ad1 5A120000 		.4byte	.LASF134
  1476 0ad5 0D       		.byte	0xd
  1477 0ad6 3C       		.byte	0x3c
  1478 0ad7 FD000000 		.4byte	0xfd
  1479 0adb 00       		.byte	0
  1480 0adc 00       		.byte	0
  1481 0add 03       		.uleb128 0x3
- 1482 0ade B6140000 		.4byte	.LASF135
-ARM GAS  /var/tmp//cc2GGylR.s 			page 27
+ 1482 0ade 98140000 		.4byte	.LASF135
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 27
 
 
  1483 0ae2 0D       		.byte	0xd
@@ -1580,12 +1580,12 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1499 0b02 0801     		.2byte	0x108
  1500 0b04 3F010000 		.4byte	0x13f
  1501 0b08 1D       		.uleb128 0x1d
- 1502 0b09 95100000 		.4byte	.LASF138
+ 1502 0b09 77100000 		.4byte	.LASF138
  1503 0b0d 07       		.byte	0x7
  1504 0b0e 0F01     		.2byte	0x10f
  1505 0b10 73030000 		.4byte	0x373
  1506 0b14 1D       		.uleb128 0x1d
- 1507 0b15 EB0D0000 		.4byte	.LASF139
+ 1507 0b15 FA0D0000 		.4byte	.LASF139
  1508 0b19 07       		.byte	0x7
  1509 0b1a 1601     		.2byte	0x116
  1510 0b1c 450B0000 		.4byte	0xb45
@@ -1595,12 +1595,12 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1514 0b26 1E01     		.2byte	0x11e
  1515 0b28 700B0000 		.4byte	0xb70
  1516 0b2c 1D       		.uleb128 0x1d
- 1517 0b2d B0100000 		.4byte	.LASF141
+ 1517 0b2d 92100000 		.4byte	.LASF141
  1518 0b31 07       		.byte	0x7
  1519 0b32 2701     		.2byte	0x127
  1520 0b34 A70B0000 		.4byte	0xba7
  1521 0b38 1D       		.uleb128 0x1d
- 1522 0b39 F9120000 		.4byte	.LASF142
+ 1522 0b39 DB120000 		.4byte	.LASF142
  1523 0b3d 07       		.byte	0x7
  1524 0b3e 2F01     		.2byte	0x12f
  1525 0b40 4A010000 		.4byte	0x14a
@@ -1609,16 +1609,16 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1528 0b46 04       		.byte	0x4
  1529 0b47 8B020000 		.4byte	0x28b
  1530 0b4b 07       		.uleb128 0x7
- 1531 0b4c 4C0D0000 		.4byte	.LASF143
+ 1531 0b4c 5B0D0000 		.4byte	.LASF143
  1532 0b50 0C       		.byte	0xc
  1533 0b51 0E       		.byte	0xe
  1534 0b52 34       		.byte	0x34
  1535 0b53 700B0000 		.4byte	0xb70
  1536 0b57 08       		.uleb128 0x8
- 1537 0b58 B4130000 		.4byte	.LASF144
+ 1537 0b58 96130000 		.4byte	.LASF144
  1538 0b5c 0E       		.byte	0xe
  1539 0b5d 35       		.byte	0x35
-ARM GAS  /var/tmp//cc2GGylR.s 			page 28
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 28
 
 
  1540 0b5e C0020000 		.4byte	0x2c0
@@ -1640,13 +1640,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1556 0b7d 39       		.byte	0x39
  1557 0b7e A70B0000 		.4byte	0xba7
  1558 0b82 08       		.uleb128 0x8
- 1559 0b83 B20D0000 		.4byte	.LASF147
+ 1559 0b83 C10D0000 		.4byte	.LASF147
  1560 0b87 0F       		.byte	0xf
  1561 0b88 3A       		.byte	0x3a
  1562 0b89 C0020000 		.4byte	0x2c0
  1563 0b8d 00       		.byte	0
  1564 0b8e 08       		.uleb128 0x8
- 1565 0b8f E20C0000 		.4byte	.LASF148
+ 1565 0b8f F10C0000 		.4byte	.LASF148
  1566 0b93 0F       		.byte	0xf
  1567 0b94 3C       		.byte	0x3c
  1568 0b95 96020000 		.4byte	0x296
@@ -1669,7 +1669,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1585 0bb8 05       		.uleb128 0x5
  1586 0bb9 01       		.byte	0x1
  1587 0bba 08       		.byte	0x8
- 1588 0bbb EC0E0000 		.4byte	.LASF150
+ 1588 0bbb FB0E0000 		.4byte	.LASF150
  1589 0bbf 06       		.uleb128 0x6
  1590 0bc0 B80B0000 		.4byte	0xbb8
  1591 0bc4 0B       		.uleb128 0xb
@@ -1678,7 +1678,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1594 0bca 11       		.uleb128 0x11
  1595 0bcb 5D090000 		.4byte	0x95d
  1596 0bcf DA0B0000 		.4byte	0xbda
-ARM GAS  /var/tmp//cc2GGylR.s 			page 29
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 29
 
 
  1597 0bd3 12       		.uleb128 0x12
@@ -1696,13 +1696,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1609 0be8 34       		.byte	0x34
  1610 0be9 C60C0000 		.4byte	0xcc6
  1611 0bed 08       		.uleb128 0x8
- 1612 0bee C4130000 		.4byte	.LASF151
+ 1612 0bee A6130000 		.4byte	.LASF151
  1613 0bf2 10       		.byte	0x10
  1614 0bf3 35       		.byte	0x35
  1615 0bf4 C60C0000 		.4byte	0xcc6
  1616 0bf8 00       		.byte	0
  1617 0bf9 08       		.uleb128 0x8
- 1618 0bfa D5140000 		.4byte	.LASF152
+ 1618 0bfa B7140000 		.4byte	.LASF152
  1619 0bfe 10       		.byte	0x10
  1620 0bff 36       		.byte	0x36
  1621 0c00 B2000000 		.4byte	0xb2
@@ -1714,7 +1714,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1627 0c0c B2000000 		.4byte	0xb2
  1628 0c10 05       		.byte	0x5
  1629 0c11 08       		.uleb128 0x8
- 1630 0c12 000D0000 		.4byte	.LASF154
+ 1630 0c12 0F0D0000 		.4byte	.LASF154
  1631 0c16 10       		.byte	0x10
  1632 0c17 38       		.byte	0x38
  1633 0c18 C2000000 		.4byte	0xc2
@@ -1726,22 +1726,22 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1639 0c24 B2000000 		.4byte	0xb2
  1640 0c28 08       		.byte	0x8
  1641 0c29 08       		.uleb128 0x8
- 1642 0c2a 160C0000 		.4byte	.LASF156
+ 1642 0c2a 250C0000 		.4byte	.LASF156
  1643 0c2e 10       		.byte	0x10
  1644 0c2f 3A       		.byte	0x3a
  1645 0c30 B2000000 		.4byte	0xb2
  1646 0c34 09       		.byte	0x9
  1647 0c35 08       		.uleb128 0x8
- 1648 0c36 EF140000 		.4byte	.LASF157
+ 1648 0c36 D1140000 		.4byte	.LASF157
  1649 0c3a 10       		.byte	0x10
  1650 0c3b 3B       		.byte	0x3b
  1651 0c3c B2000000 		.4byte	0xb2
  1652 0c40 0A       		.byte	0xa
  1653 0c41 08       		.uleb128 0x8
-ARM GAS  /var/tmp//cc2GGylR.s 			page 30
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 30
 
 
- 1654 0c42 E9130000 		.4byte	.LASF158
+ 1654 0c42 CB130000 		.4byte	.LASF158
  1655 0c46 10       		.byte	0x10
  1656 0c47 3C       		.byte	0x3c
  1657 0c48 B2000000 		.4byte	0xb2
@@ -1789,16 +1789,16 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1699 0c9c B2000000 		.4byte	0xb2
  1700 0ca0 12       		.byte	0x12
  1701 0ca1 08       		.uleb128 0x8
- 1702 0ca2 D60C0000 		.4byte	.LASF166
+ 1702 0ca2 E50C0000 		.4byte	.LASF166
  1703 0ca6 10       		.byte	0x10
  1704 0ca7 45       		.byte	0x45
  1705 0ca8 B2000000 		.4byte	0xb2
  1706 0cac 13       		.byte	0x13
  1707 0cad 08       		.uleb128 0x8
- 1708 0cae 1E100000 		.4byte	.LASF167
+ 1708 0cae 00100000 		.4byte	.LASF167
  1709 0cb2 10       		.byte	0x10
  1710 0cb3 46       		.byte	0x46
-ARM GAS  /var/tmp//cc2GGylR.s 			page 31
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 31
 
 
  1711 0cb4 B2000000 		.4byte	0xb2
@@ -1830,7 +1830,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1737 0cec 6E       		.byte	0x6e
  1738 0ced E10C0000 		.4byte	0xce1
  1739 0cf1 03       		.uleb128 0x3
- 1740 0cf2 7D110000 		.4byte	.LASF171
+ 1740 0cf2 5F110000 		.4byte	.LASF171
  1741 0cf6 0F       		.byte	0xf
  1742 0cf7 34       		.byte	0x34
  1743 0cf8 760B0000 		.4byte	0xb76
@@ -1855,10 +1855,10 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1762 0d20 560D0000 		.4byte	0xd56
  1763 0d24 00       		.byte	0
  1764 0d25 08       		.uleb128 0x8
- 1765 0d26 19120000 		.4byte	.LASF175
+ 1765 0d26 FB110000 		.4byte	.LASF175
  1766 0d2a 11       		.byte	0x11
  1767 0d2b 3D       		.byte	0x3d
-ARM GAS  /var/tmp//cc2GGylR.s 			page 32
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 32
 
 
  1768 0d2c 96020000 		.4byte	0x296
@@ -1870,7 +1870,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1774 0d38 4A010000 		.4byte	0x14a
  1775 0d3c 08       		.byte	0x8
  1776 0d3d 08       		.uleb128 0x8
- 1777 0d3e 00130000 		.4byte	.LASF177
+ 1777 0d3e E2120000 		.4byte	.LASF177
  1778 0d42 11       		.byte	0x11
  1779 0d43 41       		.byte	0x41
  1780 0d44 55010000 		.4byte	0x155
@@ -1886,20 +1886,20 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1790 0d57 04       		.byte	0x4
  1791 0d58 020D0000 		.4byte	0xd02
  1792 0d5c 07       		.uleb128 0x7
- 1793 0d5d 09130000 		.4byte	.LASF179
+ 1793 0d5d EB120000 		.4byte	.LASF179
  1794 0d61 04       		.byte	0x4
  1795 0d62 11       		.byte	0x11
  1796 0d63 4A       		.byte	0x4a
  1797 0d64 750D0000 		.4byte	0xd75
  1798 0d68 08       		.uleb128 0x8
- 1799 0d69 8D120000 		.4byte	.LASF180
+ 1799 0d69 6F120000 		.4byte	.LASF180
  1800 0d6d 11       		.byte	0x11
  1801 0d6e 4B       		.byte	0x4b
  1802 0d6f 560D0000 		.4byte	0xd56
  1803 0d73 00       		.byte	0
  1804 0d74 00       		.byte	0
  1805 0d75 03       		.uleb128 0x3
- 1806 0d76 2A0C0000 		.4byte	.LASF181
+ 1806 0d76 390C0000 		.4byte	.LASF181
  1807 0d7a 11       		.byte	0x11
  1808 0d7b 4E       		.byte	0x4e
  1809 0d7c 5C0D0000 		.4byte	0xd5c
@@ -1918,13 +1918,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1822 0d98 1A030000 		.4byte	.LASF184
  1823 0d9c 12       		.byte	0x12
  1824 0d9d 4E       		.byte	0x4e
-ARM GAS  /var/tmp//cc2GGylR.s 			page 33
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 33
 
 
  1825 0d9e C0020000 		.4byte	0x2c0
  1826 0da2 00       		.byte	0
  1827 0da3 08       		.uleb128 0x8
- 1828 0da4 31110000 		.4byte	.LASF185
+ 1828 0da4 13110000 		.4byte	.LASF185
  1829 0da8 12       		.byte	0x12
  1830 0da9 4F       		.byte	0x4f
  1831 0daa 37000000 		.4byte	0x37
@@ -1942,25 +1942,25 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1843 0dc2 1A0E0000 		.4byte	0xe1a
  1844 0dc6 10       		.byte	0x10
  1845 0dc7 08       		.uleb128 0x8
- 1846 0dc8 9D0E0000 		.4byte	.LASF188
+ 1846 0dc8 AC0E0000 		.4byte	.LASF188
  1847 0dcc 12       		.byte	0x12
  1848 0dcd 53       		.byte	0x53
  1849 0dce 1A0E0000 		.4byte	0xe1a
  1850 0dd2 14       		.byte	0x14
  1851 0dd3 08       		.uleb128 0x8
- 1852 0dd4 F10D0000 		.4byte	.LASF189
+ 1852 0dd4 000E0000 		.4byte	.LASF189
  1853 0dd8 12       		.byte	0x12
  1854 0dd9 54       		.byte	0x54
  1855 0dda 1A0E0000 		.4byte	0xe1a
  1856 0dde 18       		.byte	0x18
  1857 0ddf 08       		.uleb128 0x8
- 1858 0de0 A7100000 		.4byte	.LASF190
+ 1858 0de0 89100000 		.4byte	.LASF190
  1859 0de4 12       		.byte	0x12
  1860 0de5 55       		.byte	0x55
  1861 0de6 F80D0000 		.4byte	0xdf8
  1862 0dea 1C       		.byte	0x1c
  1863 0deb 08       		.uleb128 0x8
- 1864 0dec 290F0000 		.4byte	.LASF191
+ 1864 0dec 380F0000 		.4byte	.LASF191
  1865 0df0 12       		.byte	0x12
  1866 0df1 56       		.byte	0x56
  1867 0df2 73030000 		.4byte	0x373
@@ -1978,7 +1978,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1879 0e0a 140E0000 		.4byte	0xe14
  1880 0e0e 0E       		.uleb128 0xe
  1881 0e0f 140E0000 		.4byte	0xe14
-ARM GAS  /var/tmp//cc2GGylR.s 			page 34
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 34
 
 
  1882 0e13 00       		.byte	0
@@ -1994,7 +1994,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1892 0e26 64       		.byte	0x64
  1893 0e27 800D0000 		.4byte	0xd80
  1894 0e2b 03       		.uleb128 0x3
- 1895 0e2c 85150000 		.4byte	.LASF194
+ 1895 0e2c 67150000 		.4byte	.LASF194
  1896 0e30 12       		.byte	0x12
  1897 0e31 71       		.byte	0x71
  1898 0e32 800D0000 		.4byte	0xd80
@@ -2017,7 +2017,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1915 0e58 07       		.byte	0x7
  1916 0e59 00       		.byte	0
  1917 0e5a 14       		.uleb128 0x14
- 1918 0e5b 1D0E0000 		.4byte	.LASF197
+ 1918 0e5b 2C0E0000 		.4byte	.LASF197
  1919 0e5f 13       		.byte	0x13
  1920 0e60 A0       		.byte	0xa0
  1921 0e61 430E0000 		.4byte	0xe43
@@ -2027,7 +2027,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1925 0e68 DA       		.byte	0xda
  1926 0e69 AA0E0000 		.4byte	0xeaa
  1927 0e6d 08       		.uleb128 0x8
- 1928 0e6e 3C150000 		.4byte	.LASF198
+ 1928 0e6e 1E150000 		.4byte	.LASF198
  1929 0e72 14       		.byte	0x14
  1930 0e73 DB       		.byte	0xdb
  1931 0e74 AA0E0000 		.4byte	0xeaa
@@ -2038,7 +2038,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1936 0e7f DC       		.byte	0xdc
  1937 0e80 B00E0000 		.4byte	0xeb0
  1938 0e84 04       		.byte	0x4
-ARM GAS  /var/tmp//cc2GGylR.s 			page 35
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 35
 
 
  1939 0e85 08       		.uleb128 0x8
@@ -2048,7 +2048,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1943 0e8c B2000000 		.4byte	0xb2
  1944 0e90 08       		.byte	0x8
  1945 0e91 08       		.uleb128 0x8
- 1946 0e92 73110000 		.4byte	.LASF201
+ 1946 0e92 55110000 		.4byte	.LASF201
  1947 0e96 14       		.byte	0x14
  1948 0e97 DF       		.byte	0xdf
  1949 0e98 B2000000 		.4byte	0xb2
@@ -2083,7 +2083,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1978 0ed6 06       		.uleb128 0x6
  1979 0ed7 C60E0000 		.4byte	0xec6
  1980 0edb 13       		.uleb128 0x13
- 1981 0edc 930F0000 		.4byte	.LASF204
+ 1981 0edc A20F0000 		.4byte	.LASF204
  1982 0ee0 14       		.byte	0x14
  1983 0ee1 BB01     		.2byte	0x1bb
  1984 0ee3 D60E0000 		.4byte	0xed6
@@ -2098,7 +2098,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  1993 0ef5 B4       		.byte	0xb4
  1994 0ef6 C2000000 		.4byte	0xc2
  1995 0efa 00       		.byte	0
-ARM GAS  /var/tmp//cc2GGylR.s 			page 36
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 36
 
 
  1996 0efb 08       		.uleb128 0x8
@@ -2132,7 +2132,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2024 0f2b A9       		.byte	0xa9
  2025 0f2c B50F0000 		.4byte	0xfb5
  2026 0f30 08       		.uleb128 0x8
- 2027 0f31 90110000 		.4byte	.LASF206
+ 2027 0f31 72110000 		.4byte	.LASF206
  2028 0f35 15       		.byte	0x15
  2029 0f36 AB       		.byte	0xab
  2030 0f37 ED000000 		.4byte	0xed
@@ -2150,7 +2150,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2042 0f4f ED000000 		.4byte	0xed
  2043 0f53 08       		.byte	0x8
  2044 0f54 08       		.uleb128 0x8
- 2045 0f55 F7100000 		.4byte	.LASF209
+ 2045 0f55 D9100000 		.4byte	.LASF209
  2046 0f59 15       		.byte	0x15
  2047 0f5a AE       		.byte	0xae
  2048 0f5b ED000000 		.4byte	0xed
@@ -2158,7 +2158,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2050 0f60 16       		.uleb128 0x16
  2051 0f61 49445200 		.ascii	"IDR\000"
  2052 0f65 15       		.byte	0x15
-ARM GAS  /var/tmp//cc2GGylR.s 			page 37
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 37
 
 
  2053 0f66 AF       		.byte	0xaf
@@ -2177,19 +2177,19 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2066 0f7f 230F0000 		.4byte	0xf23
  2067 0f83 18       		.byte	0x18
  2068 0f84 08       		.uleb128 0x8
- 2069 0f85 0F0E0000 		.4byte	.LASF211
+ 2069 0f85 1E0E0000 		.4byte	.LASF211
  2070 0f89 15       		.byte	0x15
  2071 0f8a B8       		.byte	0xb8
  2072 0f8b ED000000 		.4byte	0xed
  2073 0f8f 1C       		.byte	0x1c
  2074 0f90 08       		.uleb128 0x8
- 2075 0f91 19100000 		.4byte	.LASF212
+ 2075 0f91 FB0F0000 		.4byte	.LASF212
  2076 0f95 15       		.byte	0x15
  2077 0f96 B9       		.byte	0xb9
  2078 0f97 ED000000 		.4byte	0xed
  2079 0f9b 20       		.byte	0x20
  2080 0f9c 08       		.uleb128 0x8
- 2081 0f9d 14100000 		.4byte	.LASF213
+ 2081 0f9d F60F0000 		.4byte	.LASF213
  2082 0fa1 15       		.byte	0x15
  2083 0fa2 BA       		.byte	0xba
  2084 0fa3 ED000000 		.4byte	0xed
@@ -2212,13 +2212,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2101 0fc3 C1       		.byte	0xc1
  2102 0fc4 1D100000 		.4byte	0x101d
  2103 0fc8 08       		.uleb128 0x8
- 2104 0fc9 AE130000 		.4byte	.LASF215
+ 2104 0fc9 90130000 		.4byte	.LASF215
  2105 0fcd 15       		.byte	0x15
  2106 0fce C3       		.byte	0xc3
  2107 0fcf E2000000 		.4byte	0xe2
  2108 0fd3 00       		.byte	0
  2109 0fd4 08       		.uleb128 0x8
-ARM GAS  /var/tmp//cc2GGylR.s 			page 38
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 38
 
 
  2110 0fd5 9C010000 		.4byte	.LASF216
@@ -2233,7 +2233,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2119 0fe7 E2000000 		.4byte	0xe2
  2120 0feb 08       		.byte	0x8
  2121 0fec 08       		.uleb128 0x8
- 2122 0fed 4E130000 		.4byte	.LASF218
+ 2122 0fed 30130000 		.4byte	.LASF218
  2123 0ff1 15       		.byte	0x15
  2124 0ff2 C9       		.byte	0xc9
  2125 0ff3 E2000000 		.4byte	0xe2
@@ -2245,20 +2245,20 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2131 0fff E2000000 		.4byte	0xe2
  2132 1003 10       		.byte	0x10
  2133 1004 08       		.uleb128 0x8
- 2134 1005 5F110000 		.4byte	.LASF219
+ 2134 1005 41110000 		.4byte	.LASF219
  2135 1009 15       		.byte	0x15
  2136 100a CD       		.byte	0xcd
  2137 100b E2000000 		.4byte	0xe2
  2138 100f 14       		.byte	0x14
  2139 1010 08       		.uleb128 0x8
- 2140 1011 51110000 		.4byte	.LASF220
+ 2140 1011 33110000 		.4byte	.LASF220
  2141 1015 15       		.byte	0x15
  2142 1016 CF       		.byte	0xcf
  2143 1017 E2000000 		.4byte	0xe2
  2144 101b 18       		.byte	0x18
  2145 101c 00       		.byte	0
  2146 101d 03       		.uleb128 0x3
- 2147 101e 6B0F0000 		.4byte	.LASF221
+ 2147 101e 7A0F0000 		.4byte	.LASF221
  2148 1022 15       		.byte	0x15
  2149 1023 D0       		.byte	0xd0
  2150 1024 C00F0000 		.4byte	0xfc0
@@ -2278,7 +2278,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2164 1041 15       		.byte	0x15
  2165 1042 E0       		.byte	0xe0
  2166 1043 1D100000 		.4byte	0x101d
-ARM GAS  /var/tmp//cc2GGylR.s 			page 39
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 39
 
 
  2167 1047 1C       		.byte	0x1c
@@ -2295,13 +2295,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2178 105b 1D100000 		.4byte	0x101d
  2179 105f 54       		.byte	0x54
  2180 1060 08       		.uleb128 0x8
- 2181 1061 0C0F0000 		.4byte	.LASF226
+ 2181 1061 1B0F0000 		.4byte	.LASF226
  2182 1065 15       		.byte	0x15
  2183 1066 EC       		.byte	0xec
  2184 1067 1D100000 		.4byte	0x101d
  2185 106b 70       		.byte	0x70
  2186 106c 08       		.uleb128 0x8
- 2187 106d BE150000 		.4byte	.LASF227
+ 2187 106d A0150000 		.4byte	.LASF227
  2188 1071 15       		.byte	0x15
  2189 1072 F0       		.byte	0xf0
  2190 1073 1D100000 		.4byte	0x101d
@@ -2313,13 +2313,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2196 107f 1D100000 		.4byte	0x101d
  2197 1083 A8       		.byte	0xa8
  2198 1084 08       		.uleb128 0x8
- 2199 1085 BA0D0000 		.4byte	.LASF229
+ 2199 1085 C90D0000 		.4byte	.LASF229
  2200 1089 15       		.byte	0x15
  2201 108a F8       		.byte	0xf8
  2202 108b 1D100000 		.4byte	0x101d
  2203 108f C4       		.byte	0xc4
  2204 1090 08       		.uleb128 0x8
- 2205 1091 6C140000 		.4byte	.LASF230
+ 2205 1091 4E140000 		.4byte	.LASF230
  2206 1095 15       		.byte	0x15
  2207 1096 FC       		.byte	0xfc
  2208 1097 1D100000 		.4byte	0x101d
@@ -2333,18 +2333,18 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2216 10a8 06       		.uleb128 0x6
  2217 10a9 9D100000 		.4byte	0x109d
  2218 10ad 18       		.uleb128 0x18
- 2219 10ae C10D0000 		.4byte	.LASF232
+ 2219 10ae D00D0000 		.4byte	.LASF232
  2220 10b2 15       		.byte	0x15
  2221 10b3 1B01     		.2byte	0x11b
  2222 10b5 B9100000 		.4byte	0x10b9
  2223 10b9 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cc2GGylR.s 			page 40
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 40
 
 
  2224 10ba 04       		.byte	0x4
  2225 10bb B50F0000 		.4byte	0xfb5
  2226 10bf 13       		.uleb128 0x13
- 2227 10c0 F5110000 		.4byte	.LASF233
+ 2227 10c0 D7110000 		.4byte	.LASF233
  2228 10c4 15       		.byte	0x15
  2229 10c5 DA01     		.2byte	0x1da
  2230 10c7 A8100000 		.4byte	0x10a8
@@ -2394,11 +2394,11 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2274 1121 04       		.byte	0x4
  2275 1122 00       		.byte	0
  2276 1123 18       		.uleb128 0x18
- 2277 1124 F10E0000 		.4byte	.LASF240
+ 2277 1124 000F0000 		.4byte	.LASF240
  2278 1128 17       		.byte	0x17
  2279 1129 0101     		.2byte	0x101
  2280 112b 01110000 		.4byte	0x1101
-ARM GAS  /var/tmp//cc2GGylR.s 			page 41
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 41
 
 
  2281 112f 06       		.uleb128 0x6
@@ -2409,13 +2409,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2286 1137 0601     		.2byte	0x106
  2287 1139 C0110000 		.4byte	0x11c0
  2288 113d 0A       		.uleb128 0xa
- 2289 113e FA0C0000 		.4byte	.LASF241
+ 2289 113e 090D0000 		.4byte	.LASF241
  2290 1142 17       		.byte	0x17
  2291 1143 0A01     		.2byte	0x10a
  2292 1145 F6100000 		.4byte	0x10f6
  2293 1149 00       		.byte	0
  2294 114a 0A       		.uleb128 0xa
- 2295 114b 3E100000 		.4byte	.LASF242
+ 2295 114b 20100000 		.4byte	.LASF242
  2296 114f 17       		.byte	0x17
  2297 1150 0E01     		.2byte	0x10e
  2298 1152 C0110000 		.4byte	0x11c0
@@ -2427,13 +2427,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2304 115f C0020000 		.4byte	0x2c0
  2305 1163 08       		.byte	0x8
  2306 1164 0A       		.uleb128 0xa
- 2307 1165 E4110000 		.4byte	.LASF244
+ 2307 1165 C6110000 		.4byte	.LASF244
  2308 1169 17       		.byte	0x17
  2309 116a 1601     		.2byte	0x116
  2310 116c C0020000 		.4byte	0x2c0
  2311 1170 10       		.byte	0x10
  2312 1171 0A       		.uleb128 0xa
- 2313 1172 D40E0000 		.4byte	.LASF245
+ 2313 1172 E30E0000 		.4byte	.LASF245
  2314 1176 17       		.byte	0x17
  2315 1177 2301     		.2byte	0x123
  2316 1179 750D0000 		.4byte	0xd75
@@ -2458,7 +2458,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2335 11a4 24       		.byte	0x24
  2336 11a5 0A       		.uleb128 0xa
  2337 11a6 4C060000 		.4byte	.LASF249
-ARM GAS  /var/tmp//cc2GGylR.s 			page 42
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 42
 
 
  2338 11aa 17       		.byte	0x17
@@ -2484,7 +2484,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2358 11d2 4001     		.2byte	0x140
  2359 11d4 34110000 		.4byte	0x1134
  2360 11d8 13       		.uleb128 0x13
- 2361 11d9 20130000 		.4byte	.LASF251
+ 2361 11d9 02130000 		.4byte	.LASF251
  2362 11dd 17       		.byte	0x17
  2363 11de 4B01     		.2byte	0x14b
  2364 11e0 CC110000 		.4byte	0x11cc
@@ -2518,7 +2518,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2392 121a 18       		.byte	0x18
  2393 121b 53       		.byte	0x53
  2394 121c E4110000 		.4byte	0x11e4
-ARM GAS  /var/tmp//cc2GGylR.s 			page 43
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 43
 
 
  2395 1220 18       		.uleb128 0x18
@@ -2548,7 +2548,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2419 1256 03       		.byte	0x3
  2420 1257 00       		.byte	0
  2421 1258 18       		.uleb128 0x18
- 2422 1259 43150000 		.4byte	.LASF264
+ 2422 1259 25150000 		.4byte	.LASF264
  2423 125d 19       		.byte	0x19
  2424 125e 7801     		.2byte	0x178
  2425 1260 38120000 		.4byte	0x1238
@@ -2562,7 +2562,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2433 1272 68030000 		.4byte	.LASF265
  2434 1276 01       		.byte	0x1
  2435 1277 21       		.uleb128 0x21
- 2436 1278 DD140000 		.4byte	.LASF266
+ 2436 1278 BF140000 		.4byte	.LASF266
  2437 127c 02       		.byte	0x2
  2438 127d 21       		.uleb128 0x21
  2439 127e 3A070000 		.4byte	.LASF267
@@ -2578,7 +2578,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2449 1292 19       		.byte	0x19
  2450 1293 8601     		.2byte	0x186
  2451 1295 C1120000 		.4byte	0x12c1
-ARM GAS  /var/tmp//cc2GGylR.s 			page 44
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 44
 
 
  2452 1299 0A       		.uleb128 0xa
@@ -2594,7 +2594,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2462 12ae E2000000 		.4byte	0xe2
  2463 12b2 04       		.byte	0x4
  2464 12b3 0A       		.uleb128 0xa
- 2465 12b4 A0150000 		.4byte	.LASF271
+ 2465 12b4 82150000 		.4byte	.LASF271
  2466 12b8 19       		.byte	0x19
  2467 12b9 8C01     		.2byte	0x18c
  2468 12bb 84120000 		.4byte	0x1284
@@ -2619,13 +2619,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2487 12e5 9801     		.2byte	0x198
  2488 12e7 7B130000 		.4byte	0x137b
  2489 12eb 0A       		.uleb128 0xa
- 2490 12ec FA0C0000 		.4byte	.LASF241
+ 2490 12ec 090D0000 		.4byte	.LASF241
  2491 12f0 19       		.byte	0x19
  2492 12f1 9C01     		.2byte	0x19c
  2493 12f3 15120000 		.4byte	0x1215
  2494 12f7 00       		.byte	0
  2495 12f8 0A       		.uleb128 0xa
- 2496 12f9 3E100000 		.4byte	.LASF242
+ 2496 12f9 20100000 		.4byte	.LASF242
  2497 12fd 19       		.byte	0x19
  2498 12fe A001     		.2byte	0x1a0
  2499 1300 7B130000 		.4byte	0x137b
@@ -2638,7 +2638,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2506 1311 08       		.byte	0x8
  2507 1312 0A       		.uleb128 0xa
  2508 1313 6E080000 		.4byte	.LASF275
-ARM GAS  /var/tmp//cc2GGylR.s 			page 45
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 45
 
 
  2509 1317 19       		.byte	0x19
@@ -2698,7 +2698,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2563 1388 04       		.byte	0x4
  2564 1389 39080000 		.4byte	0x839
  2565 138d 13       		.uleb128 0x13
-ARM GAS  /var/tmp//cc2GGylR.s 			page 46
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 46
 
 
  2566 138e AD0A0000 		.4byte	.LASF282
@@ -2712,10 +2712,10 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2574 13a0 31       		.byte	0x31
  2575 13a1 C4130000 		.4byte	0x13c4
  2576 13a5 21       		.uleb128 0x21
- 2577 13a6 84140000 		.4byte	.LASF283
+ 2577 13a6 66140000 		.4byte	.LASF283
  2578 13aa 00       		.byte	0
  2579 13ab 21       		.uleb128 0x21
- 2580 13ac 56110000 		.4byte	.LASF284
+ 2580 13ac 38110000 		.4byte	.LASF284
  2581 13b0 01       		.byte	0x1
  2582 13b1 21       		.uleb128 0x21
  2583 13b2 F1020000 		.4byte	.LASF285
@@ -2724,33 +2724,33 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2586 13b8 E40B0000 		.4byte	.LASF286
  2587 13bc 03       		.byte	0x3
  2588 13bd 21       		.uleb128 0x21
- 2589 13be 60100000 		.4byte	.LASF287
+ 2589 13be 42100000 		.4byte	.LASF287
  2590 13c2 04       		.byte	0x4
  2591 13c3 00       		.byte	0
  2592 13c4 03       		.uleb128 0x3
- 2593 13c5 B4120000 		.4byte	.LASF288
+ 2593 13c5 96120000 		.4byte	.LASF288
  2594 13c9 1A       		.byte	0x1a
  2595 13ca 37       		.byte	0x37
  2596 13cb 99130000 		.4byte	0x1399
  2597 13cf 03       		.uleb128 0x3
- 2598 13d0 A50E0000 		.4byte	.LASF289
+ 2598 13d0 B40E0000 		.4byte	.LASF289
  2599 13d4 1A       		.byte	0x1a
  2600 13d5 3C       		.byte	0x3c
  2601 13d6 DA130000 		.4byte	0x13da
  2602 13da 0C       		.uleb128 0xc
- 2603 13db A50E0000 		.4byte	.LASF289
+ 2603 13db B40E0000 		.4byte	.LASF289
  2604 13df 18       		.byte	0x18
  2605 13e0 1B       		.byte	0x1b
  2606 13e1 3101     		.2byte	0x131
  2607 13e3 36140000 		.4byte	0x1436
  2608 13e7 0A       		.uleb128 0xa
- 2609 13e8 FA0C0000 		.4byte	.LASF241
+ 2609 13e8 090D0000 		.4byte	.LASF241
  2610 13ec 1B       		.byte	0x1b
  2611 13ed 3501     		.2byte	0x135
  2612 13ef C4130000 		.4byte	0x13c4
  2613 13f3 00       		.byte	0
  2614 13f4 0A       		.uleb128 0xa
- 2615 13f5 3E100000 		.4byte	.LASF242
+ 2615 13f5 20100000 		.4byte	.LASF242
  2616 13f9 1B       		.byte	0x1b
  2617 13fa 3901     		.2byte	0x139
  2618 13fc 39160000 		.4byte	0x1639
@@ -2758,7 +2758,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2620 1401 0A       		.uleb128 0xa
  2621 1402 7E080000 		.4byte	.LASF290
  2622 1406 1B       		.byte	0x1b
-ARM GAS  /var/tmp//cc2GGylR.s 			page 47
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 47
 
 
  2623 1407 4101     		.2byte	0x141
@@ -2771,7 +2771,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2630 1416 3F160000 		.4byte	0x163f
  2631 141a 0C       		.byte	0xc
  2632 141b 0A       		.uleb128 0xa
- 2633 141c 12110000 		.4byte	.LASF291
+ 2633 141c F4100000 		.4byte	.LASF291
  2634 1420 1B       		.byte	0x1b
  2635 1421 4901     		.2byte	0x149
  2636 1423 B00E0000 		.4byte	0xeb0
@@ -2784,7 +2784,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2643 1434 14       		.byte	0x14
  2644 1435 00       		.byte	0
  2645 1436 03       		.uleb128 0x3
- 2646 1437 460F0000 		.4byte	.LASF293
+ 2646 1437 550F0000 		.4byte	.LASF293
  2647 143b 1A       		.byte	0x1a
  2648 143c 43       		.byte	0x43
  2649 143d 41140000 		.4byte	0x1441
@@ -2817,8 +2817,8 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2676 1476 ED000000 		.4byte	0xed
  2677 147a 04       		.byte	0x4
  2678 147b 0A       		.uleb128 0xa
- 2679 147c D3120000 		.4byte	.LASF294
-ARM GAS  /var/tmp//cc2GGylR.s 			page 48
+ 2679 147c B5120000 		.4byte	.LASF294
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 48
 
 
  2680 1480 1C       		.byte	0x1c
@@ -2844,19 +2844,19 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2700 14a9 ED000000 		.4byte	0xed
  2701 14ad 14       		.byte	0x14
  2702 14ae 0A       		.uleb128 0xa
- 2703 14af 0D150000 		.4byte	.LASF296
+ 2703 14af EF140000 		.4byte	.LASF296
  2704 14b3 1C       		.byte	0x1c
  2705 14b4 A501     		.2byte	0x1a5
  2706 14b6 ED000000 		.4byte	0xed
  2707 14ba 18       		.byte	0x18
  2708 14bb 0A       		.uleb128 0xa
- 2709 14bc 13150000 		.4byte	.LASF297
+ 2709 14bc F5140000 		.4byte	.LASF297
  2710 14c0 1C       		.byte	0x1c
  2711 14c1 A601     		.2byte	0x1a6
  2712 14c3 ED000000 		.4byte	0xed
  2713 14c7 1C       		.byte	0x1c
  2714 14c8 0A       		.uleb128 0xa
- 2715 14c9 42040000 		.4byte	.LASF298
+ 2715 14c9 66050000 		.4byte	.LASF298
  2716 14cd 1C       		.byte	0x1c
  2717 14ce A701     		.2byte	0x1a7
  2718 14d0 ED000000 		.4byte	0xed
@@ -2878,7 +2878,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2734 14f4 1C       		.byte	0x1c
  2735 14f5 AA01     		.2byte	0x1aa
  2736 14f7 ED000000 		.4byte	0xed
-ARM GAS  /var/tmp//cc2GGylR.s 			page 49
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 49
 
 
  2737 14fb 2C       		.byte	0x2c
@@ -2907,7 +2907,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2760 152b ED000000 		.4byte	0xed
  2761 152f 48       		.byte	0x48
  2762 1530 0A       		.uleb128 0xa
- 2763 1531 300D0000 		.4byte	.LASF300
+ 2763 1531 3F0D0000 		.4byte	.LASF300
  2764 1535 1C       		.byte	0x1c
  2765 1536 AF01     		.2byte	0x1af
  2766 1538 ED000000 		.4byte	0xed
@@ -2919,7 +2919,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2772 1544 ED000000 		.4byte	0xed
  2773 1548 50       		.byte	0x50
  2774 1549 0A       		.uleb128 0xa
- 2775 154a 19150000 		.4byte	.LASF301
+ 2775 154a FB140000 		.4byte	.LASF301
  2776 154e 1C       		.byte	0x1c
  2777 154f B101     		.2byte	0x1b1
  2778 1551 ED000000 		.4byte	0xed
@@ -2932,13 +2932,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2785 1562 58       		.byte	0x58
  2786 1563 00       		.byte	0
  2787 1564 18       		.uleb128 0x18
- 2788 1565 2C120000 		.4byte	.LASF303
+ 2788 1565 0E120000 		.4byte	.LASF303
  2789 1569 1C       		.byte	0x1c
  2790 156a B301     		.2byte	0x1b3
  2791 156c 58140000 		.4byte	0x1458
  2792 1570 20       		.uleb128 0x20
  2793 1571 01       		.byte	0x1
-ARM GAS  /var/tmp//cc2GGylR.s 			page 50
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 50
 
 
  2794 1572 55000000 		.4byte	0x55
@@ -2949,16 +2949,16 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2799 157d 01060000 		.4byte	.LASF304
  2800 1581 00       		.byte	0
  2801 1582 21       		.uleb128 0x21
- 2802 1583 7E0F0000 		.4byte	.LASF305
+ 2802 1583 8D0F0000 		.4byte	.LASF305
  2803 1587 01       		.byte	0x1
  2804 1588 00       		.byte	0
  2805 1589 03       		.uleb128 0x3
- 2806 158a F5130000 		.4byte	.LASF306
+ 2806 158a D7130000 		.4byte	.LASF306
  2807 158e 1B       		.byte	0x1b
  2808 158f F1       		.byte	0xf1
  2809 1590 70150000 		.4byte	0x1570
  2810 1594 03       		.uleb128 0x3
- 2811 1595 A60F0000 		.4byte	.LASF307
+ 2811 1595 B50F0000 		.4byte	.LASF307
  2812 1599 1B       		.byte	0x1b
  2813 159a F6       		.byte	0xf6
  2814 159b E2000000 		.4byte	0xe2
@@ -2969,10 +2969,10 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2819 15a6 FB       		.byte	0xfb
  2820 15a7 B8150000 		.4byte	0x15b8
  2821 15ab 21       		.uleb128 0x21
- 2822 15ac 300F0000 		.4byte	.LASF308
+ 2822 15ac 3F0F0000 		.4byte	.LASF308
  2823 15b0 00       		.byte	0
  2824 15b1 21       		.uleb128 0x21
- 2825 15b2 53120000 		.4byte	.LASF309
+ 2825 15b2 35120000 		.4byte	.LASF309
  2826 15b6 01       		.byte	0x1
  2827 15b7 00       		.byte	0
  2828 15b8 03       		.uleb128 0x3
@@ -2992,13 +2992,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2842 15d4 89150000 		.4byte	0x1589
  2843 15d8 00       		.byte	0
  2844 15d9 0A       		.uleb128 0xa
- 2845 15da AC140000 		.4byte	.LASF312
+ 2845 15da 8E140000 		.4byte	.LASF312
  2846 15de 1B       		.byte	0x1b
  2847 15df 1301     		.2byte	0x113
  2848 15e1 94150000 		.4byte	0x1594
  2849 15e5 04       		.byte	0x4
  2850 15e6 0A       		.uleb128 0xa
-ARM GAS  /var/tmp//cc2GGylR.s 			page 51
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 51
 
 
  2851 15e7 7D0B0000 		.4byte	.LASF313
@@ -3032,7 +3032,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2879 1626 18       		.byte	0x18
  2880 1627 00       		.byte	0
  2881 1628 18       		.uleb128 0x18
- 2882 1629 AF0E0000 		.4byte	.LASF318
+ 2882 1629 BE0E0000 		.4byte	.LASF318
  2883 162d 1B       		.byte	0x1b
  2884 162e 2C01     		.2byte	0x12c
  2885 1630 C3150000 		.4byte	0x15c3
@@ -3058,14 +3058,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2905 165d 21       		.uleb128 0x21
  2906 165e 2F040000 		.4byte	.LASF320
  2907 1662 00       		.byte	0
-ARM GAS  /var/tmp//cc2GGylR.s 			page 52
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 52
 
 
  2908 1663 21       		.uleb128 0x21
  2909 1664 7C010000 		.4byte	.LASF321
  2910 1668 01       		.byte	0x1
  2911 1669 21       		.uleb128 0x21
- 2912 166a 24140000 		.4byte	.LASF322
+ 2912 166a 06140000 		.4byte	.LASF322
  2913 166e 02       		.byte	0x2
  2914 166f 21       		.uleb128 0x21
  2915 1670 920A0000 		.4byte	.LASF323
@@ -3080,24 +3080,24 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2924 1682 4C       		.byte	0x4c
  2925 1683 51160000 		.4byte	0x1651
  2926 1687 18       		.uleb128 0x18
- 2927 1688 34130000 		.4byte	.LASF326
+ 2927 1688 16130000 		.4byte	.LASF326
  2928 168c 1E       		.byte	0x1e
  2929 168d 9601     		.2byte	0x196
  2930 168f 93160000 		.4byte	0x1693
  2931 1693 0C       		.uleb128 0xc
- 2932 1694 34130000 		.4byte	.LASF326
+ 2932 1694 16130000 		.4byte	.LASF326
  2933 1698 30       		.byte	0x30
  2934 1699 1E       		.byte	0x1e
  2935 169a BA01     		.2byte	0x1ba
  2936 169c 16170000 		.4byte	0x1716
  2937 16a0 0A       		.uleb128 0xa
- 2938 16a1 FA0C0000 		.4byte	.LASF241
+ 2938 16a1 090D0000 		.4byte	.LASF241
  2939 16a5 1E       		.byte	0x1e
  2940 16a6 BE01     		.2byte	0x1be
  2941 16a8 7C160000 		.4byte	0x167c
  2942 16ac 00       		.byte	0
  2943 16ad 0A       		.uleb128 0xa
- 2944 16ae 3E100000 		.4byte	.LASF242
+ 2944 16ae 20100000 		.4byte	.LASF242
  2945 16b2 1E       		.byte	0x1e
  2946 16b3 C201     		.2byte	0x1c2
  2947 16b5 88170000 		.4byte	0x1788
@@ -3118,7 +3118,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  2962 16d5 73706900 		.ascii	"spi\000"
  2963 16d9 1E       		.byte	0x1e
  2964 16da D601     		.2byte	0x1d6
-ARM GAS  /var/tmp//cc2GGylR.s 			page 53
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 53
 
 
  2965 16dc 8E170000 		.4byte	0x178e
@@ -3176,9 +3176,9 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3017 174a 16170000 		.4byte	0x1716
  3018 174e 00       		.byte	0
  3019 174f 0A       		.uleb128 0xa
- 3020 1750 7D140000 		.4byte	.LASF329
+ 3020 1750 5F140000 		.4byte	.LASF329
  3021 1754 1E       		.byte	0x1e
-ARM GAS  /var/tmp//cc2GGylR.s 			page 54
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 54
 
 
  3022 1755 AC01     		.2byte	0x1ac
@@ -3198,7 +3198,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3036 1775 0A       		.byte	0xa
  3037 1776 00       		.byte	0
  3038 1777 18       		.uleb128 0x18
- 3039 1778 44130000 		.4byte	.LASF331
+ 3039 1778 26130000 		.4byte	.LASF331
  3040 177c 1E       		.byte	0x1e
  3041 177d B501     		.2byte	0x1b5
  3042 177f 39170000 		.4byte	0x1739
@@ -3211,7 +3211,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3049 178f 04       		.byte	0x4
  3050 1790 C2080000 		.4byte	0x8c2
  3051 1794 13       		.uleb128 0x13
- 3052 1795 D90D0000 		.4byte	.LASF332
+ 3052 1795 E80D0000 		.4byte	.LASF332
  3053 1799 1E       		.byte	0x1e
  3054 179a F201     		.2byte	0x1f2
  3055 179c 87160000 		.4byte	0x1687
@@ -3225,20 +3225,20 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3063 17ad 13080000 		.4byte	.LASF333
  3064 17b1 00       		.byte	0
  3065 17b2 21       		.uleb128 0x21
- 3066 17b3 56100000 		.4byte	.LASF334
+ 3066 17b3 38100000 		.4byte	.LASF334
  3067 17b7 01       		.byte	0x1
  3068 17b8 21       		.uleb128 0x21
- 3069 17b9 02150000 		.4byte	.LASF335
+ 3069 17b9 E4140000 		.4byte	.LASF335
  3070 17bd 02       		.byte	0x2
  3071 17be 00       		.byte	0
  3072 17bf 03       		.uleb128 0x3
- 3073 17c0 DF0D0000 		.4byte	.LASF336
+ 3073 17c0 EE0D0000 		.4byte	.LASF336
  3074 17c4 1F       		.byte	0x1f
  3075 17c5 41       		.byte	0x41
  3076 17c6 A0170000 		.4byte	0x17a0
  3077 17ca 20       		.uleb128 0x20
  3078 17cb 01       		.byte	0x1
-ARM GAS  /var/tmp//cc2GGylR.s 			page 55
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 55
 
 
  3079 17cc 55000000 		.4byte	0x55
@@ -3252,11 +3252,11 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3087 17dd 2B070000 		.4byte	.LASF338
  3088 17e1 01       		.byte	0x1
  3089 17e2 21       		.uleb128 0x21
- 3090 17e3 C5150000 		.4byte	.LASF339
+ 3090 17e3 A7150000 		.4byte	.LASF339
  3091 17e7 02       		.byte	0x2
  3092 17e8 00       		.byte	0
  3093 17e9 03       		.uleb128 0x3
- 3094 17ea A0130000 		.4byte	.LASF340
+ 3094 17ea 82130000 		.4byte	.LASF340
  3095 17ee 1F       		.byte	0x1f
  3096 17ef 4A       		.byte	0x4a
  3097 17f0 CA170000 		.4byte	0x17ca
@@ -3267,22 +3267,22 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3102 17fb 4F       		.byte	0x4f
  3103 17fc 13180000 		.4byte	0x1813
  3104 1800 21       		.uleb128 0x21
- 3105 1801 3F0D0000 		.4byte	.LASF341
+ 3105 1801 4E0D0000 		.4byte	.LASF341
  3106 1805 00       		.byte	0
  3107 1806 21       		.uleb128 0x21
  3108 1807 01070000 		.4byte	.LASF342
  3109 180b 01       		.byte	0x1
  3110 180c 21       		.uleb128 0x21
- 3111 180d 08120000 		.4byte	.LASF343
+ 3111 180d EA110000 		.4byte	.LASF343
  3112 1811 02       		.byte	0x2
  3113 1812 00       		.byte	0
  3114 1813 03       		.uleb128 0x3
- 3115 1814 7C130000 		.4byte	.LASF344
+ 3115 1814 5E130000 		.4byte	.LASF344
  3116 1818 1F       		.byte	0x1f
  3117 1819 53       		.byte	0x53
  3118 181a F4170000 		.4byte	0x17f4
  3119 181e 18       		.uleb128 0x18
- 3120 181f 45100000 		.4byte	.LASF345
+ 3120 181f 27100000 		.4byte	.LASF345
  3121 1823 20       		.byte	0x20
  3122 1824 B101     		.2byte	0x1b1
  3123 1826 E2000000 		.4byte	0xe2
@@ -3298,40 +3298,40 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3133 183d FE01     		.2byte	0x1fe
  3134 183f B9180000 		.4byte	0x18b9
  3135 1843 0A       		.uleb128 0xa
-ARM GAS  /var/tmp//cc2GGylR.s 			page 56
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 56
 
 
- 3136 1844 FA0C0000 		.4byte	.LASF241
+ 3136 1844 090D0000 		.4byte	.LASF241
  3137 1848 20       		.byte	0x20
  3138 1849 0202     		.2byte	0x202
  3139 184b BF170000 		.4byte	0x17bf
  3140 184f 00       		.byte	0
  3141 1850 0A       		.uleb128 0xa
- 3142 1851 7D150000 		.4byte	.LASF347
+ 3142 1851 5F150000 		.4byte	.LASF347
  3143 1855 20       		.byte	0x20
  3144 1856 0602     		.2byte	0x206
  3145 1858 E9170000 		.4byte	0x17e9
  3146 185c 01       		.byte	0x1
  3147 185d 0A       		.uleb128 0xa
- 3148 185e BB0C0000 		.4byte	.LASF348
+ 3148 185e CA0C0000 		.4byte	.LASF348
  3149 1862 20       		.byte	0x20
  3150 1863 0A02     		.2byte	0x20a
  3151 1865 13180000 		.4byte	0x1813
  3152 1869 02       		.byte	0x2
  3153 186a 0A       		.uleb128 0xa
- 3154 186b 3E100000 		.4byte	.LASF242
+ 3154 186b 20100000 		.4byte	.LASF242
  3155 186f 20       		.byte	0x20
  3156 1870 0E02     		.2byte	0x20e
  3157 1872 B0190000 		.4byte	0x19b0
  3158 1876 04       		.byte	0x4
  3159 1877 0A       		.uleb128 0xa
- 3160 1878 230F0000 		.4byte	.LASF349
+ 3160 1878 320F0000 		.4byte	.LASF349
  3161 187c 20       		.byte	0x20
  3162 187d 1602     		.2byte	0x216
  3163 187f B6190000 		.4byte	0x19b6
  3164 1883 08       		.byte	0x8
  3165 1884 0A       		.uleb128 0xa
- 3166 1885 D10D0000 		.4byte	.LASF350
+ 3166 1885 E00D0000 		.4byte	.LASF350
  3167 1889 20       		.byte	0x20
  3168 188a 1A02     		.2byte	0x21a
  3169 188c E2000000 		.4byte	0xe2
@@ -3356,9 +3356,9 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3188 18b7 18       		.byte	0x18
  3189 18b8 00       		.byte	0
  3190 18b9 18       		.uleb128 0x18
- 3191 18ba CB0E0000 		.4byte	.LASF352
+ 3191 18ba DA0E0000 		.4byte	.LASF352
  3192 18be 20       		.byte	0x20
-ARM GAS  /var/tmp//cc2GGylR.s 			page 57
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 57
 
 
  3193 18bf BD01     		.2byte	0x1bd
@@ -3416,16 +3416,16 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3245 1931 B9180000 		.4byte	0x18b9
  3246 1935 00       		.byte	0
  3247 1936 0A       		.uleb128 0xa
- 3248 1937 ED100000 		.4byte	.LASF356
+ 3248 1937 CF100000 		.4byte	.LASF356
  3249 193b 20       		.byte	0x20
-ARM GAS  /var/tmp//cc2GGylR.s 			page 58
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 58
 
 
  3250 193c DB01     		.2byte	0x1db
  3251 193e B9180000 		.4byte	0x18b9
  3252 1942 04       		.byte	0x4
  3253 1943 0A       		.uleb128 0xa
- 3254 1944 6B100000 		.4byte	.LASF357
+ 3254 1944 4D100000 		.4byte	.LASF357
  3255 1948 20       		.byte	0x20
  3256 1949 DF01     		.2byte	0x1df
  3257 194b B9180000 		.4byte	0x18b9
@@ -3437,13 +3437,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3263 1958 DC180000 		.4byte	0x18dc
  3264 195c 0C       		.byte	0xc
  3265 195d 0A       		.uleb128 0xa
- 3266 195e 7F120000 		.4byte	.LASF359
+ 3266 195e 61120000 		.4byte	.LASF359
  3267 1962 20       		.byte	0x20
  3268 1963 E701     		.2byte	0x1e7
  3269 1965 FE180000 		.4byte	0x18fe
  3270 1969 10       		.byte	0x10
  3271 196a 0A       		.uleb128 0xa
- 3272 196b D9100000 		.4byte	.LASF360
+ 3272 196b BB100000 		.4byte	.LASF360
  3273 196f 20       		.byte	0x20
  3274 1970 EC01     		.2byte	0x1ec
  3275 1972 E2000000 		.4byte	0xe2
@@ -3478,7 +3478,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3304 19b1 04       		.byte	0x4
  3305 19b2 AB190000 		.4byte	0x19ab
  3306 19b6 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cc2GGylR.s 			page 59
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 59
 
 
  3307 19b7 04       		.byte	0x4
@@ -3505,25 +3505,25 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3328 19e7 7701     		.2byte	0x177
  3329 19e9 0B1B0000 		.4byte	0x1b0b
  3330 19ed 0A       		.uleb128 0xa
- 3331 19ee FA0C0000 		.4byte	.LASF241
+ 3331 19ee 090D0000 		.4byte	.LASF241
  3332 19f2 22       		.byte	0x22
  3333 19f3 7B01     		.2byte	0x17b
  3334 19f5 421B0000 		.4byte	0x1b42
  3335 19f9 00       		.byte	0
  3336 19fa 0A       		.uleb128 0xa
- 3337 19fb 3E100000 		.4byte	.LASF242
+ 3337 19fb 20100000 		.4byte	.LASF242
  3338 19ff 22       		.byte	0x22
  3339 1a00 7F01     		.2byte	0x17f
  3340 1a02 63240000 		.4byte	0x2463
  3341 1a06 04       		.byte	0x4
  3342 1a07 0A       		.uleb128 0xa
- 3343 1a08 54130000 		.4byte	.LASF365
+ 3343 1a08 36130000 		.4byte	.LASF365
  3344 1a0c 22       		.byte	0x22
  3345 1a0d 8301     		.2byte	0x183
  3346 1a0f C2000000 		.4byte	0xc2
  3347 1a13 08       		.byte	0x8
  3348 1a14 0A       		.uleb128 0xa
- 3349 1a15 A2140000 		.4byte	.LASF366
+ 3349 1a15 84140000 		.4byte	.LASF366
  3350 1a19 22       		.byte	0x22
  3351 1a1a 8701     		.2byte	0x187
  3352 1a1c C2000000 		.4byte	0xc2
@@ -3538,7 +3538,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3361 1a2f 34010000 		.4byte	.LASF367
  3362 1a33 22       		.byte	0x22
  3363 1a34 9201     		.2byte	0x192
-ARM GAS  /var/tmp//cc2GGylR.s 			page 60
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 60
 
 
  3364 1a36 7F240000 		.4byte	0x247f
@@ -3556,19 +3556,19 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3376 1a50 861B0000 		.4byte	0x1b86
  3377 1a54 34       		.byte	0x34
  3378 1a55 0A       		.uleb128 0xa
- 3379 1a56 F70F0000 		.4byte	.LASF370
+ 3379 1a56 D90F0000 		.4byte	.LASF370
  3380 1a5a 22       		.byte	0x22
  3381 1a5b A101     		.2byte	0x1a1
  3382 1a5d 1A0E0000 		.4byte	0xe1a
  3383 1a61 38       		.byte	0x38
  3384 1a62 0A       		.uleb128 0xa
- 3385 1a63 AD0D0000 		.4byte	.LASF371
+ 3385 1a63 BC0D0000 		.4byte	.LASF371
  3386 1a67 22       		.byte	0x22
  3387 1a68 A501     		.2byte	0x1a5
  3388 1a6a 2C000000 		.4byte	0x2c
  3389 1a6e 3C       		.byte	0x3c
  3390 1a6f 0A       		.uleb128 0xa
- 3391 1a70 6A110000 		.4byte	.LASF372
+ 3391 1a70 4C110000 		.4byte	.LASF372
  3392 1a74 22       		.byte	0x22
  3393 1a75 A901     		.2byte	0x1a9
  3394 1a77 051C0000 		.4byte	0x1c05
@@ -3580,25 +3580,25 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3400 1a84 4A0E0000 		.4byte	0xe4a
  3401 1a88 44       		.byte	0x44
  3402 1a89 0A       		.uleb128 0xa
- 3403 1a8a A60C0000 		.4byte	.LASF374
+ 3403 1a8a B50C0000 		.4byte	.LASF374
  3404 1a8e 22       		.byte	0x22
  3405 1a8f B101     		.2byte	0x1b1
  3406 1a91 C2000000 		.4byte	0xc2
  3407 1a95 4C       		.byte	0x4c
  3408 1a96 0A       		.uleb128 0xa
- 3409 1a97 C30C0000 		.4byte	.LASF375
+ 3409 1a97 D20C0000 		.4byte	.LASF375
  3410 1a9b 22       		.byte	0x22
  3411 1a9c B501     		.2byte	0x1b5
  3412 1a9e B2000000 		.4byte	0xb2
  3413 1aa2 4E       		.byte	0x4e
  3414 1aa3 0A       		.uleb128 0xa
- 3415 1aa4 5D0F0000 		.4byte	.LASF376
+ 3415 1aa4 6C0F0000 		.4byte	.LASF376
  3416 1aa8 22       		.byte	0x22
  3417 1aa9 B901     		.2byte	0x1b9
  3418 1aab B2000000 		.4byte	0xb2
  3419 1aaf 4F       		.byte	0x4f
  3420 1ab0 09       		.uleb128 0x9
-ARM GAS  /var/tmp//cc2GGylR.s 			page 61
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 61
 
 
  3421 1ab1 6F746700 		.ascii	"otg\000"
@@ -3613,7 +3613,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3430 1ac5 95240000 		.4byte	0x2495
  3431 1ac9 54       		.byte	0x54
  3432 1aca 0A       		.uleb128 0xa
- 3433 1acb 3F120000 		.4byte	.LASF378
+ 3433 1acb 21120000 		.4byte	.LASF378
  3434 1acf 22       		.byte	0x22
  3435 1ad0 C901     		.2byte	0x1c9
  3436 1ad2 E2000000 		.4byte	0xe2
@@ -3625,7 +3625,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3442 1adf E2000000 		.4byte	0xe2
  3443 1ae3 5C       		.byte	0x5c
  3444 1ae4 0A       		.uleb128 0xa
- 3445 1ae5 93040000 		.4byte	.LASF380
+ 3445 1ae5 B7050000 		.4byte	.LASF380
  3446 1ae9 22       		.byte	0x22
  3447 1aea D101     		.2byte	0x1d1
  3448 1aec 8B020000 		.4byte	0x28b
@@ -3637,7 +3637,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3454 1af8 8B020000 		.4byte	0x28b
  3455 1afc 64       		.byte	0x64
  3456 1afd 0A       		.uleb128 0xa
- 3457 1afe 220C0000 		.4byte	.LASF381
+ 3457 1afe 310C0000 		.4byte	.LASF381
  3458 1b02 22       		.byte	0x22
  3459 1b03 DA01     		.2byte	0x1da
  3460 1b05 9B240000 		.4byte	0x249b
@@ -3655,10 +3655,10 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3472 1b1d 0401     		.2byte	0x104
  3473 1b1f 421B0000 		.4byte	0x1b42
  3474 1b23 21       		.uleb128 0x21
- 3475 1b24 31150000 		.4byte	.LASF383
+ 3475 1b24 13150000 		.4byte	.LASF383
  3476 1b28 00       		.byte	0
  3477 1b29 21       		.uleb128 0x21
-ARM GAS  /var/tmp//cc2GGylR.s 			page 62
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 62
 
 
  3478 1b2a 00000000 		.4byte	.LASF384
@@ -3667,14 +3667,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3481 1b30 860B0000 		.4byte	.LASF385
  3482 1b34 02       		.byte	0x2
  3483 1b35 21       		.uleb128 0x21
- 3484 1b36 7E0E0000 		.4byte	.LASF386
+ 3484 1b36 8D0E0000 		.4byte	.LASF386
  3485 1b3a 03       		.byte	0x3
  3486 1b3b 21       		.uleb128 0x21
- 3487 1b3c AB040000 		.4byte	.LASF387
+ 3487 1b3c CF050000 		.4byte	.LASF387
  3488 1b40 04       		.byte	0x4
  3489 1b41 00       		.byte	0
  3490 1b42 18       		.uleb128 0x18
- 3491 1b43 68130000 		.4byte	.LASF388
+ 3491 1b43 4A130000 		.4byte	.LASF388
  3492 1b47 21       		.byte	0x21
  3493 1b48 0A01     		.2byte	0x10a
  3494 1b4a 161B0000 		.4byte	0x1b16
@@ -3685,19 +3685,19 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3499 1b55 1801     		.2byte	0x118
  3500 1b57 861B0000 		.4byte	0x1b86
  3501 1b5b 21       		.uleb128 0x21
- 3502 1b5c 3B110000 		.4byte	.LASF389
+ 3502 1b5c 1D110000 		.4byte	.LASF389
  3503 1b60 00       		.byte	0
  3504 1b61 21       		.uleb128 0x21
  3505 1b62 BA090000 		.4byte	.LASF390
  3506 1b66 01       		.byte	0x1
  3507 1b67 21       		.uleb128 0x21
- 3508 1b68 B60F0000 		.4byte	.LASF391
+ 3508 1b68 C50F0000 		.4byte	.LASF391
  3509 1b6c 02       		.byte	0x2
  3510 1b6d 21       		.uleb128 0x21
- 3511 1b6e 0B0D0000 		.4byte	.LASF392
+ 3511 1b6e 1A0D0000 		.4byte	.LASF392
  3512 1b72 03       		.byte	0x3
  3513 1b73 21       		.uleb128 0x21
- 3514 1b74 9B0C0000 		.4byte	.LASF393
+ 3514 1b74 AA0C0000 		.4byte	.LASF393
  3515 1b78 04       		.byte	0x4
  3516 1b79 21       		.uleb128 0x21
  3517 1b7a 500A0000 		.4byte	.LASF394
@@ -3718,29 +3718,29 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3532 1b99 2501     		.2byte	0x125
  3533 1b9b C41B0000 		.4byte	0x1bc4
  3534 1b9f 21       		.uleb128 0x21
-ARM GAS  /var/tmp//cc2GGylR.s 			page 63
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 63
 
 
- 3535 1ba0 680E0000 		.4byte	.LASF397
+ 3535 1ba0 770E0000 		.4byte	.LASF397
  3536 1ba4 00       		.byte	0
  3537 1ba5 21       		.uleb128 0x21
- 3538 1ba6 B90E0000 		.4byte	.LASF398
+ 3538 1ba6 C80E0000 		.4byte	.LASF398
  3539 1baa 01       		.byte	0x1
  3540 1bab 21       		.uleb128 0x21
  3541 1bac F70B0000 		.4byte	.LASF399
  3542 1bb0 02       		.byte	0x2
  3543 1bb1 21       		.uleb128 0x21
- 3544 1bb2 540C0000 		.4byte	.LASF400
+ 3544 1bb2 630C0000 		.4byte	.LASF400
  3545 1bb6 03       		.byte	0x3
  3546 1bb7 21       		.uleb128 0x21
- 3547 1bb8 53140000 		.4byte	.LASF401
+ 3547 1bb8 35140000 		.4byte	.LASF401
  3548 1bbc 04       		.byte	0x4
  3549 1bbd 21       		.uleb128 0x21
  3550 1bbe C10B0000 		.4byte	.LASF402
  3551 1bc2 05       		.byte	0x5
  3552 1bc3 00       		.byte	0
  3553 1bc4 18       		.uleb128 0x18
- 3554 1bc5 E10E0000 		.4byte	.LASF403
+ 3554 1bc5 F00E0000 		.4byte	.LASF403
  3555 1bc9 21       		.byte	0x21
  3556 1bca 2C01     		.2byte	0x12c
  3557 1bcc 921B0000 		.4byte	0x1b92
@@ -3750,7 +3750,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3561 1bd3 3101     		.2byte	0x131
  3562 1bd5 F41B0000 		.4byte	0x1bf4
  3563 1bd9 0A       		.uleb128 0xa
- 3564 1bda AB150000 		.4byte	.LASF404
+ 3564 1bda 8D150000 		.4byte	.LASF404
  3565 1bde 21       		.byte	0x21
  3566 1bdf 3501     		.2byte	0x135
  3567 1be1 2C000000 		.4byte	0x2c
@@ -3763,14 +3763,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3574 1bf2 04       		.byte	0x4
  3575 1bf3 00       		.byte	0
  3576 1bf4 18       		.uleb128 0x18
- 3577 1bf5 AD0C0000 		.4byte	.LASF406
+ 3577 1bf5 BC0C0000 		.4byte	.LASF406
  3578 1bf9 21       		.byte	0x21
  3579 1bfa 3A01     		.2byte	0x13a
  3580 1bfc D01B0000 		.4byte	0x1bd0
  3581 1c00 06       		.uleb128 0x6
  3582 1c01 F41B0000 		.4byte	0x1bf4
  3583 1c05 18       		.uleb128 0x18
- 3584 1c06 59150000 		.4byte	.LASF407
+ 3584 1c06 3B150000 		.4byte	.LASF407
  3585 1c0a 21       		.byte	0x21
  3586 1c0b 4201     		.2byte	0x142
  3587 1c0d 111C0000 		.4byte	0x1c11
@@ -3778,7 +3778,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3589 1c12 04       		.byte	0x4
  3590 1c13 171C0000 		.4byte	0x1c17
  3591 1c17 0D       		.uleb128 0xd
-ARM GAS  /var/tmp//cc2GGylR.s 			page 64
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 64
 
 
  3592 1c18 221C0000 		.4byte	0x1c22
@@ -3819,7 +3819,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3627 1c67 C41B0000 		.4byte	0x1bc4
  3628 1c6b 00       		.byte	0
  3629 1c6c 18       		.uleb128 0x18
- 3630 1c6d 3E0E0000 		.4byte	.LASF410
+ 3630 1c6d 4D0E0000 		.4byte	.LASF410
  3631 1c71 21       		.byte	0x21
  3632 1c72 6001     		.2byte	0x160
  3633 1c74 781C0000 		.4byte	0x1c78
@@ -3838,7 +3838,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3646 1c93 6501     		.2byte	0x165
  3647 1c95 991C0000 		.4byte	0x1c99
  3648 1c99 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cc2GGylR.s 			page 65
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 65
 
 
  3649 1c9a 04       		.byte	0x4
@@ -3882,7 +3882,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3687 1cea ED000000 		.4byte	0xed
  3688 1cee 08       		.byte	0x8
  3689 1cef 08       		.uleb128 0x8
- 3690 1cf0 35100000 		.4byte	.LASF415
+ 3690 1cf0 17100000 		.4byte	.LASF415
  3691 1cf4 23       		.byte	0x23
  3692 1cf5 3A       		.byte	0x3a
  3693 1cf6 ED000000 		.4byte	0xed
@@ -3898,7 +3898,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3703 1d0c 23       		.byte	0x23
  3704 1d0d 3E       		.byte	0x3e
  3705 1d0e ED000000 		.4byte	0xed
-ARM GAS  /var/tmp//cc2GGylR.s 			page 66
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 66
 
 
  3706 1d12 14       		.byte	0x14
@@ -3916,7 +3916,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3718 1d2a 1C       		.byte	0x1c
  3719 1d2b 00       		.byte	0
  3720 1d2c 03       		.uleb128 0x3
- 3721 1d2d FF0F0000 		.4byte	.LASF420
+ 3721 1d2d E10F0000 		.4byte	.LASF420
  3722 1d31 23       		.byte	0x23
  3723 1d32 41       		.byte	0x41
  3724 1d33 C31C0000 		.4byte	0x1cc3
@@ -3938,7 +3938,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3740 1d52 ED000000 		.4byte	0xed
  3741 1d56 04       		.byte	0x4
  3742 1d57 08       		.uleb128 0x8
- 3743 1d58 AC120000 		.4byte	.LASF423
+ 3743 1d58 8E120000 		.4byte	.LASF423
  3744 1d5c 23       		.byte	0x23
  3745 1d5d 4A       		.byte	0x4a
  3746 1d5e ED000000 		.4byte	0xed
@@ -3950,7 +3950,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3752 1d6a ED000000 		.4byte	0xed
  3753 1d6e 0C       		.byte	0xc
  3754 1d6f 08       		.uleb128 0x8
- 3755 1d70 590D0000 		.4byte	.LASF425
+ 3755 1d70 680D0000 		.4byte	.LASF425
  3756 1d74 23       		.byte	0x23
  3757 1d75 4D       		.byte	0x4d
  3758 1d76 ED000000 		.4byte	0xed
@@ -3958,7 +3958,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3760 1d7b 08       		.uleb128 0x8
  3761 1d7c C1080000 		.4byte	.LASF417
  3762 1d80 23       		.byte	0x23
-ARM GAS  /var/tmp//cc2GGylR.s 			page 67
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 67
 
 
  3763 1d81 4F       		.byte	0x4f
@@ -3971,7 +3971,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3770 1d8e ED000000 		.4byte	0xed
  3771 1d92 18       		.byte	0x18
  3772 1d93 08       		.uleb128 0x8
- 3773 1d94 95120000 		.4byte	.LASF427
+ 3773 1d94 77120000 		.4byte	.LASF427
  3774 1d98 23       		.byte	0x23
  3775 1d99 52       		.byte	0x52
  3776 1d9a ED000000 		.4byte	0xed
@@ -3988,7 +3988,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3787 1dae 58       		.byte	0x58
  3788 1daf 141E0000 		.4byte	0x1e14
  3789 1db3 08       		.uleb128 0x8
- 3790 1db4 2D100000 		.4byte	.LASF429
+ 3790 1db4 0F100000 		.4byte	.LASF429
  3791 1db8 23       		.byte	0x23
  3792 1db9 59       		.byte	0x59
  3793 1dba ED000000 		.4byte	0xed
@@ -4000,7 +4000,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3799 1dc6 ED000000 		.4byte	0xed
  3800 1dca 04       		.byte	0x4
  3801 1dcb 08       		.uleb128 0x8
- 3802 1dcc 070E0000 		.4byte	.LASF430
+ 3802 1dcc 160E0000 		.4byte	.LASF430
  3803 1dd0 23       		.byte	0x23
  3804 1dd1 5C       		.byte	0x5c
  3805 1dd2 ED000000 		.4byte	0xed
@@ -4012,13 +4012,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3811 1dde ED000000 		.4byte	0xed
  3812 1de2 0C       		.byte	0xc
  3813 1de3 08       		.uleb128 0x8
- 3814 1de4 73130000 		.4byte	.LASF431
+ 3814 1de4 55130000 		.4byte	.LASF431
  3815 1de8 23       		.byte	0x23
  3816 1de9 5F       		.byte	0x5f
  3817 1dea ED000000 		.4byte	0xed
  3818 1dee 10       		.byte	0x10
  3819 1def 08       		.uleb128 0x8
-ARM GAS  /var/tmp//cc2GGylR.s 			page 68
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 68
 
 
  3820 1df0 C1080000 		.4byte	.LASF417
@@ -4033,14 +4033,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3829 1e02 ED000000 		.4byte	0xed
  3830 1e06 18       		.byte	0x18
  3831 1e07 08       		.uleb128 0x8
- 3832 1e08 95120000 		.4byte	.LASF427
+ 3832 1e08 77120000 		.4byte	.LASF427
  3833 1e0c 23       		.byte	0x23
  3834 1e0d 63       		.byte	0x63
  3835 1e0e ED000000 		.4byte	0xed
  3836 1e12 1C       		.byte	0x1c
  3837 1e13 00       		.byte	0
  3838 1e14 03       		.uleb128 0x3
- 3839 1e15 810D0000 		.4byte	.LASF432
+ 3839 1e15 900D0000 		.4byte	.LASF432
  3840 1e19 23       		.byte	0x23
  3841 1e1a 64       		.byte	0x64
  3842 1e1b AB1D0000 		.4byte	0x1dab
@@ -4062,13 +4062,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3858 1e3d ED000000 		.4byte	0xed
  3859 1e41 04       		.byte	0x4
  3860 1e42 08       		.uleb128 0x8
- 3861 1e43 4D040000 		.4byte	.LASF435
+ 3861 1e43 71050000 		.4byte	.LASF435
  3862 1e47 23       		.byte	0x23
  3863 1e48 6C       		.byte	0x6c
  3864 1e49 ED000000 		.4byte	0xed
  3865 1e4d 08       		.byte	0x8
  3866 1e4e 08       		.uleb128 0x8
- 3867 1e4f 67150000 		.4byte	.LASF436
+ 3867 1e4f 49150000 		.4byte	.LASF436
  3868 1e53 23       		.byte	0x23
  3869 1e54 6D       		.byte	0x6d
  3870 1e55 ED000000 		.4byte	0xed
@@ -4078,7 +4078,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3874 1e5f 23       		.byte	0x23
  3875 1e60 6E       		.byte	0x6e
  3876 1e61 ED000000 		.4byte	0xed
-ARM GAS  /var/tmp//cc2GGylR.s 			page 69
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 69
 
 
  3877 1e65 10       		.byte	0x10
@@ -4089,25 +4089,25 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3882 1e6d ED000000 		.4byte	0xed
  3883 1e71 14       		.byte	0x14
  3884 1e72 08       		.uleb128 0x8
- 3885 1e73 3E0F0000 		.4byte	.LASF439
+ 3885 1e73 4D0F0000 		.4byte	.LASF439
  3886 1e77 23       		.byte	0x23
  3887 1e78 70       		.byte	0x70
  3888 1e79 ED000000 		.4byte	0xed
  3889 1e7d 18       		.byte	0x18
  3890 1e7e 08       		.uleb128 0x8
- 3891 1e7f 86040000 		.4byte	.LASF440
+ 3891 1e7f AA050000 		.4byte	.LASF440
  3892 1e83 23       		.byte	0x23
  3893 1e84 71       		.byte	0x71
  3894 1e85 ED000000 		.4byte	0xed
  3895 1e89 1C       		.byte	0x1c
  3896 1e8a 08       		.uleb128 0x8
- 3897 1e8b 7E040000 		.4byte	.LASF441
+ 3897 1e8b A2050000 		.4byte	.LASF441
  3898 1e8f 23       		.byte	0x23
  3899 1e90 73       		.byte	0x73
  3900 1e91 ED000000 		.4byte	0xed
  3901 1e95 20       		.byte	0x20
  3902 1e96 08       		.uleb128 0x8
- 3903 1e97 1B0F0000 		.4byte	.LASF442
+ 3903 1e97 2A0F0000 		.4byte	.LASF442
  3904 1e9b 23       		.byte	0x23
  3905 1e9c 75       		.byte	0x75
  3906 1e9d ED000000 		.4byte	0xed
@@ -4119,7 +4119,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3912 1ea9 ED000000 		.4byte	0xed
  3913 1ead 28       		.byte	0x28
  3914 1eae 08       		.uleb128 0x8
- 3915 1eaf 540F0000 		.4byte	.LASF444
+ 3915 1eaf 630F0000 		.4byte	.LASF444
  3916 1eb3 23       		.byte	0x23
  3917 1eb4 78       		.byte	0x78
  3918 1eb5 ED000000 		.4byte	0xed
@@ -4138,7 +4138,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3931 1ed1 34       		.byte	0x34
  3932 1ed2 08       		.uleb128 0x8
  3933 1ed3 E9000000 		.4byte	.LASF447
-ARM GAS  /var/tmp//cc2GGylR.s 			page 70
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 70
 
 
  3934 1ed7 23       		.byte	0x23
@@ -4158,7 +4158,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3948 1ef1 0C210000 		.4byte	0x210c
  3949 1ef5 40       		.byte	0x40
  3950 1ef6 25       		.uleb128 0x25
- 3951 1ef7 E0130000 		.4byte	.LASF449
+ 3951 1ef7 C2130000 		.4byte	.LASF449
  3952 1efb 23       		.byte	0x23
  3953 1efc 7F       		.byte	0x7f
  3954 1efd ED000000 		.4byte	0xed
@@ -4170,19 +4170,19 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3960 1f0a 4D090000 		.4byte	0x94d
  3961 1f0e 0401     		.2byte	0x104
  3962 1f10 25       		.uleb128 0x25
- 3963 1f11 390C0000 		.4byte	.LASF451
+ 3963 1f11 480C0000 		.4byte	.LASF451
  3964 1f15 23       		.byte	0x23
  3965 1f16 83       		.byte	0x83
  3966 1f17 21210000 		.4byte	0x2121
  3967 1f1b 4001     		.2byte	0x140
  3968 1f1d 25       		.uleb128 0x25
- 3969 1f1e CC0D0000 		.4byte	.LASF452
+ 3969 1f1e DB0D0000 		.4byte	.LASF452
  3970 1f22 23       		.byte	0x23
  3971 1f23 84       		.byte	0x84
  3972 1f24 ED000000 		.4byte	0xed
  3973 1f28 0004     		.2byte	0x400
  3974 1f2a 25       		.uleb128 0x25
- 3975 1f2b 2C150000 		.4byte	.LASF453
+ 3975 1f2b 0E150000 		.4byte	.LASF453
  3976 1f2f 23       		.byte	0x23
  3977 1f30 85       		.byte	0x85
  3978 1f31 ED000000 		.4byte	0xed
@@ -4198,7 +4198,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  3988 1f49 23       		.byte	0x23
  3989 1f4a 88       		.byte	0x88
  3990 1f4b ED000000 		.4byte	0xed
-ARM GAS  /var/tmp//cc2GGylR.s 			page 71
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 71
 
 
  3991 1f4f 0C04     		.2byte	0x40c
@@ -4221,7 +4221,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4008 1f72 ED000000 		.4byte	0xed
  4009 1f76 1804     		.2byte	0x418
  4010 1f78 25       		.uleb128 0x25
- 4011 1f79 CB100000 		.4byte	.LASF459
+ 4011 1f79 AD100000 		.4byte	.LASF459
  4012 1f7d 23       		.byte	0x23
  4013 1f7e 8F       		.byte	0x8f
  4014 1f7f 36210000 		.4byte	0x2136
@@ -4233,7 +4233,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4020 1f8c ED000000 		.4byte	0xed
  4021 1f90 4004     		.2byte	0x440
  4022 1f92 25       		.uleb128 0x25
- 4023 1f93 EC110000 		.4byte	.LASF461
+ 4023 1f93 CE110000 		.4byte	.LASF461
  4024 1f97 23       		.byte	0x23
  4025 1f98 92       		.byte	0x92
  4026 1f99 4B210000 		.4byte	0x214b
@@ -4251,14 +4251,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4038 1fb2 70210000 		.4byte	0x2170
  4039 1fb6 0007     		.2byte	0x700
  4040 1fb8 25       		.uleb128 0x25
- 4041 1fb9 51100000 		.4byte	.LASF463
+ 4041 1fb9 33100000 		.4byte	.LASF463
  4042 1fbd 23       		.byte	0x23
  4043 1fbe 95       		.byte	0x95
  4044 1fbf ED000000 		.4byte	0xed
  4045 1fc3 0008     		.2byte	0x800
  4046 1fc5 25       		.uleb128 0x25
- 4047 1fc6 40140000 		.4byte	.LASF464
-ARM GAS  /var/tmp//cc2GGylR.s 			page 72
+ 4047 1fc6 22140000 		.4byte	.LASF464
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 72
 
 
  4048 1fca 23       		.byte	0x23
@@ -4284,19 +4284,19 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4068 1ff3 ED000000 		.4byte	0xed
  4069 1ff7 1008     		.2byte	0x810
  4070 1ff9 25       		.uleb128 0x25
- 4071 1ffa D8120000 		.4byte	.LASF468
+ 4071 1ffa BA120000 		.4byte	.LASF468
  4072 1ffe 23       		.byte	0x23
  4073 1fff 9B       		.byte	0x9b
  4074 2000 ED000000 		.4byte	0xed
  4075 2004 1408     		.2byte	0x814
  4076 2006 25       		.uleb128 0x25
- 4077 2007 3E130000 		.4byte	.LASF469
+ 4077 2007 20130000 		.4byte	.LASF469
  4078 200b 23       		.byte	0x23
  4079 200c 9D       		.byte	0x9d
  4080 200d ED000000 		.4byte	0xed
  4081 2011 1808     		.2byte	0x818
  4082 2013 25       		.uleb128 0x25
- 4083 2014 28110000 		.4byte	.LASF470
+ 4083 2014 0A110000 		.4byte	.LASF470
  4084 2018 23       		.byte	0x23
  4085 2019 9F       		.byte	0x9f
  4086 201a ED000000 		.4byte	0xed
@@ -4318,7 +4318,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4102 203f 23       		.byte	0x23
  4103 2040 A3       		.byte	0xa3
  4104 2041 ED000000 		.4byte	0xed
-ARM GAS  /var/tmp//cc2GGylR.s 			page 73
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 73
 
 
  4105 2045 2808     		.2byte	0x828
@@ -4353,7 +4353,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4134 2082 ED000000 		.4byte	0xed
  4135 2086 3C08     		.2byte	0x83c
  4136 2088 25       		.uleb128 0x25
- 4137 2089 55040000 		.4byte	.LASF479
+ 4137 2089 79050000 		.4byte	.LASF479
  4138 208d 23       		.byte	0x23
  4139 208e AC       		.byte	0xac
  4140 208f 85210000 		.4byte	0x2185
@@ -4378,7 +4378,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4159 20b9 0009     		.2byte	0x900
  4160 20bb 26       		.uleb128 0x26
  4161 20bc 6F6500   		.ascii	"oe\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 74
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 74
 
 
  4162 20bf 23       		.byte	0x23
@@ -4392,7 +4392,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4170 20ce 70210000 		.4byte	0x2170
  4171 20d2 000D     		.2byte	0xd00
  4172 20d4 25       		.uleb128 0x25
- 4173 20d5 4B140000 		.4byte	.LASF483
+ 4173 20d5 2D140000 		.4byte	.LASF483
  4174 20d9 23       		.byte	0x23
  4175 20da B2       		.byte	0xb2
  4176 20db ED000000 		.4byte	0xed
@@ -4404,7 +4404,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4182 20e8 BA210000 		.4byte	0x21ba
  4183 20ec 040E     		.2byte	0xe04
  4184 20ee 25       		.uleb128 0x25
- 4185 20ef 2E140000 		.4byte	.LASF485
+ 4185 20ef 10140000 		.4byte	.LASF485
  4186 20f3 23       		.byte	0x23
  4187 20f4 B5       		.byte	0xb5
  4188 20f5 D6210000 		.4byte	0x21d6
@@ -4438,7 +4438,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4216 2136 04       		.uleb128 0x4
  4217 2137 26210000 		.4byte	0x2126
  4218 213b 11       		.uleb128 0x11
-ARM GAS  /var/tmp//cc2GGylR.s 			page 75
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 75
 
 
  4219 213c ED000000 		.4byte	0xed
@@ -4498,7 +4498,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4273 21ba 04       		.uleb128 0x4
  4274 21bb AA210000 		.4byte	0x21aa
  4275 21bf 11       		.uleb128 0x11
-ARM GAS  /var/tmp//cc2GGylR.s 			page 76
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 76
 
 
  4276 21c0 ED000000 		.4byte	0xed
@@ -4513,7 +4513,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4285 21d6 04       		.uleb128 0x4
  4286 21d7 BF210000 		.4byte	0x21bf
  4287 21db 03       		.uleb128 0x3
- 4288 21dc 94150000 		.4byte	.LASF486
+ 4288 21dc 76150000 		.4byte	.LASF486
  4289 21e0 23       		.byte	0x23
  4290 21e1 B6       		.byte	0xb6
  4291 21e2 1F1E0000 		.4byte	0x1e1f
@@ -4554,11 +4554,11 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4326 2226 DD       		.byte	0xdd
  4327 2227 38220000 		.4byte	0x2238
  4328 222b 08       		.uleb128 0x8
- 4329 222c 45140000 		.4byte	.LASF491
+ 4329 222c 27140000 		.4byte	.LASF491
  4330 2230 22       		.byte	0x22
  4331 2231 E1       		.byte	0xe1
  4332 2232 360E0000 		.4byte	0xe36
-ARM GAS  /var/tmp//cc2GGylR.s 			page 77
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 77
 
 
  4333 2236 00       		.byte	0
@@ -4584,12 +4584,12 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4353 2256 DC       		.byte	0xdc
  4354 2257 72220000 		.4byte	0x2272
  4355 225b 28       		.uleb128 0x28
- 4356 225c 25120000 		.4byte	.LASF492
+ 4356 225c 07120000 		.4byte	.LASF492
  4357 2260 22       		.byte	0x22
  4358 2261 E2       		.byte	0xe2
  4359 2262 23220000 		.4byte	0x2223
  4360 2266 28       		.uleb128 0x28
- 4361 2267 64110000 		.4byte	.LASF493
+ 4361 2267 46110000 		.4byte	.LASF493
  4362 226b 22       		.byte	0x22
  4363 226c E8       		.byte	0xe8
  4364 226d 38220000 		.4byte	0x2238
@@ -4600,7 +4600,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4369 2275 CF       		.byte	0xcf
  4370 2276 B7220000 		.4byte	0x22b7
  4371 227a 08       		.uleb128 0x8
- 4372 227b 6F040000 		.4byte	.LASF494
+ 4372 227b 93050000 		.4byte	.LASF494
  4373 227f 22       		.byte	0x22
  4374 2280 D3       		.byte	0xd3
  4375 2281 430E0000 		.4byte	0xe43
@@ -4612,13 +4612,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4381 228d 2C000000 		.4byte	0x2c
  4382 2291 04       		.byte	0x4
  4383 2292 08       		.uleb128 0x8
- 4384 2293 FF130000 		.4byte	.LASF496
+ 4384 2293 E1130000 		.4byte	.LASF496
  4385 2297 22       		.byte	0x22
  4386 2298 DB       		.byte	0xdb
  4387 2299 2C000000 		.4byte	0x2c
  4388 229d 08       		.byte	0x8
  4389 229e 08       		.uleb128 0x8
-ARM GAS  /var/tmp//cc2GGylR.s 			page 78
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 78
 
 
  4390 229f FC050000 		.4byte	.LASF311
@@ -4656,7 +4656,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4422 22dc 0701     		.2byte	0x107
  4423 22de F0220000 		.4byte	0x22f0
  4424 22e2 0A       		.uleb128 0xa
- 4425 22e3 E4110000 		.4byte	.LASF244
+ 4425 22e3 C6110000 		.4byte	.LASF244
  4426 22e7 22       		.byte	0x22
  4427 22e8 0B01     		.2byte	0x10b
  4428 22ea F0220000 		.4byte	0x22f0
@@ -4671,14 +4671,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4437 22f9 0001     		.2byte	0x100
  4438 22fb 18230000 		.4byte	0x2318
  4439 22ff 1D       		.uleb128 0x1d
- 4440 2300 25120000 		.4byte	.LASF492
+ 4440 2300 07120000 		.4byte	.LASF492
  4441 2304 22       		.byte	0x22
  4442 2305 0601     		.2byte	0x106
  4443 2307 C2220000 		.4byte	0x22c2
  4444 230b 1D       		.uleb128 0x1d
- 4445 230c 64110000 		.4byte	.LASF493
+ 4445 230c 46110000 		.4byte	.LASF493
  4446 2310 22       		.byte	0x22
-ARM GAS  /var/tmp//cc2GGylR.s 			page 79
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 79
 
 
  4447 2311 0C01     		.2byte	0x10c
@@ -4721,7 +4721,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4484 235d 10       		.byte	0x10
  4485 235e 00       		.byte	0
  4486 235f 18       		.uleb128 0x18
- 4487 2360 B7100000 		.4byte	.LASF502
+ 4487 2360 99100000 		.4byte	.LASF502
  4488 2364 22       		.byte	0x22
  4489 2365 1201     		.2byte	0x112
  4490 2367 18230000 		.4byte	0x2318
@@ -4731,14 +4731,14 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4494 236e 1801     		.2byte	0x118
  4495 2370 F7230000 		.4byte	0x23f7
  4496 2374 0A       		.uleb128 0xa
- 4497 2375 790D0000 		.4byte	.LASF503
+ 4497 2375 880D0000 		.4byte	.LASF503
  4498 2379 22       		.byte	0x22
  4499 237a 1C01     		.2byte	0x11c
  4500 237c E2000000 		.4byte	0xe2
  4501 2380 00       		.byte	0
  4502 2381 0A       		.uleb128 0xa
  4503 2382 68060000 		.4byte	.LASF504
-ARM GAS  /var/tmp//cc2GGylR.s 			page 80
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 80
 
 
  4504 2386 22       		.byte	0x22
@@ -4746,7 +4746,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4506 2389 281C0000 		.4byte	0x1c28
  4507 238d 04       		.byte	0x4
  4508 238e 0A       		.uleb128 0xa
- 4509 238f 010E0000 		.4byte	.LASF505
+ 4509 238f 100E0000 		.4byte	.LASF505
  4510 2393 22       		.byte	0x22
  4511 2394 2D01     		.2byte	0x12d
  4512 2396 281C0000 		.4byte	0x1c28
@@ -4758,7 +4758,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4518 23a3 281C0000 		.4byte	0x1c28
  4519 23a7 0C       		.byte	0xc
  4520 23a8 0A       		.uleb128 0xa
- 4521 23a9 B3150000 		.4byte	.LASF507
+ 4521 23a9 95150000 		.4byte	.LASF507
  4522 23ad 22       		.byte	0x22
  4523 23ae 3901     		.2byte	0x139
  4524 23b0 C2000000 		.4byte	0xc2
@@ -4770,7 +4770,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4530 23bd C2000000 		.4byte	0xc2
  4531 23c1 12       		.byte	0x12
  4532 23c2 0A       		.uleb128 0xa
- 4533 23c3 C7140000 		.4byte	.LASF509
+ 4533 23c3 A9140000 		.4byte	.LASF509
  4534 23c7 22       		.byte	0x22
  4535 23c8 4401     		.2byte	0x144
  4536 23ca F7230000 		.4byte	0x23f7
@@ -4788,7 +4788,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4548 23e4 C2000000 		.4byte	0xc2
  4549 23e8 1C       		.byte	0x1c
  4550 23e9 0A       		.uleb128 0xa
- 4551 23ea 73140000 		.4byte	.LASF512
+ 4551 23ea 55140000 		.4byte	.LASF512
  4552 23ee 22       		.byte	0x22
  4553 23ef 5601     		.2byte	0x156
  4554 23f1 1A0E0000 		.4byte	0xe1a
@@ -4798,13 +4798,13 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4558 23f8 04       		.byte	0x4
  4559 23f9 B7220000 		.4byte	0x22b7
  4560 23fd 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cc2GGylR.s 			page 81
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 81
 
 
  4561 23fe 04       		.byte	0x4
  4562 23ff 5F230000 		.4byte	0x235f
  4563 2403 18       		.uleb128 0x18
- 4564 2404 D2110000 		.4byte	.LASF513
+ 4564 2404 B4110000 		.4byte	.LASF513
  4565 2408 22       		.byte	0x22
  4566 2409 5701     		.2byte	0x157
  4567 240b 6B230000 		.4byte	0x236b
@@ -4822,7 +4822,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4579 2425 4A1C0000 		.4byte	0x1c4a
  4580 2429 00       		.byte	0
  4581 242a 0A       		.uleb128 0xa
- 4582 242b 05140000 		.4byte	.LASF515
+ 4582 242b E7130000 		.4byte	.LASF515
  4583 242f 22       		.byte	0x22
  4584 2430 6601     		.2byte	0x166
  4585 2432 8D1C0000 		.4byte	0x1c8d
@@ -4858,7 +4858,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4615 2477 03       		.byte	0x3
  4616 2478 00       		.byte	0
  4617 2479 0B       		.uleb128 0xb
-ARM GAS  /var/tmp//cc2GGylR.s 			page 82
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 82
 
 
  4618 247a 04       		.byte	0x4
@@ -4917,11 +4917,11 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4671 24ef F4240000 		.4byte	0x24f4
  4672 24f3 00       		.byte	0
  4673 24f4 2E       		.uleb128 0x2e
- 4674 24f5 FB0E0000 		.4byte	.LASF525
-ARM GAS  /var/tmp//cc2GGylR.s 			page 83
+ 4674 24f5 0A0F0000 		.4byte	.LASF525
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 83
 
 
- 4675 24f9 FB0E0000 		.4byte	.LASF525
+ 4675 24f9 0A0F0000 		.4byte	.LASF525
  4676 24fd 24       		.byte	0x24
  4677 24fe 1306     		.2byte	0x613
  4678 2500 00       		.byte	0
@@ -4978,7 +4978,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4729 0030 00       		.byte	0
  4730 0031 00       		.byte	0
  4731 0032 05       		.uleb128 0x5
-ARM GAS  /var/tmp//cc2GGylR.s 			page 84
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 84
 
 
  4732 0033 24       		.uleb128 0x24
@@ -5038,7 +5038,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4786 0069 3B       		.uleb128 0x3b
  4787 006a 05       		.uleb128 0x5
  4788 006b 49       		.uleb128 0x49
-ARM GAS  /var/tmp//cc2GGylR.s 			page 85
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 85
 
 
  4789 006c 13       		.uleb128 0x13
@@ -5098,7 +5098,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4843 00a2 05       		.uleb128 0x5
  4844 00a3 00       		.byte	0
  4845 00a4 49       		.uleb128 0x49
-ARM GAS  /var/tmp//cc2GGylR.s 			page 86
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 86
 
 
  4846 00a5 13       		.uleb128 0x13
@@ -5158,7 +5158,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4900 00db 3F       		.uleb128 0x3f
  4901 00dc 19       		.uleb128 0x19
  4902 00dd 3C       		.uleb128 0x3c
-ARM GAS  /var/tmp//cc2GGylR.s 			page 87
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 87
 
 
  4903 00de 19       		.uleb128 0x19
@@ -5218,7 +5218,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  4957 0114 0B       		.uleb128 0xb
  4958 0115 3B       		.uleb128 0x3b
  4959 0116 05       		.uleb128 0x5
-ARM GAS  /var/tmp//cc2GGylR.s 			page 88
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 88
 
 
  4960 0117 01       		.uleb128 0x1
@@ -5278,7 +5278,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5014 014d 49       		.uleb128 0x49
  5015 014e 13       		.uleb128 0x13
  5016 014f 38       		.uleb128 0x38
-ARM GAS  /var/tmp//cc2GGylR.s 			page 89
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 89
 
 
  5017 0150 05       		.uleb128 0x5
@@ -5338,7 +5338,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5071 0186 0B       		.uleb128 0xb
  5072 0187 49       		.uleb128 0x49
  5073 0188 13       		.uleb128 0x13
-ARM GAS  /var/tmp//cc2GGylR.s 			page 90
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 90
 
 
  5074 0189 00       		.byte	0
@@ -5398,7 +5398,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5128 01bf 01       		.byte	0x1
  5129 01c0 0B       		.uleb128 0xb
  5130 01c1 06       		.uleb128 0x6
-ARM GAS  /var/tmp//cc2GGylR.s 			page 91
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 91
 
 
  5131 01c2 3A       		.uleb128 0x3a
@@ -5458,7 +5458,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5185 01f8 3B       		.uleb128 0x3b
  5186 01f9 0B       		.uleb128 0xb
  5187 01fa 49       		.uleb128 0x49
-ARM GAS  /var/tmp//cc2GGylR.s 			page 92
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 92
 
 
  5188 01fb 13       		.uleb128 0x13
@@ -5518,7 +5518,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5242 0232 01       		.byte	0x1
  5243 0233 3F       		.uleb128 0x3f
  5244 0234 19       		.uleb128 0x19
-ARM GAS  /var/tmp//cc2GGylR.s 			page 93
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 93
 
 
  5245 0235 03       		.uleb128 0x3
@@ -5578,7 +5578,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5299 000b 00       		.byte	0
  5300 000c 0000     		.2byte	0
  5301 000e 0000     		.2byte	0
-ARM GAS  /var/tmp//cc2GGylR.s 			page 94
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 94
 
 
  5302 0010 00000000 		.4byte	.LFB256
@@ -5597,8 +5597,8 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5315 0014 00000000 		.4byte	0
  5316              		.section	.debug_line,"",%progbits
  5317              	.Ldebug_line0:
- 5318 0000 36050000 		.section	.debug_str,"MS",%progbits,1
- 5318      02000F05 
+ 5318 0000 39050000 		.section	.debug_str,"MS",%progbits,1
+ 5318      02001205 
  5318      00000201 
  5318      FB0E0D00 
  5318      01010101 
@@ -5638,7 +5638,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5334      54584630 
  5334      00
  5335              	.LASF519:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 95
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 95
 
 
  5336 005d 55534244 		.ascii	"USBD1\000"
@@ -5698,7 +5698,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5366 00e2 50434461 		.ascii	"PCData\000"
  5366      746100
  5367              	.LASF447:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 96
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 96
 
 
  5368 00e9 47434346 		.ascii	"GCCFG\000"
@@ -5758,7 +5758,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5398      5400
  5399              	.LASF165:
  5400 016f 63665F6F 		.ascii	"cf_off_flags\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 97
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 97
 
 
  5400      66665F66 
@@ -5818,7 +5818,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5428      6F7200
  5429              	.LASF17:
  5430 0207 696E7433 		.ascii	"int32_t\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 98
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 98
 
 
  5430      325F7400 
@@ -5878,7 +5878,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5460      6700
  5461              	.LASF273:
  5462 0293 49324344 		.ascii	"I2CDriver\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 99
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 99
 
 
  5462      72697665 
@@ -5938,7 +5938,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5490      6974696E 
  5490      6700
  5491              	.LASF91:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 100
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 100
 
 
  5492 0324 43414E5F 		.ascii	"CAN_TxMailBox_TypeDef\000"
@@ -5998,7 +5998,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5515              	.LASF471:
  5516 03bf 72657376 		.ascii	"resvd820\000"
  5516      64383230 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 101
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 101
 
 
  5516      00
@@ -6050,92 +6050,92 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5541              	.LASF426:
  5542 043a 44545846 		.ascii	"DTXFSTS\000"
  5542      53545300 
- 5543              	.LASF298:
- 5544 0442 43434552 		.ascii	"CCER\000"
- 5544      00
- 5545              	.LASF126:
- 5546 0447 49325350 		.ascii	"I2SPR\000"
- 5546      5200
- 5547              	.LASF435:
- 5548 044d 47414842 		.ascii	"GAHBCFG\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 102
+ 5543              	.LASF520:
+ 5544 0442 474E5520 		.ascii	"GNU C99 6.3.1 20170215 (release) [ARM/embedded-6-br"
+ 5544      43393920 
+ 5544      362E332E 
+ 5544      31203230 
+ 5544      31373032 
+ 5545 0475 616E6368 		.ascii	"anch revision 245512] -mcpu=cortex-m4 -mfloat-abi=h"
+ 5545      20726576 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 102
 
 
- 5548      43464700 
- 5549              	.LASF479:
- 5550 0455 72657376 		.ascii	"resvd840\000"
- 5550      64383430 
- 5550      00
- 5551              	.LASF122:
- 5552 045e 43524350 		.ascii	"CRCPR\000"
- 5552      5200
- 5553              	.LASF6:
- 5554 0464 5F5F7569 		.ascii	"__uint16_t\000"
- 5554      6E743136 
- 5554      5F7400
- 5555              	.LASF494:
- 5556 046f 74787175 		.ascii	"txqueued\000"
- 5556      65756564 
- 5556      00
- 5557              	.LASF46:
- 5558 0478 705F6D73 		.ascii	"p_msg\000"
- 5558      6700
- 5559              	.LASF441:
- 5560 047e 47525853 		.ascii	"GRXSTSP\000"
- 5560      54535000 
- 5561              	.LASF440:
- 5562 0486 47525853 		.ascii	"GRXSTSR\000"
- 5562      54535200 
- 5563              	.LASF115:
- 5564 048e 4D314152 		.ascii	"M1AR\000"
- 5564      00
- 5565              	.LASF380:
- 5566 0493 77616974 		.ascii	"wait\000"
- 5566      00
- 5567              	.LASF116:
- 5568 0498 444D415F 		.ascii	"DMA_Stream_TypeDef\000"
- 5568      53747265 
- 5568      616D5F54 
- 5568      79706544 
- 5568      656600
- 5569              	.LASF387:
- 5570 04ab 5553425F 		.ascii	"USB_ACTIVE\000"
- 5570      41435449 
- 5570      564500
- 5571              	.LASF520:
- 5572 04b6 474E5520 		.ascii	"GNU C99 6.3.1 20170620 (release) [ARM/embedded-6-br"
- 5572      43393920 
- 5572      362E332E 
- 5572      31203230 
- 5572      31373036 
- 5573 04e9 616E6368 		.ascii	"anch revision 249437] -mcpu=cortex-m4 -mfloat-abi=h"
- 5573      20726576 
- 5573      6973696F 
- 5573      6E203234 
- 5573      39343337 
- 5574 051c 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 5574      2D6D6670 
- 5574      753D6670 
- 5574      76342D73 
- 5574      702D6431 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 103
+ 5545      6973696F 
+ 5545      6E203234 
+ 5545      35353132 
+ 5546 04a8 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 5546      2D6D6670 
+ 5546      753D6670 
+ 5546      76342D73 
+ 5546      702D6431 
+ 5547 04db 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
+ 5547      62202D4F 
+ 5547      32202D73 
+ 5547      74643D67 
+ 5547      6E753939 
+ 5548 050e 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
+ 5548      696F6E73 
+ 5548      3D313620 
+ 5548      2D666675 
+ 5548      6E637469 
+ 5549 0541 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
+ 5549      6D6D6F6E 
+ 5549      202D6673 
+ 5549      696E676C 
+ 5549      652D7072 
+ 5550              	.LASF298:
+ 5551 0566 43434552 		.ascii	"CCER\000"
+ 5551      00
+ 5552              	.LASF126:
+ 5553 056b 49325350 		.ascii	"I2SPR\000"
+ 5553      5200
+ 5554              	.LASF435:
+ 5555 0571 47414842 		.ascii	"GAHBCFG\000"
+ 5555      43464700 
+ 5556              	.LASF479:
+ 5557 0579 72657376 		.ascii	"resvd840\000"
+ 5557      64383430 
+ 5557      00
+ 5558              	.LASF122:
+ 5559 0582 43524350 		.ascii	"CRCPR\000"
+ 5559      5200
+ 5560              	.LASF6:
+ 5561 0588 5F5F7569 		.ascii	"__uint16_t\000"
+ 5561      6E743136 
+ 5561      5F7400
+ 5562              	.LASF494:
+ 5563 0593 74787175 		.ascii	"txqueued\000"
+ 5563      65756564 
+ 5563      00
+ 5564              	.LASF46:
+ 5565 059c 705F6D73 		.ascii	"p_msg\000"
+ 5565      6700
+ 5566              	.LASF441:
+ 5567 05a2 47525853 		.ascii	"GRXSTSP\000"
+ 5567      54535000 
+ 5568              	.LASF440:
+ 5569 05aa 47525853 		.ascii	"GRXSTSR\000"
+ 5569      54535200 
+ 5570              	.LASF115:
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 103
 
 
- 5575 054f 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
- 5575      62202D4F 
- 5575      32202D73 
- 5575      74643D67 
- 5575      6E753939 
- 5576 0582 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
- 5576      696F6E73 
- 5576      3D313620 
- 5576      2D666675 
- 5576      6E637469 
- 5577 05b5 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
- 5577      6D6D6F6E 
- 5577      202D6673 
- 5577      696E676C 
- 5577      652D7072 
+ 5571 05b2 4D314152 		.ascii	"M1AR\000"
+ 5571      00
+ 5572              	.LASF380:
+ 5573 05b7 77616974 		.ascii	"wait\000"
+ 5573      00
+ 5574              	.LASF116:
+ 5575 05bc 444D415F 		.ascii	"DMA_Stream_TypeDef\000"
+ 5575      53747265 
+ 5575      616D5F54 
+ 5575      79706544 
+ 5575      656600
+ 5576              	.LASF387:
+ 5577 05cf 5553425F 		.ascii	"USB_ACTIVE\000"
+ 5577      41435449 
+ 5577      564500
  5578              	.LASF428:
  5579 05da 73746D33 		.ascii	"stm32_otg_in_ep_t\000"
  5579      325F6F74 
@@ -6178,7 +6178,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5597 063f 72785F66 		.ascii	"rx_fifo_size\000"
  5597      69666F5F 
  5597      73697A65 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 104
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 104
 
 
  5597      00
@@ -6238,7 +6238,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5624              	.LASF234:
  5625 06d5 43414E5F 		.ascii	"CAN_UNINIT\000"
  5625      554E494E 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 105
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 105
 
 
  5625      495400
@@ -6298,7 +6298,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5652              	.LASF103:
  5653 076d 464D3152 		.ascii	"FM1R\000"
  5653      00
-ARM GAS  /var/tmp//cc2GGylR.s 			page 106
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 106
 
 
  5654              	.LASF231:
@@ -6358,7 +6358,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5679      65776572 
  5679      00
  5680              	.LASF467:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 107
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 107
 
 
  5681 0803 44494550 		.ascii	"DIEPMSK\000"
@@ -6418,7 +6418,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5712              	.LASF302:
  5713 088a 43435852 		.ascii	"CCXR\000"
  5713      00
-ARM GAS  /var/tmp//cc2GGylR.s 			page 108
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 108
 
 
  5714              	.LASF112:
@@ -6478,7 +6478,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5745      00
  5746              	.LASF225:
  5747 091c 50444461 		.ascii	"PDData\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 109
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 109
 
 
  5747      746100
@@ -6538,7 +6538,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5777      697A6500 
  5778              	.LASF411:
  5779 09a7 75736267 		.ascii	"usbgetdescriptor_t\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 110
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 110
 
 
  5779      65746465 
@@ -6598,7 +6598,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5805      746100
  5806              	.LASF13:
  5807 0a45 5F5F7569 		.ascii	"__uint64_t\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 111
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 111
 
 
  5807      6E743634 
@@ -6658,7 +6658,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5834              	.LASF316:
  5835 0ad7 6368616E 		.ascii	"channel\000"
  5835      6E656C00 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 112
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 112
 
 
  5836              	.LASF23:
@@ -6718,7 +6718,7 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5865 0b68 72786368 		.ascii	"rxchar_cb\000"
  5865      61725F63 
  5865      6200
-ARM GAS  /var/tmp//cc2GGylR.s 			page 113
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 113
 
 
  5866              	.LASF257:
@@ -6778,1027 +6778,1026 @@ ARM GAS  /var/tmp//cc2GGylR.s 			page 1
  5893      545F434F 
  5893      4E464947 
  5893      55524544 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 114
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 114
 
 
- 5894              	.LASF24:
- 5895 0c0c 74736C69 		.ascii	"tslices_t\000"
- 5895      6365735F 
- 5895      7400
- 5896              	.LASF156:
- 5897 0c16 63685F74 		.ascii	"ch_timesize\000"
- 5897      696D6573 
- 5897      697A6500 
- 5898              	.LASF381:
- 5899 0c22 77615F70 		.ascii	"wa_pump\000"
- 5899      756D7000 
- 5900              	.LASF181:
- 5901 0c2a 6576656E 		.ascii	"event_source_t\000"
- 5901      745F736F 
- 5901      75726365 
- 5901      5F7400
- 5902              	.LASF451:
- 5903 0c39 72657376 		.ascii	"resvd140\000"
- 5903      64313430 
- 5903      00
- 5904              	.LASF70:
- 5905 0c42 76745F64 		.ascii	"vt_delta\000"
- 5905      656C7461 
+ 5894              	.LASF522:
+ 5895 0c0c 443A5C65 		.ascii	"D:\\ebikeSystem\000"
+ 5895      62696B65 
+ 5895      53797374 
+ 5895      656D00
+ 5896              	.LASF24:
+ 5897 0c1b 74736C69 		.ascii	"tslices_t\000"
+ 5897      6365735F 
+ 5897      7400
+ 5898              	.LASF156:
+ 5899 0c25 63685F74 		.ascii	"ch_timesize\000"
+ 5899      696D6573 
+ 5899      697A6500 
+ 5900              	.LASF381:
+ 5901 0c31 77615F70 		.ascii	"wa_pump\000"
+ 5901      756D7000 
+ 5902              	.LASF181:
+ 5903 0c39 6576656E 		.ascii	"event_source_t\000"
+ 5903      745F736F 
+ 5903      75726365 
+ 5903      5F7400
+ 5904              	.LASF451:
+ 5905 0c48 72657376 		.ascii	"resvd140\000"
+ 5905      64313430 
  5905      00
- 5906              	.LASF85:
- 5907 0c4b 73697A65 		.ascii	"sizetype\000"
- 5907      74797065 
+ 5906              	.LASF70:
+ 5907 0c51 76745F64 		.ascii	"vt_delta\000"
+ 5907      656C7461 
  5907      00
- 5908              	.LASF400:
- 5909 0c54 5553425F 		.ascii	"USB_EVENT_SUSPEND\000"
- 5909      4556454E 
- 5909      545F5355 
- 5909      5350454E 
- 5909      4400
- 5910              	.LASF7:
- 5911 0c66 73686F72 		.ascii	"short unsigned int\000"
- 5911      7420756E 
- 5911      7369676E 
- 5911      65642069 
- 5911      6E7400
- 5912              	.LASF1:
- 5913 0c79 7369676E 		.ascii	"signed char\000"
- 5913      65642063 
- 5913      68617200 
- 5914              	.LASF42:
- 5915 0c85 705F7072 		.ascii	"p_preempt\000"
- 5915      65656D70 
- 5915      7400
- 5916              	.LASF43:
- 5917 0c8f 705F7469 		.ascii	"p_time\000"
- 5917      6D6500
- 5918              	.LASF90:
- 5919 0c96 54444852 		.ascii	"TDHR\000"
- 5919      00
- 5920              	.LASF393:
- 5921 0c9b 5553425F 		.ascii	"USB_EP0_RX\000"
- 5921      4550305F 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 115
+ 5908              	.LASF85:
+ 5909 0c5a 73697A65 		.ascii	"sizetype\000"
+ 5909      74797065 
+ 5909      00
+ 5910              	.LASF400:
+ 5911 0c63 5553425F 		.ascii	"USB_EVENT_SUSPEND\000"
+ 5911      4556454E 
+ 5911      545F5355 
+ 5911      5350454E 
+ 5911      4400
+ 5912              	.LASF7:
+ 5913 0c75 73686F72 		.ascii	"short unsigned int\000"
+ 5913      7420756E 
+ 5913      7369676E 
+ 5913      65642069 
+ 5913      6E7400
+ 5914              	.LASF1:
+ 5915 0c88 7369676E 		.ascii	"signed char\000"
+ 5915      65642063 
+ 5915      68617200 
+ 5916              	.LASF42:
+ 5917 0c94 705F7072 		.ascii	"p_preempt\000"
+ 5917      65656D70 
+ 5917      7400
+ 5918              	.LASF43:
+ 5919 0c9e 705F7469 		.ascii	"p_time\000"
+ 5919      6D6500
+ 5920              	.LASF90:
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 115
 
 
- 5921      525800
- 5922              	.LASF374:
- 5923 0ca6 73746174 		.ascii	"status\000"
- 5923      757300
- 5924              	.LASF406:
- 5925 0cad 55534244 		.ascii	"USBDescriptor\000"
- 5925      65736372 
- 5925      6970746F 
- 5925      7200
- 5926              	.LASF348:
- 5927 0cbb 72787374 		.ascii	"rxstate\000"
- 5927      61746500 
- 5928              	.LASF375:
- 5929 0cc3 61646472 		.ascii	"address\000"
- 5929      65737300 
- 5930              	.LASF45:
- 5931 0ccb 705F6D73 		.ascii	"p_msgqueue\000"
- 5931      67717565 
- 5931      756500
- 5932              	.LASF166:
- 5933 0cd6 63665F6F 		.ascii	"cf_off_refs\000"
- 5933      66665F72 
- 5933      65667300 
- 5934              	.LASF148:
- 5935 0ce2 6D5F6F77 		.ascii	"m_owner\000"
- 5935      6E657200 
- 5936              	.LASF87:
- 5937 0cea 53797374 		.ascii	"SystemCoreClock\000"
- 5937      656D436F 
- 5937      7265436C 
- 5937      6F636B00 
- 5938              	.LASF241:
- 5939 0cfa 73746174 		.ascii	"state\000"
- 5939      6500
- 5940              	.LASF154:
- 5941 0d00 63685F76 		.ascii	"ch_version\000"
- 5941      65727369 
- 5941      6F6E00
- 5942              	.LASF392:
- 5943 0d0b 5553425F 		.ascii	"USB_EP0_WAITING_STS\000"
- 5943      4550305F 
- 5943      57414954 
- 5943      494E475F 
- 5943      53545300 
- 5944              	.LASF121:
- 5945 0d1f 4932435F 		.ascii	"I2C_TypeDef\000"
- 5945      54797065 
- 5945      44656600 
- 5946              	.LASF94:
- 5947 0d2b 52444852 		.ascii	"RDHR\000"
- 5947      00
- 5948              	.LASF300:
- 5949 0d30 444D4152 		.ascii	"DMAR\000"
+ 5921 0ca5 54444852 		.ascii	"TDHR\000"
+ 5921      00
+ 5922              	.LASF393:
+ 5923 0caa 5553425F 		.ascii	"USB_EP0_RX\000"
+ 5923      4550305F 
+ 5923      525800
+ 5924              	.LASF374:
+ 5925 0cb5 73746174 		.ascii	"status\000"
+ 5925      757300
+ 5926              	.LASF406:
+ 5927 0cbc 55534244 		.ascii	"USBDescriptor\000"
+ 5927      65736372 
+ 5927      6970746F 
+ 5927      7200
+ 5928              	.LASF348:
+ 5929 0cca 72787374 		.ascii	"rxstate\000"
+ 5929      61746500 
+ 5930              	.LASF375:
+ 5931 0cd2 61646472 		.ascii	"address\000"
+ 5931      65737300 
+ 5932              	.LASF45:
+ 5933 0cda 705F6D73 		.ascii	"p_msgqueue\000"
+ 5933      67717565 
+ 5933      756500
+ 5934              	.LASF166:
+ 5935 0ce5 63665F6F 		.ascii	"cf_off_refs\000"
+ 5935      66665F72 
+ 5935      65667300 
+ 5936              	.LASF148:
+ 5937 0cf1 6D5F6F77 		.ascii	"m_owner\000"
+ 5937      6E657200 
+ 5938              	.LASF87:
+ 5939 0cf9 53797374 		.ascii	"SystemCoreClock\000"
+ 5939      656D436F 
+ 5939      7265436C 
+ 5939      6F636B00 
+ 5940              	.LASF241:
+ 5941 0d09 73746174 		.ascii	"state\000"
+ 5941      6500
+ 5942              	.LASF154:
+ 5943 0d0f 63685F76 		.ascii	"ch_version\000"
+ 5943      65727369 
+ 5943      6F6E00
+ 5944              	.LASF392:
+ 5945 0d1a 5553425F 		.ascii	"USB_EP0_WAITING_STS\000"
+ 5945      4550305F 
+ 5945      57414954 
+ 5945      494E475F 
+ 5945      53545300 
+ 5946              	.LASF121:
+ 5947 0d2e 4932435F 		.ascii	"I2C_TypeDef\000"
+ 5947      54797065 
+ 5947      44656600 
+ 5948              	.LASF94:
+ 5949 0d3a 52444852 		.ascii	"RDHR\000"
  5949      00
- 5950              	.LASF80:
- 5951 0d35 63685F73 		.ascii	"ch_system\000"
- 5951      79737465 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 116
+ 5950              	.LASF300:
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 116
 
 
- 5951      6D00
- 5952              	.LASF341:
- 5953 0d3f 55415254 		.ascii	"UART_RX_IDLE\000"
- 5953      5F52585F 
- 5953      49444C45 
- 5953      00
- 5954              	.LASF143:
- 5955 0d4c 63685F73 		.ascii	"ch_semaphore\000"
- 5955      656D6170 
- 5955      686F7265 
+ 5951 0d3f 444D4152 		.ascii	"DMAR\000"
+ 5951      00
+ 5952              	.LASF80:
+ 5953 0d44 63685F73 		.ascii	"ch_system\000"
+ 5953      79737465 
+ 5953      6D00
+ 5954              	.LASF341:
+ 5955 0d4e 55415254 		.ascii	"UART_RX_IDLE\000"
+ 5955      5F52585F 
+ 5955      49444C45 
  5955      00
- 5956              	.LASF425:
- 5957 0d59 44494550 		.ascii	"DIEPTSIZ\000"
- 5957      5453495A 
+ 5956              	.LASF143:
+ 5957 0d5b 63685F73 		.ascii	"ch_semaphore\000"
+ 5957      656D6170 
+ 5957      686F7265 
  5957      00
- 5958              	.LASF55:
- 5959 0d62 74687265 		.ascii	"threads_queue_t\000"
- 5959      6164735F 
- 5959      71756575 
- 5959      655F7400 
- 5960              	.LASF41:
- 5961 0d72 705F7265 		.ascii	"p_refs\000"
- 5961      667300
- 5962              	.LASF503:
- 5963 0d79 65705F6D 		.ascii	"ep_mode\000"
- 5963      6F646500 
- 5964              	.LASF432:
- 5965 0d81 73746D33 		.ascii	"stm32_otg_out_ep_t\000"
- 5965      325F6F74 
- 5965      675F6F75 
- 5965      745F6570 
- 5965      5F7400
- 5966              	.LASF89:
- 5967 0d94 54444C52 		.ascii	"TDLR\000"
- 5967      00
- 5968              	.LASF9:
- 5969 0d99 6C6F6E67 		.ascii	"long int\000"
- 5969      20696E74 
+ 5958              	.LASF425:
+ 5959 0d68 44494550 		.ascii	"DIEPTSIZ\000"
+ 5959      5453495A 
+ 5959      00
+ 5960              	.LASF55:
+ 5961 0d71 74687265 		.ascii	"threads_queue_t\000"
+ 5961      6164735F 
+ 5961      71756575 
+ 5961      655F7400 
+ 5962              	.LASF41:
+ 5963 0d81 705F7265 		.ascii	"p_refs\000"
+ 5963      667300
+ 5964              	.LASF503:
+ 5965 0d88 65705F6D 		.ascii	"ep_mode\000"
+ 5965      6F646500 
+ 5966              	.LASF432:
+ 5967 0d90 73746D33 		.ascii	"stm32_otg_out_ep_t\000"
+ 5967      325F6F74 
+ 5967      675F6F75 
+ 5967      745F6570 
+ 5967      5F7400
+ 5968              	.LASF89:
+ 5969 0da3 54444C52 		.ascii	"TDLR\000"
  5969      00
- 5970              	.LASF83:
- 5971 0da2 6D61696E 		.ascii	"mainthread\000"
- 5971      74687265 
- 5971      616400
- 5972              	.LASF371:
- 5973 0dad 6570306E 		.ascii	"ep0n\000"
- 5973      00
- 5974              	.LASF147:
- 5975 0db2 6D5F7175 		.ascii	"m_queue\000"
- 5975      65756500 
- 5976              	.LASF229:
- 5977 0dba 50484461 		.ascii	"PHData\000"
- 5977      746100
- 5978              	.LASF232:
- 5979 0dc1 696F706F 		.ascii	"ioportid_t\000"
- 5979      72746964 
- 5979      5F7400
- 5980              	.LASF452:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 117
+ 5970              	.LASF9:
+ 5971 0da8 6C6F6E67 		.ascii	"long int\000"
+ 5971      20696E74 
+ 5971      00
+ 5972              	.LASF83:
+ 5973 0db1 6D61696E 		.ascii	"mainthread\000"
+ 5973      74687265 
+ 5973      616400
+ 5974              	.LASF371:
+ 5975 0dbc 6570306E 		.ascii	"ep0n\000"
+ 5975      00
+ 5976              	.LASF147:
+ 5977 0dc1 6D5F7175 		.ascii	"m_queue\000"
+ 5977      65756500 
+ 5978              	.LASF229:
+ 5979 0dc9 50484461 		.ascii	"PHData\000"
+ 5979      746100
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 117
 
 
- 5981 0dcc 48434647 		.ascii	"HCFG\000"
- 5981      00
- 5982              	.LASF350:
- 5983 0dd1 646D616D 		.ascii	"dmamode\000"
- 5983      6F646500 
- 5984              	.LASF332:
- 5985 0dd9 53504944 		.ascii	"SPID1\000"
- 5985      3100
- 5986              	.LASF336:
- 5987 0ddf 75617274 		.ascii	"uartstate_t\000"
- 5987      73746174 
- 5987      655F7400 
- 5988              	.LASF139:
- 5989 0deb 77747472 		.ascii	"wttrp\000"
- 5989      7000
- 5990              	.LASF189:
- 5991 0df1 715F7264 		.ascii	"q_rdptr\000"
- 5991      70747200 
- 5992              	.LASF132:
- 5993 0df9 636F6E74 		.ascii	"context\000"
- 5993      65787400 
- 5994              	.LASF505:
- 5995 0e01 696E5F63 		.ascii	"in_cb\000"
- 5995      6200
- 5996              	.LASF430:
- 5997 0e07 444F4550 		.ascii	"DOEPINT\000"
- 5997      494E5400 
- 5998              	.LASF211:
- 5999 0e0f 4C434B52 		.ascii	"LCKR\000"
- 5999      00
- 6000              	.LASF18:
- 6001 0e14 75696E74 		.ascii	"uint32_t\000"
- 6001      33325F74 
+ 5980              	.LASF232:
+ 5981 0dd0 696F706F 		.ascii	"ioportid_t\000"
+ 5981      72746964 
+ 5981      5F7400
+ 5982              	.LASF452:
+ 5983 0ddb 48434647 		.ascii	"HCFG\000"
+ 5983      00
+ 5984              	.LASF350:
+ 5985 0de0 646D616D 		.ascii	"dmamode\000"
+ 5985      6F646500 
+ 5986              	.LASF332:
+ 5987 0de8 53504944 		.ascii	"SPID1\000"
+ 5987      3100
+ 5988              	.LASF336:
+ 5989 0dee 75617274 		.ascii	"uartstate_t\000"
+ 5989      73746174 
+ 5989      655F7400 
+ 5990              	.LASF139:
+ 5991 0dfa 77747472 		.ascii	"wttrp\000"
+ 5991      7000
+ 5992              	.LASF189:
+ 5993 0e00 715F7264 		.ascii	"q_rdptr\000"
+ 5993      70747200 
+ 5994              	.LASF132:
+ 5995 0e08 636F6E74 		.ascii	"context\000"
+ 5995      65787400 
+ 5996              	.LASF505:
+ 5997 0e10 696E5F63 		.ascii	"in_cb\000"
+ 5997      6200
+ 5998              	.LASF430:
+ 5999 0e16 444F4550 		.ascii	"DOEPINT\000"
+ 5999      494E5400 
+ 6000              	.LASF211:
+ 6001 0e1e 4C434B52 		.ascii	"LCKR\000"
  6001      00
- 6002              	.LASF197:
- 6003 0e1d 636F6E66 		.ascii	"conf_general_permanent_nrf_found\000"
- 6003      5F67656E 
- 6003      6572616C 
- 6003      5F706572 
- 6003      6D616E65 
- 6004              	.LASF410:
- 6005 0e3e 75736272 		.ascii	"usbreqhandler_t\000"
- 6005      65716861 
- 6005      6E646C65 
- 6005      725F7400 
- 6006              	.LASF93:
- 6007 0e4e 52444C52 		.ascii	"RDLR\000"
- 6007      00
- 6008              	.LASF130:
- 6009 0e53 72656761 		.ascii	"regarm_t\000"
- 6009      726D5F74 
+ 6002              	.LASF18:
+ 6003 0e23 75696E74 		.ascii	"uint32_t\000"
+ 6003      33325F74 
+ 6003      00
+ 6004              	.LASF197:
+ 6005 0e2c 636F6E66 		.ascii	"conf_general_permanent_nrf_found\000"
+ 6005      5F67656E 
+ 6005      6572616C 
+ 6005      5F706572 
+ 6005      6D616E65 
+ 6006              	.LASF410:
+ 6007 0e4d 75736272 		.ascii	"usbreqhandler_t\000"
+ 6007      65716861 
+ 6007      6E646C65 
+ 6007      725F7400 
+ 6008              	.LASF93:
+ 6009 0e5d 52444C52 		.ascii	"RDLR\000"
  6009      00
- 6010              	.LASF27:
- 6011 0e5c 6576656E 		.ascii	"eventmask_t\000"
- 6011      746D6173 
- 6011      6B5F7400 
- 6012              	.LASF397:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 118
+ 6010              	.LASF130:
+ 6011 0e62 72656761 		.ascii	"regarm_t\000"
+ 6011      726D5F74 
+ 6011      00
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 118
 
 
- 6013 0e68 5553425F 		.ascii	"USB_EVENT_RESET\000"
- 6013      4556454E 
- 6013      545F5245 
- 6013      53455400 
- 6014              	.LASF107:
- 6015 0e78 46464131 		.ascii	"FFA1R\000"
- 6015      5200
- 6016              	.LASF386:
- 6017 0e7e 5553425F 		.ascii	"USB_SELECTED\000"
- 6017      53454C45 
- 6017      43544544 
- 6017      00
- 6018              	.LASF11:
- 6019 0e8b 6C6F6E67 		.ascii	"long unsigned int\000"
- 6019      20756E73 
- 6019      69676E65 
- 6019      6420696E 
- 6019      7400
- 6020              	.LASF188:
- 6021 0e9d 715F7772 		.ascii	"q_wrptr\000"
- 6021      70747200 
- 6022              	.LASF289:
- 6023 0ea5 49435544 		.ascii	"ICUDriver\000"
- 6023      72697665 
- 6023      7200
- 6024              	.LASF318:
- 6025 0eaf 49435543 		.ascii	"ICUConfig\000"
- 6025      6F6E6669 
- 6025      6700
- 6026              	.LASF398:
- 6027 0eb9 5553425F 		.ascii	"USB_EVENT_ADDRESS\000"
- 6027      4556454E 
- 6027      545F4144 
- 6027      44524553 
- 6027      5300
- 6028              	.LASF352:
- 6029 0ecb 75617274 		.ascii	"uartcb_t\000"
- 6029      63625F74 
- 6029      00
- 6030              	.LASF245:
- 6031 0ed4 72786675 		.ascii	"rxfull_event\000"
- 6031      6C6C5F65 
- 6031      76656E74 
+ 6012              	.LASF27:
+ 6013 0e6b 6576656E 		.ascii	"eventmask_t\000"
+ 6013      746D6173 
+ 6013      6B5F7400 
+ 6014              	.LASF397:
+ 6015 0e77 5553425F 		.ascii	"USB_EVENT_RESET\000"
+ 6015      4556454E 
+ 6015      545F5245 
+ 6015      53455400 
+ 6016              	.LASF107:
+ 6017 0e87 46464131 		.ascii	"FFA1R\000"
+ 6017      5200
+ 6018              	.LASF386:
+ 6019 0e8d 5553425F 		.ascii	"USB_SELECTED\000"
+ 6019      53454C45 
+ 6019      43544544 
+ 6019      00
+ 6020              	.LASF11:
+ 6021 0e9a 6C6F6E67 		.ascii	"long unsigned int\000"
+ 6021      20756E73 
+ 6021      69676E65 
+ 6021      6420696E 
+ 6021      7400
+ 6022              	.LASF188:
+ 6023 0eac 715F7772 		.ascii	"q_wrptr\000"
+ 6023      70747200 
+ 6024              	.LASF289:
+ 6025 0eb4 49435544 		.ascii	"ICUDriver\000"
+ 6025      72697665 
+ 6025      7200
+ 6026              	.LASF318:
+ 6027 0ebe 49435543 		.ascii	"ICUConfig\000"
+ 6027      6F6E6669 
+ 6027      6700
+ 6028              	.LASF398:
+ 6029 0ec8 5553425F 		.ascii	"USB_EVENT_ADDRESS\000"
+ 6029      4556454E 
+ 6029      545F4144 
+ 6029      44524553 
+ 6029      5300
+ 6030              	.LASF352:
+ 6031 0eda 75617274 		.ascii	"uartcb_t\000"
+ 6031      63625F74 
  6031      00
- 6032              	.LASF403:
- 6033 0ee1 75736265 		.ascii	"usbevent_t\000"
+ 6032              	.LASF245:
+ 6033 0ee3 72786675 		.ascii	"rxfull_event\000"
+ 6033      6C6C5F65 
  6033      76656E74 
- 6033      5F7400
- 6034              	.LASF150:
- 6035 0eec 63686172 		.ascii	"char\000"
- 6035      00
- 6036              	.LASF240:
- 6037 0ef1 43414E43 		.ascii	"CANConfig\000"
- 6037      6F6E6669 
- 6037      6700
- 6038              	.LASF525:
- 6039 0efb 73746D33 		.ascii	"stm32_clock_init\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 119
+ 6033      00
+ 6034              	.LASF403:
+ 6035 0ef0 75736265 		.ascii	"usbevent_t\000"
+ 6035      76656E74 
+ 6035      5F7400
+ 6036              	.LASF150:
+ 6037 0efb 63686172 		.ascii	"char\000"
+ 6037      00
+ 6038              	.LASF240:
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 119
 
 
- 6039      325F636C 
- 6039      6F636B5F 
- 6039      696E6974 
- 6039      00
- 6040              	.LASF226:
- 6041 0f0c 50454461 		.ascii	"PEData\000"
- 6041      746100
- 6042              	.LASF59:
- 6043 0f13 725F7175 		.ascii	"r_queue\000"
- 6043      65756500 
- 6044              	.LASF442:
- 6045 0f1b 47525846 		.ascii	"GRXFSIZ\000"
- 6045      53495A00 
- 6046              	.LASF349:
- 6047 0f23 75736172 		.ascii	"usart\000"
- 6047      7400
- 6048              	.LASF191:
- 6049 0f29 715F6C69 		.ascii	"q_link\000"
- 6049      6E6B00
- 6050              	.LASF308:
- 6051 0f30 4943555F 		.ascii	"ICU_CHANNEL_1\000"
- 6051      4348414E 
- 6051      4E454C5F 
- 6051      3100
- 6052              	.LASF439:
- 6053 0f3e 47494E54 		.ascii	"GINTMSK\000"
- 6053      4D534B00 
- 6054              	.LASF293:
- 6055 0f46 69637563 		.ascii	"icucallback_t\000"
- 6055      616C6C62 
- 6055      61636B5F 
- 6055      7400
- 6056              	.LASF444:
- 6057 0f54 484E5054 		.ascii	"HNPTXSTS\000"
- 6057      58535453 
- 6057      00
- 6058              	.LASF376:
- 6059 0f5d 636F6E66 		.ascii	"configuration\000"
- 6059      69677572 
- 6059      6174696F 
- 6059      6E00
- 6060              	.LASF221:
- 6061 0f6b 73746D33 		.ascii	"stm32_gpio_setup_t\000"
- 6061      325F6770 
- 6061      696F5F73 
- 6061      65747570 
- 6061      5F7400
- 6062              	.LASF305:
- 6063 0f7e 4943555F 		.ascii	"ICU_INPUT_ACTIVE_LOW\000"
- 6063      494E5055 
- 6063      545F4143 
- 6063      54495645 
- 6063      5F4C4F57 
- 6064              	.LASF204:
- 6065 0f93 5F73746D 		.ascii	"_stm32_dma_streams\000"
- 6065      33325F64 
- 6065      6D615F73 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 120
+ 6039 0f00 43414E43 		.ascii	"CANConfig\000"
+ 6039      6F6E6669 
+ 6039      6700
+ 6040              	.LASF525:
+ 6041 0f0a 73746D33 		.ascii	"stm32_clock_init\000"
+ 6041      325F636C 
+ 6041      6F636B5F 
+ 6041      696E6974 
+ 6041      00
+ 6042              	.LASF226:
+ 6043 0f1b 50454461 		.ascii	"PEData\000"
+ 6043      746100
+ 6044              	.LASF59:
+ 6045 0f22 725F7175 		.ascii	"r_queue\000"
+ 6045      65756500 
+ 6046              	.LASF442:
+ 6047 0f2a 47525846 		.ascii	"GRXFSIZ\000"
+ 6047      53495A00 
+ 6048              	.LASF349:
+ 6049 0f32 75736172 		.ascii	"usart\000"
+ 6049      7400
+ 6050              	.LASF191:
+ 6051 0f38 715F6C69 		.ascii	"q_link\000"
+ 6051      6E6B00
+ 6052              	.LASF308:
+ 6053 0f3f 4943555F 		.ascii	"ICU_CHANNEL_1\000"
+ 6053      4348414E 
+ 6053      4E454C5F 
+ 6053      3100
+ 6054              	.LASF439:
+ 6055 0f4d 47494E54 		.ascii	"GINTMSK\000"
+ 6055      4D534B00 
+ 6056              	.LASF293:
+ 6057 0f55 69637563 		.ascii	"icucallback_t\000"
+ 6057      616C6C62 
+ 6057      61636B5F 
+ 6057      7400
+ 6058              	.LASF444:
+ 6059 0f63 484E5054 		.ascii	"HNPTXSTS\000"
+ 6059      58535453 
+ 6059      00
+ 6060              	.LASF376:
+ 6061 0f6c 636F6E66 		.ascii	"configuration\000"
+ 6061      69677572 
+ 6061      6174696F 
+ 6061      6E00
+ 6062              	.LASF221:
+ 6063 0f7a 73746D33 		.ascii	"stm32_gpio_setup_t\000"
+ 6063      325F6770 
+ 6063      696F5F73 
+ 6063      65747570 
+ 6063      5F7400
+ 6064              	.LASF305:
+ 6065 0f8d 4943555F 		.ascii	"ICU_INPUT_ACTIVE_LOW\000"
+ 6065      494E5055 
+ 6065      545F4143 
+ 6065      54495645 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 120
 
 
- 6065      74726561 
- 6065      6D7300
- 6066              	.LASF307:
- 6067 0fa6 69637566 		.ascii	"icufreq_t\000"
- 6067      7265715F 
- 6067      7400
- 6068              	.LASF29:
- 6069 0fb0 636E745F 		.ascii	"cnt_t\000"
+ 6065      5F4C4F57 
+ 6066              	.LASF204:
+ 6067 0fa2 5F73746D 		.ascii	"_stm32_dma_streams\000"
+ 6067      33325F64 
+ 6067      6D615F73 
+ 6067      74726561 
+ 6067      6D7300
+ 6068              	.LASF307:
+ 6069 0fb5 69637566 		.ascii	"icufreq_t\000"
+ 6069      7265715F 
  6069      7400
- 6070              	.LASF391:
- 6071 0fb6 5553425F 		.ascii	"USB_EP0_WAITING_TX0\000"
- 6071      4550305F 
- 6071      57414954 
- 6071      494E475F 
- 6071      54583000 
- 6072              	.LASF522:
- 6073 0fca 2F557365 		.ascii	"/Users/yanrudall/Documents/eBike/ebikeSystem\000"
- 6073      72732F79 
- 6073      616E7275 
- 6073      64616C6C 
- 6073      2F446F63 
+ 6070              	.LASF29:
+ 6071 0fbf 636E745F 		.ascii	"cnt_t\000"
+ 6071      7400
+ 6072              	.LASF391:
+ 6073 0fc5 5553425F 		.ascii	"USB_EP0_WAITING_TX0\000"
+ 6073      4550305F 
+ 6073      57414954 
+ 6073      494E475F 
+ 6073      54583000 
  6074              	.LASF370:
- 6075 0ff7 6570306E 		.ascii	"ep0next\000"
+ 6075 0fd9 6570306E 		.ascii	"ep0next\000"
  6075      65787400 
  6076              	.LASF420:
- 6077 0fff 73746D33 		.ascii	"stm32_otg_host_chn_t\000"
+ 6077 0fe1 73746D33 		.ascii	"stm32_otg_host_chn_t\000"
  6077      325F6F74 
  6077      675F686F 
  6077      73745F63 
  6077      686E5F74 
  6078              	.LASF213:
- 6079 1014 41465248 		.ascii	"AFRH\000"
+ 6079 0ff6 41465248 		.ascii	"AFRH\000"
  6079      00
  6080              	.LASF212:
- 6081 1019 4146524C 		.ascii	"AFRL\000"
+ 6081 0ffb 4146524C 		.ascii	"AFRL\000"
  6081      00
  6082              	.LASF167:
- 6083 101e 63665F6F 		.ascii	"cf_off_preempt\000"
+ 6083 1000 63665F6F 		.ascii	"cf_off_preempt\000"
  6083      66665F70 
  6083      7265656D 
  6083      707400
  6084              	.LASF429:
- 6085 102d 444F4550 		.ascii	"DOEPCTL\000"
+ 6085 100f 444F4550 		.ascii	"DOEPCTL\000"
  6085      43544C00 
  6086              	.LASF415:
- 6087 1035 4843494E 		.ascii	"HCINTMSK\000"
+ 6087 1017 4843494E 		.ascii	"HCINTMSK\000"
  6087      544D534B 
  6087      00
  6088              	.LASF242:
- 6089 103e 636F6E66 		.ascii	"config\000"
+ 6089 1020 636F6E66 		.ascii	"config\000"
  6089      696700
  6090              	.LASF345:
- 6091 1045 75617274 		.ascii	"uartflags_t\000"
+ 6091 1027 75617274 		.ascii	"uartflags_t\000"
  6091      666C6167 
  6091      735F7400 
  6092              	.LASF463:
- 6093 1051 44434647 		.ascii	"DCFG\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 121
-
-
+ 6093 1033 44434647 		.ascii	"DCFG\000"
  6093      00
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 121
+
+
  6094              	.LASF334:
- 6095 1056 55415254 		.ascii	"UART_STOP\000"
+ 6095 1038 55415254 		.ascii	"UART_STOP\000"
  6095      5F53544F 
  6095      5000
  6096              	.LASF287:
- 6097 1060 4943555F 		.ascii	"ICU_ACTIVE\000"
+ 6097 1042 4943555F 		.ascii	"ICU_ACTIVE\000"
  6097      41435449 
  6097      564500
  6098              	.LASF357:
- 6099 106b 7278656E 		.ascii	"rxend_cb\000"
+ 6099 104d 7278656E 		.ascii	"rxend_cb\000"
  6099      645F6362 
  6099      00
  6100              	.LASF65:
- 6101 1074 76746675 		.ascii	"vtfunc_t\000"
+ 6101 1056 76746675 		.ascii	"vtfunc_t\000"
  6101      6E635F74 
  6101      00
  6102              	.LASF95:
- 6103 107d 43414E5F 		.ascii	"CAN_FIFOMailBox_TypeDef\000"
+ 6103 105f 43414E5F 		.ascii	"CAN_FIFOMailBox_TypeDef\000"
  6103      4649464F 
  6103      4D61696C 
  6103      426F785F 
  6103      54797065 
  6104              	.LASF138:
- 6105 1095 77746F62 		.ascii	"wtobjp\000"
+ 6105 1077 77746F62 		.ascii	"wtobjp\000"
  6105      6A7000
  6106              	.LASF49:
- 6107 109c 705F7265 		.ascii	"p_realprio\000"
+ 6107 107e 705F7265 		.ascii	"p_realprio\000"
  6107      616C7072 
  6107      696F00
  6108              	.LASF190:
- 6109 10a7 715F6E6F 		.ascii	"q_notify\000"
+ 6109 1089 715F6E6F 		.ascii	"q_notify\000"
  6109      74696679 
  6109      00
  6110              	.LASF141:
- 6111 10b0 77746D74 		.ascii	"wtmtxp\000"
+ 6111 1092 77746D74 		.ascii	"wtmtxp\000"
  6111      787000
  6112              	.LASF502:
- 6113 10b7 5553424F 		.ascii	"USBOutEndpointState\000"
+ 6113 1099 5553424F 		.ascii	"USBOutEndpointState\000"
  6113      7574456E 
  6113      64706F69 
  6113      6E745374 
  6113      61746500 
  6114              	.LASF459:
- 6115 10cb 72657376 		.ascii	"resvd41C\000"
+ 6115 10ad 72657376 		.ascii	"resvd41C\000"
  6115      64343143 
  6115      00
  6116              	.LASF92:
- 6117 10d4 52445452 		.ascii	"RDTR\000"
+ 6117 10b6 52445452 		.ascii	"RDTR\000"
  6117      00
  6118              	.LASF360:
- 6119 10d9 73706565 		.ascii	"speed\000"
+ 6119 10bb 73706565 		.ascii	"speed\000"
  6119      6400
  6120              	.LASF58:
- 6121 10df 63685F72 		.ascii	"ch_ready_list\000"
+ 6121 10c1 63685F72 		.ascii	"ch_ready_list\000"
  6121      65616479 
  6121      5F6C6973 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 122
-
-
  6121      7400
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 122
+
+
  6122              	.LASF356:
- 6123 10ed 7478656E 		.ascii	"txend2_cb\000"
+ 6123 10cf 7478656E 		.ascii	"txend2_cb\000"
  6123      64325F63 
  6123      6200
  6124              	.LASF209:
- 6125 10f7 50555044 		.ascii	"PUPDR\000"
+ 6125 10d9 50555044 		.ascii	"PUPDR\000"
  6125      5200
  6126              	.LASF8:
- 6127 10fd 5F5F696E 		.ascii	"__int32_t\000"
+ 6127 10df 5F5F696E 		.ascii	"__int32_t\000"
  6127      7433325F 
  6127      7400
  6128              	.LASF10:
- 6129 1107 5F5F7569 		.ascii	"__uint32_t\000"
+ 6129 10e9 5F5F7569 		.ascii	"__uint32_t\000"
  6129      6E743332 
  6129      5F7400
  6130              	.LASF291:
- 6131 1112 77636372 		.ascii	"wccrp\000"
+ 6131 10f4 77636372 		.ascii	"wccrp\000"
  6131      7000
  6132              	.LASF77:
- 6133 1118 63685F73 		.ascii	"ch_system_debug\000"
+ 6133 10fa 63685F73 		.ascii	"ch_system_debug\000"
  6133      79737465 
  6133      6D5F6465 
  6133      62756700 
  6134              	.LASF470:
- 6135 1128 4441494E 		.ascii	"DAINTMSK\000"
+ 6135 110a 4441494E 		.ascii	"DAINTMSK\000"
  6135      544D534B 
  6135      00
  6136              	.LASF185:
- 6137 1131 715F636F 		.ascii	"q_counter\000"
+ 6137 1113 715F636F 		.ascii	"q_counter\000"
  6137      756E7465 
  6137      7200
  6138              	.LASF389:
- 6139 113b 5553425F 		.ascii	"USB_EP0_WAITING_SETUP\000"
+ 6139 111d 5553425F 		.ascii	"USB_EP0_WAITING_SETUP\000"
  6139      4550305F 
  6139      57414954 
  6139      494E475F 
  6139      53455455 
  6140              	.LASF220:
- 6141 1151 61667268 		.ascii	"afrh\000"
+ 6141 1133 61667268 		.ascii	"afrh\000"
  6141      00
  6142              	.LASF284:
- 6143 1156 4943555F 		.ascii	"ICU_STOP\000"
+ 6143 1138 4943555F 		.ascii	"ICU_STOP\000"
  6143      53544F50 
  6143      00
  6144              	.LASF219:
- 6145 115f 6166726C 		.ascii	"afrl\000"
+ 6145 1141 6166726C 		.ascii	"afrl\000"
  6145      00
  6146              	.LASF493:
- 6147 1164 71756575 		.ascii	"queue\000"
+ 6147 1146 71756575 		.ascii	"queue\000"
  6147      6500
  6148              	.LASF372:
- 6149 116a 65703065 		.ascii	"ep0endcb\000"
+ 6149 114c 65703065 		.ascii	"ep0endcb\000"
  6149      6E646362 
  6149      00
  6150              	.LASF201:
- 6151 1173 73656C66 		.ascii	"selfindex\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 123
-
-
+ 6151 1155 73656C66 		.ascii	"selfindex\000"
  6151      696E6465 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 123
+
+
  6151      7800
  6152              	.LASF171:
- 6153 117d 6D757465 		.ascii	"mutex_t\000"
+ 6153 115f 6D757465 		.ascii	"mutex_t\000"
  6153      785F7400 
  6154              	.LASF47:
- 6155 1185 705F6570 		.ascii	"p_epending\000"
+ 6155 1167 705F6570 		.ascii	"p_epending\000"
  6155      656E6469 
  6155      6E6700
  6156              	.LASF206:
- 6157 1190 4D4F4445 		.ascii	"MODER\000"
+ 6157 1172 4D4F4445 		.ascii	"MODER\000"
  6157      5200
  6158              	.LASF99:
- 6159 1196 52455345 		.ascii	"RESERVED0\000"
+ 6159 1178 52455345 		.ascii	"RESERVED0\000"
  6159      52564544 
  6159      3000
  6160              	.LASF102:
- 6161 11a0 52455345 		.ascii	"RESERVED1\000"
+ 6161 1182 52455345 		.ascii	"RESERVED1\000"
  6161      52564544 
  6161      3100
  6162              	.LASF104:
- 6163 11aa 52455345 		.ascii	"RESERVED2\000"
+ 6163 118c 52455345 		.ascii	"RESERVED2\000"
  6163      52564544 
  6163      3200
  6164              	.LASF106:
- 6165 11b4 52455345 		.ascii	"RESERVED3\000"
+ 6165 1196 52455345 		.ascii	"RESERVED3\000"
  6165      52564544 
  6165      3300
  6166              	.LASF108:
- 6167 11be 52455345 		.ascii	"RESERVED4\000"
+ 6167 11a0 52455345 		.ascii	"RESERVED4\000"
  6167      52564544 
  6167      3400
  6168              	.LASF110:
- 6169 11c8 52455345 		.ascii	"RESERVED5\000"
+ 6169 11aa 52455345 		.ascii	"RESERVED5\000"
  6169      52564544 
  6169      3500
  6170              	.LASF513:
- 6171 11d2 55534245 		.ascii	"USBEndpointConfig\000"
+ 6171 11b4 55534245 		.ascii	"USBEndpointConfig\000"
  6171      6E64706F 
  6171      696E7443 
  6171      6F6E6669 
  6171      6700
  6172              	.LASF244:
- 6173 11e4 72787175 		.ascii	"rxqueue\000"
+ 6173 11c6 72787175 		.ascii	"rxqueue\000"
  6173      65756500 
  6174              	.LASF461:
- 6175 11ec 72657376 		.ascii	"resvd444\000"
+ 6175 11ce 72657376 		.ascii	"resvd444\000"
  6175      64343434 
  6175      00
  6176              	.LASF233:
- 6177 11f5 70616C5F 		.ascii	"pal_default_config\000"
+ 6177 11d7 70616C5F 		.ascii	"pal_default_config\000"
  6177      64656661 
  6177      756C745F 
  6177      636F6E66 
  6177      696700
  6178              	.LASF343:
- 6179 1208 55415254 		.ascii	"UART_RX_COMPLETE\000"
-ARM GAS  /var/tmp//cc2GGylR.s 			page 124
-
-
+ 6179 11ea 55415254 		.ascii	"UART_RX_COMPLETE\000"
  6179      5F52585F 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 124
+
+
  6179      434F4D50 
  6179      4C455445 
  6179      00
  6180              	.LASF175:
- 6181 1219 656C5F6C 		.ascii	"el_listener\000"
+ 6181 11fb 656C5F6C 		.ascii	"el_listener\000"
  6181      69737465 
  6181      6E657200 
  6182              	.LASF492:
- 6183 1225 6C696E65 		.ascii	"linear\000"
+ 6183 1207 6C696E65 		.ascii	"linear\000"
  6183      617200
  6184              	.LASF303:
- 6185 122c 73746D33 		.ascii	"stm32_tim_t\000"
+ 6185 120e 73746D33 		.ascii	"stm32_tim_t\000"
  6185      325F7469 
  6185      6D5F7400 
  6186              	.LASF60:
- 6187 1238 725F7072 		.ascii	"r_prio\000"
+ 6187 121a 725F7072 		.ascii	"r_prio\000"
  6187      696F00
  6188              	.LASF378:
- 6189 123f 706D6E65 		.ascii	"pmnext\000"
+ 6189 1221 706D6E65 		.ascii	"pmnext\000"
  6189      787400
  6190              	.LASF86:
- 6191 1246 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 6191 1228 49544D5F 		.ascii	"ITM_RxBuffer\000"
  6191      52784275 
  6191      66666572 
  6191      00
  6192              	.LASF309:
- 6193 1253 4943555F 		.ascii	"ICU_CHANNEL_2\000"
+ 6193 1235 4943555F 		.ascii	"ICU_CHANNEL_2\000"
  6193      4348414E 
  6193      4E454C5F 
  6193      3200
  6194              	.LASF14:
- 6195 1261 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 6195 1243 6C6F6E67 		.ascii	"long long unsigned int\000"
  6195      206C6F6E 
  6195      6720756E 
  6195      7369676E 
  6195      65642069 
  6196              	.LASF134:
- 6197 1278 6F666673 		.ascii	"offset\000"
+ 6197 125a 6F666673 		.ascii	"offset\000"
  6197      657400
  6198              	.LASF359:
- 6199 127f 72786572 		.ascii	"rxerr_cb\000"
+ 6199 1261 72786572 		.ascii	"rxerr_cb\000"
  6199      725F6362 
  6199      00
  6200              	.LASF113:
- 6201 1288 4E445452 		.ascii	"NDTR\000"
+ 6201 126a 4E445452 		.ascii	"NDTR\000"
  6201      00
  6202              	.LASF180:
- 6203 128d 65735F6E 		.ascii	"es_next\000"
+ 6203 126f 65735F6E 		.ascii	"es_next\000"
  6203      65787400 
  6204              	.LASF427:
- 6205 1295 72657376 		.ascii	"resvd1C\000"
+ 6205 1277 72657376 		.ascii	"resvd1C\000"
  6205      64314300 
  6206              	.LASF84:
- 6207 129d 69646C65 		.ascii	"idle_thread_wa\000"
+ 6207 127f 69646C65 		.ascii	"idle_thread_wa\000"
  6207      5F746872 
  6207      6561645F 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 125
-
-
  6207      776100
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 125
+
+
  6208              	.LASF423:
- 6209 12ac 44494550 		.ascii	"DIEPINT\000"
+ 6209 128e 44494550 		.ascii	"DIEPINT\000"
  6209      494E5400 
  6210              	.LASF288:
- 6211 12b4 69637573 		.ascii	"icustate_t\000"
+ 6211 1296 69637573 		.ascii	"icustate_t\000"
  6211      74617465 
  6211      5F7400
  6212              	.LASF127:
- 6213 12bf 5350495F 		.ascii	"SPI_TypeDef\000"
+ 6213 12a1 5350495F 		.ascii	"SPI_TypeDef\000"
  6213      54797065 
  6213      44656600 
  6214              	.LASF71:
- 6215 12cb 76745F66 		.ascii	"vt_func\000"
+ 6215 12ad 76745F66 		.ascii	"vt_func\000"
  6215      756E6300 
  6216              	.LASF294:
- 6217 12d3 534D4352 		.ascii	"SMCR\000"
+ 6217 12b5 534D4352 		.ascii	"SMCR\000"
  6217      00
  6218              	.LASF468:
- 6219 12d8 444F4550 		.ascii	"DOEPMSK\000"
+ 6219 12ba 444F4550 		.ascii	"DOEPMSK\000"
  6219      4D534B00 
  6220              	.LASF67:
- 6221 12e0 63685F76 		.ascii	"ch_virtual_timer\000"
+ 6221 12c2 63685F76 		.ascii	"ch_virtual_timer\000"
  6221      69727475 
  6221      616C5F74 
  6221      696D6572 
  6221      00
  6222              	.LASF40:
- 6223 12f1 705F666C 		.ascii	"p_flags\000"
+ 6223 12d3 705F666C 		.ascii	"p_flags\000"
  6223      61677300 
  6224              	.LASF142:
- 6225 12f9 65776D61 		.ascii	"ewmask\000"
+ 6225 12db 65776D61 		.ascii	"ewmask\000"
  6225      736B00
  6226              	.LASF177:
- 6227 1300 656C5F66 		.ascii	"el_flags\000"
+ 6227 12e2 656C5F66 		.ascii	"el_flags\000"
  6227      6C616773 
  6227      00
  6228              	.LASF179:
- 6229 1309 6576656E 		.ascii	"event_source\000"
+ 6229 12eb 6576656E 		.ascii	"event_source\000"
  6229      745F736F 
  6229      75726365 
  6229      00
  6230              	.LASF48:
- 6231 1316 705F6D74 		.ascii	"p_mtxlist\000"
+ 6231 12f8 705F6D74 		.ascii	"p_mtxlist\000"
  6231      786C6973 
  6231      7400
  6232              	.LASF251:
- 6233 1320 43414E44 		.ascii	"CAND1\000"
+ 6233 1302 43414E44 		.ascii	"CAND1\000"
  6233      3100
  6234              	.LASF105:
- 6235 1326 46533152 		.ascii	"FS1R\000"
+ 6235 1308 46533152 		.ascii	"FS1R\000"
  6235      00
  6236              	.LASF22:
- 6237 132b 74737461 		.ascii	"tstate_t\000"
+ 6237 130d 74737461 		.ascii	"tstate_t\000"
  6237      74655F74 
  6237      00
  6238              	.LASF326:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 126
+ 6239 1316 53504944 		.ascii	"SPIDriver\000"
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 126
 
 
- 6239 1334 53504944 		.ascii	"SPIDriver\000"
  6239      72697665 
  6239      7200
  6240              	.LASF469:
- 6241 133e 4441494E 		.ascii	"DAINT\000"
+ 6241 1320 4441494E 		.ascii	"DAINT\000"
  6241      5400
  6242              	.LASF331:
- 6243 1344 53504943 		.ascii	"SPIConfig\000"
+ 6243 1326 53504943 		.ascii	"SPIConfig\000"
  6243      6F6E6669 
  6243      6700
  6244              	.LASF218:
- 6245 134e 70757064 		.ascii	"pupdr\000"
+ 6245 1330 70757064 		.ascii	"pupdr\000"
  6245      7200
  6246              	.LASF365:
- 6247 1354 7472616E 		.ascii	"transmitting\000"
+ 6247 1336 7472616E 		.ascii	"transmitting\000"
  6247      736D6974 
  6247      74696E67 
  6247      00
  6248              	.LASF38:
- 6249 1361 705F6E61 		.ascii	"p_name\000"
+ 6249 1343 705F6E61 		.ascii	"p_name\000"
  6249      6D6500
  6250              	.LASF388:
- 6251 1368 75736273 		.ascii	"usbstate_t\000"
+ 6251 134a 75736273 		.ascii	"usbstate_t\000"
  6251      74617465 
  6251      5F7400
  6252              	.LASF431:
- 6253 1373 444F4550 		.ascii	"DOEPTSIZ\000"
+ 6253 1355 444F4550 		.ascii	"DOEPTSIZ\000"
  6253      5453495A 
  6253      00
  6254              	.LASF344:
- 6255 137c 75617274 		.ascii	"uartrxstate_t\000"
+ 6255 135e 75617274 		.ascii	"uartrxstate_t\000"
  6255      72787374 
  6255      6174655F 
  6255      7400
  6256              	.LASF73:
- 6257 138a 76697274 		.ascii	"virtual_timers_list_t\000"
+ 6257 136c 76697274 		.ascii	"virtual_timers_list_t\000"
  6257      75616C5F 
  6257      74696D65 
  6257      72735F6C 
  6257      6973745F 
  6258              	.LASF340:
- 6259 13a0 75617274 		.ascii	"uarttxstate_t\000"
+ 6259 1382 75617274 		.ascii	"uarttxstate_t\000"
  6259      74787374 
  6259      6174655F 
  6259      7400
  6260              	.LASF215:
- 6261 13ae 6D6F6465 		.ascii	"moder\000"
+ 6261 1390 6D6F6465 		.ascii	"moder\000"
  6261      7200
  6262              	.LASF144:
- 6263 13b4 735F7175 		.ascii	"s_queue\000"
+ 6263 1396 735F7175 		.ascii	"s_queue\000"
  6263      65756500 
  6264              	.LASF125:
- 6265 13bc 49325343 		.ascii	"I2SCFGR\000"
+ 6265 139e 49325343 		.ascii	"I2SCFGR\000"
  6265      46475200 
  6266              	.LASF151:
- 6267 13c4 63685F69 		.ascii	"ch_identifier\000"
+ 6267 13a6 63685F69 		.ascii	"ch_identifier\000"
  6267      64656E74 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 127
-
-
  6267      69666965 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 127
+
+
  6267      7200
  6268              	.LASF12:
- 6269 13d2 6C6F6E67 		.ascii	"long long int\000"
+ 6269 13b4 6C6F6E67 		.ascii	"long long int\000"
  6269      206C6F6E 
  6269      6720696E 
  6269      7400
  6270              	.LASF449:
- 6271 13e0 48505458 		.ascii	"HPTXFSIZ\000"
+ 6271 13c2 48505458 		.ascii	"HPTXFSIZ\000"
  6271      4653495A 
  6271      00
  6272              	.LASF158:
- 6273 13e9 63665F6F 		.ascii	"cf_off_prio\000"
+ 6273 13cb 63665F6F 		.ascii	"cf_off_prio\000"
  6273      66665F70 
  6273      72696F00 
  6274              	.LASF306:
- 6275 13f5 6963756D 		.ascii	"icumode_t\000"
+ 6275 13d7 6963756D 		.ascii	"icumode_t\000"
  6275      6F64655F 
  6275      7400
  6276              	.LASF496:
- 6277 13ff 7478636E 		.ascii	"txcnt\000"
+ 6277 13e1 7478636E 		.ascii	"txcnt\000"
  6277      7400
  6278              	.LASF515:
- 6279 1405 6765745F 		.ascii	"get_descriptor_cb\000"
+ 6279 13e7 6765745F 		.ascii	"get_descriptor_cb\000"
  6279      64657363 
  6279      72697074 
  6279      6F725F63 
  6279      6200
  6280              	.LASF28:
- 6281 1417 6576656E 		.ascii	"eventflags_t\000"
+ 6281 13f9 6576656E 		.ascii	"eventflags_t\000"
  6281      74666C61 
  6281      67735F74 
  6281      00
  6282              	.LASF322:
- 6283 1424 5350495F 		.ascii	"SPI_READY\000"
+ 6283 1406 5350495F 		.ascii	"SPI_READY\000"
  6283      52454144 
  6283      5900
  6284              	.LASF485:
- 6285 142e 4649464F 		.ascii	"FIFO\000"
+ 6285 1410 4649464F 		.ascii	"FIFO\000"
  6285      00
  6286              	.LASF101:
- 6287 1433 73464946 		.ascii	"sFIFOMailBox\000"
+ 6287 1415 73464946 		.ascii	"sFIFOMailBox\000"
  6287      4F4D6169 
  6287      6C426F78 
  6287      00
  6288              	.LASF464:
- 6289 1440 4443544C 		.ascii	"DCTL\000"
+ 6289 1422 4443544C 		.ascii	"DCTL\000"
  6289      00
  6290              	.LASF491:
- 6291 1445 74786275 		.ascii	"txbuf\000"
+ 6291 1427 74786275 		.ascii	"txbuf\000"
  6291      6600
  6292              	.LASF483:
- 6293 144b 50434743 		.ascii	"PCGCCTL\000"
+ 6293 142d 50434743 		.ascii	"PCGCCTL\000"
  6293      43544C00 
  6294              	.LASF401:
- 6295 1453 5553425F 		.ascii	"USB_EVENT_WAKEUP\000"
+ 6295 1435 5553425F 		.ascii	"USB_EVENT_WAKEUP\000"
  6295      4556454E 
-ARM GAS  /var/tmp//cc2GGylR.s 			page 128
-
-
  6295      545F5741 
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 128
+
+
  6295      4B455550 
  6295      00
  6296              	.LASF37:
- 6297 1464 705F6F6C 		.ascii	"p_older\000"
+ 6297 1446 705F6F6C 		.ascii	"p_older\000"
  6297      64657200 
  6298              	.LASF230:
- 6299 146c 50494461 		.ascii	"PIData\000"
+ 6299 144e 50494461 		.ascii	"PIData\000"
  6299      746100
  6300              	.LASF512:
- 6301 1473 73657475 		.ascii	"setup_buf\000"
+ 6301 1455 73657475 		.ascii	"setup_buf\000"
  6301      705F6275 
  6301      6600
  6302              	.LASF329:
- 6303 147d 7373706F 		.ascii	"ssport\000"
+ 6303 145f 7373706F 		.ascii	"ssport\000"
  6303      727400
  6304              	.LASF283:
- 6305 1484 4943555F 		.ascii	"ICU_UNINIT\000"
+ 6305 1466 4943555F 		.ascii	"ICU_UNINIT\000"
  6305      554E494E 
  6305      495400
  6306              	.LASF51:
- 6307 148f 74687265 		.ascii	"thread_reference_t\000"
+ 6307 1471 74687265 		.ascii	"thread_reference_t\000"
  6307      61645F72 
  6307      65666572 
  6307      656E6365 
  6307      5F7400
  6308              	.LASF366:
- 6309 14a2 72656365 		.ascii	"receiving\000"
+ 6309 1484 72656365 		.ascii	"receiving\000"
  6309      6976696E 
  6309      6700
  6310              	.LASF312:
- 6311 14ac 66726571 		.ascii	"frequency\000"
+ 6311 148e 66726571 		.ascii	"frequency\000"
  6311      75656E63 
  6311      7900
  6312              	.LASF135:
- 6313 14b6 746D5F63 		.ascii	"tm_calibration_t\000"
+ 6313 1498 746D5F63 		.ascii	"tm_calibration_t\000"
  6313      616C6962 
  6313      72617469 
  6313      6F6E5F74 
  6313      00
  6314              	.LASF509:
- 6315 14c7 696E5F73 		.ascii	"in_state\000"
+ 6315 14a9 696E5F73 		.ascii	"in_state\000"
  6315      74617465 
  6315      00
  6316              	.LASF128:
- 6317 14d0 47545052 		.ascii	"GTPR\000"
+ 6317 14b2 47545052 		.ascii	"GTPR\000"
  6317      00
  6318              	.LASF152:
- 6319 14d5 63685F7A 		.ascii	"ch_zero\000"
+ 6319 14b7 63685F7A 		.ascii	"ch_zero\000"
  6319      65726F00 
  6320              	.LASF266:
- 6321 14dd 46415354 		.ascii	"FAST_DUTY_CYCLE_2\000"
+ 6321 14bf 46415354 		.ascii	"FAST_DUTY_CYCLE_2\000"
  6321      5F445554 
  6321      595F4359 
  6321      434C455F 
  6321      3200
  6322              	.LASF157:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 129
+ 6323 14d1 63685F74 		.ascii	"ch_threadsize\000"
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 129
 
 
- 6323 14ef 63685F74 		.ascii	"ch_threadsize\000"
  6323      68726561 
  6323      6473697A 
  6323      6500
  6324              	.LASF120:
- 6325 14fd 464C5452 		.ascii	"FLTR\000"
+ 6325 14df 464C5452 		.ascii	"FLTR\000"
  6325      00
  6326              	.LASF335:
- 6327 1502 55415254 		.ascii	"UART_READY\000"
+ 6327 14e4 55415254 		.ascii	"UART_READY\000"
  6327      5F524541 
  6327      445900
  6328              	.LASF296:
- 6329 150d 43434D52 		.ascii	"CCMR1\000"
+ 6329 14ef 43434D52 		.ascii	"CCMR1\000"
  6329      3100
  6330              	.LASF297:
- 6331 1513 43434D52 		.ascii	"CCMR2\000"
+ 6331 14f5 43434D52 		.ascii	"CCMR2\000"
  6331      3200
  6332              	.LASF301:
- 6333 1519 43434D52 		.ascii	"CCMR3\000"
+ 6333 14fb 43434D52 		.ascii	"CCMR3\000"
  6333      3300
  6334              	.LASF0:
- 6335 151f 756E7369 		.ascii	"unsigned int\000"
+ 6335 1501 756E7369 		.ascii	"unsigned int\000"
  6335      676E6564 
  6335      20696E74 
  6335      00
  6336              	.LASF453:
- 6337 152c 48464952 		.ascii	"HFIR\000"
+ 6337 150e 48464952 		.ascii	"HFIR\000"
  6337      00
  6338              	.LASF383:
- 6339 1531 5553425F 		.ascii	"USB_UNINIT\000"
+ 6339 1513 5553425F 		.ascii	"USB_UNINIT\000"
  6339      554E494E 
  6339      495400
  6340              	.LASF198:
- 6341 153c 73747265 		.ascii	"stream\000"
+ 6341 151e 73747265 		.ascii	"stream\000"
  6341      616D00
  6342              	.LASF264:
- 6343 1543 6932636F 		.ascii	"i2copmode_t\000"
+ 6343 1525 6932636F 		.ascii	"i2copmode_t\000"
  6343      706D6F64 
  6343      655F7400 
  6344              	.LASF5:
- 6345 154f 73686F72 		.ascii	"short int\000"
+ 6345 1531 73686F72 		.ascii	"short int\000"
  6345      7420696E 
  6345      7400
  6346              	.LASF407:
- 6347 1559 75736263 		.ascii	"usbcallback_t\000"
+ 6347 153b 75736263 		.ascii	"usbcallback_t\000"
  6347      616C6C62 
  6347      61636B5F 
  6347      7400
  6348              	.LASF436:
- 6349 1567 47555342 		.ascii	"GUSBCFG\000"
+ 6349 1549 47555342 		.ascii	"GUSBCFG\000"
  6349      43464700 
  6350              	.LASF129:
- 6351 156f 55534152 		.ascii	"USART_TypeDef\000"
+ 6351 1551 55534152 		.ascii	"USART_TypeDef\000"
  6351      545F5479 
  6351      70654465 
  6351      6600
  6352              	.LASF347:
-ARM GAS  /var/tmp//cc2GGylR.s 			page 130
+ 6353 155f 74787374 		.ascii	"txstate\000"
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 130
 
 
- 6353 157d 74787374 		.ascii	"txstate\000"
  6353      61746500 
  6354              	.LASF194:
- 6355 1585 6F757470 		.ascii	"output_queue_t\000"
+ 6355 1567 6F757470 		.ascii	"output_queue_t\000"
  6355      75745F71 
  6355      75657565 
  6355      5F7400
  6356              	.LASF486:
- 6357 1594 73746D33 		.ascii	"stm32_otg_t\000"
+ 6357 1576 73746D33 		.ascii	"stm32_otg_t\000"
  6357      325F6F74 
  6357      675F7400 
  6358              	.LASF271:
- 6359 15a0 64757479 		.ascii	"duty_cycle\000"
+ 6359 1582 64757479 		.ascii	"duty_cycle\000"
  6359      5F637963 
  6359      6C6500
  6360              	.LASF404:
- 6361 15ab 75645F73 		.ascii	"ud_size\000"
+ 6361 158d 75645F73 		.ascii	"ud_size\000"
  6361      697A6500 
  6362              	.LASF507:
- 6363 15b3 696E5F6D 		.ascii	"in_maxsize\000"
+ 6363 1595 696E5F6D 		.ascii	"in_maxsize\000"
  6363      61787369 
  6363      7A6500
  6364              	.LASF227:
- 6365 15be 50464461 		.ascii	"PFData\000"
+ 6365 15a0 50464461 		.ascii	"PFData\000"
  6365      746100
  6366              	.LASF339:
- 6367 15c5 55415254 		.ascii	"UART_TX_COMPLETE\000"
+ 6367 15a7 55415254 		.ascii	"UART_TX_COMPLETE\000"
  6367      5F54585F 
  6367      434F4D50 
  6367      4C455445 
  6367      00
  6368              	.LASF39:
- 6369 15d6 705F7374 		.ascii	"p_state\000"
+ 6369 15b8 705F7374 		.ascii	"p_state\000"
  6369      61746500 
  6370              	.LASF54:
- 6371 15de 63685F74 		.ascii	"ch_threads_list\000"
+ 6371 15c0 63685F74 		.ascii	"ch_threads_list\000"
  6371      68726561 
  6371      64735F6C 
  6371      69737400 
  6372              	.LASF117:
- 6373 15ee 4F415231 		.ascii	"OAR1\000"
+ 6373 15d0 4F415231 		.ascii	"OAR1\000"
  6373      00
  6374              	.LASF118:
- 6375 15f3 4F415232 		.ascii	"OAR2\000"
+ 6375 15d5 4F415232 		.ascii	"OAR2\000"
  6375      00
- 6376              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q2-update) 6.3.1 20170620 (release) [AR
-ARM GAS  /var/tmp//cc2GGylR.s 			page 131
+ 6376              		.ident	"GCC: (GNU Tools for ARM Embedded Processors 6-2017-q1-update) 6.3.1 20170215 (release) [AR
+ARM GAS  C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s 			page 131
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 board.c
-/var/tmp//cc2GGylR.s:18     .text.__early_init:0000000000000000 $t
-/var/tmp//cc2GGylR.s:26     .text.__early_init:0000000000000000 __early_init
-/var/tmp//cc2GGylR.s:41     .text.boardInit:0000000000000000 $t
-/var/tmp//cc2GGylR.s:49     .text.boardInit:0000000000000000 boardInit
-/var/tmp//cc2GGylR.s:65     .rodata.pal_default_config:0000000000000000 pal_default_config
-/var/tmp//cc2GGylR.s:62     .rodata.pal_default_config:0000000000000000 $d
-                     .debug_frame:0000000000000010 $d
+                            *ABS*:00000000 board.c
+C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s:18     .text.__early_init:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s:26     .text.__early_init:00000000 __early_init
+C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s:41     .text.boardInit:00000000 $t
+C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s:49     .text.boardInit:00000000 boardInit
+C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s:65     .rodata.pal_default_config:00000000 pal_default_config
+C:\Users\Grillmo\AppData\Local\Temp\ccWJLADk.s:62     .rodata.pal_default_config:00000000 $d
+                     .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
 stm32_clock_init
